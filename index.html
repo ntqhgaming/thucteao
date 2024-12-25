@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi Trắc Nghiệm</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        html {
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            color: red;
+            /* Màu đỏ cho tiêu đề */
+            text-align: center;
+            /* Căn giữa tiêu đề */
+        }
+
+        .quiz-container {
+            border: 2px solid #ccc;
+            /* Viền cho hộp */
+            border-radius: 10px;
+            /* Bo góc cho hộp */
+            padding: 20px;
+            /* Khoảng cách bên trong hộp */
+            background-color: white;
+            /* Màu nền cho hộp */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            /* Đổ bóng nhẹ cho hộp */
+            margin: 0 auto;
+            /* Căn giữa hộp */
+            max-width: 600px;
+            /* Đặt chiều rộng tối đa cho hộp */
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .answer {
+            display: block;
+            margin: 10px 0;
+            padding: 12px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+            user-select: none;
+            /* Bo góc cho đáp án */
+        }
+
+        .correct {
+            background-color: #4CAF50;
+            /* Màu xanh */
+            color: white;
+        }
+
+        .incorrect {
+            background-color: #f44336;
+            /* Màu đỏ */
+            color: white;
+        }
+
+        .correct-answer {
+            background-color: #4CAF50;
+            /* Màu xanh */
+            color: white;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .navigation {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 0 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            /* Màu xanh */
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            /* Màu xanh tối hơn khi hover */
+        }
+
+        #title {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        #thumb_question {
+            width: 100%;
+            height: auto;
+            max-height: 350px;
+            object-fit: contain;
+        }
+
+        #head {
+            display: flex;
+            align-items: center;
+        }
+
+        #head>#title {
+            margin-right: 30px;
+        }
+
+        #head>span {
+            flex: 0 0 50px;
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Thi Trắc Nghiệm Môn Thực Tế Ảo</h1>
+
+    <div class="quiz-container">
+        <div id="questionsContainer">
+        </div>
+        <div class="navigation">
+            <button id="backButton">Quay lại</button>
+            <button id="nextButton">Tiếp theo</button>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script type="module">
+        import questions from './data.js';
+
+        let chooseList = [];
+        let currentQuestionIndex = 0;
+        let autoPlayTimeout = null;
+
+        const questionContainer = document.getElementById('questionsContainer');
+        const nextBtn = document.getElementById("nextButton");
+        const backBtn = document.getElementById("backButton");
+
+        window.addEventListener('keydown', (e) => {
+            switch (e.keyCode) {
+                case 39:
+                    handleNextQuestion(nextBtn);
+                    break;
+                case 37:
+                    handleBackQuestion(backBtn);
+                    break
+            };
+        })
+
+        const handleNextQuestion = (target) => {
+            if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
+
+            if (currentQuestionIndex < questions.length - 1) {
+                questionContainer.innerHTML = ""
+                ++currentQuestionIndex;
+                displayQuestion(questions[currentQuestionIndex]);
+                target.disabled = false;
+            } else {
+                displayResult();
+            }
+
+            const answer = document.querySelectorAll(".answer");
+            const index = chooseList.findIndex(item => item?.id === questions[currentQuestionIndex].id);
+
+            if (answer) checkAnswer(answer, chooseList, index, chooseList[index]?.chooseId);
+        }
+
+        const handleBackQuestion = (target) => {
+            if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
+
+
+            if (currentQuestionIndex > 0) {
+                questionContainer.innerHTML = ""
+                --currentQuestionIndex;
+                displayQuestion(questions[currentQuestionIndex]);
+                target.disabled = false;
+            }
+            else {
+                target.disabled = true
+            };
+
+
+            const answer = document.querySelectorAll(".answer");
+            const index = chooseList.findIndex(item => item?.id === questions[currentQuestionIndex].id);
+
+            if (answer) checkAnswer(answer, chooseList, index, chooseList[index]?.chooseId);
+        }
+
+        nextBtn.addEventListener("click", (e) => handleNextQuestion(e.target));
+        backBtn.addEventListener("click", (e) => handleBackQuestion(e.target));
+
+        function checkAnswer(element, ques, index, idActiveResult) {
+            const question = ques[index] || [];
+            const correctIndex = question?.idCorrectResult;
+
+            console.log(question)
+
+            if (correctIndex !== undefined && idActiveResult !== undefined) {
+                if (+idActiveResult === +correctIndex) {
+                    element.forEach(elm => {
+                        if (+elm.dataset.result === +idActiveResult) elm.classList.add('correct');
+                    })
+                } else {
+                    element.forEach(elm => {
+                        if (+elm.dataset.result === +correctIndex) elm.classList.add('correct')
+                        else if (+elm.dataset.result !== +correctIndex && +elm.dataset.result === +idActiveResult) elm.classList.add('incorrect');
+                    })
+                }
+            }
+        }
+
+        const head = document.createElement('section');
+        const title = document.createElement("h2");
+        const currentQuestion = document.createElement("span")
+        const thumb_question = document.createElement("img");
+
+        function displayQuestion(question) {
+            const currentId = currentQuestionIndex;
+            if (question.thumb) {
+                thumb_question.id = "thumb_question";
+                thumb_question.setAttribute("src", question.thumb)
+                questionContainer.appendChild(thumb_question);
+            }
+
+            title.id = "title";
+            title.textContent = question.title;
+            currentQuestion.textContent = `${currentId + 1}/ ${questions.length}`
+            head.id = 'head';
+            head.appendChild(title);
+            head.appendChild(currentQuestion);
+            questionContainer.appendChild(head);
+
+            question.results.forEach((answer, index) => {
+                const answerDiv = document.createElement('div');
+                answerDiv.setAttribute("data-result", answer.idResult)
+                answerDiv.classList.add('answer');
+                answerDiv.textContent = answer.value;
+                questionContainer.appendChild(answerDiv);
+            })
+
+            const answerItem = document.querySelectorAll(".answer");
+            answerItem.forEach((as, index) => {
+                as.addEventListener('click', (e) => {
+                    const selected = chooseList.some(item => item.id === question.id);
+                    if (!selected) {
+                        const chooseData = {};
+
+                        chooseData.id = question.id;
+                        chooseData.idCorrectResult = question.idCorrectResult;
+                        chooseData.chooseId = +e.target.dataset.result;
+                        chooseData.isCorrect = +e.target.dataset.result === +question.idCorrectResult;
+                        chooseList.push(chooseData);
+
+                        e.target.classList.add("active");
+                        checkAnswer(answerItem, questions, currentQuestionIndex, e.target.dataset.result);
+
+                        // Chuyển sang câu hỏi tiếp theo sau 3 giây
+                        autoPlayTimeout = setTimeout(() => handleNextQuestion(nextBtn), 1500);
+                    }
+
+                    console.log(chooseList);
+                })
+            })
+        }
+
+        function displayResult() {
+            let totalCorrect = 0;
+            let totalScore = 0;
+            let avgScore = 10 / questions.length;
+            const resultContainer = document.getElementById('result');
+
+            if (chooseList.length < questions.length) {
+                return;
+            }
+
+            chooseList.forEach(ans => {
+                if (ans.isCorrect) totalCorrect++;
+            })
+
+            totalScore = totalCorrect * avgScore;
+
+            console.log(totalCorrect, avgScore, totalScore);
+            resultContainer.innerHTML = `
+                <span>Tổng số câu đúng: ${totalCorrect}</span>
+                <p>Bạn đã hoàn thành bài thi!<br>Điểm của bạn là: ${totalScore.toFixed(1)} / 10</p>
+            `;
+        }
+
+        // Hiển thị câu hỏi đầu tiên
+        displayQuestion(questions[currentQuestionIndex]);
+    </script>
+
+</body>
+
+</html>
