@@ -2,11 +2,14 @@
 <html lang="vi">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thi Trắc Nghiệm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
         html {
             font-family: "Poppins", sans-serif;
@@ -60,7 +63,7 @@
         }
 
         .correct {
-            background-color: #4CAF50;
+            background-color: #4caf50;
             /* Màu xanh */
             color: white;
         }
@@ -72,7 +75,7 @@
         }
 
         .correct-answer {
-            background-color: #4CAF50;
+            background-color: #4caf50;
             /* Màu xanh */
             color: white;
         }
@@ -83,6 +86,9 @@
         }
 
         .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
             margin-top: 20px;
             text-align: center;
         }
@@ -92,11 +98,28 @@
             margin: 0 5px;
             border: none;
             border-radius: 5px;
-            background-color: #007BFF;
+            background-color: #007bff;
             /* Màu xanh */
             color: white;
             cursor: pointer;
             transition: background-color 0.3s;
+        }
+
+        button.rounded {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        button.hidden {
+            display: none;
+            opacity: 0;
+            visibility: hidden;
         }
 
         button:hover {
@@ -133,81 +156,179 @@
 </head>
 
 <body>
-
-    <h1>Thi Trắc Nghiệm Môn Thực Tế Ảo</h1>
+    <h1>Thi Trắc Nghiệm Môn PROJECT, WEB&NETWORK</h1>
 
     <div class="quiz-container">
-        <div id="questionsContainer">
-        </div>
+        <div id="questionsContainer"></div>
         <div class="navigation">
+            <button id="shuffleButton" class="rounded">
+                <i style="pointer-events: none" class="fa-solid fa-shuffle"></i>
+            </button>
             <button id="backButton">Quay lại</button>
             <button id="nextButton">Tiếp theo</button>
+            <button id="againButton">Làm lại câu sai</button>
         </div>
 
         <div id="result"></div>
     </div>
 
     <script type="module">
-        import questions from './data.js';
+        import questions from "./data.js";
 
-        let chooseList = [];
+        let selectList = [];
+        let incorrectList = [];
         let currentQuestionIndex = 0;
+        let questionList = questions.question_2.origin_question;
+        let isShuffle = false;
+        let makeAgainMode = false;
         let autoPlayTimeout = null;
 
-        const questionContainer = document.getElementById('questionsContainer');
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i >= 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+
+            return array;
+        }
+
+        const questionContainer = document.getElementById("questionsContainer");
+        const shuffleBtn = document.getElementById("shuffleButton");
         const nextBtn = document.getElementById("nextButton");
         const backBtn = document.getElementById("backButton");
+        const againBtn = document.getElementById("againButton");
 
-        window.addEventListener('keydown', (e) => {
+        window.addEventListener("keydown", (e) => {
             switch (e.keyCode) {
                 case 39:
-                    handleNextQuestion(nextBtn);
+                    handleNextQuestion(nextBtn, makeAgainMode);
                     break;
                 case 37:
                     handleBackQuestion(backBtn);
-                    break
-            };
-        })
+                    break;
+            }
+        });
+
+        const handleShuffleArray = (e) => {
+            console.log(e);
+            isShuffle = true;
+
+            questionContainer.innerHTML = "";
+            questionList = isShuffle
+                ? shuffleArray(questions.question_2.origin_question)
+                : questions.question_2.origin_question;
+            displayQuestion(questionList[currentQuestionIndex]);
+
+            e.target.classList.add("hidden");
+            e.target.disabled = true;
+        };
+
+        const handleMakeIncorrect = (ques) => {
+            incorrectList = [
+                ...incorrectList,
+                ...ques.filter((sl) => !sl?.isCorrect),
+            ];
+            selectList = ques.filter(
+                (sl) => !incorrectList.some((ic) => sl?.id === ic?.id)
+            );
+            const idIncorrect = questionList.findIndex(
+                (ques) => ques?.id === incorrectList[0]?.id
+            );
+
+            if (incorrectList.length > 0) makeAgainMode = true;
+            if (idIncorrect !== -1) {
+                questionContainer.innerHTML = "";
+
+                currentQuestionIndex = idIncorrect;
+                displayQuestion(questionList[currentQuestionIndex]);
+            }
+
+            console.log(
+                currentQuestionIndex,
+                makeAgainMode,
+                selectList,
+                incorrectList
+            );
+        };
 
         const handleNextQuestion = (target) => {
             if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
 
-            if (currentQuestionIndex < questions.length - 1) {
-                questionContainer.innerHTML = ""
-                ++currentQuestionIndex;
-                displayQuestion(questions[currentQuestionIndex]);
-                target.disabled = false;
-            } else {
+            if (currentQuestionIndex >= questionList.length - 1) {
                 displayResult();
+
+                return;
+            } else {
+                questionContainer.innerHTML = "";
+                currentQuestionIndex = makeAgainMode
+                    ? questionList.findIndex(
+                        (ques) => ques?.id === incorrectList[0]?.id
+                    )
+                    : ++currentQuestionIndex;
+                displayQuestion(questionList[currentQuestionIndex]);
+                target.disabled = false;
             }
 
             const answer = document.querySelectorAll(".answer");
-            const index = chooseList.findIndex(item => item?.id === questions[currentQuestionIndex].id);
+            const indexSelected = selectList.findIndex(
+                (item) => item?.id === questionList[currentQuestionIndex].id
+            );
 
-            if (answer) checkAnswer(answer, chooseList, index, chooseList[index]?.chooseId);
-        }
+            if (answer)
+                checkAnswer(
+                    answer,
+                    selectList,
+                    indexSelected,
+                    selectList[indexSelected]?.chooseId
+                );
+
+            console.log(
+                currentQuestionIndex,
+                questionList.findIndex((ques) => ques?.id === incorrectList[0]?.id),
+                makeAgainMode
+            );
+        };
 
         const handleBackQuestion = (target) => {
             if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
 
+            if (currentQuestionIndex <= 0) {
+                target.disabled = true;
 
-            if (currentQuestionIndex > 0) {
-                questionContainer.innerHTML = ""
-                --currentQuestionIndex;
-                displayQuestion(questions[currentQuestionIndex]);
+                return;
+            } else {
+                questionContainer.innerHTML = "";
+                currentQuestionIndex = makeAgainMode
+                    ? questionList.findIndex(
+                        (ques) => ques?.id === incorrectList[0]?.id
+                    )
+                    : --currentQuestionIndex;
+                displayQuestion(questionList[currentQuestionIndex]);
                 target.disabled = false;
             }
-            else {
-                target.disabled = true
-            };
-
 
             const answer = document.querySelectorAll(".answer");
-            const index = chooseList.findIndex(item => item?.id === questions[currentQuestionIndex].id);
+            const indexSelected = selectList.findIndex(
+                (item) => item?.id === questionList[currentQuestionIndex].id
+            );
 
-            if (answer) checkAnswer(answer, chooseList, index, chooseList[index]?.chooseId);
-        }
+            if (answer)
+                checkAnswer(
+                    answer,
+                    selectList,
+                    indexSelected,
+                    selectList[indexSelected]?.chooseId
+                );
 
+            console.log(
+                currentQuestionIndex,
+                questionList.findIndex((ques) => ques?.id === incorrectList[0]?.id),
+                makeAgainMode
+            );
+        };
+
+        shuffleBtn.addEventListener("click", (e) => handleShuffleArray(e));
+        againBtn.addEventListener("click", () => handleMakeIncorrect(selectList));
         nextBtn.addEventListener("click", (e) => handleNextQuestion(e.target));
         backBtn.addEventListener("click", (e) => handleBackQuestion(e.target));
 
@@ -215,103 +336,144 @@
             const question = ques[index] || [];
             const correctIndex = question?.idCorrectResult;
 
-            console.log(question)
+            console.log(question);
 
             if (correctIndex !== undefined && idActiveResult !== undefined) {
                 if (+idActiveResult === +correctIndex) {
-                    element.forEach(elm => {
-                        if (+elm.dataset.result === +idActiveResult) elm.classList.add('correct');
-                    })
+                    element.forEach((elm) => {
+                        if (+elm.dataset.result === +idActiveResult)
+                            elm.classList.add("correct");
+                    });
                 } else {
-                    element.forEach(elm => {
-                        if (+elm.dataset.result === +correctIndex) elm.classList.add('correct')
-                        else if (+elm.dataset.result !== +correctIndex && +elm.dataset.result === +idActiveResult) elm.classList.add('incorrect');
-                    })
+                    element.forEach((elm) => {
+                        if (+elm.dataset.result === +correctIndex)
+                            elm.classList.add("correct");
+                        else if (
+                            +elm.dataset.result !== +correctIndex &&
+                            +elm.dataset.result === +idActiveResult
+                        )
+                            elm.classList.add("incorrect");
+                    });
                 }
             }
         }
 
-        const head = document.createElement('section');
+        const head = document.createElement("section");
         const title = document.createElement("h2");
-        const currentQuestion = document.createElement("span")
+        const currentQuestion = document.createElement("span");
         const thumb_question = document.createElement("img");
 
         function displayQuestion(question) {
             const currentId = currentQuestionIndex;
             if (question.thumb) {
                 thumb_question.id = "thumb_question";
-                thumb_question.setAttribute("src", question.thumb)
+                thumb_question.setAttribute("src", question.thumb);
                 questionContainer.appendChild(thumb_question);
             }
 
             title.id = "title";
             title.textContent = question.title;
-            currentQuestion.textContent = `${currentId + 1}/ ${questions.length}`
-            head.id = 'head';
+            currentQuestion.textContent = `${currentId + 1}/ ${questionList.length
+                }`;
+            head.id = "head";
             head.appendChild(title);
             head.appendChild(currentQuestion);
             questionContainer.appendChild(head);
 
             question.results.forEach((answer, index) => {
-                const answerDiv = document.createElement('div');
-                answerDiv.setAttribute("data-result", answer.idResult)
-                answerDiv.classList.add('answer');
+                const answerDiv = document.createElement("div");
+                answerDiv.setAttribute("data-result", answer.idResult);
+                answerDiv.classList.add("answer");
                 answerDiv.textContent = answer.value;
                 questionContainer.appendChild(answerDiv);
-            })
+            });
 
             const answerItem = document.querySelectorAll(".answer");
             answerItem.forEach((as, index) => {
-                as.addEventListener('click', (e) => {
-                    const selected = chooseList.some(item => item.id === question.id);
-                    if (!selected) {
-                        const chooseData = {};
+                as.addEventListener("click", (e) => {
+                    incorrectList = incorrectList.filter(
+                        (ic) => ic?.id !== question?.id
+                    );
 
-                        chooseData.id = question.id;
-                        chooseData.idCorrectResult = question.idCorrectResult;
-                        chooseData.chooseId = +e.target.dataset.result;
-                        chooseData.isCorrect = +e.target.dataset.result === +question.idCorrectResult;
-                        chooseList.push(chooseData);
+                    const selected = selectList.some((item) => item.id === question.id);
+
+                    if (incorrectList.length === 0 && makeAgainMode)
+                        makeAgainMode = false;
+                    if (!selected) {
+                        const selectData = {};
+                        const statusResult =
+                            +e.target.dataset.result === +question.idCorrectResult;
+
+                        selectData.id = question.id;
+                        selectData.idCorrectResult = question.idCorrectResult;
+                        selectData.chooseId = +e.target.dataset.result;
+                        selectData.isCorrect = statusResult;
+                        selectList.push(selectData);
 
                         e.target.classList.add("active");
-                        checkAnswer(answerItem, questions, currentQuestionIndex, e.target.dataset.result);
+                        checkAnswer(
+                            answerItem,
+                            questionList,
+                            currentQuestionIndex,
+                            e.target.dataset.result
+                        );
 
                         // Chuyển sang câu hỏi tiếp theo sau 3 giây
-                        autoPlayTimeout = setTimeout(() => handleNextQuestion(nextBtn), 1500);
+                        autoPlayTimeout = setTimeout(
+                            () => handleNextQuestion(nextBtn),
+                            1500
+                        );
                     }
 
-                    console.log(chooseList);
-                })
-            })
+                    console.log(selectList, incorrectList, makeAgainMode);
+                });
+            });
         }
 
         function displayResult() {
             let totalCorrect = 0;
             let totalScore = 0;
-            let avgScore = 10 / questions.length;
-            const resultContainer = document.getElementById('result');
+            let avgScore = 10 / questionList.length;
+            const resultContainer = document.getElementById("result");
 
-            if (chooseList.length < questions.length) {
+            if (selectList.length < questionList.length) {
                 return;
             }
 
-            chooseList.forEach(ans => {
+            selectList.forEach((ans) => {
                 if (ans.isCorrect) totalCorrect++;
-            })
+            });
 
             totalScore = totalCorrect * avgScore;
 
             console.log(totalCorrect, avgScore, totalScore);
             resultContainer.innerHTML = `
-                <span>Tổng số câu đúng: ${totalCorrect}</span>
-                <p>Bạn đã hoàn thành bài thi!<br>Điểm của bạn là: ${totalScore.toFixed(1)} / 10</p>
-            `;
+            <span>Tổng số câu đúng: ${totalCorrect}</span>
+            <p>Bạn đã hoàn thành bài thi!<br>Điểm của bạn là:
+                ${totalScore.toFixed(1)} / 10
+            </p>
+        `;
         }
 
         // Hiển thị câu hỏi đầu tiên
-        displayQuestion(questions[currentQuestionIndex]);
-    </script>
+        displayQuestion(questionList[currentQuestionIndex]);
 
+        // const a = questions.question_2.origin_question.map((question, index) => ({
+        //     id: index + 1,
+        //     title: question.questionText,
+        //     thumb: "", // Có thể thêm URL ảnh ở đây nếu cần
+        //     isCorrect: false, // Trạng thái có thể được cập nhật vào thời điểm kiểm tra
+        //     idCorrectResult: question.correctAnswerIndex,
+        //     results: question.answers.map((answer, answerIndex) => ({
+        //         idResult: answerIndex + 1,
+        //         value: answer,
+        //         url_thumb: "", // Có thể thêm URL ảnh ở đây nếu cần
+        //         type: "" // Có thể xác định loại nếu cần
+        //     }))
+        // }));
+
+        // console.log(a)
+    </script>
 </body>
 
 </html>
