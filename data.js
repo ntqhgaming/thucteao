@@ -7398,7 +7398,3013 @@ const questions = {
                         "type": ""
                     }
                 ]
+            },
+            {
+                "id": 131,
+                "title": "Câu 131: Hãy cho biết trong các quy trình sau, đâu là quy trình đóng dự án?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 5 – 1 – 7 – 2 – 3 – 4 – 6 – 8.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 7 – 5 – 4 – 1 – 2 – 3 – 6 – 8.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 8 – 7 – 5 – 4 – 1 – 2 – 3 – 6.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 1 – 2 – 3 – 7 – 8 – 4 – 5 – 6.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 132,
+                "title": "Câu 132: Dựa vào hình dưới đây, hãy cho biết số giờ công của thợ nặn từ ngà hoàny 19 đến ngày 21 là bao nhiêu trong các phương án sau?",
+                "thumb": "./assets/img/question_2/cau132title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 49h.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 64h.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 32h.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 56h.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 133,
+                "title": "Câu 133: Hãy cho biết hình ảnh dưới hiển thị cửa sổ nào sau đây?",
+                "thumb": "./assets/img/question_2/cau133title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Resource Usage.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Resource Sheet.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Resource Form.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Task Usage.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 134,
+                "title": "Câu 134: Công việc 1 kết thúc vào ngày 15/6/2014, quan sát thấy tại cột Predecessors của công việc 2 là 1FS + 3days, hãy cho biết công việc 2 bắt đầu thực hiện vào thời điểm nào trong các thời điểm sau?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 17/6/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 18/6/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 19/6/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 16/6/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 135,
+                "title": "Câu 135: Dựa vào hình dưới đây, hãy chọn phương án đúng ứng với tổng tiền chi cho việc sử dụng bàn xoay?",
+                "thumb": "./assets/img/question_2/cau135title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 340,000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 3,600,000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 118,000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 272.000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 136,
+                "title": "Câu 136: Dựa vào hình dưới đây, hãy cho biết trong các nút lệnh sau, nút lệnh nào hiển thị dự án ở dạng Gantt Chart?",
+                "thumb": "./assets/img/question_2/cau136-137title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Nút lệnh số 4.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Nút lệnh số 3.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Nút lệnh số 2.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Nút lệnh số 1.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 137,
+                "title": "Câu 137: Dựa vào hình dưới đây, hãy cho biết nút lệnh số 2 hiển thị dự án ở dạng nào sau đây?",
+                "thumb": "./assets/img/question_2/cau136-137title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Task Usage.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Team Planner.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Gantt Chart.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Resource Sheet.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 138,
+                "title": "Câu 138: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào cần đến nguồn lực “Đội ngũ hướng dẫn”?",
+                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 5, 9, 14.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 2, 7, 12.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 3, 4, 12.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 3, 4, 11.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 139,
+                "title": "Câu 139: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào thuộc dạng Summary Task?",
+                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 5, 9, 14.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 2, 7, 12.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 1, 8, 13, 17.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 3, 4, 11.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 140,
+                "title": "Câu 140: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào thuộc dạng Inactive Task?",
+                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 10, 16.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 5, 9, 14.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 2, 7, 12.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 3, 4, 11.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 141,
+                "title": "Câu 141: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào chưa được thực hiện?",
+                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 2, 3, 9, 11, 14, 21, 22.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 10, 16.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 1, 8, 13, 17.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 4, 6, 12, 15, 19, 20, 23.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 142,
+                "title": "Câu 142: Dựa vào hình dưới đây, hãy cho biết để lọc ra các yêu cầu sử dụng đến nguồn lực “Đội ngũ hướng dẫn”, ta chọn thao tác nào sau đây?",
+                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. View/ Filter/ Data Range/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. View/ Filter/ Using Resource/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. View/ Filter/ Task Range/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. View/ Filter/ Critical/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 143,
+                "title": "Câu 143: Hãy chọn phương án đúng trong các phương án sau?",
+                "thumb": "./assets/img/question_2/cau143title.png",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Khi nháy chọn nút OK, các giá trị trong cột % Complete sẽ được hiển thị bởi giá trị của cột htTT.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Khi nháy chọn nút OK, các giá trị trong cột htTT sẽ được hiển thị bởi giá trị của cột % Complete.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Khi nháy chọn nút OK, cột % Complete được tạo mới.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Khi nháy chọn nút OK, cột htTT sẽ hiển thị các giá trị bất kỳ.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 144,
+                "title": "Câu 144: Hãy cho biết thao tác nào trong các thao tác sau dùng để thiết lập chế độ lọc tự động trên các cột như hình dưới đây?",
+                "thumb": "./assets/img/question_2/cau144title.png",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Task/ Filter/ Display AutoFilter.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. View/ Filter/ Display AutoFilter.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Project/ Filter/ Display AutoFilter.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Resource/ Filter/ Display AutoFilter.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 145,
+                "title": "Câu 145: Hãy cho biết trong các nút lệnh sau, nút lệnh nào dùng để xóa bỏ liên kết giữa các công việc?",
+                "thumb": "./assets/img/question_2/cau145-146title.png",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Nút lệnh số 11.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Nút lệnh số 10.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Nút lệnh số 9.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Nút lệnh số 7.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 146,
+                "title": "Câu 146: Hãy cho biết trong các nút lệnh sau, nút lệnh nào dùng để ngừng kích hoạt công việc?",
+                "thumb": "./assets/img/question_2/cau145-146title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Nút lệnh số 8.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Nút lệnh số 11.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Nút lệnh số 10.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Nút lệnh số 12 - 13.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+
+            {
+                "id": 147,
+                "title": "Câu 147: Hãy cho biết người quản trị cần chọn thao tác nào để đánh dấu những công việc đã hoàn thành?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Chọn View/ Highlight/ Chọn Completed Tasks.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Chọn View/ Highlight/ Chọn Active Tasks.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chọn View/ Filter/ Chọn Completed Tasks.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chọn View/ Task/ Chọn Active Tasks.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 148,
+                "title": "Câu 148: Thời gian hoàn thành dự án là bao nhiêu?",
+                "thumb": "./assets/img/question_2/cau148title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 27 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 32 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 23 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 29 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 149,
+                "title": "Câu 149: Dự án hoàn thành mất bao lâu?",
+                "thumb": "./assets/img/question_2/cau149title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 30 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 29 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 27 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 34 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 150,
+                "title": "Câu 150: Phương pháp chấp nhận sự tồn tại của rủi ro là chiến lược nào?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Giảm thiểu.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Né tránh.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chuyển.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chấp nhận.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 151,
+                "title": "Câu 151: Phương án đúng ứng với đường găng của dự án?",
+                "thumb": "./assets/img/question_2/cau151title.png",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. B-E-G-I-L.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. A-D-F-G-I-L.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. A-D-G-I-K.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. A-C-F-G-I-K.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 152,
+                "title": "Câu 152: Ngày 25/04/2014 thuộc loại ngày nào?",
+                "thumb": "./assets/img/question_2/cau152-154title.png",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Nonworking.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Working.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Exception day.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Nondefault work week.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 153,
+                "title": "Câu 153: Ngày 12/04/2014 thuộc loại ngày nào?",
+                "thumb": "./assets/img/question_2/cau152-154title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Nonworking.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Working.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Exception day.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Nondefault work week.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 154,
+                "title": "Câu 154: Ngày 09/04/2014 thuộc loại ngày nào?",
+                "thumb": "./assets/img/question_2/cau152-154title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Working.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Nonworking.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Nondefault work week.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Exception day.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 155,
+                "title": "Câu 155: Thao tác Project/ Change Working Time/ Create New Calendar thực hiện công việc nào?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Tạo lịch mới cho dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Đặt ngày giám sát dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Đặt lịch mặc định cho dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Tạo lịch nghỉ định kỳ cho dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 156,
+                "title": "Câu 156: Ý nghĩa của lịch nghỉ này là gì?",
+                "thumb": "./assets/img/question_2/cau156title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Lịch nghỉ định kỳ vào Thứ Năm hàng tuần, giới hạn trong 5 tuần.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Lịch nghỉ định kỳ vào Thứ Năm đầu tiên của mỗi tháng, giới hạn trong 5 tháng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Lịch nghỉ định kỳ vào ngày 16/4 hàng năm, giới hạn trong 5 năm.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Lịch nghỉ định kỳ vào Thứ Năm thứ ba của tháng 4 hàng năm, giới hạn trong 5 năm.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 157,
+                "title": "Câu 157: Người quản trị muốn thiết lập lịch riêng cho „Thợ sơn‟ chỉ làm buổi chiều, thao tác nào cần chọn?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Set days to nonworking time/ Đăng ký khung giờ 13:00 – 17:00.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Use Project default times for these days.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Set day(s) to these specific working times/ Đăng ký khung giờ 13:00 – 17:00.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chọn Details tại tab Exceptions/ Chọn tất cả các ngày/ Chọn Set day(s) to these specific working times/ Đăng ký khung giờ 13:00 – 17:00.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 158,
+                "title": "Câu 158: Định nghĩa chính xác của rủi ro là gì?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Rủi ro là những vấn đề đã và đang làm ảnh hưởng xấu đến dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Rủi ro là những vấn đề chưa xảy ra nhưng chắc chắn sẽ xảy ra làm ảnh hưởng đến các mục tiêu dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Rủi ro là những vấn đề về thiên tai, bão lụt, tai nạn lao động có thể xảy ra đối với dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Rủi ro là những vấn đề tiềm tàng có khả năng xảy ra trong tương lai làm ảnh hưởng đến các mục tiêu, phạm vi, chất lượng, tài nguyên và tính đúng hạn của dự án.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 159,
+                "title": "Câu 159: Chọn phương án đúng trong các phương án sau?",
+                "thumb": "./assets/img/question_2/cau159,161title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Nguồn lực bếp được sử dụng từ ngày 10-5 đến 20-5.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Dự án có tối đa 3 bếp, nguồn lực bếp có 10 ngày bị quá tải.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Dự án có tối đa 1 bếp, nguồn lực bếp có 3 ngày bị quá tải.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Dự án có tối đa 1 bếp, nguồn lực bếp có 10 ngày bị quá tải.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 160,
+                "title": "Câu 160: Để cân đối nguồn lực hiện tại, chọn công cụ nào?",
+                "thumb": "./assets/img/question_2/cau160,162-163title.png",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Công cụ số 4.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Công cụ số 3.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Công cụ số 2.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Công cụ số 5.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+
+            {
+                "id": 161,
+                "title": "Câu 161: Dựa vào hình dưới đây, hãy cho biết ngày 20-5 dự án cần bao nhiêu bếp?",
+                "thumb": "./assets/img/question_2/cau159,161title.png",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 2 bếp.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 3 bếp.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 1 bếp.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Không cần sử dụng bếp.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 162,
+                "title": "Câu 162: Trong quá trình thực hiện dự án, hãy cho biết để thiết lập các tùy chọn trong việc cân đối nguồn lực, chúng ta chọn công cụ số mấy trong các công cụ sau?",
+                "thumb": "./assets/img/question_2/cau160,162-163title.png",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Công cụ số 4.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Công cụ số 3.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Công cụ số 2.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Công cụ số 5.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 163,
+                "title": "Câu 163: Hãy cho biết đây là hình ảnh của tab nào?",
+                "thumb": "./assets/img/question_2/cau160,162-163title.png",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Tab Task.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Tab View.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Tab Resource.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Tab Project.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 164,
+                "title": "Câu 164: Dựa vào hình dưới đây, hãy chọn phương án đúng ứng với chi phí dành cho nguồn lực dạng Work?",
+                "thumb": "./assets/img/question_2/cau164title.png",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 7,000,000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 7,600,000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 200,000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 400,000 đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 165,
+                "title": "Câu 165: Thao tác nào trong các thao tác sau dùng để lập báo cáo lịch làm việc của thợ sơn?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Project/ Reports/ Assignments…/ Overallocated Resources/ Chọn thợ sơn.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Project/ Reports/ Assignments…/ Who Does What/ Chọn thợ sơn.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Project/ Reports/ Assignments…/ To-do List/ Chọn thợ sơn.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Project/ Reports/ Assignments…/ Who Does What When/ Chọn thợ sơn.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 166,
+                "title": "Câu 166: Hãy cho biết khái niệm đúng về Standard Rate trong các khái niệm sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Mức giá của một nguồn lực cho những công việc trong giờ làm việc.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Mức giá của một nguồn lực cho những công việc ngoài giờ làm việc.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chi phí phải chi trả mỗi lần một nguồn lực dạng Work được sử dụng và không bị chi phối bởi thời gian nguồn lực đó được sử dụng hoặc mỗi lần nguồn lực dạng Material được sử dụng và không bị chi phối bởi số lượng đơn vị mà nguồn lực đó được sử dụng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Cung cấp các lựa chọn trong việc xác định khi nào và cách thức nào mà các giá trị Standard Rate và Overtime Rate được sử dụng vào việc tính chi phí của công việc.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 167,
+                "title": "Câu 167: Hãy chọn thao tác đúng trong các thao tác sau để xuất ra bản báo cáo trên Excel như hình dưới đây?",
+                "thumb": "./assets/img/question_2/cau167title.png",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ Resource Usage/ Resource Cost Summany Report.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ Task Usage/ Cash Flow Report.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ Resource Usage/ Cash Flow Report.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ All/ Resource Remaining Work Report.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 168,
+                "title": "Câu 168: Khi cần báo cáo ngân quỹ dự trù của dự án, ta chọn mục nào trong các mục sau?",
+                "thumb": "./assets/img/question_2/cau168title.png",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Overbudget Tasks.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Budget.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Earned Value.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Cash Flow.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 169,
+                "title": "Câu 169: Dựa vào hình dưới đây, hãy cho biết lương của thợ nặn vào ngày 4/20/15 (mm/dd/yy) được tính như thế nào trong các phương án sau?",
+                "thumb": "./assets/img/question_2/cau169title.png",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Lương trong giờ 250,000 đ/ngày, lương ngoài giờ 60,000 đ/giờ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Lương trong giờ 200,000 đ/ngày, lương ngoài giờ 50,000 đ/giờ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Lương trong giờ 220,000 đ/ngày, lương ngoài giờ 50,000 đ/giờ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Lương trong giờ 300,000 đ/ngày, lương ngoài giờ 60,000 đ/giờ.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 170,
+                "title": "Câu 170: Để nhập được đơn vị tiền tệ là “đ” như hình dưới đây, ta phải thay đổi tùy chọn nào trong các tùy chọn sau?",
+                "thumb": "./assets/img/question_2/cau170title.png",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. File/ Options/ Schedule/ Currency.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. File/ Options/ Advanced/ Symbol.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. File/ Options/ Advanced/ Currency.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. File/ Options/ Display/ Symbol.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 171,
+                "title": "Câu 171: Để hiển thị % hoàn thành và chi phí của các công việc trên biểu đồ Gantt Chart, ta chọn thao tác nào trong các thao tác sau?",
+                "thumb": "./assets/img/question_2/cau171title.png",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Chọn các công việc/ Format/ Bar.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Chọn các công việc/ View/ Format/ Bar.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chọn các công việc/ Format/ Format/ Bar.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chọn các công việc/ View/ Bar.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 172,
+                "title": "Câu 172: Dựa vào hình dưới đây, hãy cho biết trong các công việc sau, đâu là công việc làm trong ngày 04/04/2014?",
+                "thumb": "./assets/img/question_2/cau172title.png",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Tìm nguồn thạch cao, chuẩn bị nhà xưởng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Tìm nguồn thạch cao, mua khí đốt, chuẩn bị nhà xưởng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Tìm nguồn thạch cao, mua khí đốt, chuẩn bị nhà xưởng, mua thạch cao, xong vật tư nhà xưởng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Tìm nguồn thạch cao, mua thạch cao, mua khí đốt, chuẩn bị nhà xưởng.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 173,
+                "title": "Câu 173: Trong các thao tác sau, thao tác nào dùng để đổi tên cột Task Name thành Yêu cầu như hình dưới đây?",
+                "thumb": "./assets/img/question_2/cau173title.png",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Nháy phải chuột lên cột Task Name/ Chọn Custom Fields/ Đổi tên tại mục Title.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Nháy phải chuột lên cột Task Name/ Chọn Field Settings/ Đổi tên tại mục Name.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Nháy phải chuột lên cột Task Name/ Chọn Custom Fields/ Đổi tên tại mục Name.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Nháy phải chuột lên cột Task Name/ Chọn Field Settings/ Đổi tên tại mục Title.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 174,
+                "title": "Câu 174: Dựa vào hình dưới đây, hãy cho biết mối quan hệ giữa công việc 11 và công việc 17 thuộc dạng liên kết nào sau đây?",
+                "thumb": "./assets/img/question_2/cau174title.png",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. FS.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. SS.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. FF.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. SF.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 175,
+                "title": "Câu 175: Để các dự án luôn mặc định bắt đầu làm việc từ 7:30 AM đến 5:30 PM như hình dưới, ta chọn thao tác nào trong các thao tác sau?",
+                "thumb": "./assets/img/question_2/cau175title.png",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. File/ Options/ Calendar.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. File/ Options/ Schedule.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. File/ Options/ Advanced.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. File/ Options/ Display.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 176,
+                "title": "Câu 176: Dựa vào hình dưới đây, hãy cho biết công việc nào trong các công việc sau đây chưa được phân công?",
+                "thumb": "./assets/img/question_2/cau176title.png",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Đóng gói.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Rán bánh rán mẻ 1.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chuẩn bị đồ nấu, chuẩn bị bếp, giao hàng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Luộc bánh trôi mẻ 1, rán bánh chuối mẻ 2.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 177,
+                "title": "Câu 177: Hãy cho biết sau khi thực hiện thao tác Project/ Reports/ Cost… để in báo cáo chi phí dự án theo tiến độ giải ngân, ta phải chọn mục nào sau đây?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Budget",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Overbudget Tasks",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Cash Flow",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Earned Value",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 178,
+                "title": "Câu 178: Trong các cửa sổ sau đây, cửa sổ nào dùng để nhập chi phí cho tài nguyên kiểu Cost?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Assign Resources",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Resource Graph",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Team Planner",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Resource Sheet",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 179,
+                "title": "Câu 179: Dựa vào hình dưới đây, hãy cho biết tổng thời gian thợ nặn làm việc tới ngày 24/04 là bao nhiêu trong các phương án sau?",
+                "thumb": "./assets/img/question_2/cau179title.png",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 54h",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 277h",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 331h",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 223h",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 180,
+                "title": "Câu 180: Dựa vào hình dưới đây, hãy cho biết tổng chi phí thực tế của việc “Nặn 200 đĩa lớn” là bao nhiêu trong các phương án sau?",
+                "thumb": "./assets/img/question_2/cau180title.png",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 824,000 đ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 2,450,000 đ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 2,250,000 đ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 1,626,000 đ",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 181,
+                "title": "Câu 181: Hãy chọn phương án đúng ứng với đường găng của dự án trong hình dưới đây?",
+                "thumb": "./assets/img/question_2/cau181title.png",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. A – C – D – F – I – K – M",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. B – E – G – I – K – M",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. A – C – D – F – I – L – M",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. A – B – C – D – H – I – L – M",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 182,
+                "title": "Câu 182: Trong đợt làm lọ hoa, bàn xoay được sử dụng 2 lần, lần thứ nhất 10h, lần thứ hai 12h. Bạn hãy tính chi phí sử dụng bàn xoay?",
+                "thumb": "./assets/img/question_2/cau182-183title.png",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 110,000đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 120,000đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 130,000đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 220,000đ.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 183,
+                "title": "Câu 183: Để đặt lịch làm việc cho một nguồn lực, ta chọn cột nào?",
+                "thumb": "./assets/img/question_2/cau182-183title.png",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Base Calendar.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Max. Units.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Accrue At.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Type.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 184,
+                "title": "Câu 184: Để thiết lập được các mức độ: Rất cao, Cao, Trung bình… trên cột “Giá trị thực tiễn”, ta cần thao tác thế nào?",
+                "thumb": "./assets/img/question_2/cau184title.png",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Chọn tab Project/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Formula… và thiết lập giá trị tại mục Description.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Chọn tab Project/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Lookup… và thiết lập giá trị tại mục Value.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chọn tab Project/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Lookup… và thiết lập giá trị tại mục Description.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chọn tab Task/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Lookup… và thiết lập giá trị tại mục Value.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 185,
+                "title": "Câu 185: Một thợ sơn có lịch làm việc kiểu Standard. Công việc phải hoàn thành trong 5 ngày, ngày bắt đầu làm việc là 22/09 (thứ 4). Hãy cho biết công việc kết thúc vào thời điểm nào trong các thời điểm sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 26/09.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 27/09.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 28/09.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 30/09.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 186,
+                "title": "Câu 186: Hãy chọn phương án đúng trong các phương án sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Task Sheet là màn hình hiển thị các mức độ sử dụng các nguồn lực theo thời gian.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Task Sheet là màn hình nhập liệu dạng bảng, tương tự như Gantt Chart nhưng không có phần biểu đồ trực quan.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Task Sheet là màn hình nhập liệu master-detail, liệt kê chi tiết công việc theo từng nguồn lực.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Task Sheet là màn hình nhập liệu master-detail, liệt kê chi tiết nguồn lực gắn với từng công việc.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 187,
+                "title": "Câu 187: Để chọn ra cách tính chi phí nguồn lực trong các phương án sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Work, Material, Cost.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Begin, Finish, Prorated.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Start, End, Prorated.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Standard, Night Shift, 24h.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 188,
+                "title": "Câu 188: Hãy cho biết để thực hiện lọc những công việc trọng yếu trên đường găng của dự án, ta lọc theo tiêu chí nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Critical.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Completed Tasks.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Incomplete Tasks.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Milestones.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 189,
+                "title": "Câu 189: Để điều tra công việc và xử lý quá tải ta chọn thao tác nào sau đây?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Task/ Inspect/ Inspect Task.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Task/ Mark on Track.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Task/ Inspect/ Reschedule Task.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Task/ Information.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 190,
+                "title": "Câu 190: Dựa vào hình ảnh hãy cho biết điểm mốc “Nung xong” (dd/mm/yyyy) xảy ra vào thời điểm nào trong các thời điểm sau?",
+                "thumb": "./assets/img/question_2/cau190title.png",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 18/04/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 29/04/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 03/06/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 07/05/2014.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 191,
+                "title": "Câu 191: Dựa vào hình ảnh hãy cho biết công việc nào đã hoàn thành trong các công việc sau?",
+                "thumb": "./assets/img/question_2/cau191title.png",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Công việc 7, 14.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Công việc 5, 9.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Công việc 10, 11, 12.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Công việc 2, 3.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 192,
+                "title": "Câu 192: Hãy cho biết muốn xem danh sách các công việc của từng nguồn lực một cách nhanh nhất, ta chọn cửa sổ nào sau đây?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Resource Usage.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Task Form.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Resource Sheet.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Tracking Gantt.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 193,
+                "title": "Câu 193: Đâu là khái niệm đúng về Overtime Rate trong các khái niệm sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Mức giá của một nguồn lực cho những công việc làm trong giờ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Mức giá của một nguồn lực cho những công việc làm ngoài giờ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chi phí phải chi trả mỗi lần một nguồn lực dạng Work được sử dụng và không bị chi phối bởi thời gian nguồn lực đó được sử dụng hoặc mỗi lần nguồn lực dạng Material được sử dụng và không bị chi phối bởi số lượng đơn vị mà nguồn lực đó được sử dụng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Cung cấp các lựa chọn trong việc xác định khi nào và cách thức nào mà các giá trị Standard Rate và Overtime Rate được sử dụng vào việc tính chi phí của công việc.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 194,
+                "title": "Câu 194: Người quản trị dự án cần chọn thao tác nào trong các thao tác sau để loại bỏ công việc “Xử lý làm trắng thạch cao” khỏi dự án?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Project chọn biểu tượng Inactive.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Task chọn biểu tượng Delete.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Task chọn biểu tượng Inactive.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Project chọn biểu tượng Inactive.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 195,
+                "title": "Câu 195: Muốn hiển thị trạng thái của từng yêu cầu bằng các biểu tượng tại cột HT Trạng thái như hình dưới đây, ta sử dụng tính năng nào trong các tính năng sau?",
+                "thumb": "./assets/img/question_2/cau195title.png",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Graphical Indicators.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Lookup.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Formula.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Data.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 196,
+                "title": "Câu 196: Dựa vào hình hãy cho biết yêu cầu số 1 và số 8 thuộc dạng task nào trong các dạng task sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Inactive Task.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Active Task.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Milestone.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Summary Task.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 197,
+                "title": "Câu 197: Hãy cho biết để điều chỉnh chế độ đặt lịch thủ công sang đặt lịch tự động cho công việc, ta chọn mục nào sau đây?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Indicators.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Type.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Task Mode.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. ID.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 198,
+                "title": "Câu 198: Dựa vào hình, hãy cho biết để điều chỉnh quan hệ “Summary Task – Task thường” giữa các công việc ta chọn nút lệnh nào trong các nút lệnh sau?",
+                "thumb": "./assets/img/question_2/cau198title.png",
+                "isCorrect": false,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 12 – 13.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 9 – 10.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 1 – 2 – 3 – 4 – 5.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 7.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 199,
+                "title": "Câu 199: Công tác phòng chống rủi ro được thực hiện nhằm đảm bảo sự thành công của các công việc nào trong các công việc sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Các công việc có thời gian thực hiện dài nhất.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Các công việc không nằm trên đường găng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Các công việc bị quá tải.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Các công việc trên đường găng.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 200,
+                "title": "Câu 200: Hãy chọn ra công thức tính giá trị rủi ro trong các công thức sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Khả năng xảy ra * thời gian thực hiện.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Mức độ ảnh hưởng * thời gian thực hiện.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Khả năng xảy ra * mức độ ảnh hưởng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Thời gian thực hiện * % hoàn thành.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 201,
+                "title": "Câu 201: Microsoft Project có những loại lịch mặc định nào trong các loại lịch sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Standard, Night Shift, Calendar.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Standard, Night Shift, 24 Hours.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Night Shift, 24 Hours, Calendar.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Standard, 24 Hours, Day Shift.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 202,
+                "title": "Câu 202: Để thực hiện việc phân bổ nguồn lực cho công việc, ta có thể thao tác thông qua cửa sổ nào sau đây?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Cửa sổ Resource Sheet.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Cửa sổ Resource Graph.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Cửa sổ Team Planner.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Cửa sổ Task Usage.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 203,
+                "title": "Câu 203: Để đưa nhiều công việc lên thanh Timeline, ta chọn thao tác nào trong các thao tác sau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Kích chọn vào cửa sổ Timeline/ Format/ Existing Tasks/ Tích chọn vào công việc muốn đưa vào Timeline.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Chọn các công việc cần đưa/ Project/ Add to Timeline.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Chọn các công việc/ Task/ Information/ Advanced/ Tích chọn mục Display on Timeline.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Chọn các công việc/ Project/ Project Information/ Advanced/ Tích chọn mục Display on Timeline.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 204,
+                "title": "Câu 204: Hãy cho biết trong các công thức sau đâu là công thức tính giá trị Total Cost?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. (Work * Standard Rate) + (Overtime Work * Overtime Rate) + Resource Per Use Cost + Task Fixed Cost.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Total Cost - Baseline Cost.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. (Actual Work * Standard Rate) + (Actual Overtime Work * Overtime Rate) + Resource Per Use Costs + Task Fixed Cost.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Actual Cost + Remaining Cost.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 205,
+                "title": "Câu 205: Dựa vào hình dưới đây, hãy chọn phương án đúng ứng với tổng lượng thạch cao sử dụng từ ngày 22/4 đến 24/4?",
+                "thumb": "./assets/img/question_2/cau205title.png",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 97.34 kg.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 98 kg.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 105.97 kg.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 58.96 kg.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 206,
+                "title": "Câu 206: Để dịch chuyển dự án chậm 1 tuần so với dự kiến, ta chọn nhóm biểu tượng nào sau đây tại tab Project?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Properties.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Status.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Schedule.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Reports.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 207,
+                "title": "Câu 207: Trong quá trình giám sát để cập nhật dữ liệu thực tế về thời gian, ngày công và chi phí ta chọn?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. View/ Tables/ Tracking.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. View/ Tables/ Schedule.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. View/ Tables/ Variance.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. View/ Tables/ Usage.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 208,
+                "title": "Câu 208: Hãy chọn thao tác để định dạng đường găng như hình?",
+                "thumb": "./assets/img/question_2/cau208title.png",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Format/ Collapse Box.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Format/ Box.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Format/ Layout.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Format/ Align.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 209,
+                "title": "Câu 209: Hãy chọn thao tác để cập nhật các công việc làm đúng tiến độ?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Task/ Inspect/ Information.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Task/ Update Project.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Task/ Update Information.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Task/ Mark on Track/ Mark on Track.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 210,
+                "title": "Câu 210: ACWP viết tắt của từ nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Actual Cost of Work Performed.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Actual Cost of Work Variance.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Actual Cost of Work Schedule.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Actual Cost of Work Baseline.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 211,
+                "title": "Câu 211: Hãy cho biết để thiết lập Baseline cho dự án trong phần mềm Microsoft Project 2010 ta thực hiện theo dãy thao tác nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Tab Task/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Tab View/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Tab Project/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Tab Resource/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 212,
+                "title": "Câu 212: Hãy cho biết để in báo cáo giám sát dự án Earned Value ta thực hiện theo phương án nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Tab Project/ Reports/ Overview/ Earned Value.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Tab Project/ Reports/ Assignments/ Earned Value.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Tab Project/ Reports/ Custom/ Earned Value.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Tab Project/ Reports/ Costs/ Earned Value.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 213,
+                "title": "Câu 213: Muốn thiết lập ngày giám sát dự án Status Date vào ngày 23/5 ta phải thao tác như thế nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Project/ Project Information.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Project/ Change Working Time.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Project/ Status Date.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. View/ Status Date.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 214,
+                "title": "Câu 214: Để cập nhật 1 công việc hoàn thành 80% và ghi chú do thiếu nhiên liệu ta thực hiện thao tác nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Resource/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Task/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Project/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. View/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 215,
+                "title": "Câu 215: Hãy cho biết để xóa bỏ Baseline của dự án trong phần mềm Microsoft Project 2010 ta thực hiện theo phương án nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Tab Task/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Tab View/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. Tab Resource/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. Tab Project/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 216,
+                "title": "Câu 216: Hãy cho biết để thiết lập Status Date cho dự án trong phần mềm Microsoft Project 2010 ta thực hiện theo phương án nào?",
+                "thumb": "./assets/img/question_2/cau216title.png",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 1-2-3-4-5-6-7-8-9.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 1-2-5-3-6-4-7-8-9.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 1-2-5-4-3-6-7-8-9.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 1-2-5-3-4-6-7-8-9.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 217,
+                "title": "Câu 217: Dự án gia công áo lính gửi Trường Sa kéo dài 120 ngày, chi phí dự kiến 100 triệu. Giám sát dự án vào ngày thứ 25, người quản lý nhận thấy chỉ số SPI = 0.75. Hãy dự báo số ngày hoàn thành dự án?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 160 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 90 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 120 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 100 ngày.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 218,
+                "title": "Câu 218: Dự án có các giá trị BCWS = 3 triệu, BCWP = 2 triệu, ACWP = 2.3 triệu. Hỏi dự án đã tiêu nhiều, tiêu đủ hay tiêu ít? Tính chỉ số đánh giá chi phí CPI của dự án?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 0.67, tiêu nhiều.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 0.87, tiêu nhiều.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 1.33, tiêu ít.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 1.67, tiêu ít.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 219,
+                "title": "Câu 219: Chi phí dự trù để hoàn thành công việc A trong 7 ngày là $1500. Hôm nay là ngày thứ 7 của tiến trình thực hiện. Tuy nhiên lúc này từ sổ sách chi tiêu thực tế đã chi $1350, qua đo lường thực trạng hạng mục này mới hoàn thành được 2/3 khối lượng dự trù. Hãy tính Earned Value?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. $1350.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. $1000.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. $900.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. -$500.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 220,
+                "title": "Câu 220: Quan sát hình hãy dự đoán các công việc nào có khả năng chậm tiến độ?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. Làm đèn gửi Trường Sa – Áo mưa gửi Hoàng Sa.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. Nước uống gửi Trường Sa.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. May áo gửi Hoàng Sa - Suất ăn gửi Trường Sa - Nước uống gửi Trường Sa.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. May áo gửi Hoàng Sa – Làm đèn gửi Trường Sa – Suất ăn gửi Hoàng Sa – Áo mưa gửi Hoàng Sa.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 221,
+                "title": "Câu 221: Hãy cho biết công việc nào có khả năng hoàn thành sớm?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 0,
+                        "value": "A. 2.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 1,
+                        "value": "B. 4.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "C. 3.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "D. 5.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
             }
+
         ],
     }
 };
