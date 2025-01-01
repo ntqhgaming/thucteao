@@ -4138,7 +4138,7 @@ const questions = {
                 "title": "Câu 32. Thẻ giao tiếp mạng (NIC) thuộc lớp nào trong mô hình OSI?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
