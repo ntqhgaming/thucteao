@@ -3874,7 +3874,7 @@ const questions = {
                 "title": "Câu 24. Mô hình phân lớp OSI có bao nhiêu lớp?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
