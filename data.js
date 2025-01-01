@@ -3111,32 +3111,32 @@ const questions = {
         origin_question: [
             {
                 "id": 1,
-                "title": "Câu 1. Hãy cho biết trong các khái niệm sau, đâu là khái niệm đúng về dự án?",
+                "title": "Câu 1. Trong các mô hình sau, mô hình nào là mô hình mạng được dùng phổ biến hiện nay?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Dự án là một nhiệm vụ cần hoàn thành để có một sản phẩm/ dịch vụ duy nhất, trong một thời hạn đã cho với kinh phí không giới hạn.",
+                        "value": "a. Peer - to - Peer",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Dự án là một khối lượng công việc cần thực hiện nhằm đạt các kết quả và mục tiêu nhất định trong giới hạn về quy mô, phạm vi, giới hạn về thời gian, chi phí, tài nguyên cho trước.",
+                        "value": "b. Remote Access",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Dự án là một khối lượng công việc cần thực hiện lặp đi lặp lại nhằm đạt các kết quả và mục tiêu nhất định trong giới hạn về quy mô, phạm vi, giới hạn về thời gian, chi phí, tài nguyên cho trước.",
+                        "value": "c. Terminal - Mainframe",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Dự án là một sự cố gắng nhất thời được tiến hành để tạo ra nhiều sản phẩm hay dịch vụ trong khoảng thời gian không giới hạn.",
+                        "value": "d. Client - Server",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3144,32 +3144,32 @@ const questions = {
             },
             {
                 "id": 2,
-                "title": "Câu 2. Hãy cho biết trong các lộ trình sau đây, đâu là lộ trình đúng của dự án?",
+                "title": "Câu 2. Dịch vụ mạng DNS dùng để:",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Khởi tạo dự án - Triển khai dự án - Giám sát dự án - Kết thúc dự án.",
+                        "value": "a. Cấp địa chỉ cho các máy trạm",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Khởi tạo dự án - Triển khai dự án - Kiểm tra dự án - Kết thúc dự án.",
+                        "value": "b. Phân giải tên và địa chỉ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Khởi tạo dự án - Lập kế hoạch - Triển khai dự án - Kết thúc dự án.",
+                        "value": "c. Truyền file và dữ liệu",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Khởi tạo dự án - Lập kế hoạch - Giám sát dự án - Kết thúc dự án.",
+                        "value": "d. Gửi thư điện tử",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3177,32 +3177,32 @@ const questions = {
             },
             {
                 "id": 3,
-                "title": "Câu 3. Hãy cho biết đâu là mục tiêu cấp 1 của dự án trong các mục tiêu sau đây?",
+                "title": "Câu 3. Giao thức DHCP có thể cấp được các thông số sau cho máy trạm client:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Chất lượng dự án, thời gian thực hiện, chi phí.",
+                        "value": "a. IP Address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Các đích ban đầu, thời gian thực hiện, lợi nhuận.",
+                        "value": "b. Subnet Mask",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Thời gian thực hiện, lợi nhuận, sản phẩm/ dịch vụ.",
+                        "value": "c. DNS Server",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Các đích ban đầu, thời gian thực hiện, sản phẩm/ dịch vụ.",
+                        "value": "d. Default Gateway",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3210,32 +3210,32 @@ const questions = {
             },
             {
                 "id": 4,
-                "title": "Câu 4. Hãy cho biết trong các quy trình quản trị dự án sau đây, quy trình nào đúng?",
+                "title": "Câu 4. Một mạng con lớp C mượn 2 bit để chia Subnet thì Subnet Mask sẽ là:",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lập kế hoạch dự án - Quản lý yêu cầu dự án - Xác định rủi ro và phòng chống rủi ro - Giám sát và điều chỉnh dự án - Đóng dự án.",
+                        "value": "a. 255.255.224.0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lập kế hoạch dự án - Xác định rủi ro và phòng chống rủi ro - Quản lý yêu cầu dự án - Giám sát và điều chỉnh dự án - Đóng dự án.",
+                        "value": "b. 255.255.255.192",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Quản lý yêu cầu dự án - Lập kế hoạch dự án - Giám sát và điều chỉnh dự án - Xác định rủi ro và phòng chống rủi ro - Đóng dự án.",
+                        "value": "c. 255.255.255.240",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Quản lý yêu cầu dự án - Lập kế hoạch dự án - Xác định rủi ro và phòng chống rủi ro - Giám sát và điều chỉnh dự án - Đóng dự án.",
+                        "value": "d. 255.255.255.128",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3243,32 +3243,32 @@ const questions = {
             },
             {
                 "id": 5,
-                "title": "Câu 5. Tệp dự án trong phần mềm Microsoft Project 2010 được lưu mặc định dưới dạng nào sau đây?",
+                "title": "Câu 5. Địa chỉ IPv6 gồm bao nhiêu bit?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. .pdf.",
+                        "value": "a. 32",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. .xps.",
+                        "value": "b. 48",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. .mpp.",
+                        "value": "c. 64",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. .xls.",
+                        "value": "d. 128",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3276,32 +3276,32 @@ const questions = {
             },
             {
                 "id": 6,
-                "title": "Câu 6. Công việc 1 “Uốn khung diều” kết thúc vào ngày 22/3/2014, quan sát thấy tại cột Predecessors của công việc 2 “Dán giấy cánh diều” là: 1FS+1day, hãy cho biết ngày bắt đầu của công việc 2 là ngày bao nhiêu trong các thời điểm sau?",
+                "title": "Câu 6. Thiết bị mạng nào làm giảm bớt sự va chạm (collisions)?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 24/3/2014.",
+                        "value": "a. Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 23/3/2014.",
+                        "value": "b. NIC",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 22/3/2014.",
+                        "value": "c. Switch",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 21/3/2014.",
+                        "value": "d. Transceiver",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3309,32 +3309,32 @@ const questions = {
             },
             {
                 "id": 7,
-                "title": "Câu 7. Hãy cho biết đâu là mục tiêu cấp 2 của dự án trong các mục tiêu sau đây?",
+                "title": "Câu 7. Địa chỉ MAC là:",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Chất lượng dự án, chi phí, thời gian thực hiện.",
+                        "value": "a. Địa chỉ lớp 3 được Router xử lý cho việc định tuyến",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Các đích ban đầu, lợi nhuận, sản phẩm/ dịch vụ.",
+                        "value": "b. Địa chỉ lớp 4 được gắn với cổng dịch vụ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Thời gian thực hiện, lợi nhuận, sản phẩm/ dịch vụ.",
+                        "value": "c. Có thể thay đổi bằng TCP/IP Properties của Windows",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Các đích ban đầu, thời gian thực hiện, sản phẩm/ dịch vụ.",
+                        "value": "d. Địa chỉ lớp 2 được gắn cứng vào Card mạng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3342,32 +3342,32 @@ const questions = {
             },
             {
                 "id": 8,
-                "title": "Câu 8. Dựa vào hình dưới đây, hãy cho biết nút lệnh số 3 hiển thị dự án ở dạng nào sau đây?",
-                "thumb": "./assets/img/question_2/cau8-9title.jpg",
+                "title": "Câu 8. Trong số các Hệ điều hành sau, Hệ điều hành mạng là:",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Gantt Chart.",
+                        "value": "a. Windows 98",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Task Usage.",
+                        "value": "b. Windows 2003 Professional",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Team Planner.",
+                        "value": "c. Windows 2003 Server",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Resource Sheet.",
+                        "value": "d. Windows XP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3375,32 +3375,32 @@ const questions = {
             },
             {
                 "id": 9,
-                "title": "Câu 9. Dựa vào hình dưới đây, hãy cho biết nút lệnh số 4 hiển thị dự án ở dạng nào sau đây?",
-                "thumb": "./assets/img/question_2/cau8-9title.jpg",
+                "title": "Câu 9. Dịch vụ mạng SMTP dùng để:",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Team Planner.",
+                        "value": "a. Gửi thư điện tử",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Resource Sheet.",
+                        "value": "b. Nhận thư điện tử",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Gantt Chart.",
+                        "value": "c. Phân giải tên và địa chỉ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Task Usage.",
+                        "value": "d. Cấp địa chỉ cho máy trạm",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3408,32 +3408,32 @@ const questions = {
             },
             {
                 "id": 10,
-                "title": "Câu 10. Dựa vào hình dưới đây, hãy cho biết yêu cầu số 1 và 8 thuộc dạng task nào trong các dạng task sau?",
-                "thumb": "./assets/img/question_2/cau10-11title.jpg",
+                "title": "Câu 10. Định tuyến tĩnh là loại định tuyến:",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Inactive Task",
+                        "value": "a. Dùng cho mạng nhỏ cấu trúc đơn giản",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Active Task",
+                        "value": "b. Nhà quản trị chỉ việc cấu hình giao thức định tuyến cho Router",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Milestone.",
+                        "value": "c. Nhà quản trị phải cấu hình từng dòng lệnh cho các mạng đích cần thiết",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Summary.",
+                        "value": "d. Router có thể giúp lựa chọn đường đi ngắn nhất trên mạng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3441,32 +3441,32 @@ const questions = {
             },
             {
                 "id": 11,
-                "title": "Câu 11. Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào chưa được thực hiện (xét theo ID)?",
-                "thumb": "./assets/img/question_2/cau10-11title.jpg",
+                "title": "Câu 11. Trong số các cặp giao thức và cổng dịch vụ sau, cặp nào là đúng:",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 4.",
+                        "value": "a. SMTP TCP Port 21",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 8.",
+                        "value": "b. Telnet: UDP Port 23",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 15.",
+                        "value": "c. HTTP TCP Port 80",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 17.",
+                        "value": "d. TFTP TCP Port 69",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3474,32 +3474,32 @@ const questions = {
             },
             {
                 "id": 12,
-                "title": "Câu 12. Hãy cho biết WBS được viết tắt bởi cụm từ nào sau đây?",
+                "title": "Câu 12. Để phân giải địa chỉ IP thành địa chỉ MAC, sử dụng giao thức:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Work Break-down Structure.",
+                        "value": "a. ARP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Work Break Structure.",
+                        "value": "b. DHCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. World Break State.",
+                        "value": "c. RARP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. World Break-down System.",
+                        "value": "d. ICMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3507,32 +3507,32 @@ const questions = {
             },
             {
                 "id": 13,
-                "title": "Câu 13. Hãy cho biết trong những chiến lược xử lý rủi ro, phương pháp triệt tiêu nguồn rủi ro, thay đổi công nghệ, lịch trình bằng các giải pháp thay thế là chiến lược nào sau đây?",
+                "title": "Câu 13. Khả năng định tuyến được thực hiện bởi thiết bị:",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Giảm thiểu.",
+                        "value": "a. Switch",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Né tránh.",
+                        "value": "b. Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Chuyển.",
+                        "value": "c. NIC",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Chấp nhận.",
+                        "value": "d. Router",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3540,32 +3540,32 @@ const questions = {
             },
             {
                 "id": 14,
-                "title": "Câu 14. Để xem tổng thời gian hoàn thành dự án ta chọn thao tác nào trong các thao tác sau?",
+                "title": "Câu 14. Các dịch vụ quay số tương tự (Dial-up) sử dụng thiết bị nào để chuyển đổi tín hiệu số sang tín hiệu tương tự?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Project/ Project Information/ Statistics...",
+                        "value": "a. Repeater",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. View/ Project Information/ Statistics...",
+                        "value": "b. Modem",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Project/ Project Information/ Calendar.",
+                        "value": "c. Router",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Task/ Information/ Statistics...",
+                        "value": "d. NIC",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3573,32 +3573,32 @@ const questions = {
             },
             {
                 "id": 15,
-                "title": "Câu 15. Khi tạo cột “Giá trị thực tiễn”, để định nghĩa các giá trị “Rất cao, cao, trung bình, thấp, rất thấp” trong Custom Fields chúng ta chọn nút lệnh nào trong các nút lệnh sau?",
-                "thumb": "./assets/img/question_2/cau15title.jpg",
+                "title": "Câu 15. Dịch vụ nào cho phép tham chiếu host bằng tên thay cho việc dùng địa chỉ IP khi duyệt Internet?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Nút lệnh số 4.",
+                        "value": "a. POTS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Nút lệnh số 3.",
+                        "value": "b. DNS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Nút lệnh số 2.",
+                        "value": "c. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Nút lệnh số 5.",
+                        "value": "d. FTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3606,32 +3606,32 @@ const questions = {
             },
             {
                 "id": 16,
-                "title": "Câu 16. Hãy cho biết trong hình dưới đây, ngày 18/05/2024 thuộc loại ngày nào sau đây?",
-                "thumb": "./assets/img/question_2/cau16,19title.jpg",
+                "title": "Câu 16. Giao thức được sử dụng phổ biến trên Internet là:",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Working.",
+                        "value": "a. Ethernet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Exception day.",
+                        "value": "b. TCP/IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Nondefault work week.",
+                        "value": "c. OSI",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Nonworking.",
+                        "value": "d. IEEE",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3639,32 +3639,32 @@ const questions = {
             },
             {
                 "id": 17,
-                "title": "Câu 17. Dựa vào hình dưới đây, hãy cho biết người quản lý đang thực hiện công việc nào trong các công việc sau?",
-                "thumb": "./assets/img/question_2/cau17title.jpg",
+                "title": "Câu 17. Hub là thiết bị hoạt động ở tầng nào của mô hình OSI?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Thiết lập danh mục tài nguyên cho dự án",
+                        "value": "a. Tầng Vật lý",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Tính phí hỗ trợ cho nguồn lực.",
+                        "value": "b. Tầng Data Link",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Bổ sung nguồn lực “Bếp” vào danh mục tài nguyên của dự án.",
+                        "value": "c. Tầng Transport",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Phân bổ nguồn lực cho công việc.",
+                        "value": "d. Tầng Network",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3672,32 +3672,32 @@ const questions = {
             },
             {
                 "id": 18,
-                "title": "Câu 18. Hãy chọn phương án đúng ứng với ý nghĩa của lịch nghỉ trong hình dưới đây?",
-                "thumb": "./assets/img/question_2/cau18title.jpg",
+                "title": "Câu 18. Một Hub tốc độ 100Mbps có 12 cổng thì tốc độ của mỗi cổng sẽ là:",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lịch nghỉ định kỳ vào Thứ Sáu hàng tuần.",
+                        "value": "a. Tối đa 100Mbps khi chỉ có một máy tính cắm vào Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lịch nghỉ định kỳ vào Thứ Sáu cuối cùng của tháng 3 hàng năm, áp dụng trong 5 năm.",
+                        "value": "b. Tối đa 100Mbps khi có 12 máy tính cắm vào Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lịch nghỉ định kỳ vào Thứ Sáu cuối cùng của tháng 3 hàng năm.",
+                        "value": "c. Tối thiểu 8.3Mbps khi có 12 máy tính cắm vào Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lịch nghỉ định kỳ vào ngày 1/10 hàng năm, áp dụng trong 5 năm.",
+                        "value": "d. Tối thiểu 100Mbps khi chỉ có một máy tính cắm vào Hub",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3705,65 +3705,66 @@ const questions = {
             },
             {
                 "id": 19,
-                "title": "Câu 19. Hãy cho biết trong hình dưới đây, ngày 30/05/2024 thuộc loại ngày nào sau đây?",
-                "thumb": "./assets/img/question_2/cau16,19title.jpg",
+                "title": "Câu 19. NIC là thiết bị hoạt động ở lớp nào của mô hình OSI?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Nonworking.",
+                        "value": "a. Lớp 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Nondefault work week.",
+                        "value": "b. Lớp 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Exception day.",
+                        "value": "c. Lớp 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Working.",
+                        "value": "d. Lớp 4",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
+
             {
                 "id": 20,
-                "title": "Câu 20. Trong các thao tác dưới đây, thao tác nào dùng để thiết lập lịch riêng cho ‘Thợ sơn’ chỉ làm việc vào tất cả các buổi sáng trong tuần?",
+                "title": "Câu 20. Switch là thiết bị hoạt động ở lớp nào của mô hình OSI?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Tại view Resource Sheet nháy đúp chuột chọn nguồn lực “Thợ sơn”/ Chọn Change Working Time…/ Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Set days to nonworking time, đăng ký khung giờ 8:00 – 12:00.",
+                        "value": "a. Lớp 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Tại view Resource Sheet nháy đúp chuột chọn nguồn lực “Thợ sơn”/ Chọn Change Working Time…/ Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Use times for base calendar for these days.",
+                        "value": "b. Lớp 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Tại view Resource Sheet nháy đúp chuột chọn nguồn lực “Thợ sơn”/ Chọn Change Working Time…/ Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Set day(s) to these specific working times, đăng ký khung giờ 8:00 – 12:00.",
+                        "value": "c. Lớp 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d.\tTại view Resouce Sheet nháy đúp chuột chọn nguồn lực “Thợ sơn”/ Chọn Change Working Time…/ Chọn Details tại tab Exceptions/ Chọn tất cả các ngày/ Chọn Set day(s) to these specific working times, đăng ký khung giờ 8:00 – 12:00. ",
+                        "value": "d. Lớp 4",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3771,32 +3772,32 @@ const questions = {
             },
             {
                 "id": 21,
-                "title": "Câu 21. Kỹ thuật cân đối nguồn lực cho phép chia tách các công việc, để thiết lập tùy chọn này ta chọn công cụ nào trong các công cụ sau?",
-                "thumb": "./assets/img/question_2/cau21title.jpg",
+                "title": "Câu 21. Địa chỉ nào sau đây là địa chỉ quảng bá của mạng 192.168.25.128/28?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Công cụ số 3.",
+                        "value": "a. 192.168.25.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Công cụ số 4.",
+                        "value": "b. 192.168.25.141",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Công cụ số 5.",
+                        "value": "c. 192.168.25.180",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Công cụ số 5.",
+                        "value": "d. 192.168.25.143",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3804,32 +3805,32 @@ const questions = {
             },
             {
                 "id": 22,
-                "title": "Câu 22. Dựa vào hình dưới đây, hãy cho biết đường kẻ ngang được đánh dấu trong Resource Graph có ý nghĩa như thế nào?",
-                "thumb": "./assets/img/question_2/cau22title.jpg",
+                "title": "Câu 22. Topo thường dùng hiện nay trong các mạng LAN?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Nguồn lực “Bếp” bị quá tải trong tất cả các ngày.",
+                        "value": "a. Ethernet bus",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Giới hạn tải cho phép của nguồn lực “Bếp” trong dự án.",
+                        "value": "b. Bus",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Dự án này có tối thiểu là 3 “Bếp”.",
+                        "value": "c. Token Ring",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Dự án này có nhiều hơn 1 “Bếp”.",
+                        "value": "d. Token bus",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3837,32 +3838,32 @@ const questions = {
             },
             {
                 "id": 23,
-                "title": "Câu 23. Hãy cho biết để tạo mới một tệp dự án, ta chọn thao tác nào sau đây?",
+                "title": "Câu 23. Để kết nối trực tiếp hai máy tính với nhau ta có thể dùng?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. File/ New/ Blank Project.",
+                        "value": "a. Cáp chéo Cross - Cable",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. File/ New/ Blank.",
+                        "value": "b. Rollover Cable",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. File/ Info.",
+                        "value": "c. Cáp thẳng (Straight Cable)",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. File/ Options.",
+                        "value": "d. Không có loại nào",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3870,32 +3871,32 @@ const questions = {
             },
             {
                 "id": 24,
-                "title": "Câu 24. Hãy cho biết đây là hình ảnh của tab nào?",
-                "thumb": "./assets/img/question_2/cau24title.jpg",
+                "title": "Câu 24. Mô hình phân lớp OSI có bao nhiêu lớp?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Tab Resource.",
+                        "value": "a. 7",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Tab View.",
+                        "value": "b. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Tab Task.",
+                        "value": "c. 5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Tab Project.",
+                        "value": "d. 2",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3903,32 +3904,32 @@ const questions = {
             },
             {
                 "id": 25,
-                "title": "Câu 25. Dựa vào hình dưới đây, hãy chọn phương án đúng ứng với chi phí dành cho nguồn lực dạng Material?",
-                "thumb": "./assets/img/question_2/cau25title.jpg",
+                "title": "Câu 25. Các đơn vị dữ liệu giao thức trong mô hình OSI được gọi là?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 7,600,000",
+                        "value": "a. PDU (Protocol Data Unit)",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 7,000,000 đ.",
+                        "value": "b. Packet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 400,000 đ.",
+                        "value": "c. CSU",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 200,000 đ.",
+                        "value": "d. Frame",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3936,32 +3937,32 @@ const questions = {
             },
             {
                 "id": 26,
-                "title": "Câu 26. Trong các cửa sổ sau đây, cửa sổ nào dùng để nhập chi phí cho tài nguyên kiểu Work?",
+                "title": "Câu 26. Thứ tự đóng gói dữ liệu khi truyền qua mô hình OSI?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Resource Graph.",
+                        "value": "a. Data, Packet, Segment, Bit, Frame",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Team Planner.",
+                        "value": "b. Data, Packet, Segment, Frame, Bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Assign Resources.",
+                        "value": "c. Data, Segment, Packet, Frame, Bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Resource Sheet.",
+                        "value": "d. Data, Segment, Frame, Packet, Bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3969,32 +3970,32 @@ const questions = {
             },
             {
                 "id": 27,
-                "title": "Câu 27. Để thay đổi màu sắc của đường Status Date khi giám sát dự án tại cửa sổ Gantt Chart, ta chọn mục nào sau đây?",
+                "title": "Câu 27. Nếu lấy 1 địa chỉ lớp B để chia Subnet với Netmask là 255.255.240.0 thì có bao nhiêu Subnets có thể sử dụng được?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Format/ Layout.",
+                        "value": "a. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Format/ Format/ Bar.",
+                        "value": "b. 6",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Format/ Gridlines/ Gridlines....",
+                        "value": "c. 16 hoặc 14",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Format/ Tích chọn Critical Tasks.",
+                        "value": "d. 30",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4002,32 +4003,32 @@ const questions = {
             },
             {
                 "id": 28,
-                "title": "Câu 28. Để thiết lập báo cáo tiến độ các công việc găng ta chọn?",
+                "title": "Câu 28. Thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Report/ Resources/ Critical Tasks.",
+                        "value": "a. Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Report/ Dashboards/ Critical Tasks.",
+                        "value": "b. Bridge",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Report/ In Progress/ Critical Tasks.",
+                        "value": "c. Ethernet switch",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Report/ Costs/ Critical Tasks.",
+                        "value": "d. Router",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4035,32 +4036,32 @@ const questions = {
             },
             {
                 "id": 29,
-                "title": "Câu 29. Để thiết lập cột Max. Units của nguồn lực ‘Thợ bánh’ hiển thị như hình dưới đây, trong hộp thoại Project Options ta cần thay đổi tùy chọn nào trong các tùy chọn sau?",
-                "thumb": "./assets/img/question_2/cau29title.jpg",
+                "title": "Câu 29. Địa chỉ nào là địa chỉ broadcast của lớp 2?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Schedule/ Show assignment units as a/ Chọn Decimal.",
+                        "value": "a. 111.111.111.111",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. General/ Show assignment units as a/ Chọn Decimal.",
+                        "value": "b. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Display/ Show assignment units as a/ Chọn Percentage.",
+                        "value": "c. AAAA.AAAA.AAAA",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Schedule/ Show assignment units as a/ Chọn Percentage.",
+                        "value": "d. FFFF.FFFF.FFFF",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4068,32 +4069,32 @@ const questions = {
             },
             {
                 "id": 30,
-                "title": "Câu 30. Hãy chọn thao tác đúng trong các thao tác sau để xuất ra bản báo cáo trên Excel như hình dưới đây?",
-                "thumb": "./assets/img/question_2/cau30title.jpg",
+                "title": "Câu 30. Địa chỉ được SWITCH sử dụng khi quyết định gửi data sang cổng (port) nào?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Chọn Report/ Visual Reports/ Tích chọn Microsoft Excel/ Resource Usage/ Resource Cost Summary Report/ View.",
+                        "value": "a. Source MAC address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Chọn Report/ Visual Reports/ Tích chọn Microsoft Excel/ Task Usage/ Cash Flow Report/ View.",
+                        "value": "b. Destination MAC address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Chọn Report/ Visual Reports/ Tích chọn Microsoft Excel/ Resource Usage/ Cash Flow Report/ View.",
+                        "value": "c. Network address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Chọn Report/ Visual Reports/ Tích chọn Microsoft Excel/ All/ Resource Remaining Work Report/ View.",
+                        "value": "d. Subnetwork address",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4101,32 +4102,32 @@ const questions = {
             },
             {
                 "id": 31,
-                "title": "Câu 31. Dựa vào hình dưới đây, hãy cho biết lương của thợ nặn vào ngày 09/06/24 được tính như thế nào?",
-                "thumb": "./assets/img/question_2/cau31title.jpg",
+                "title": "Câu 31. Một mạng con lớp C mượn 5 bit để chia Subnet thì Subnet Mask sẽ là?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lương trong giờ 250,000 đ/ngày, lương ngoài giờ 60,000 đ/giờ.",
+                        "value": "a. 255.255.224.0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lương trong giờ 200,000 đ/ngày, lương ngoài giờ 50,000 đ/giờ.",
+                        "value": "b. 255.255.255.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lương trong giờ 255,000 đ/ngày, lương ngoài giờ 60,000 đ/giờ.",
+                        "value": "c. 255.255.255.128",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lương trong giờ 300,000 đ/ngày, lương ngoài giờ 60,000 đ/giờ.",
+                        "value": "d. 255.255.255.248",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4134,32 +4135,32 @@ const questions = {
             },
             {
                 "id": 32,
-                "title": "Câu 32. Để tạo cột WBS, ta cần chọn thao tác nào trong các thao tác sau?",
+                "title": "Câu 32. Thẻ giao tiếp mạng (NIC) thuộc lớp nào trong mô hình OSI?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Nháy chuột phải/ Insert Column/ Tại Type Column Name chọn WBS.",
+                        "value": "a. Layer 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Nháy chuột phải/ Hide Column/ Tại Type Column Name chọn WBS.",
+                        "value": "b. Layer 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Nháy chuột phải/ Field Settings/ Tại Field name gõ WBS.",
+                        "value": "c. Layer 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Nháy chuột phải/ Custom Fields/ Định nghĩa cột mới WBS.",
+                        "value": "d. Layer 4",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4167,32 +4168,32 @@ const questions = {
             },
             {
                 "id": 33,
-                "title": "Câu 33. Muốn in báo cáo dòng tiền theo tiến độ giải ngân của dự án, ta phải chọn mục nào sau đây?",
+                "title": "Câu 33. Nếu 4 PCs kết nối với nhau thông qua HUB thì cần bao nhiêu địa chỉ IP cho 5 trang thiết bị mạng này?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Report/ Dashboards/ Cash Flow.",
+                        "value": "a. 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Report/ New Report/ Cash Flow.",
+                        "value": "b. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Report/ Costs/ Cash Flow.",
+                        "value": "c. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Report/ Custom/ Cash Flow.",
+                        "value": "d. 5",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4200,32 +4201,32 @@ const questions = {
             },
             {
                 "id": 34,
-                "title": "Câu 34. Hãy chọn phương án đúng ứng với mối quan hệ giữa công việc 13 và công việc 19 trong hình sau?",
-                "thumb": "./assets/img/question_2/cau34title.jpg",
+                "title": "Câu 34. Routers làm việc ở lớp nào trong mô hình OSI?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Công việc 13 kết thúc thì 4 ngày sau thực hiện công việc 19.",
+                        "value": "a. Layer 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Công việc 13 kết thúc xong thì thực hiện công việc 19 luôn.",
+                        "value": "b. Layer 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Công việc 13 kết thúc sau công việc 19 thời gian 4 ngày.",
+                        "value": "c. Layer 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Công việc 13 và công việc 19 kết thúc đồng thời.",
+                        "value": "d. Layer 4",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4233,32 +4234,32 @@ const questions = {
             },
             {
                 "id": 35,
-                "title": "Câu 35. Hãy chọn phương án đúng ứng với đường găng của dự án trong hình dưới đây?",
-                "thumb": "./assets/img/question_2/cau35title.jpg",
+                "title": "Câu 35. Độ dài tối đa cho phép khi sử dụng dây cáp mạng UTP là bao nhiêu mét?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. B – E – F – G – I – K.",
+                        "value": "a. 100",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. A – D – F – G – I – K.",
+                        "value": "b. 185",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. A - B – C – F – G – I – K.",
+                        "value": "c. 200",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. B – E – F – G – H – K.",
+                        "value": "d. 500",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4266,32 +4267,32 @@ const questions = {
             },
             {
                 "id": 36,
-                "title": "Câu 36. Để đánh dấu những yêu cầu có “% Complete” từ 50% trở lên tại bảng 1, bạn phải thiết lập các thông số tại bảng 2 như thế nào trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau36title.jpg",
+                "title": "Câu 36. Có bao nhiêu vùng va chạm (collision domains) trong mạng gồm 88 máy tính, 10 HUB và 2 REPEATER?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Field Name: % Complete; Test: is greater than; Value(s): 50%.",
+                        "value": "a. 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Field Name: % Complete; Test: is greater than or equal to; Value(s): 50%.",
+                        "value": "b. 10",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Field Name: % Complete; Test: does not equals; Value(s): 50%.",
+                        "value": "c. 12",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Field Name: % Complete; Test: is less than; Value(s): 50%.",
+                        "value": "d. 100",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4299,32 +4300,32 @@ const questions = {
             },
             {
                 "id": 37,
-                "title": "Câu 37. Trong đợt làm lọ hoa, bàn xoay được sử dụng 2 lần, lần thứ nhất 8h, lần thứ hai 12h. Hãy xác định chi phí sử dụng bàn xoay là bao nhiêu trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau37title.jpg",
+                "title": "Câu 37. Vai trò của tầng vật lý trong mô hình OSI là?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 45,000 đ",
+                        "value": "a. Cung cấp các phương tiện điện, cơ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 50,000 đ.",
+                        "value": "b. Cung cấp chức năng và thủ tục",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 40,000 đ.",
+                        "value": "c. Kích hoạt, duy trì và đình chỉ liên kết vật lý giữa các hệ thống",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 100,000 đ.",
+                        "value": "d. Cả a, b và c",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4332,32 +4333,32 @@ const questions = {
             },
             {
                 "id": 38,
-                "title": "Câu 38. Dựa lịch trình công việc trong hình dưới đây, hãy xác định đường găng của dự án trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau38title.jpg",
+                "title": "Câu 38. Trong mô hình TCP/IP thì giao thức IP nằm ở?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. B – E – G – I.",
+                        "value": "a. Tầng 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. A – D – G – I.",
+                        "value": "b. Tầng 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. C – F – G – I.",
+                        "value": "c. Tầng 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. C – K.",
+                        "value": "d. Tầng 4",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4365,32 +4366,32 @@ const questions = {
             },
             {
                 "id": 39,
-                "title": "Câu 39. Dựa vào hình dưới đây, hãy cho biết cột nào sau đây thể hiện chi phí của nguồn lực?",
-                "thumb": "./assets/img/question_2/cau39-41title.jpg",
+                "title": "Câu 39. Lớp nào thực hiện việc chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền dữ liệu của các ứng dụng?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 2, 3.",
+                        "value": "a. Transport",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 1, 2, 3.",
+                        "value": "b. Session",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 2, 3, 4.",
+                        "value": "c. Presentation",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 1, 2, 3, 4.",
+                        "value": "d. Application",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4398,32 +4399,32 @@ const questions = {
             },
             {
                 "id": 40,
-                "title": "Câu 40. Một mẻ gốm nung trong 3 ngày, tiền gas hết 1,2 triệu, tiền điện hết 1,5 triệu, tiền công thợ mỗi ngày hết 3,3 triệu. Dựa vào hình dưới đây, hãy chọn phương án đúng trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau39-41title.jpg",
+                "title": "Câu 40. Trong mô hình mạng 7 tầng do ISO công bố, tầng nào làm nhiệm vụ truyền dữ liệu giữa hai điểm cuối, thực hiện kiểm soát lỗi/luồng, có thể thực hiện ghép kênh (multiplexing/demultiplexing), cắt/hợp dữ liệu?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Mỗi ngày hết 4,2 triệu.",
+                        "value": "a. Data link",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Ngày 1 hết 1,2 triệu – Ngày 2 hết 3,3 triệu – Ngày 3 hết 1,5 triệu.",
+                        "value": "b. Transport",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Ngày 1 hết 4,5 triệu – Ngày 2 hết 3,3 triệu – Ngày 3 hết 4,8 triệu.",
+                        "value": "c. Network",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Mỗi ngày hết 2 triệu.",
+                        "value": "d. Session",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4431,32 +4432,32 @@ const questions = {
             },
             {
                 "id": 41,
-                "title": "Câu 41. Một người thợ vẽ làm việc vào ngày thứ Sáu từ 1h chiều đến 8h tối (lịch làm việc mặc định là Standard), bạn hãy cho biết tiền công phải trả cho người thợ đó là bao nhiêu?",
-                "thumb": "./assets/img/question_2/cau39-41title.jpg",
+                "title": "Câu 41. Đơn vị đo thông lượng là?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 0đ.",
+                        "value": "a. Byte/s",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 580,000đ.",
+                        "value": "b. Bit/s",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 700,000đ.",
+                        "value": "c. Byte/phút",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 490,000đ.",
+                        "value": "d. Bit/phút",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4464,32 +4465,32 @@ const questions = {
             },
             {
                 "id": 42,
-                "title": "Câu 42. Hãy cho biết hình ảnh dưới hiển thị cửa sổ nào trong các cửa sổ sau?",
-                "thumb": "./assets/img/question_2/cau42title.jpg",
+                "title": "Câu 42. Công nghệ mạng LAN nào được sử dụng rộng rãi nhất hiện nay?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Timeline.",
+                        "value": "a. Token Ring",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Resource Sheet.",
+                        "value": "b. Ethernet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Tracking Gantt.",
+                        "value": "c. ArcNet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Calendar.",
+                        "value": "d. FDDI",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4497,32 +4498,32 @@ const questions = {
             },
             {
                 "id": 43,
-                "title": "Câu 43. Một thợ sơn có lịch làm việc kiểu Standard. Công việc phải hoàn thành trong 5 ngày, ngày bắt đầu làm việc là 17/09 (thứ 4). Hãy cho biết công việc kết thúc vào thời điểm nào trong các thời điểm sau?",
+                "title": "Câu 43. Phần nào trong địa chỉ IP được ROUTER sử dụng khi tìm đường đi?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 23/09.",
+                        "value": "a. FDDI",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 24/09.",
+                        "value": "b. Network address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 21/09.",
+                        "value": "c. Router address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 12/09.",
+                        "value": "d. Host address",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4530,32 +4531,32 @@ const questions = {
             },
             {
                 "id": 44,
-                "title": "Câu 44. Hãy cho biết hình ảnh dưới hiển thị cửa sổ nào sau đây?",
-                "thumb": "./assets/img/question_2/cau44-45title.jpg",
+                "title": "Câu 44. Một mạng con lớp A mượn 21 bit để chia Subnet thì Subnet Mask sẽ là?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Task Usage.",
+                        "value": "a. 255.255.224.0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Task Form.",
+                        "value": "b. 255.255.192.0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Task Sheet.",
+                        "value": "c. 255.255.248.0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Team Planner.",
+                        "value": "d. 255.255.255.248",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4563,32 +4564,32 @@ const questions = {
             },
             {
                 "id": 45,
-                "title": "Câu 45. Dựa vào hình dưới đây, hãy cho biết tổng chi phí còn lại của việc “Nặn 200 đĩa lớn” là bao nhiêu trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau44-45title.jpg",
+                "title": "Câu 45. Địa chỉ nào trong số những địa chỉ dưới đây là địa chỉ Broadcast của IP thuộc lớp C?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 920,000 đ.",
+                        "value": "a. 190.12.253.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 1,730,000 đ.",
+                        "value": "b. 190.44.255.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 2,650,000 đ.",
+                        "value": "c. 221.218.253.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 2,250,000 đ.",
+                        "value": "d. 129.219.145.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4596,32 +4597,32 @@ const questions = {
             },
             {
                 "id": 46,
-                "title": "Câu 46. Hãy chọn mệnh đề đúng trong các mệnh đề sau?",
+                "title": "Câu 46. Số lượng bit nhiều nhất có thể mượn để chia Subnet của địa chỉ IP lớp C là?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Đường găng của dự án là chuỗi công việc ngắn nhất trong các chuỗi công việc nối từ sự kiện đầu tới sự kiện cuối của dự án.",
+                        "value": "a. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Đường găng của dự án là chuỗi công việc dài nhất trong các chuỗi công việc nối từ sự kiện đầu tới sự kiện cuối của dự án.",
+                        "value": "b. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Đường găng của dự án là chuỗi công việc có thời gian dự trữ toàn phần khác không.",
+                        "value": "c. 8",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Đường găng của dự án là chuỗi công việc có tổng chi phí nhỏ nhất.",
+                        "value": "d. 6",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4629,32 +4630,32 @@ const questions = {
             },
             {
                 "id": 47,
-                "title": "Câu 47. Các công việc trên đường găng có Total Slack bằng bao nhiêu trong các phương án sau?",
+                "title": "Câu 47. Trong HEADER của IP PACKET có chứa?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Total Slack = 1.",
+                        "value": "a. Source address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Total Slack = 0.",
+                        "value": "b. Destination address",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Total Slack > 0.",
+                        "value": "c. Source and Destination addresses",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Total Slack < 0.",
+                        "value": "d. Không chứa địa chỉ nào cả",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4662,32 +4663,32 @@ const questions = {
             },
             {
                 "id": 48,
-                "title": "Câu 48. Hãy chọn ra cách tính chi phí nguồn lực trong các phương án sau?",
+                "title": "Câu 48. Lớp nào trong mô hình OSI đóng gói dữ liệu kèm theo IP HEADER?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Start, End, Prorated.",
+                        "value": "a. Layer 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Work, Material, Cost.",
+                        "value": "b. Layer 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Begin, Finish, Prorated.",
+                        "value": "c. Layer 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Standard, Night Shift, 24h.",
+                        "value": "d. Layer 4",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4695,32 +4696,32 @@ const questions = {
             },
             {
                 "id": 49,
-                "title": "Câu 49. Hãy chọn công thức đúng cho cột trạng thái (dựa vào cột % hoàn thành) trong các công thức sau?",
-                "thumb": "./assets/img/question_2/cau49title.jpg",
+                "title": "Câu 49. Địa chỉ 139.219.255.255 là địa chỉ gì?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. IIf([% Hoàn thành]=0,\"Chưa thực hiện\",\"\") & IIf([% Hoàn thành]>0 And [% Hoàn thành]<70,\"Đang làm dở\",\"\") & IIf([% Hoàn thành]>=70 And [% Hoàn thành]<100,\"Làm sắp xong\",\"\") & IIf([% Hoàn thành]=100,\"Đã hoàn thành\",\"\").",
+                        "value": "a. Broadcast lớp A",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. IIf([% Hoàn thành]=0,\"Chưa thực hiện\",IIf([% Hoàn thành]<70,\"Đang làm dở\",IIf([% Hoàn thành]<100,\"Làm sắp xong\",\"Đã hoàn thành\")).",
+                        "value": "b. Broadcast lớp B",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. IIf([% Hoàn thành]=0,\"Chưa thực hiện\",\"\") And IIf([% Hoàn thành]>0 And [% Hoàn thành]<=70,\"Đang làm dở\",\"\") And IIf([% Hoàn thành]>70 And [% Hoàn thành]<100,\"Làm sắp xong\",\"\") And IIf([% Hoàn thành]=100,\"Đã hoàn thành\",\"\").",
+                        "value": "c. Broadcast lớp C",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. IIf([% Hoàn thành]=0,\"Chưa thực hiện\",\"\") & IIf([% Hoàn thành]>0 And [% Hoàn thành]<=70,\"Đang làm dở\",\"\") & IIf([% Hoàn thành]>70 And [% Hoàn thành]<100,\"Làm sắp xong\",\"\") & IIf([% Hoàn thành]=100,\"Đã hoàn thành\",\"\").",
+                        "value": "d. Host lớp B",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4728,32 +4729,32 @@ const questions = {
             },
             {
                 "id": 50,
-                "title": "Câu 50. Để dịch chuyển dự án chậm 1 tháng so với dự kiến, ta chọn nhóm biểu tượng nào sau đây tại tab Project?",
+                "title": "Câu 50. Số nhị phân nào dưới đây có giá trị là 164?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Properties.",
+                        "value": "a. 10010010",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Status.",
+                        "value": "b. 11000100",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Reports.",
+                        "value": "c. 10100100",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Schedule.",
+                        "value": "d. 10101010",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4761,32 +4762,32 @@ const questions = {
             },
             {
                 "id": 51,
-                "title": "Câu 51. Công thức nào sau đây tính chỉ số đánh giá chi phí CPI (Cost Performance Index)?",
+                "title": "Câu 51. Địa chỉ lớp nào cho phép mượn 15 bits để chia Subnet?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. CPI = BCWP/ACWP.",
+                        "value": "a. Lớp A",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. CPI = BCWP/BCWS.",
+                        "value": "b. Lớp B",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. CPI = SV/CV.",
+                        "value": "c. Lớp C",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. CPI = CV/SV.",
+                        "value": "d. Không câu nào đúng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4794,32 +4795,32 @@ const questions = {
             },
             {
                 "id": 52,
-                "title": "Câu 52. Hãy cho biết số giờ công của thợ nặn gốm vào ngày 19/4 cho công việc nặn 100 bình hoa là bao nhiêu trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau52title.jpg",
+                "title": "Câu 52. Giao thức nào dùng để tìm địa chỉ IP khi biết địa chỉ MAC của máy tính?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 7h.",
+                        "value": "a. RARP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 14h.",
+                        "value": "b. DHCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 21h.",
+                        "value": "c. TCP/IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 64h.",
+                        "value": "d. ARP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4827,32 +4828,32 @@ const questions = {
             },
             {
                 "id": 53,
-                "title": "Câu 53. BCWP là viết tắt của cụm từ nào sau đây?",
+                "title": "Câu 53. TCP làm việc ở lớp nào của mô hình OSI?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Budgeted Cost of Work Present.",
+                        "value": "a. Layer 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Budgeted Cost of Work Planned.",
+                        "value": "b. Layer 5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Actual Cost of Work Performed.",
+                        "value": "c. Layer 6",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Budgeted Cost of Work Performed.",
+                        "value": "d. Layer 7",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4860,32 +4861,32 @@ const questions = {
             },
             {
                 "id": 54,
-                "title": "Câu 54. Dựa vào hình dưới đây, hãy dự đoán các công việc có khả năng tiêu vượt kinh phí trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau54title.jpg",
+                "title": "Câu 54. Giao thức nào dưới đây không đảm bảo dữ liệu gửi đi có tới máy nhận hoàn chỉnh hay không?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. May áo gửi Hoàng Sa - Suất ăn gửi Hoàng Sa - Nước uống gửi Trường Sa.",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Nước uống gửi Trường Sa.",
+                        "value": "b. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Áo mưa gửi Hoàng Sa.",
+                        "value": "c. ARP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. May áo gửi Hoàng Sa - Làm đèn gửi Trường Sa - Suất ăn gửi Hoàng Sa - Áo mưa gửi Hoàng Sa.",
+                        "value": "d. RARP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4893,32 +4894,32 @@ const questions = {
             },
             {
                 "id": 55,
-                "title": "Câu 55. Giám đốc dự án công nghệ thông tin thông báo biến động lịch trình vào một trong số các kết quả chuyển giao của dự án. BCWP (Chi phí dự toán của việc đã thực hiện) là 20,000,000 đ; ACWP (Chi phí thực của việc đã thực hiện) là 23,000,000 đ và BCWS (Chi phí dự toán của việc đã xếp lịch) là 30,000,000 đ. Hãy cho biết sai lệch về chi phí CV (Cost Variance) là bao nhiêu trong các phương án sau?",
+                "title": "Câu 55. Độ dài của địa chỉ MAC là?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. -10,000,000 đ.",
+                        "value": "a. 8 bits",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 3,000,000 đ.",
+                        "value": "b. 24 bits",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. -3,000,000 đ.",
+                        "value": "c. 36 bits",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 10,000,000 đ.",
+                        "value": "d. 48 bits",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4926,32 +4927,32 @@ const questions = {
             },
             {
                 "id": 56,
-                "title": "Câu 56. Hãy cho biết các lĩnh vực nào sau đây cần quản trị trong dự án?",
+                "title": "Câu 56. Trang thiết bị mạng trung tâm dùng để kết nối các máy tính trong mạng hình sao (STAR) là?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Kế hoạch tổng quan, quản trị phạm vi, quản trị thời gian, quản trị nhân lực, quản trị chất lượng, quản trị chi phí, quản trị thông tin, quản trị rủi ro, quản trị cung ứng.",
+                        "value": "a. Switch/Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Kế hoạch tổng quan, quản trị thời gian, quản trị chất lượng, quản trị chi phí.",
+                        "value": "b. Router",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Kế hoạch tổng quan, quản trị phạm vi, quản trị thời gian, quản trị nhân lực, quản trị chất lượng, quản trị chi phí.",
+                        "value": "c. Repeater",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Kế hoạch tổng quan, quản trị phạm vi, quản trị thời gian, quản trị nhân lực, quản trị chất lượng, quản trị chi phí, quản trị rủi ro.",
+                        "value": "d. NIC",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4959,32 +4960,32 @@ const questions = {
             },
             {
                 "id": 57,
-                "title": "Câu 57. Người quản lý cần chia các công việc thành 3 nhóm: Chưa thực hiện, đang thực hiện và đã thực hiện xong như hình trên đây, anh ta cần chọn thao tác nào trong các thao tác sau?",
-                "thumb": "./assets/img/question_2/cau57title.jpg",
+                "title": "Câu 57. Giao thức mạng nào dưới đây được sử dụng trong mạng cục bộ (LAN)?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Chọn View/ Highlight/ Complete and Incomplete Tasks.",
+                        "value": "a. TCP/IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Chọn Resource/ Group by/ Complete and Incomplete Tasks.",
+                        "value": "b. NETBIOS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Chọn View/ Group by/ Active v. Inactive.",
+                        "value": "c. IPX",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Chọn View/ Group by/ Complete and Incomplete Tasks.",
+                        "value": "d. Tất cả các câu trên",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4992,32 +4993,32 @@ const questions = {
             },
             {
                 "id": 58,
-                "title": "Câu 58. Để cập nhật 1 công việc hoàn thành được 50% ta chọn phương án nào sau đây?",
+                "title": "Câu 58. Địa chỉ IP nào sau đây không được dùng để kết nối trực tiếp trong mạng Internet (không tồn tại trong mạng Internet)?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Task/ Information/ Tab General - Percent complete nhập 50%.",
+                        "value": "a. 126.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Project/ Update Project.",
+                        "value": "b. 192.168.98.20",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Task/ Information/ Tab Advanced - Percent complete nhập 50%.",
+                        "value": "c. 201.134.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Project/ Project Information/ Tab General - Percent complete nhập 50%.",
+                        "value": "d. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5025,32 +5026,32 @@ const questions = {
             },
             {
                 "id": 59,
-                "title": "Câu 59. Hãy cho biết chỉ số nào sau đây thể hiện chi phí dự kiến theo kế hoạch?",
+                "title": "Câu 59. Địa chỉ IP nào không được dùng trong mạng cục bộ?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. EV (BCWP).",
+                        "value": "a. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. AC (ACWP).",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. PV (BCWS).",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. CPI/SPI.",
+                        "value": "d. 192.0.2.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5058,32 +5059,32 @@ const questions = {
             },
             {
                 "id": 60,
-                "title": "Câu 60. Hãy cho biết công việc nào trong hình có khả năng vượt mức chi phí?",
-                "thumb": "./assets/img/question_2/cau60title.jpg",
+                "title": "Câu 60. Giao thức nào được dùng để truy cập từ xa vào máy tính trong mạng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 1.",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 2.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 3.",
+                        "value": "c. SSH",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 4.",
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5091,32 +5092,32 @@ const questions = {
             },
             {
                 "id": 61,
-                "title": "Câu 61. Để in báo cáo giám sát dự án Earned Value ta thực hiện thao tác nào sau đây?",
+                "title": "Câu 61. Địa chỉ MAC có thể được thay đổi không?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Report/ Resources/ Earned Value Report.",
+                        "value": "a. Có thể",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Report/ Dashboards/ Earned Value Report.",
+                        "value": "b. Không",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Report/ Custom/ Earned Value Report.",
+                        "value": "c. Chỉ có thể thay đổi trong một số trường hợp",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Report/ Costs/ Earned Value Report.",
+                        "value": "d. Tùy thuộc vào thiết bị",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5124,32 +5125,32 @@ const questions = {
             },
             {
                 "id": 62,
-                "title": "Câu 62. Hãy cho biết giá trị rủi ro được tính dựa vào công thức nào dưới đây?",
+                "title": "Câu 62. Địa chỉ IP nào là địa chỉ Private?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Khả năng xảy ra rủi ro / mức độ ảnh hưởng của rủi ro.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Khả năng xảy ra rủi ro - mức độ ảnh hưởng của rủi ro.",
+                        "value": "b. 172.15.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Khả năng xảy ra rủi ro * mức độ ảnh hưởng của rủi ro.",
+                        "value": "c. 10.1.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Khả năng xảy ra rủi ro + mức độ ảnh hưởng của rủi ro.",
+                        "value": "d. 203.0.113.0",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5157,32 +5158,32 @@ const questions = {
             },
             {
                 "id": 63,
-                "title": "Câu 63. Trong quá trình quản lý yêu cầu, để mọi thứ trở nên trực quan, dễ quan sát giúp quản trị dự án một cách hiệu quả như hai cột được đánh dấu A - B, tại Custom Fields ta chọn mục nào trong các mục sau?",
-                "thumb": "./assets/img/question_2/cau63title.jpg",
+                "title": "Câu 63. Giao thức nào được sử dụng để gửi email?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Formula.",
+                        "value": "a. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Graphical Indicators.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lookup.",
+                        "value": "c. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Data.",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5190,32 +5191,32 @@ const questions = {
             },
             {
                 "id": 64,
-                "title": "Câu 64. Để dịch chuyển một công việc làm chậm hơn 1 ngày so với dự kiến, ta chọn thao tác nào sau đây?",
+                "title": "Câu 64. Địa chỉ IP nào dưới đây không phải là địa chỉ hợp lệ?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Chọn công việc cần dịch chuyển/ Chọn tab Task/ Move/ Chọn thông số \"1 Day\" ở mục Move Task Back.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Chọn công việc cần dịch chuyển/ Chọn tab Project/ Move Project/ Chọn thời điểm cần dịch chuyển.",
+                        "value": "b. 255.255.255.0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Chọn công việc cần dịch chuyển/ Chọn tab Task/ Move/ Chọn thông số \"1 Day\" ở mục Move Task Forward.",
+                        "value": "c. 10.0.0.256",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Chọn công việc cần dịch chuyển/ Chọn tab Task/ Mack on Track/ Mack on Track.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5223,32 +5224,32 @@ const questions = {
             },
             {
                 "id": 65,
-                "title": "Câu 65. Cho sơ đồ mạng công việc của dự án như hình trên đây (thời gian thực hiện các công việc tính theo ngày), hãy cho biết dự án hoàn thành mất bao lâu?",
-                "thumb": "./assets/img/question_2/cau65title.jpg",
+                "title": "Câu 65. Giao thức nào đảm bảo việc truyền dữ liệu an toàn và đáng tin cậy?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 35 ngày.",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 33 ngày.",
+                        "value": "b. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 31 ngày.",
+                        "value": "c. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 30 ngày.",
+                        "value": "d. ICMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5256,32 +5257,32 @@ const questions = {
             },
             {
                 "id": 66,
-                "title": "Câu 66. Hãy chọn phương án đúng ứng với tổng chi phí của việc nặn 100 bình hoa trong hình trên đây?",
-                "thumb": "./assets/img/question_2/cau66title.jpg",
+                "title": "Câu 66. Địa chỉ nào là địa chỉ Loopback trong mạng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 1,600,000 đ.",
+                        "value": "a. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 500,000 đ.",
+                        "value": "b. 0.0.0.0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 2,268,000 đ.",
+                        "value": "c. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 2,168,000 đ.",
+                        "value": "d. 192.0.2.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5289,32 +5290,32 @@ const questions = {
             },
             {
                 "id": 67,
-                "title": "Câu 67. Người quản lý cần chọn thao tác nào trong các thao tác sau để đánh dấu những công việc găng?",
+                "title": "Câu 67. Giao thức nào được sử dụng để truyền tải video trực tuyến?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Chọn View/ Highlight/ Chọn Active Tasks.",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Chọn View/ Filter/ Chọn Completed Tasks.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Chọn View/ Filter/ Chọn Critical.",
+                        "value": "c. RTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Chọn View/ Highlight/ Chọn Critical.",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5322,32 +5323,32 @@ const questions = {
             },
             {
                 "id": 68,
-                "title": "Câu 68. Các chi phí liên quan đến nguồn lực bao gồm các loại chi phí nào sau đây?",
+                "title": "Câu 68. Cổng nào thường sử dụng cho giao thức HTTP?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Standard Rate, Overtime Rate, Cost/Use.",
+                        "value": "a. 80",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Standard Rate, Overtime Rate, Cost/Use, Fixed Cost.",
+                        "value": "b. 443",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Standard Rate, Overtime Rate.",
+                        "value": "c. 21",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Start, End, Accrued At.",
+                        "value": "d. 25",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5355,32 +5356,32 @@ const questions = {
             },
             {
                 "id": 69,
-                "title": "Câu 69. Dựa vào các phương án sau, hãy cho biết địa chỉ IPv4 sử dụng bao nhiêu bit để biểu diễn?",
+                "title": "Câu 69. Giao thức nào không phải là giao thức ứng dụng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. 4 bit.",
+                        "value": "a. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. 16 bit.",
+                        "value": "b. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. 32 bit.",
+                        "value": "c. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. 64 bit.",
+                        "value": "d. HTTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5388,32 +5389,32 @@ const questions = {
             },
             {
                 "id": 70,
-                "title": "Câu 70. Mô hình nào sau đây không thể cấp phát địa chỉ IP Private?",
+                "title": "Câu 70. Địa chỉ IP nào dưới đây là địa chỉ công cộng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mô hình mạng LAN.",
+                        "value": "a. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mô hình mạng Internet.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mô hình mạng WLAN.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mô hình mạng peer to peer.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5421,32 +5422,32 @@ const questions = {
             },
             {
                 "id": 71,
-                "title": "Câu 71. Giá trị thập phân của địa chỉ IP: 11001111.00100010.00000100.00001010 là bao nhiêu trong các phương án sau?",
+                "title": "Câu 71. Giao thức nào được sử dụng để quản lý các thiết bị mạng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. 205.255.170.10",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. 197.33.5.0",
+                        "value": "b. SNMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. 207.34.4.10",
+                        "value": "c. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. 182.10.100.10",
+                        "value": "d. ARP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5454,32 +5455,32 @@ const questions = {
             },
             {
                 "id": 72,
-                "title": "Câu 72. Hãy cho biết nội dung mã nguồn của một trang website thường được lưu trữ tại đâu dựa vào các phương án dưới đây?",
+                "title": "Câu 72. Giao thức nào được sử dụng để đồng bộ thời gian giữa các máy tính?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Webhosting.",
+                        "value": "a. NTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Domain.",
+                        "value": "b. SNTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. DNS Server.",
+                        "value": "c. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. phpMyAdmin.",
+                        "value": "d. FTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5487,32 +5488,32 @@ const questions = {
             },
             {
                 "id": 73,
-                "title": "Câu 73. Khi sử dụng Dreamweaver tính năng nào sau đây cho phép hiển thị mã nguồn của trang thiết kế?",
+                "title": "Câu 73. Mạng nào được sử dụng để kết nối các thiết bị trong cùng một tòa nhà?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Code view.",
+                        "value": "a. LAN",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Design view.",
+                        "value": "b. WAN",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Standard view.",
+                        "value": "c. MAN",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Layout view.",
+                        "value": "d. PAN",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5520,32 +5521,32 @@ const questions = {
             },
             {
                 "id": 74,
-                "title": "Câu 74. Dựa vào hình hãy cho biết tên thiết bị được đánh dấu đỏ trong hình A có tên gọi là gì trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau74-77title.jpg",
+                "title": "Câu 74. Giao thức nào cho phép truyền tải dữ liệu không kết nối?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Hub.",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Switch.",
+                        "value": "b. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Router.",
+                        "value": "c. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Wireless Access Point.",
+                        "value": "d. FTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5553,32 +5554,32 @@ const questions = {
             },
             {
                 "id": 75,
-                "title": "Câu 75. Dựa vào hình hãy cho biết tên thiết bị được đánh dấu đỏ trong hình B có tên gọi là gì trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau74-77title.jpg",
+                "title": "Câu 75. Địa chỉ IP nào dưới đây thuộc lớp B?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Hub.",
+                        "value": "a. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Switch.",
+                        "value": "b. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Router.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Wireless Access Point.",
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5586,32 +5587,32 @@ const questions = {
             },
             {
                 "id": 76,
-                "title": "Câu 76. Dựa vào hình hãy cho biết tên thiết bị được đánh dấu đỏ trong hình C có tên gọi là gì trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau74-77title.jpg",
+                "title": "Câu 76. Giao thức nào được sử dụng để truyền tải tệp tin?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Hub.",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Switch.",
+                        "value": "b. SSH",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Router.",
+                        "value": "c. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Wireless Access Point.",
+                        "value": "d. HTTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5619,32 +5620,32 @@ const questions = {
             },
             {
                 "id": 77,
-                "title": "Câu 77. Dựa vào hình hãy cho biết tên thiết bị được đánh dấu đỏ trong hình D có tên gọi là gì trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau74-77title.jpg",
+                "title": "Câu 77. Địa chỉ nào dưới đây là địa chỉ Broadcast của lớp C?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Hub.",
+                        "value": "a. 192.168.1.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Switch.",
+                        "value": "b. 172.16.15.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Router.",
+                        "value": "c. 10.0.0.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Wireless Access Point.",
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5652,32 +5653,32 @@ const questions = {
             },
             {
                 "id": 78,
-                "title": "Câu 78. LAN được viết tắt của cụm từ nào sau đây?",
+                "title": "Câu 78. Mạng nào thường sử dụng giao thức PPP?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Logic Area Network.",
+                        "value": "a. WAN",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Local Area Nation.",
+                        "value": "b. LAN",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Local Area Network.",
+                        "value": "c. MAN",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Logic Area Nation.",
+                        "value": "d. PAN",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5685,32 +5686,32 @@ const questions = {
             },
             {
                 "id": 79,
-                "title": "Câu 79. Dựa vào các phương án sau, hãy cho biết địa chỉ IP có độ dài bao nhiêu bit và được phân thành bao nhiêu lớp?",
+                "title": "Câu 79. Địa chỉ IP nào là địa chỉ Private?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. 32 bit, 4 lớp ( A, B, C, D).",
+                        "value": "a. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. 32 bit, 5 lớp ( A, B, C, D, E).",
+                        "value": "b. 172.17.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. 48 bit, 3 lớp (A, B, C).",
+                        "value": "c. 10.1.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. 48 bit, 6 lớp (A, B, C, D, E, F).",
+                        "value": "d. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5718,32 +5719,32 @@ const questions = {
             },
             {
                 "id": 80,
-                "title": "Câu 80. Dựa vào các phương án sau, hãy cho biết địa chỉ lớp B sử dụng bao nhiêu bit cho phần mạng?",
+                "title": "Câu 80. Giao thức nào được xem là giao thức mạng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. 4 bit.",
+                        "value": "a. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. 8 bit.",
+                        "value": "b. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. 16 bit.",
+                        "value": "c. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. 24 bit.",
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5751,32 +5752,32 @@ const questions = {
             },
             {
                 "id": 81,
-                "title": "Câu 81. Thiết bị mạng nào trong các thiết bị sau đây không thể thiếu trong mạng Internet?",
+                "title": "Câu 81. Địa chỉ nào dùng để xác định các thiết bị trong mạng?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Router.",
+                        "value": "a. Địa chỉ IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Hub.",
+                        "value": "b. Địa chỉ MAC",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Switch.",
+                        "value": "c. Tên miền",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Brigde.",
+                        "value": "d. Địa chỉ URL",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5784,32 +5785,32 @@ const questions = {
             },
             {
                 "id": 82,
-                "title": "Câu 82. Hãy chọn mệnh đề đúng trong các mệnh đề sau?",
+                "title": "Câu 82. Địa chỉ IP nào là địa chỉ Loopback?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. DNS là hệ thống phân giải tên miền. (Domain Name System)",
+                        "value": "a. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. DNS là một dịch vụ lưu trữ thông tin trên mạng.",
+                        "value": "b. 192.0.2.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. DNS là dịch vụ giúp quản lý thông tin khách hàng.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. DNS là dịch vụ hỗ trợ giải trí trên mạng.",
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5817,32 +5818,32 @@ const questions = {
             },
             {
                 "id": 83,
-                "title": "Câu 83. Trong các dải địa chỉ sau đây dải địa chỉ nào là của lớp B?",
+                "title": "Câu 83. Địa chỉ nào sau đây không phải là địa chỉ IP hợp lệ?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Từ 1.x.x.x đến 127.x.x.x.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Từ 128.x.x.x đến 191.x.x.x.",
+                        "value": "b. 256.256.256.256",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Từ 192.x.x.x đến 223.x.x.x.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Từ 224.x.x.x đến 239.x.x.x.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5850,32 +5851,32 @@ const questions = {
             },
             {
                 "id": 84,
-                "title": "Câu 84. Khi sử dụng Google Drive muốn mở khung làm việc như hình 1, ta phải chọn biểu tượng nào dưới đây (trong khung màu xanh)?",
-                "thumb": "./assets/img/question_2/cau84-87title.jpg",
+                "title": "Câu 84. Giao thức nào không đảm bảo tính bảo mật khi truyền tải dữ liệu?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Chọn biểu tượng 1.",
+                        "value": "a. HTTPS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Chọn biểu tượng 2.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Chọn biểu tượng 7.",
+                        "value": "c. SFTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Chọn biểu tượng 8.",
+                        "value": "d. FTPS",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5883,32 +5884,32 @@ const questions = {
             },
             {
                 "id": 85,
-                "title": "Câu 85. Khi sử dụng Google Drive muốn mở khung làm việc như hình 2, ta phải chọn biểu tượng nào dưới đây (trong khung màu xanh)?",
-                "thumb": "./assets/img/question_2/cau84-87title.jpg",
+                "title": "Câu 85. Giao thức nào được sử dụng để xác thực người dùng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Chọn biểu tượng 1.",
+                        "value": "a. RADIUS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Chọn biểu tượng 2.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Chọn biểu tượng 7.",
+                        "value": "c. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Chọn biểu tượng 8.",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5916,32 +5917,32 @@ const questions = {
             },
             {
                 "id": 86,
-                "title": "Câu 86. Khi sử dụng Google Drive muốn mở khung làm việc như hình 3, ta phải chọn biểu tượng nào dưới đây (trong khung màu xanh)?",
-                "thumb": "./assets/img/question_2/cau84-87title.jpg",
+                "title": "Câu 86. Địa chỉ IP nào có thể được sử dụng để kết nối đến Internet?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Chọn biểu tượng 1.",
+                        "value": "a. 203.0.113.5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Chọn biểu tượng 2.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Chọn biểu tượng 7.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Chọn biểu tượng 8.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5949,32 +5950,32 @@ const questions = {
             },
             {
                 "id": 87,
-                "title": "Câu 87. Khi sử dụng Google Drive muốn thay đổi cách hiển thị của các tập tin theo kiểu danh sách (List) ta cần chọn biểu tượng nào dưới đây (trong khung màu xanh)?",
-                "thumb": "./assets/img/question_2/cau84-87title.jpg",
+                "title": "Câu 87. Giao thức nào được sử dụng để truyền tải video trực tuyến?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Chọn biểu tượng 3.",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Chọn biểu tượng 5.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Chọn biểu tượng 6.",
+                        "value": "c. RTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Chọn biểu tượng 8.",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5982,32 +5983,32 @@ const questions = {
             },
             {
                 "id": 88,
-                "title": "Câu 88. Khi sử dụng Google để tìm kiếm nội dung như hình 2 ta cần tìm kiếm theo quy tắc nào sau đây?",
-                "thumb": "./assets/img/question_2/cau88,94,95title.jpg",
+                "title": "Câu 88. Địa chỉ IP nào sau đây thuộc lớp D?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Tìm theo danh mục Tin tức.",
+                        "value": "a. 224.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Tìm theo danh mục Web.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Tìm theo danh mục Sách.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Tìm theo danh mục ứng dụng.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6015,32 +6016,32 @@ const questions = {
             },
             {
                 "id": 89,
-                "title": "Câu 89. Khi tìm kiếm bằng Google để tìm kiếm một định nghĩa ta có thể tìm kiếm theo quy tắc nào sau đây?",
+                "title": "Câu 89. Giao thức nào không phải là giao thức mạng?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Filetype: Nội dung tìm kiếm.",
+                        "value": "a. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Define: Nội dung tìm kiếm.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Site: Nội dung tìm kiếm.",
+                        "value": "c. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Info: Nội dung tìm kiếm.",
+                        "value": "d. TCP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6048,32 +6049,32 @@ const questions = {
             },
             {
                 "id": 90,
-                "title": "Câu 90. Khi tìm kiếm bằng Google để tìm kiếm chỉ trên một website ta có thể tìm kiếm theo quy tắc nào?",
+                "title": "Câu 90. Địa chỉ IP nào dưới đây là địa chỉ công cộng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Filetype: Nội dung tìm kiếm.",
+                        "value": "a. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Define: Nội dung tìm kiếm.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Site: Nội dung tìm kiếm.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Info: Nội dung tìm kiếm.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6081,32 +6082,32 @@ const questions = {
             },
             {
                 "id": 91,
-                "title": "Câu 91. Sử dụng Google muốn tìm kiếm từ khóa Smart phone nhưng không muốn trong kết quả tìm kiếm hiện ra sản phẩm IPhone ta có thể gõ nội dung nào sau đây vào ô tìm kiếm?",
+                "title": "Câu 91. Giao thức nào được dùng để gửi dữ liệu từ một máy tính đến máy tính khác?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Smartphone - Iphone.",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Smartphone ~Iphone.",
+                        "value": "b. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Smartphone ?Iphone.",
+                        "value": "c. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Smartphone *Iphone.",
+                        "value": "d. ICMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6114,32 +6115,32 @@ const questions = {
             },
             {
                 "id": 92,
-                "title": "Câu 92. Trong các dịch vụ sau đây dịch vụ nào không cho phép lưu trữ chia sẻ file trên trang web?",
+                "title": "Câu 92. Địa chỉ IP nào dưới đây thuộc lớp A?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Dropbox.",
+                        "value": "a. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Google Drive.",
+                        "value": "b. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Skype.",
+                        "value": "c. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. OneDrive.",
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6147,32 +6148,32 @@ const questions = {
             },
             {
                 "id": 93,
-                "title": "Câu 93. Muốn gửi email bằng Gmail cho nhiều người thì mỗi email ngăn cách nhau bằng kí tự nào sau đây?",
+                "title": "Câu 93. Giao thức nào được sử dụng để truyền tải tệp tin an toàn?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Dấu .",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Dấu ,",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Dấu &",
+                        "value": "c. SFTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Dấu :",
+                        "value": "d. SCP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6180,32 +6181,32 @@ const questions = {
             },
             {
                 "id": 94,
-                "title": "Câu 94. Để gửi thư có nội dung như Hình 3 bạn cần phải sử dụng dịch vụ nào sau đây của Google?",
-                "thumb": "./assets/img/question_2/cau88,94,95title.jpg",
+                "title": "Câu 94. Địa chỉ IP nào dưới đây là địa chỉ Private?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Google Doc.",
+                        "value": "a. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Google Forms.",
+                        "value": "b. 192.0.2.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Google Sheets.",
+                        "value": "c. 203.0.113.5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Google Slides.",
+                        "value": "d. 10.1.1.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6213,32 +6214,32 @@ const questions = {
             },
             {
                 "id": 95,
-                "title": "Câu 95. Để tạo được nội dung như Hình 4 ta có thể sử dụng dịch vụ nào sau đây của Google?",
-                "thumb": "./assets/img/question_2/cau88,94,95title.jpg",
+                "title": "Câu 95. Địa chỉ MAC được sử dụng để làm gì?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Google Forms.",
+                        "value": "a. Xác định các thiết bị trong mạng",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Google Docs.",
+                        "value": "b. Gửi email",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Google Sheets.",
+                        "value": "c. Truy cập Internet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Google Slides.",
+                        "value": "d. Tạo website",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6246,32 +6247,32 @@ const questions = {
             },
             {
                 "id": 96,
-                "title": "Câu 96. Loại máy chủ nào sau đây có chức năng lưu trữ và quản lý tài nguyên tập tin?",
+                "title": "Câu 96. Giao thức nào dùng để truyền tải dữ liệu giữa các máy trong mạng?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Print server.",
+                        "value": "a. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. File server.",
+                        "value": "b. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Communication server.",
+                        "value": "c. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Application server.",
+                        "value": "d. UDP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6279,32 +6280,32 @@ const questions = {
             },
             {
                 "id": 97,
-                "title": "Câu 97. Trong cửa sổ Table để chèn được đối tượng như hình số 1 ta thực hiện thao tác nào trong các thác tác sau?",
-                "thumb": "./assets/img/question_2/cau97-99title.jpg",
+                "title": "Câu 97. Địa chỉ nào sau đây là địa chỉ multicast?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Nhập 3 vào ô Columns và nhập 5 vào ô Rows.",
+                        "value": "a. 239.255.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Nhập 5 vào ô Columns và nhập  3 vào ô Rows.",
+                        "value": "b. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Tại ô Border thickness nhập 10%.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Tại ô Caption nhập 10% (110)",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6312,32 +6313,32 @@ const questions = {
             },
             {
                 "id": 98,
-                "title": "Câu 98. Khi sử dụng Dreamweaver, muốn chèn 1 đối tượng như hình 2 ta thực hiện thao tác nào trong các thao tác sau?",
-                "thumb": "./assets/img/question_2/cau97-99title.jpg",
+                "title": "Câu 98. Giao thức nào không phải là giao thức tầng ứng dụng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Insert/ Hyperlink.",
+                        "value": "a. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Insert/ Emaillink.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Insert/ Form.",
+                        "value": "c. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Insert/ Tag.",
+                        "value": "d. HTTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6345,32 +6346,32 @@ const questions = {
             },
             {
                 "id": 99,
-                "title": "Câu 99. Khi sử dụng Dreamweaver, muốn chèn 1 đối tượng như hình 3 ta thực hiện thao tác nào trong các thao tác sau?",
-                "thumb": "./assets/img/question_2/cau97-99title.jpg",
+                "title": "Câu 99. Địa chỉ nào sau đây thuộc lớp B?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Insert/ Image Object.",
+                        "value": "a. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Insert/ Image.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Insert/ Media.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Insert/ Tag.",
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6378,32 +6379,32 @@ const questions = {
             },
             {
                 "id": 100,
-                "title": "Câu 100. Khi thiết kế trang website bằng Dreamweaver, Table bao gồm những thành phần cơ bản nào sau đây?",
+                "title": "Câu 100. Giao thức nào đảm bảo tính bảo mật cao nhất khi truyền tải dữ liệu?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Rows, Columns, Cells.",
+                        "value": "a. SSL/TLS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Row, Columns, Width.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Rows, Columns, Border.",
+                        "value": "c. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Rows, Columns, Cell spacing, Cell padding.",
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6411,32 +6412,32 @@ const questions = {
             },
             {
                 "id": 101,
-                "title": "Câu 101. Khi sử dụng OpenCart, muốn chỉnh sửa tên của sản phẩm ta có thể truy cập vào mục nào dưới đây trong hình?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 101. Địa chỉ nào sau đây là địa chỉ công cộng?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Tổng quan.",
+                        "value": "a. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Dữ liệu.",
+                        "value": "b. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Liên kết.",
+                        "value": "c. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Thuộc tính.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6444,32 +6445,32 @@ const questions = {
             },
             {
                 "id": 102,
-                "title": "Câu 102. Khi sử dụng OpenCart, muốn chỉnh sửa danh mục của sản phẩm ta có thể truy cập vào mục nào dưới đây trong hình?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 102. Giao thức nào cho phép truyền tải file lớn?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Tổng quan.",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Dữ liệu.",
+                        "value": "b. TFTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Liên kết.",
+                        "value": "c. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Thuộc tính.",
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6477,32 +6478,32 @@ const questions = {
             },
             {
                 "id": 103,
-                "title": "Câu 103. Khi sử dụng OpenCart, muốn thay đổi giá của sản phẩm ta có thể truy cập vào mục nào dưới đây trong hình?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 103. Địa chỉ nào dưới đây thuộc lớp E?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Tổng quan.",
+                        "value": "a. 240.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Dữ liệu.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Liên kết.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Thuộc tính.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6510,32 +6511,32 @@ const questions = {
             },
             {
                 "id": 104,
-                "title": "Câu 104. Tên viết tắt của nhà cung cấp dịch vụ Internet là gì?",
+                "title": "Câu 104. Giao thức nào được sử dụng để gửi email?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. IAP.",
+                        "value": "a. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. ISP.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. IIS.",
+                        "value": "c. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. ICP.",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6543,32 +6544,32 @@ const questions = {
             },
             {
                 "id": 105,
-                "title": "Câu 105. Khi thấy tên miền trong địa chỉ website có .gov.vn thì website đó thường thuộc lĩnh vực gì?",
+                "title": "Câu 105. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Lĩnh vực chính phủ ở Việt Nam.",
+                        "value": "a. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Lĩnh vực giáo dục Việt Nam.",
+                        "value": "b. 256.256.256.256",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Lĩnh vực cung cấp thông tin ở Việt Nam.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Lĩnh vực nông nghiệp ở Việt Nam.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6576,32 +6577,32 @@ const questions = {
             },
             {
                 "id": 106,
-                "title": "Câu 106. Để tìm kiếm thông tin lịch thi trên trang website hubt.edu.vn ta gõ từ khóa nào để Google không trả về kết quả từ các trang website khác?",
+                "title": "Câu 106. Giao thức nào được sử dụng để xác thực người dùng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Lịch thi in: hubt.edu.vn",
+                        "value": "a. RADIUS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Lịch thi on: hubt.edu.vn",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Lịch thi from: hubt.edu.vn",
+                        "value": "c. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Lịch thi site:  hubt.edu.vn",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6609,32 +6610,32 @@ const questions = {
             },
             {
                 "id": 107,
-                "title": "Câu 107. Để đính kèm một tệp tin khi gửi mail trong Outlook ta chọn chức năng?",
+                "title": "Câu 107. Địa chỉ IP nào được sử dụng cho mạng cục bộ?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Send.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Copy.",
+                        "value": "b. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Attachment.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Save.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6642,32 +6643,32 @@ const questions = {
             },
             {
                 "id": 108,
-                "title": "Câu 108. Khi nhận được email có chủ đề Mail undeliverable có nghĩa là?",
+                "title": "Câu 108. Giao thức nào được dùng để truyền tải video trực tuyến?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Email được gửi đi nhưng không tới được người nhận.",
+                        "value": "a. RTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Email được gửi đi nhưng người nhận không đọc.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Email được gửi đi và người nhận đã đọc.",
+                        "value": "c. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Email được đánh dấu là thư quảng cáo.",
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6675,32 +6676,32 @@ const questions = {
             },
             {
                 "id": 109,
-                "title": "Câu 109. Để cập nhật số lượng của sản phẩm trong OpenCart ta truy cập mục nào trong hình?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 109. Địa chỉ nào sau đây là địa chỉ Loopback?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Tổng quan.",
+                        "value": "a. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Dữ liệu.",
+                        "value": "b. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Liên kết.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Thuộc tính.",
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6708,32 +6709,32 @@ const questions = {
             },
             {
                 "id": 110,
-                "title": "Câu 110. Để thiết lập tên cửa hàng cho OpenCart ta truy cập mục?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 110. Giao thức nào được sử dụng để truyền tải dữ liệu trên Internet?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Tổng quan.",
+                        "value": "a. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Cửa hàng.",
+                        "value": "b. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Khu vực.",
+                        "value": "c. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Hình ảnh.",
+                        "value": "d. ICMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6741,32 +6742,32 @@ const questions = {
             },
             {
                 "id": 111,
-                "title": "Câu 111. Để thiết lập ngôn ngữ trong OpenCart ta truy cập mục?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 111. Địa chỉ nào dưới đây là địa chỉ Broadcast?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Tổng quan.",
+                        "value": "a. 192.168.1.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Cửa hàng.",
+                        "value": "b. 172.16.0.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Khu vực.",
+                        "value": "c. 10.0.0.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Hình ảnh.",
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6774,32 +6775,32 @@ const questions = {
             },
             {
                 "id": 112,
-                "title": "Câu 112. Để truy cập mục như trong hình ta thực hiện thao tác?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 112. Giao thức nào không phải là giao thức tầng mạng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Hệ thống > Cấu hình hệ thống...",
+                        "value": "a. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Thiết kế > Giao diện...",
+                        "value": "b. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Sản phẩm > Danh mục...",
+                        "value": "c. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Sản phẩm > Sản phẩm...",
+                        "value": "d. IP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6807,32 +6808,32 @@ const questions = {
             },
             {
                 "id": 113,
-                "title": "Câu 113. Khi gặp cảnh báo như trong hình ta cần thực hiện thao tác gì?",
-                "thumb": "./assets/img/question_2/cau113title.jpg",
+                "title": "Câu 113. Địa chỉ nào dưới đây là địa chỉ Private?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Xóa thư mục install trong thư mục hệ thống.",
+                        "value": "a. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Đăng nhập vào trang quản trị để thiết lập lại khu vực cho OpenCart.",
+                        "value": "b. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Đăng nhập vào trang quản trị để thiết lập lại ngày giờ cho OpenCart.",
+                        "value": "c. 10.1.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Có thao tác bị lỗi cần cài đặt lại OpenCart.",
+                        "value": "d. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6840,32 +6841,32 @@ const questions = {
             },
             {
                 "id": 114,
-                "title": "Câu 114. Nếu mục 1 điền Tin trong nước như hình, mục 2 bạn có thể điền thông tin như thế nào là hợp lý nhất?",
-                "thumb": "./assets/img/question_2/cau114title.jpg",
+                "title": "Câu 114. Giao thức nào được sử dụng để truy cập các trang web an toàn?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. tin-trong-nuoc",
+                        "value": "a. HTTPS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. tin trong nước",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. tin trong nuoc",
+                        "value": "c. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. tin&trong&nuoc",
+                        "value": "d. TFTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6873,32 +6874,32 @@ const questions = {
             },
             {
                 "id": 115,
-                "title": "Câu 115. Để thay đổi hiển thị của menu trong Hình 2 ta có thể truy cập mục nào trong Hình 1?",
-                "thumb": "./assets/img/question_2/cau115-118title.jpg",
+                "title": "Câu 115. Địa chỉ nào dưới đây thuộc lớp C?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Bài viết.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Giao diện.",
+                        "value": "b. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Gói mở rộng.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Cài đặt.",
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6906,32 +6907,32 @@ const questions = {
             },
             {
                 "id": 116,
-                "title": "Câu 116. Để thay đổi nội dung HUBT News trong Hình 2 ta truy cập mục nào trong Hình 1?",
-                "thumb": "./assets/img/question_2/cau115-118title.jpg",
+                "title": "Câu 116. Giao thức nào được sử dụng để truyền tải video qua Internet?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Cài đặt.",
+                        "value": "a. RTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Bài viết.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Công cụ.",
+                        "value": "c. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Trang.",
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6939,32 +6940,32 @@ const questions = {
             },
             {
                 "id": 117,
-                "title": "Câu 117. Để mở nội dung hiển thị như Hình 3 ta truy cập mục nào trong Hình 1?",
-                "thumb": "./assets/img/question_2/cau115-118title.jpg",
+                "title": "Câu 117. Địa chỉ nào dưới đây được sử dụng cho mạng cục bộ?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Cài đặt.",
+                        "value": "a. 192.168.2.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Bài viết.",
+                        "value": "b. 203.0.113.5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Công cụ.",
+                        "value": "c. 10.0.0.5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Giao diện.",
+                        "value": "d. 172.31.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6972,32 +6973,32 @@ const questions = {
             },
             {
                 "id": 118,
-                "title": "Câu 118. Để quản lý các chuyên mục bài viết ta truy cập mục nào trong Hình 1?",
-                "thumb": "./assets/img/question_2/cau115-118title.jpg",
+                "title": "Câu 118. Giao thức nào không phải là giao thức tầng ứng dụng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Bài viết.",
+                        "value": "a. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Phương tiện.",
+                        "value": "b. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Giao diện.",
+                        "value": "c. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Công cụ.",
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7005,32 +7006,32 @@ const questions = {
             },
             {
                 "id": 119,
-                "title": "Câu 119. Để tạo một trang website thương mại điện tử bạn nên sử dụng bộ mã nguồn nào?",
+                "title": "Câu 119. Địa chỉ nào dưới đây là địa chỉ Loopback?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. OpenCart.",
+                        "value": "a. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Wordpress.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Joomla.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. SmartSheet.",
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7038,32 +7039,32 @@ const questions = {
             },
             {
                 "id": 120,
-                "title": "Câu 120. Để tạo một trang website tin tức bạn nên sử dụng bộ cài đặt nào?",
+                "title": "Câu 120. Giao thức nào được dùng để truyền tải dữ liệu một cách đáng tin cậy?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. OpenCart.",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Wordpress.",
+                        "value": "b. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Dropbox.",
+                        "value": "c. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. SmartSheet.",
+                        "value": "d. IP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7071,32 +7072,32 @@ const questions = {
             },
             {
                 "id": 121,
-                "title": "Câu 121. Để lấy ý tưởng từ khóa như trong hình ta sử dụng dịch vụ nào của Google?",
+                "title": "Câu 121. Địa chỉ nào dưới đây là địa chỉ Broadcast?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Adword.",
+                        "value": "a. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Analytics.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Surveys.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Webmaster.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7104,32 +7105,32 @@ const questions = {
             },
             {
                 "id": 122,
-                "title": "Câu 122. Wordpress thuộc hệ quản trị nội dung nào trong các hệ quản trị sau?",
+                "title": "Câu 122. Giao thức nào không phải là giao thức tầng mạng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Web CMS.",
+                        "value": "a. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Publication CMS.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Learning CMS.",
+                        "value": "c. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Billing CMS.",
+                        "value": "d. IP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7137,32 +7138,32 @@ const questions = {
             },
             {
                 "id": 123,
-                "title": "Câu 123. Nội dung nào trong các nội dung sau không ảnh hưởng đến kết quả SEO.",
+                "title": "Câu 123. Địa chỉ nào dưới đây thuộc lớp D?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Tiêu đề bài viết chứa từ khóa.",
+                        "value": "a. 224.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Trong bài viết từ khóa được lặp lại nhiều lần.",
+                        "value": "b. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Bài viết được copy y nguyên nội dung từ một trang website khác.",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Bài viết không có hình ảnh minh họa.",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7170,32 +7171,32 @@ const questions = {
             },
             {
                 "id": 124,
-                "title": "Câu 124. Để website được đánh chỉ mục nhanh trên Google bạn có thể truy cập vào đường link dịch vụ nào?",
+                "title": "Câu 124. Giao thức nào được dùng để truyền tải hình ảnh qua Internet?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. https://webmaster.google.com/",
+                        "value": "a. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. https://adwords.google.com",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. https://analytics.google.com/",
+                        "value": "c. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. https://surveys.google.com/",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7203,32 +7204,32 @@ const questions = {
             },
             {
                 "id": 125,
-                "title": "Câu 125. Để thống kê lượng truy cập vào website bạn có thể truy cập đường link dịch vụ nào của Google?",
+                "title": "Câu 125. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. https://webmaster.google.com/",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. https://adwords.google.com",
+                        "value": "b. 300.300.300.300",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. https://analytics.google.com/",
+                        "value": "c. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. https://surveys.google.com/",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7236,32 +7237,32 @@ const questions = {
             },
             {
                 "id": 126,
-                "title": "Câu 126. Khi muốn SEO nội dung Quần áo nữ bạn muốn tìm kiếm ý tưởng từ khóa thì ta cần nhập nội dung vào mục nào?",
-                "thumb": "./assets/img/question_2/cau126-128title.jpg",
+                "title": "Câu 126. Giao thức nào cho phép truy cập từ xa vào máy chủ?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục 1 (Sản phẩm dịch vụ).",
+                        "value": "a. SSH",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục 2 (Trang đích của bạn).",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục 5 (Tùy chỉnh tìm kiếm).",
+                        "value": "c. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục 4 (Nhắm mục tiêu).",
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7269,32 +7270,32 @@ const questions = {
             },
             {
                 "id": 127,
-                "title": "Câu 127. Khi muốn SEO nội dung Quần áo nữ trên trang website Thoitrang.net thì mục 1 trong hình bạn cần nhập nội dung gì?",
-                "thumb": "./assets/img/question_2/cau126-128title.jpg",
+                "title": "Câu 127. Địa chỉ nào dưới đây là địa chỉ công cộng?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Quần áo nữ",
+                        "value": "a. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Thoitrang.net",
+                        "value": "b. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Đồ nữ",
+                        "value": "c. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Thời trang",
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7302,32 +7303,32 @@ const questions = {
             },
             {
                 "id": 128,
-                "title": "Câu 128. Khi muốn SEO nội dung Quần áo nữ trên trang website Thoitrang.net thì mục 3 trong hình bạn cần nhập nội dung gì?",
-                "thumb": "./assets/img/question_2/cau126-128title.jpg",
+                "title": "Câu 128. Giao thức nào cho phép truyền tải dữ liệu một cách không đáng tin cậy?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Quần áo nữ",
+                        "value": "a. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Thời trang",
+                        "value": "b. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Trang phục",
+                        "value": "c. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Quần áo",
+                        "value": "d. IP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7335,32 +7336,32 @@ const questions = {
             },
             {
                 "id": 129,
-                "title": "Câu 129. Mật độ từ khóa là gì?",
+                "title": "Câu 129. Địa chỉ nào dưới đây thuộc lớp A?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 4,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Số lần xuất hiện trung bình của từ khóa trong các trang.",
+                        "value": "a. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Số lần từ khóa xuất hiện trong meta description.",
+                        "value": "b. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Số lần từ khóa xuất hiện trong thẻ head.",
+                        "value": "c. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Số lần từ khóa xuất hiện trong một trang.",
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7368,32 +7369,32 @@ const questions = {
             },
             {
                 "id": 130,
-                "title": "Câu 130. Để thiết lập thông tin liên hệ của cửa hàng trong OpenCart ta truy cập mục?",
-                "thumb": "./assets/img/question_2/cau101-103,109-112,130title.jpg",
+                "title": "Câu 130. Giao thức nào được sử dụng để truyền tải thông tin qua mạng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "A. Mục Tổng quan.",
+                        "value": "a. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "B. Mục Cửa hàng.",
+                        "value": "b. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "C. Mục Khu vực.",
+                        "value": "c. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "D. Mục Hình ảnh.",
+                        "value": "d. ICMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7401,32 +7402,32 @@ const questions = {
             },
             {
                 "id": 131,
-                "title": "Câu 131: Hãy cho biết trong các quy trình sau, đâu là quy trình đóng dự án?",
+                "title": "Câu 131. Địa chỉ nào dưới đây là địa chỉ Private?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 5 – 1 – 7 – 2 – 3 – 4 – 6 – 8.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 7 – 5 – 4 – 1 – 2 – 3 – 6 – 8.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 8 – 7 – 5 – 4 – 1 – 2 – 3 – 6.",
+                        "value": "b. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 1 – 2 – 3 – 7 – 8 – 4 – 5 – 6.",
+                        "value": "c. 10.0.0.5",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 172.31.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7434,32 +7435,32 @@ const questions = {
             },
             {
                 "id": 132,
-                "title": "Câu 132: Dựa vào hình dưới đây, hãy cho biết số giờ công của thợ nặn từ ngà hoàny 19 đến ngày 21 là bao nhiêu trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau132title.png",
+                "title": "Câu 132. Giao thức nào không được sử dụng trong kết nối SSL?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 49h.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 64h.",
+                        "value": "a. TLS",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 32h.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 56h.",
+                        "value": "c. HTTPS",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. IMAP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7467,32 +7468,32 @@ const questions = {
             },
             {
                 "id": 133,
-                "title": "Câu 133: Hãy cho biết hình ảnh dưới hiển thị cửa sổ nào sau đây?",
-                "thumb": "./assets/img/question_2/cau133title.png",
+                "title": "Câu 133. Địa chỉ nào dưới đây là địa chỉ Loopback?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Resource Usage.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Resource Sheet.",
+                        "value": "a. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Resource Form.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Task Usage.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7500,32 +7501,32 @@ const questions = {
             },
             {
                 "id": 134,
-                "title": "Câu 134: Công việc 1 kết thúc vào ngày 15/6/2014, quan sát thấy tại cột Predecessors của công việc 2 là 1FS + 3days, hãy cho biết công việc 2 bắt đầu thực hiện vào thời điểm nào trong các thời điểm sau?",
+                "title": "Câu 134. Giao thức nào được sử dụng để truyền tải dữ liệu giữa các máy tính?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 17/6/2014.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 18/6/2014.",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 19/6/2014.",
+                        "value": "b. UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 16/6/2014.",
+                        "value": "c. ICMP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. IP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7533,32 +7534,32 @@ const questions = {
             },
             {
                 "id": 135,
-                "title": "Câu 135: Dựa vào hình dưới đây, hãy chọn phương án đúng ứng với tổng tiền chi cho việc sử dụng bàn xoay?",
-                "thumb": "./assets/img/question_2/cau135title.png",
+                "title": "Câu 135. Địa chỉ nào dưới đây thuộc lớp B?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 340,000 đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 3,600,000 đ.",
+                        "value": "a. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 118,000 đ.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 272.000 đ.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7566,32 +7567,32 @@ const questions = {
             },
             {
                 "id": 136,
-                "title": "Câu 136: Dựa vào hình dưới đây, hãy cho biết trong các nút lệnh sau, nút lệnh nào hiển thị dự án ở dạng Gantt Chart?",
-                "thumb": "./assets/img/question_2/cau136-137title.png",
+                "title": "Câu 136. Giao thức nào được sử dụng để gửi email?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Nút lệnh số 4.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Nút lệnh số 3.",
+                        "value": "a. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Nút lệnh số 2.",
+                        "value": "b. POP3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Nút lệnh số 1.",
+                        "value": "c. IMAP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. FTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7599,32 +7600,32 @@ const questions = {
             },
             {
                 "id": 137,
-                "title": "Câu 137: Dựa vào hình dưới đây, hãy cho biết nút lệnh số 2 hiển thị dự án ở dạng nào sau đây?",
-                "thumb": "./assets/img/question_2/cau136-137title.png",
+                "title": "Câu 137. Địa chỉ nào dưới đây là địa chỉ Private?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Task Usage.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Team Planner.",
+                        "value": "a. 192.168.10.5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Gantt Chart.",
+                        "value": "b. 203.0.113.5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Resource Sheet.",
+                        "value": "c. 172.29.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 8.8.8.8",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7632,32 +7633,32 @@ const questions = {
             },
             {
                 "id": 138,
-                "title": "Câu 138: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào cần đến nguồn lực “Đội ngũ hướng dẫn”?",
-                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "title": "Câu 138. Giao thức nào dùng để quản lý mạng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 5, 9, 14.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 2, 7, 12.",
+                        "value": "a. SNMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 3, 4, 12.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 3, 4, 11.",
+                        "value": "c. FTP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7665,32 +7666,32 @@ const questions = {
             },
             {
                 "id": 139,
-                "title": "Câu 139: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào thuộc dạng Summary Task?",
-                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "title": "Câu 139. Địa chỉ nào dưới đây là địa chỉ Loopback?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 5, 9, 14.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 2, 7, 12.",
+                        "value": "a. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 1, 8, 13, 17.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 3, 4, 11.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7698,32 +7699,32 @@ const questions = {
             },
             {
                 "id": 140,
-                "title": "Câu 140: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào thuộc dạng Inactive Task?",
-                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "title": "Câu 140. Giao thức nào được sử dụng để truyền tải nhạc qua Internet?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 10, 16.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 5, 9, 14.",
+                        "value": "a. RTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 2, 7, 12.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 3, 4, 11.",
+                        "value": "c. HTTP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7731,32 +7732,32 @@ const questions = {
             },
             {
                 "id": 141,
-                "title": "Câu 141: Dựa vào hình dưới đây, hãy cho biết trong các yêu cầu sau, yêu cầu nào chưa được thực hiện?",
-                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "title": "Câu 141. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 2, 3, 9, 11, 14, 21, 22.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 10, 16.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 1, 8, 13, 17.",
+                        "value": "b. 256.256.256.256",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 4, 6, 12, 15, 19, 20, 23.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7764,32 +7765,32 @@ const questions = {
             },
             {
                 "id": 142,
-                "title": "Câu 142: Dựa vào hình dưới đây, hãy cho biết để lọc ra các yêu cầu sử dụng đến nguồn lực “Đội ngũ hướng dẫn”, ta chọn thao tác nào sau đây?",
-                "thumb": "./assets/img/question_2/cau138-142title.png",
+                "title": "Câu 142. Giao thức nào không phải là giao thức tầng mạng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. View/ Filter/ Data Range/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. View/ Filter/ Using Resource/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
+                        "value": "a. ICMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. View/ Filter/ Task Range/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. View/ Filter/ Critical/ Tại Show tasks using chọn “Đội ngũ hướng dẫn”.",
+                        "value": "c. UDP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. IP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7797,32 +7798,32 @@ const questions = {
             },
             {
                 "id": 143,
-                "title": "Câu 143: Hãy chọn phương án đúng trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau143title.png",
+                "title": "Câu 143. Địa chỉ nào dưới đây thuộc lớp C?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Khi nháy chọn nút OK, các giá trị trong cột % Complete sẽ được hiển thị bởi giá trị của cột htTT.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Khi nháy chọn nút OK, các giá trị trong cột htTT sẽ được hiển thị bởi giá trị của cột % Complete.",
+                        "value": "a. 192.168.2.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Khi nháy chọn nút OK, cột % Complete được tạo mới.",
+                        "value": "b. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Khi nháy chọn nút OK, cột htTT sẽ hiển thị các giá trị bất kỳ.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7830,32 +7831,32 @@ const questions = {
             },
             {
                 "id": 144,
-                "title": "Câu 144: Hãy cho biết thao tác nào trong các thao tác sau dùng để thiết lập chế độ lọc tự động trên các cột như hình dưới đây?",
-                "thumb": "./assets/img/question_2/cau144title.png",
+                "title": "Câu 144. Giao thức nào được sử dụng để truyền tải dữ liệu qua mạng không dây?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Task/ Filter/ Display AutoFilter.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. View/ Filter/ Display AutoFilter.",
+                        "value": "a. 802.11",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Project/ Filter/ Display AutoFilter.",
+                        "value": "b. Ethernet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Resource/ Filter/ Display AutoFilter.",
+                        "value": "c. TCP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. IP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7863,32 +7864,32 @@ const questions = {
             },
             {
                 "id": 145,
-                "title": "Câu 145: Hãy cho biết trong các nút lệnh sau, nút lệnh nào dùng để xóa bỏ liên kết giữa các công việc?",
-                "thumb": "./assets/img/question_2/cau145-146title.png",
+                "title": "Câu 145. Địa chỉ nào dưới đây là địa chỉ công cộng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Nút lệnh số 11.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Nút lệnh số 10.",
+                        "value": "a. 198.51.100.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Nút lệnh số 9.",
+                        "value": "b. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Nút lệnh số 7.",
+                        "value": "c. 192.168.1.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7896,66 +7897,65 @@ const questions = {
             },
             {
                 "id": 146,
-                "title": "Câu 146: Hãy cho biết trong các nút lệnh sau, nút lệnh nào dùng để ngừng kích hoạt công việc?",
-                "thumb": "./assets/img/question_2/cau145-146title.png",
+                "title": "Câu 146. Giao thức nào được sử dụng để truy cập vào máy chủ web?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Nút lệnh số 8.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Nút lệnh số 11.",
+                        "value": "a. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Nút lệnh số 10.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Nút lệnh số 12 - 13.",
+                        "value": "c. SMTP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
-
             {
                 "id": 147,
-                "title": "Câu 147: Hãy cho biết người quản trị cần chọn thao tác nào để đánh dấu những công việc đã hoàn thành?",
+                "title": "Câu 147. Địa chỉ nào dưới đây không phải là địa chỉ Private?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chọn View/ Highlight/ Chọn Completed Tasks.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chọn View/ Highlight/ Chọn Active Tasks.",
+                        "value": "a. 172.31.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chọn View/ Filter/ Chọn Completed Tasks.",
+                        "value": "b. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chọn View/ Task/ Chọn Active Tasks.",
+                        "value": "c. 203.0.113.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 10.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7963,32 +7963,32 @@ const questions = {
             },
             {
                 "id": 148,
-                "title": "Câu 148: Thời gian hoàn thành dự án là bao nhiêu?",
-                "thumb": "./assets/img/question_2/cau148title.png",
+                "title": "Câu 148. Giao thức nào không phải là giao thức tầng transport?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 27 ngày.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 32 ngày.",
+                        "value": "a. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 23 ngày.",
+                        "value": "b. IP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 29 ngày.",
+                        "value": "c. UDP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SCTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7996,32 +7996,32 @@ const questions = {
             },
             {
                 "id": 149,
-                "title": "Câu 149: Dự án hoàn thành mất bao lâu?",
-                "thumb": "./assets/img/question_2/cau149title.png",
+                "title": "Câu 149. Địa chỉ nào dưới đây thuộc lớp D?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 30 ngày.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 29 ngày.",
+                        "value": "a. 224.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 27 ngày.",
+                        "value": "b. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 34 ngày.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8029,32 +8029,32 @@ const questions = {
             },
             {
                 "id": 150,
-                "title": "Câu 150: Phương pháp chấp nhận sự tồn tại của rủi ro là chiến lược nào?",
+                "title": "Câu 150. Giao thức nào được sử dụng để gửi tin nhắn qua mạng?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Giảm thiểu.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Né tránh.",
+                        "value": "a. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chuyển.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chấp nhận.",
+                        "value": "c. POP3",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. IMAP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8062,32 +8062,32 @@ const questions = {
             },
             {
                 "id": 151,
-                "title": "Câu 151: Phương án đúng ứng với đường găng của dự án?",
-                "thumb": "./assets/img/question_2/cau151title.png",
+                "title": "Câu 151. Địa chỉ nào dưới đây là địa chỉ Loopback?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. B-E-G-I-L.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. A-D-F-G-I-L.",
+                        "value": "a. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. A-D-G-I-K.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. A-C-F-G-I-K.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8095,32 +8095,32 @@ const questions = {
             },
             {
                 "id": 152,
-                "title": "Câu 152: Ngày 25/04/2014 thuộc loại ngày nào?",
-                "thumb": "./assets/img/question_2/cau152-154title.png",
+                "title": "Câu 152. Giao thức nào được sử dụng để truyền tải video qua Internet?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Nonworking.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Working.",
+                        "value": "a. RTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Exception day.",
+                        "value": "b. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Nondefault work week.",
+                        "value": "c. HTTP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8128,32 +8128,32 @@ const questions = {
             },
             {
                 "id": 153,
-                "title": "Câu 153: Ngày 12/04/2014 thuộc loại ngày nào?",
-                "thumb": "./assets/img/question_2/cau152-154title.png",
+                "title": "Câu 153. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Nonworking.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Working.",
+                        "value": "a. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Exception day.",
+                        "value": "b. 300.300.300.300",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Nondefault work week.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8161,32 +8161,32 @@ const questions = {
             },
             {
                 "id": 154,
-                "title": "Câu 154: Ngày 09/04/2014 thuộc loại ngày nào?",
-                "thumb": "./assets/img/question_2/cau152-154title.png",
+                "title": "Câu 154. Giao thức nào được sử dụng để quản lý mạng?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Working.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Nonworking.",
+                        "value": "a. SNMP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Nondefault work week.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Exception day.",
+                        "value": "c. FTP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8194,32 +8194,32 @@ const questions = {
             },
             {
                 "id": 155,
-                "title": "Câu 155: Thao tác Project/ Change Working Time/ Create New Calendar thực hiện công việc nào?",
+                "title": "Câu 155. Địa chỉ nào dưới đây thuộc lớp A?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Tạo lịch mới cho dự án.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Đặt ngày giám sát dự án.",
+                        "value": "a. 10.1.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Đặt lịch mặc định cho dự án.",
+                        "value": "b. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Tạo lịch nghỉ định kỳ cho dự án.",
+                        "value": "c. 192.168.1.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8227,32 +8227,32 @@ const questions = {
             },
             {
                 "id": 156,
-                "title": "Câu 156: Ý nghĩa của lịch nghỉ này là gì?",
-                "thumb": "./assets/img/question_2/cau156title.png",
+                "title": "Câu 156. Giao thức nào được sử dụng để gửi email?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Lịch nghỉ định kỳ vào Thứ Năm hàng tuần, giới hạn trong 5 tuần.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Lịch nghỉ định kỳ vào Thứ Năm đầu tiên của mỗi tháng, giới hạn trong 5 tháng.",
+                        "value": "a. SMTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Lịch nghỉ định kỳ vào ngày 16/4 hàng năm, giới hạn trong 5 năm.",
+                        "value": "b. POP3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Lịch nghỉ định kỳ vào Thứ Năm thứ ba của tháng 4 hàng năm, giới hạn trong 5 năm.",
+                        "value": "c. IMAP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. FTP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8260,32 +8260,32 @@ const questions = {
             },
             {
                 "id": 157,
-                "title": "Câu 157: Người quản trị muốn thiết lập lịch riêng cho „Thợ sơn‟ chỉ làm buổi chiều, thao tác nào cần chọn?",
+                "title": "Câu 157. Địa chỉ nào dưới đây là địa chỉ Public?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Set days to nonworking time/ Đăng ký khung giờ 13:00 – 17:00.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Use Project default times for these days.",
+                        "value": "a. 203.0.113.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chọn Details tại tab Work Weeks/ Chọn tất cả các ngày/ Chọn Set day(s) to these specific working times/ Đăng ký khung giờ 13:00 – 17:00.",
+                        "value": "b. 192.168.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chọn Details tại tab Exceptions/ Chọn tất cả các ngày/ Chọn Set day(s) to these specific working times/ Đăng ký khung giờ 13:00 – 17:00.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8293,32 +8293,32 @@ const questions = {
             },
             {
                 "id": 158,
-                "title": "Câu 158: Định nghĩa chính xác của rủi ro là gì?",
+                "title": "Câu 158. Giao thức nào được sử dụng để truyền tải tệp tin?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Rủi ro là những vấn đề đã và đang làm ảnh hưởng xấu đến dự án.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Rủi ro là những vấn đề chưa xảy ra nhưng chắc chắn sẽ xảy ra làm ảnh hưởng đến các mục tiêu dự án.",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Rủi ro là những vấn đề về thiên tai, bão lụt, tai nạn lao động có thể xảy ra đối với dự án.",
+                        "value": "b. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Rủi ro là những vấn đề tiềm tàng có khả năng xảy ra trong tương lai làm ảnh hưởng đến các mục tiêu, phạm vi, chất lượng, tài nguyên và tính đúng hạn của dự án.",
+                        "value": "c. SMTP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SNMP",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8326,32 +8326,32 @@ const questions = {
             },
             {
                 "id": 159,
-                "title": "Câu 159: Chọn phương án đúng trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau159,161title.png",
+                "title": "Câu 159. Địa chỉ nào dưới đây thuộc lớp B?",
+                "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Nguồn lực bếp được sử dụng từ ngày 10-5 đến 20-5.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Dự án có tối đa 3 bếp, nguồn lực bếp có 10 ngày bị quá tải.",
+                        "value": "a. 172.16.0.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Dự án có tối đa 1 bếp, nguồn lực bếp có 3 ngày bị quá tải.",
+                        "value": "b. 192.168.1.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Dự án có tối đa 1 bếp, nguồn lực bếp có 10 ngày bị quá tải.",
+                        "value": "c. 10.0.0.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 127.0.0.1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -8359,2051 +8359,39 @@ const questions = {
             },
             {
                 "id": 160,
-                "title": "Câu 160: Để cân đối nguồn lực hiện tại, chọn công cụ nào?",
-                "thumb": "./assets/img/question_2/cau160,162-163title.png",
+                "title": "Câu 160. Giao thức nào không phải là giao thức tầng ứng dụng?",
+                "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Công cụ số 4.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Công cụ số 3.",
+                        "value": "a. HTTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Công cụ số 2.",
+                        "value": "b. TCP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Công cụ số 5.",
+                        "value": "c. FTP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. SMTP",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
 
-            {
-                "id": 161,
-                "title": "Câu 161: Dựa vào hình dưới đây, hãy cho biết ngày 20-5 dự án cần bao nhiêu bếp?",
-                "thumb": "./assets/img/question_2/cau159,161title.png",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 2 bếp.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 3 bếp.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 1 bếp.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không cần sử dụng bếp.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 162,
-                "title": "Câu 162: Trong quá trình thực hiện dự án, hãy cho biết để thiết lập các tùy chọn trong việc cân đối nguồn lực, chúng ta chọn công cụ số mấy trong các công cụ sau?",
-                "thumb": "./assets/img/question_2/cau160,162-163title.png",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Công cụ số 4.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Công cụ số 3.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Công cụ số 2.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Công cụ số 5.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 163,
-                "title": "Câu 163: Hãy cho biết đây là hình ảnh của tab nào?",
-                "thumb": "./assets/img/question_2/cau160,162-163title.png",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Tab Task.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Tab View.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Tab Resource.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tab Project.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 164,
-                "title": "Câu 164: Dựa vào hình dưới đây, hãy chọn phương án đúng ứng với chi phí dành cho nguồn lực dạng Work?",
-                "thumb": "./assets/img/question_2/cau164title.png",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 7,000,000 đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 7,600,000 đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 200,000 đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 400,000 đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 165,
-                "title": "Câu 165: Thao tác nào trong các thao tác sau dùng để lập báo cáo lịch làm việc của thợ sơn?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Project/ Reports/ Assignments…/ Overallocated Resources/ Chọn thợ sơn.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Project/ Reports/ Assignments…/ Who Does What/ Chọn thợ sơn.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Project/ Reports/ Assignments…/ To-do List/ Chọn thợ sơn.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Project/ Reports/ Assignments…/ Who Does What When/ Chọn thợ sơn.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 166,
-                "title": "Câu 166: Hãy cho biết khái niệm đúng về Standard Rate trong các khái niệm sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Mức giá của một nguồn lực cho những công việc trong giờ làm việc.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Mức giá của một nguồn lực cho những công việc ngoài giờ làm việc.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chi phí phải chi trả mỗi lần một nguồn lực dạng Work được sử dụng và không bị chi phối bởi thời gian nguồn lực đó được sử dụng hoặc mỗi lần nguồn lực dạng Material được sử dụng và không bị chi phối bởi số lượng đơn vị mà nguồn lực đó được sử dụng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Cung cấp các lựa chọn trong việc xác định khi nào và cách thức nào mà các giá trị Standard Rate và Overtime Rate được sử dụng vào việc tính chi phí của công việc.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 167,
-                "title": "Câu 167: Hãy chọn thao tác đúng trong các thao tác sau để xuất ra bản báo cáo trên Excel như hình dưới đây?",
-                "thumb": "./assets/img/question_2/cau167title.png",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ Resource Usage/ Resource Cost Summany Report.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ Task Usage/ Cash Flow Report.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ Resource Usage/ Cash Flow Report.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Chọn Project/ Visual Reports/ Tích chọn Microsoft Excel/ All/ Resource Remaining Work Report.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 168,
-                "title": "Câu 168: Khi cần báo cáo ngân quỹ dự trù của dự án, ta chọn mục nào trong các mục sau?",
-                "thumb": "./assets/img/question_2/cau168title.png",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Overbudget Tasks.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Budget.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Earned Value.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Cash Flow.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 169,
-                "title": "Câu 169: Dựa vào hình dưới đây, hãy cho biết lương của thợ nặn vào ngày 4/20/15 (mm/dd/yy) được tính như thế nào trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau169title.png",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Lương trong giờ 250,000 đ/ngày, lương ngoài giờ 60,000 đ/giờ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Lương trong giờ 200,000 đ/ngày, lương ngoài giờ 50,000 đ/giờ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Lương trong giờ 220,000 đ/ngày, lương ngoài giờ 50,000 đ/giờ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Lương trong giờ 300,000 đ/ngày, lương ngoài giờ 60,000 đ/giờ.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 170,
-                "title": "Câu 170: Để nhập được đơn vị tiền tệ là “đ” như hình dưới đây, ta phải thay đổi tùy chọn nào trong các tùy chọn sau?",
-                "thumb": "./assets/img/question_2/cau170title.png",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. File/ Options/ Schedule/ Currency.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. File/ Options/ Advanced/ Symbol.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. File/ Options/ Advanced/ Currency.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. File/ Options/ Display/ Symbol.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 171,
-                "title": "Câu 171: Để hiển thị % hoàn thành và chi phí của các công việc trên biểu đồ Gantt Chart, ta chọn thao tác nào trong các thao tác sau?",
-                "thumb": "./assets/img/question_2/cau171title.png",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Chọn các công việc/ Format/ Bar.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chọn các công việc/ View/ Format/ Bar.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chọn các công việc/ Format/ Format/ Bar.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Chọn các công việc/ View/ Bar.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 172,
-                "title": "Câu 172: Dựa vào hình dưới đây, hãy cho biết trong các công việc sau, đâu là công việc làm trong ngày 04/04/2014?",
-                "thumb": "./assets/img/question_2/cau172title.png",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Tìm nguồn thạch cao, chuẩn bị nhà xưởng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Tìm nguồn thạch cao, mua khí đốt, chuẩn bị nhà xưởng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Tìm nguồn thạch cao, mua khí đốt, chuẩn bị nhà xưởng, mua thạch cao, xong vật tư nhà xưởng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tìm nguồn thạch cao, mua thạch cao, mua khí đốt, chuẩn bị nhà xưởng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 173,
-                "title": "Câu 173: Trong các thao tác sau, thao tác nào dùng để đổi tên cột Task Name thành Yêu cầu như hình dưới đây?",
-                "thumb": "./assets/img/question_2/cau173title.png",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Nháy phải chuột lên cột Task Name/ Chọn Custom Fields/ Đổi tên tại mục Title.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Nháy phải chuột lên cột Task Name/ Chọn Field Settings/ Đổi tên tại mục Name.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Nháy phải chuột lên cột Task Name/ Chọn Custom Fields/ Đổi tên tại mục Name.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Nháy phải chuột lên cột Task Name/ Chọn Field Settings/ Đổi tên tại mục Title.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 174,
-                "title": "Câu 174: Dựa vào hình dưới đây, hãy cho biết mối quan hệ giữa công việc 11 và công việc 17 thuộc dạng liên kết nào sau đây?",
-                "thumb": "./assets/img/question_2/cau174title.png",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. FS.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. SS.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. FF.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. SF.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 175,
-                "title": "Câu 175: Để các dự án luôn mặc định bắt đầu làm việc từ 7:30 AM đến 5:30 PM như hình dưới, ta chọn thao tác nào trong các thao tác sau?",
-                "thumb": "./assets/img/question_2/cau175title.png",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. File/ Options/ Calendar.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. File/ Options/ Schedule.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. File/ Options/ Advanced.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. File/ Options/ Display.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 176,
-                "title": "Câu 176: Dựa vào hình dưới đây, hãy cho biết công việc nào trong các công việc sau đây chưa được phân công?",
-                "thumb": "./assets/img/question_2/cau176title.png",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Đóng gói.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Rán bánh rán mẻ 1.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chuẩn bị đồ nấu, chuẩn bị bếp, giao hàng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Luộc bánh trôi mẻ 1, rán bánh chuối mẻ 2.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 177,
-                "title": "Câu 177: Hãy cho biết sau khi thực hiện thao tác Project/ Reports/ Cost… để in báo cáo chi phí dự án theo tiến độ giải ngân, ta phải chọn mục nào sau đây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Budget",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Overbudget Tasks",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Cash Flow",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Earned Value",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 178,
-                "title": "Câu 178: Trong các cửa sổ sau đây, cửa sổ nào dùng để nhập chi phí cho tài nguyên kiểu Cost?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Assign Resources",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Resource Graph",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Team Planner",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Resource Sheet",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 179,
-                "title": "Câu 179: Dựa vào hình dưới đây, hãy cho biết tổng thời gian thợ nặn làm việc tới ngày 24/04 là bao nhiêu trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau179title.png",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 54h",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 277h",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 331h",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 223h",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 180,
-                "title": "Câu 180: Dựa vào hình dưới đây, hãy cho biết tổng chi phí thực tế của việc “Nặn 200 đĩa lớn” là bao nhiêu trong các phương án sau?",
-                "thumb": "./assets/img/question_2/cau180title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 824,000 đ",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2,450,000 đ",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 2,250,000 đ",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 1,626,000 đ",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 181,
-                "title": "Câu 181: Hãy chọn phương án đúng ứng với đường găng của dự án trong hình dưới đây?",
-                "thumb": "./assets/img/question_2/cau181title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. A – C – D – F – I – K – M",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. B – E – G – I – K – M",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. A – C – D – F – I – L – M",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. A – B – C – D – H – I – L – M",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 182,
-                "title": "Câu 182: Trong đợt làm lọ hoa, bàn xoay được sử dụng 2 lần, lần thứ nhất 10h, lần thứ hai 12h. Bạn hãy tính chi phí sử dụng bàn xoay?",
-                "thumb": "./assets/img/question_2/cau182-183title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 110,000đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 120,000đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 130,000đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 220,000đ.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 183,
-                "title": "Câu 183: Để đặt lịch làm việc cho một nguồn lực, ta chọn cột nào?",
-                "thumb": "./assets/img/question_2/cau182-183title.png",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Base Calendar.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Max. Units.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Accrue At.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Type.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 184,
-                "title": "Câu 184: Để thiết lập được các mức độ: Rất cao, Cao, Trung bình… trên cột “Giá trị thực tiễn”, ta cần thao tác thế nào?",
-                "thumb": "./assets/img/question_2/cau184title.png",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Chọn tab Project/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Formula… và thiết lập giá trị tại mục Description.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chọn tab Project/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Lookup… và thiết lập giá trị tại mục Value.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chọn tab Project/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Lookup… và thiết lập giá trị tại mục Description.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Chọn tab Task/ Chọn Custom Fields/ Chọn field “Giá trị thực tiễn” => Chọn thuộc tính Lookup… và thiết lập giá trị tại mục Value.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 185,
-                "title": "Câu 185: Một thợ sơn có lịch làm việc kiểu Standard. Công việc phải hoàn thành trong 5 ngày, ngày bắt đầu làm việc là 22/09 (thứ 4). Hãy cho biết công việc kết thúc vào thời điểm nào trong các thời điểm sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 26/09.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 27/09.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 28/09.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 30/09.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 186,
-                "title": "Câu 186: Hãy chọn phương án đúng trong các phương án sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Task Sheet là màn hình hiển thị các mức độ sử dụng các nguồn lực theo thời gian.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Task Sheet là màn hình nhập liệu dạng bảng, tương tự như Gantt Chart nhưng không có phần biểu đồ trực quan.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Task Sheet là màn hình nhập liệu master-detail, liệt kê chi tiết công việc theo từng nguồn lực.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Task Sheet là màn hình nhập liệu master-detail, liệt kê chi tiết nguồn lực gắn với từng công việc.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 187,
-                "title": "Câu 187: Để chọn ra cách tính chi phí nguồn lực trong các phương án sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Work, Material, Cost.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Begin, Finish, Prorated.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Start, End, Prorated.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Standard, Night Shift, 24h.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 188,
-                "title": "Câu 188: Hãy cho biết để thực hiện lọc những công việc trọng yếu trên đường găng của dự án, ta lọc theo tiêu chí nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Critical.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Completed Tasks.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Incomplete Tasks.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Milestones.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 189,
-                "title": "Câu 189: Để điều tra công việc và xử lý quá tải ta chọn thao tác nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Task/ Inspect/ Inspect Task.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Task/ Mark on Track.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Task/ Inspect/ Reschedule Task.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Task/ Information.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 190,
-                "title": "Câu 190: Dựa vào hình ảnh hãy cho biết điểm mốc “Nung xong” (dd/mm/yyyy) xảy ra vào thời điểm nào trong các thời điểm sau?",
-                "thumb": "./assets/img/question_2/cau190title.png",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 18/04/2014.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 29/04/2014.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 03/06/2014.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 07/05/2014.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 191,
-                "title": "Câu 191: Dựa vào hình ảnh hãy cho biết công việc nào đã hoàn thành trong các công việc sau?",
-                "thumb": "./assets/img/question_2/cau191title.png",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Công việc 7, 14.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Công việc 5, 9.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Công việc 10, 11, 12.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Công việc 2, 3.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 192,
-                "title": "Câu 192: Hãy cho biết muốn xem danh sách các công việc của từng nguồn lực một cách nhanh nhất, ta chọn cửa sổ nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Resource Usage.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Task Form.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Resource Sheet.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tracking Gantt.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 193,
-                "title": "Câu 193: Đâu là khái niệm đúng về Overtime Rate trong các khái niệm sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Mức giá của một nguồn lực cho những công việc làm trong giờ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Mức giá của một nguồn lực cho những công việc làm ngoài giờ.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chi phí phải chi trả mỗi lần một nguồn lực dạng Work được sử dụng và không bị chi phối bởi thời gian nguồn lực đó được sử dụng hoặc mỗi lần nguồn lực dạng Material được sử dụng và không bị chi phối bởi số lượng đơn vị mà nguồn lực đó được sử dụng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Cung cấp các lựa chọn trong việc xác định khi nào và cách thức nào mà các giá trị Standard Rate và Overtime Rate được sử dụng vào việc tính chi phí của công việc.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 194,
-                "title": "Câu 194: Người quản trị dự án cần chọn thao tác nào trong các thao tác sau để loại bỏ công việc “Xử lý làm trắng thạch cao” khỏi dự án?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Project chọn biểu tượng Inactive.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Task chọn biểu tượng Delete.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Task chọn biểu tượng Inactive.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Chọn task “Xử lý làm trắng thạch cao”/ Tại tab Project chọn biểu tượng Inactive.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 195,
-                "title": "Câu 195: Muốn hiển thị trạng thái của từng yêu cầu bằng các biểu tượng tại cột HT Trạng thái như hình dưới đây, ta sử dụng tính năng nào trong các tính năng sau?",
-                "thumb": "./assets/img/question_2/cau195title.png",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Graphical Indicators.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Lookup.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Formula.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Data.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 196,
-                "title": "Câu 196: Dựa vào hình hãy cho biết yêu cầu số 1 và số 8 thuộc dạng task nào trong các dạng task sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Inactive Task.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Active Task.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Milestone.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Summary Task.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 197,
-                "title": "Câu 197: Hãy cho biết để điều chỉnh chế độ đặt lịch thủ công sang đặt lịch tự động cho công việc, ta chọn mục nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Indicators.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Type.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Task Mode.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. ID.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 198,
-                "title": "Câu 198: Dựa vào hình, hãy cho biết để điều chỉnh quan hệ “Summary Task – Task thường” giữa các công việc ta chọn nút lệnh nào trong các nút lệnh sau?",
-                "thumb": "./assets/img/question_2/cau198title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 12 – 13.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 9 – 10.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 1 – 2 – 3 – 4 – 5.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 7.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 199,
-                "title": "Câu 199: Công tác phòng chống rủi ro được thực hiện nhằm đảm bảo sự thành công của các công việc nào trong các công việc sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Các công việc có thời gian thực hiện dài nhất.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Các công việc không nằm trên đường găng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Các công việc bị quá tải.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Các công việc trên đường găng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 200,
-                "title": "Câu 200: Hãy chọn ra công thức tính giá trị rủi ro trong các công thức sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Khả năng xảy ra * thời gian thực hiện.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Mức độ ảnh hưởng * thời gian thực hiện.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Khả năng xảy ra * mức độ ảnh hưởng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Thời gian thực hiện * % hoàn thành.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 201,
-                "title": "Câu 201: Microsoft Project có những loại lịch mặc định nào trong các loại lịch sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Standard, Night Shift, Calendar.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Standard, Night Shift, 24 Hours.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Night Shift, 24 Hours, Calendar.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Standard, 24 Hours, Day Shift.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 202,
-                "title": "Câu 202: Để thực hiện việc phân bổ nguồn lực cho công việc, ta có thể thao tác thông qua cửa sổ nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Cửa sổ Resource Sheet.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Cửa sổ Resource Graph.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Cửa sổ Team Planner.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Cửa sổ Task Usage.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 203,
-                "title": "Câu 203: Để đưa nhiều công việc lên thanh Timeline, ta chọn thao tác nào trong các thao tác sau?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Kích chọn vào cửa sổ Timeline/ Format/ Existing Tasks/ Tích chọn vào công việc muốn đưa vào Timeline.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chọn các công việc cần đưa/ Project/ Add to Timeline.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chọn các công việc/ Task/ Information/ Advanced/ Tích chọn mục Display on Timeline.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Chọn các công việc/ Project/ Project Information/ Advanced/ Tích chọn mục Display on Timeline.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 204,
-                "title": "Câu 204: Hãy cho biết trong các công thức sau đâu là công thức tính giá trị Total Cost?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. (Work * Standard Rate) + (Overtime Work * Overtime Rate) + Resource Per Use Cost + Task Fixed Cost.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Total Cost - Baseline Cost.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. (Actual Work * Standard Rate) + (Actual Overtime Work * Overtime Rate) + Resource Per Use Costs + Task Fixed Cost.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Actual Cost + Remaining Cost.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 205,
-                "title": "Câu 205: Dựa vào hình dưới đây, hãy chọn phương án đúng ứng với tổng lượng thạch cao sử dụng từ ngày 22/4 đến 24/4?",
-                "thumb": "./assets/img/question_2/cau205title.png",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 97.34 kg.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 98 kg.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 105.97 kg.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 58.96 kg.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 206,
-                "title": "Câu 206: Để dịch chuyển dự án chậm 1 tuần so với dự kiến, ta chọn nhóm biểu tượng nào sau đây tại tab Project?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Properties.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Status.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Schedule.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Reports.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 207,
-                "title": "Câu 207: Trong quá trình giám sát để cập nhật dữ liệu thực tế về thời gian, ngày công và chi phí ta chọn?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. View/ Tables/ Tracking.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. View/ Tables/ Schedule.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. View/ Tables/ Variance.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. View/ Tables/ Usage.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 208,
-                "title": "Câu 208: Hãy chọn thao tác để định dạng đường găng như hình?",
-                "thumb": "./assets/img/question_2/cau208title.png",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Format/ Collapse Box.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Format/ Box.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Format/ Layout.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Format/ Align.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 209,
-                "title": "Câu 209: Hãy chọn thao tác để cập nhật các công việc làm đúng tiến độ?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Task/ Inspect/ Information.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Task/ Update Project.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Task/ Update Information.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Task/ Mark on Track/ Mark on Track.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 210,
-                "title": "Câu 210: ACWP viết tắt của từ nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Actual Cost of Work Performed.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Actual Cost of Work Variance.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Actual Cost of Work Schedule.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Actual Cost of Work Baseline.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 211,
-                "title": "Câu 211: Hãy cho biết để thiết lập Baseline cho dự án trong phần mềm Microsoft Project 2010 ta thực hiện theo dãy thao tác nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Tab Task/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Tab View/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Tab Project/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tab Resource/ Set Baseline/ Set Baseline/ Chọn một trong 11 kiểu Baseline/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 212,
-                "title": "Câu 212: Hãy cho biết để in báo cáo giám sát dự án Earned Value ta thực hiện theo phương án nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Tab Project/ Reports/ Overview/ Earned Value.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Tab Project/ Reports/ Assignments/ Earned Value.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Tab Project/ Reports/ Custom/ Earned Value.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tab Project/ Reports/ Costs/ Earned Value.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 213,
-                "title": "Câu 213: Muốn thiết lập ngày giám sát dự án Status Date vào ngày 23/5 ta phải thao tác như thế nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Project/ Project Information.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Project/ Change Working Time.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Project/ Status Date.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. View/ Status Date.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 214,
-                "title": "Câu 214: Để cập nhật 1 công việc hoàn thành 80% và ghi chú do thiếu nhiên liệu ta thực hiện thao tác nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Resource/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Task/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Project/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. View/ Information/ Tại tab General nhập 80% ở mục Percent complete – Tại tab Notes nhập ghi chú.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 215,
-                "title": "Câu 215: Hãy cho biết để xóa bỏ Baseline của dự án trong phần mềm Microsoft Project 2010 ta thực hiện theo phương án nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Tab Task/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Tab View/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Tab Resource/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tab Project/ Set Baseline/ Clear Baseline/ Chọn Baseline đã thiết lập/ OK.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 216,
-                "title": "Câu 216: Hãy cho biết để thiết lập Status Date cho dự án trong phần mềm Microsoft Project 2010 ta thực hiện theo phương án nào?",
-                "thumb": "./assets/img/question_2/cau216title.png",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1-2-3-4-5-6-7-8-9.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 1-2-5-3-6-4-7-8-9.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 1-2-5-4-3-6-7-8-9.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 1-2-5-3-4-6-7-8-9.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 217,
-                "title": "Câu 217: Dự án gia công áo lính gửi Trường Sa kéo dài 120 ngày, chi phí dự kiến 100 triệu. Giám sát dự án vào ngày thứ 25, người quản lý nhận thấy chỉ số SPI = 0.75. Hãy dự báo số ngày hoàn thành dự án?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 160 ngày.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 90 ngày.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 120 ngày.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 100 ngày.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 218,
-                "title": "Câu 218: Dự án có các giá trị BCWS = 3 triệu, BCWP = 2 triệu, ACWP = 2.3 triệu. Hỏi dự án đã tiêu nhiều, tiêu đủ hay tiêu ít? Tính chỉ số đánh giá chi phí CPI của dự án?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 0.67, tiêu nhiều.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 0.87, tiêu nhiều.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 1.33, tiêu ít.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 1.67, tiêu ít.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 219,
-                "title": "Câu 219: Chi phí dự trù để hoàn thành công việc A trong 7 ngày là $1500. Hôm nay là ngày thứ 7 của tiến trình thực hiện. Tuy nhiên lúc này từ sổ sách chi tiêu thực tế đã chi $1350, qua đo lường thực trạng hạng mục này mới hoàn thành được 2/3 khối lượng dự trù. Hãy tính Earned Value?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. $1350.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. $1000.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. $900.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. -$500.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 220,
-                "title": "Câu 220: Quan sát hình hãy dự đoán các công việc nào có khả năng chậm tiến độ?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Làm đèn gửi Trường Sa – Áo mưa gửi Hoàng Sa.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Nước uống gửi Trường Sa.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. May áo gửi Hoàng Sa - Suất ăn gửi Trường Sa - Nước uống gửi Trường Sa.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. May áo gửi Hoàng Sa – Làm đèn gửi Trường Sa – Suất ăn gửi Hoàng Sa – Áo mưa gửi Hoàng Sa.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 221,
-                "title": "Câu 221: Hãy cho biết công việc nào có khả năng hoàn thành sớm?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 2.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 4.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 3.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 5.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            }
+
 
         ],
     }
