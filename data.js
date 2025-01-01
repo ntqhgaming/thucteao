@@ -4270,7 +4270,7 @@ const questions = {
                 "title": "Câu 36. Có bao nhiêu vùng va chạm (collision domains) trong mạng gồm 88 máy tính, 10 HUB và 2 REPEATER?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 2,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
@@ -4336,7 +4336,7 @@ const questions = {
                 "title": "Câu 38. Trong mô hình TCP/IP thì giao thức IP nằm ở?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
@@ -5026,32 +5026,32 @@ const questions = {
             },
             {
                 "id": 59,
-                "title": "Câu 59. Địa chỉ IP nào không được dùng trong mạng cục bộ?",
+                "title": "Câu 59. Địa chỉ IP nào sau đây thuộc lớp C ",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 172.16.0.1",
+                        "value": "a. 190.184.254.20",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.1.1",
+                        "value": "b. 195.148.21.10",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.1",
+                        "value": "c. 225.198.20.10",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 192.0.2.1",
+                        "value": "d. câu a. và b",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5059,32 +5059,32 @@ const questions = {
             },
             {
                 "id": 60,
-                "title": "Câu 60. Giao thức nào được dùng để truy cập từ xa vào máy tính trong mạng?",
+                "title": "Câu 60. Lệnh PING dùng để:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. FTP",
+                        "value": "a. Kiểm tra các máy tính có đĩa cứng hay không",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. HTTP",
+                        "value": "b. Kiểm tra các máy tính có hoạt động tốt hay không",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. SSH",
+                        "value": "c. Kiểm tra các máy tính trong mạng có thông không",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. SMTP",
+                        "value": "d. Kiểm tra các máy tính có truy cập vào Internet không",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5092,1627 +5092,10 @@ const questions = {
             },
             {
                 "id": 61,
-                "title": "Câu 61. Địa chỉ MAC có thể được thay đổi không?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Có thể",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Không",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Chỉ có thể thay đổi trong một số trường hợp",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Tùy thuộc vào thiết bị",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 62,
-                "title": "Câu 62. Địa chỉ IP nào là địa chỉ Private?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.15.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.1.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 203.0.113.0",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 63,
-                "title": "Câu 63. Giao thức nào được sử dụng để gửi email?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 64,
-                "title": "Câu 64. Địa chỉ IP nào dưới đây không phải là địa chỉ hợp lệ?",
+                "title": "Câu 61. Lệnh nào sau đây cho biết địa chỉ IP của máy tính:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 4,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 255.255.255.0",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.256",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 65,
-                "title": "Câu 65. Giao thức nào đảm bảo việc truyền dữ liệu an toàn và đáng tin cậy?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 66,
-                "title": "Câu 66. Địa chỉ nào là địa chỉ Loopback trong mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 0.0.0.0",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 192.0.2.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 67,
-                "title": "Câu 67. Giao thức nào được sử dụng để truyền tải video trực tuyến?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. RTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 68,
-                "title": "Câu 68. Cổng nào thường sử dụng cho giao thức HTTP?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 80",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 443",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 21",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 25",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 69,
-                "title": "Câu 69. Giao thức nào không phải là giao thức ứng dụng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 70,
-                "title": "Câu 70. Địa chỉ IP nào dưới đây là địa chỉ công cộng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 71,
-                "title": "Câu 71. Giao thức nào được sử dụng để quản lý các thiết bị mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. ARP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 72,
-                "title": "Câu 72. Giao thức nào được sử dụng để đồng bộ thời gian giữa các máy tính?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. NTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. SNTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 73,
-                "title": "Câu 73. Mạng nào được sử dụng để kết nối các thiết bị trong cùng một tòa nhà?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. LAN",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. WAN",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. MAN",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. PAN",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 74,
-                "title": "Câu 74. Giao thức nào cho phép truyền tải dữ liệu không kết nối?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 75,
-                "title": "Câu 75. Địa chỉ IP nào dưới đây thuộc lớp B?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 76,
-                "title": "Câu 76. Giao thức nào được sử dụng để truyền tải tệp tin?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. SSH",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 77,
-                "title": "Câu 77. Địa chỉ nào dưới đây là địa chỉ Broadcast của lớp C?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.16.15.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 78,
-                "title": "Câu 78. Mạng nào thường sử dụng giao thức PPP?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. WAN",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. LAN",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. MAN",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. PAN",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 79,
-                "title": "Câu 79. Địa chỉ IP nào là địa chỉ Private?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.17.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.1.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 80,
-                "title": "Câu 80. Giao thức nào được xem là giao thức mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 81,
-                "title": "Câu 81. Địa chỉ nào dùng để xác định các thiết bị trong mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Địa chỉ IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Địa chỉ MAC",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Tên miền",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Địa chỉ URL",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 82,
-                "title": "Câu 82. Địa chỉ IP nào là địa chỉ Loopback?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.0.2.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 83,
-                "title": "Câu 83. Địa chỉ nào sau đây không phải là địa chỉ IP hợp lệ?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 256.256.256.256",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 84,
-                "title": "Câu 84. Giao thức nào không đảm bảo tính bảo mật khi truyền tải dữ liệu?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. HTTPS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SFTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. FTPS",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 85,
-                "title": "Câu 85. Giao thức nào được sử dụng để xác thực người dùng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. RADIUS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 86,
-                "title": "Câu 86. Địa chỉ IP nào có thể được sử dụng để kết nối đến Internet?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 203.0.113.5",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 87,
-                "title": "Câu 87. Giao thức nào được sử dụng để truyền tải video trực tuyến?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. RTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 88,
-                "title": "Câu 88. Địa chỉ IP nào sau đây thuộc lớp D?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 224.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 89,
-                "title": "Câu 89. Giao thức nào không phải là giao thức mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 90,
-                "title": "Câu 90. Địa chỉ IP nào dưới đây là địa chỉ công cộng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 91,
-                "title": "Câu 91. Giao thức nào được dùng để gửi dữ liệu từ một máy tính đến máy tính khác?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 92,
-                "title": "Câu 92. Địa chỉ IP nào dưới đây thuộc lớp A?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 93,
-                "title": "Câu 93. Giao thức nào được sử dụng để truyền tải tệp tin an toàn?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SFTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SCP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 94,
-                "title": "Câu 94. Địa chỉ IP nào dưới đây là địa chỉ Private?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.0.2.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 203.0.113.5",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 10.1.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 95,
-                "title": "Câu 95. Địa chỉ MAC được sử dụng để làm gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Xác định các thiết bị trong mạng",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Gửi email",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Truy cập Internet",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Tạo website",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 96,
-                "title": "Câu 96. Giao thức nào dùng để truyền tải dữ liệu giữa các máy trong mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 97,
-                "title": "Câu 97. Địa chỉ nào sau đây là địa chỉ multicast?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 239.255.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 98,
-                "title": "Câu 98. Giao thức nào không phải là giao thức tầng ứng dụng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 99,
-                "title": "Câu 99. Địa chỉ nào sau đây thuộc lớp B?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 100,
-                "title": "Câu 100. Giao thức nào đảm bảo tính bảo mật cao nhất khi truyền tải dữ liệu?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SSL/TLS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 101,
-                "title": "Câu 101. Địa chỉ nào sau đây là địa chỉ công cộng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 102,
-                "title": "Câu 102. Giao thức nào cho phép truyền tải file lớn?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. TFTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 103,
-                "title": "Câu 103. Địa chỉ nào dưới đây thuộc lớp E?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 240.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 104,
-                "title": "Câu 104. Giao thức nào được sử dụng để gửi email?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 105,
-                "title": "Câu 105. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 256.256.256.256",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 106,
-                "title": "Câu 106. Giao thức nào được sử dụng để xác thực người dùng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. RADIUS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 107,
-                "title": "Câu 107. Địa chỉ IP nào được sử dụng cho mạng cục bộ?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 108,
-                "title": "Câu 108. Giao thức nào được dùng để truyền tải video trực tuyến?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. RTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 109,
-                "title": "Câu 109. Địa chỉ nào sau đây là địa chỉ Loopback?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 110,
-                "title": "Câu 110. Giao thức nào được sử dụng để truyền tải dữ liệu trên Internet?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
@@ -6722,139 +5105,7 @@ const questions = {
                     },
                     {
                         "idResult": 2,
-                        "value": "b. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 111,
-                "title": "Câu 111. Địa chỉ nào dưới đây là địa chỉ Broadcast?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.16.0.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 112,
-                "title": "Câu 112. Giao thức nào không phải là giao thức tầng mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 113,
-                "title": "Câu 113. Địa chỉ nào dưới đây là địa chỉ Private?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.1.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 114,
-                "title": "Câu 114. Giao thức nào được sử dụng để truy cập các trang web an toàn?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. HTTPS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. HTTP",
+                        "value": "b. TCP_IP",
                         "url_thumb": "",
                         "type": ""
                     },
@@ -6866,447 +5117,282 @@ const questions = {
                     },
                     {
                         "idResult": 4,
-                        "value": "d. TFTP",
+                        "value": "d. IPCONFIG",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 115,
-                "title": "Câu 115. Địa chỉ nào dưới đây thuộc lớp C?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 116,
-                "title": "Câu 116. Giao thức nào được sử dụng để truyền tải video qua Internet?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. RTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 117,
-                "title": "Câu 117. Địa chỉ nào dưới đây được sử dụng cho mạng cục bộ?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.2.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 203.0.113.5",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.5",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.31.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 118,
-                "title": "Câu 118. Giao thức nào không phải là giao thức tầng ứng dụng?",
+                "id": 62,
+                "title": "Câu 62. Trong mạng máy tính dùng giao thức TCP/IP và đều dùng Subnet Mask là 255.255.255.0 thì cặp máy tính nào sau đây liên thông:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. HTTP",
+                        "value": "a.192.168.1.3 và 192.168.100.1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. TCP",
+                        "value": "b. 192.168.15.1 và 192.168.15.254",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. FTP",
+                        "value": "c. 192.168.100.15 và 192.186.100.16",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. SMTP",
+                        "value": "d. 172.25.11.1 và 172.26.11.2",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 119,
-                "title": "Câu 119. Địa chỉ nào dưới đây là địa chỉ Loopback?",
+                "id": 63,
+                "title": "Câu 63. Trong mạng máy tính dùng giao thức TCP/IP và Subnet Mask là 255.255.255.224, hãy xác định địa chỉ broadcast của mạng nếu biết rằng một máy tính trong mạng có địa chỉ 192.168.1.1 ",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 127.0.0.1",
+                        "value": "a. 192.168.1.31",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.1.1",
+                        "value": "b. 192.168.1.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.1",
+                        "value": "c. 192.168.1.15",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 255.255.255.255",
+                        "value": "d. 192.168.1.96",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 120,
-                "title": "Câu 120. Giao thức nào được dùng để truyền tải dữ liệu một cách đáng tin cậy?",
+                "id": 64,
+                "title": "Câu 64. Trong mạng Ring, mỗi trạm của mạng được nối với vòng nhờ bộ phận:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Hub, Switch",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Bridge, Router",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Router",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Repeater",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 65,
+                "title": "Câu 65. Topo mạng cục bộ nào mà tất cả các trạm phân chia chung một đường truyền chính:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. TCP",
+                        "value": "a. Bus",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. UDP",
+                        "value": "b. Ring",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. ICMP",
+                        "value": "c. Star",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. IP",
+                        "value": "d. Hybrid",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 121,
-                "title": "Câu 121. Địa chỉ nào dưới đây là địa chỉ Broadcast?",
+                "id": 66,
+                "title": "Câu 66. Byte đầu tiên của một địa chỉ IP có dạng: 11011011. Vậy nó thuộc lớp nào:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Lớp A",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Lớp B",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Lớp C",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Lớp D",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 67,
+                "title": "Câu 67. Byte đầu tiên của một địa chỉ IP có dạng: 01000111. Vậy nó thuộc lớp nào:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 255.255.255.255",
+                        "value": "a. Lớp A",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.1.1",
+                        "value": "b. Lớp B",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.1",
+                        "value": "c. Lớp C",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 172.16.0.1",
+                        "value": "d. Lớp D",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 122,
-                "title": "Câu 122. Giao thức nào không phải là giao thức tầng mạng?",
+                "id": 68,
+                "title": "Câu 68. Byte đầu tiên của một địa chỉ IP có dạng 10110111. Vậy nó thuộc lớp nào:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. ICMP",
+                        "value": "a. Lớp A",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. FTP",
+                        "value": "b. Lớp B",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. UDP",
+                        "value": "c. Lớp C",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. IP",
+                        "value": "d. Lớp D",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 123,
-                "title": "Câu 123. Địa chỉ nào dưới đây thuộc lớp D?",
+                "id": 69,
+                "title": "Câu 69. Trong các lớp A, B, C, D, E thì lớp nào dùng cho các mạng có số trạm cực lớn:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 224.0.0.1",
+                        "value": "a. Lớp A",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.0.1",
+                        "value": "b. Lớp B",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.1",
+                        "value": "c. Lớp C",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 172.16.0.1",
+                        "value": "d. Lớp D",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 124,
-                "title": "Câu 124. Giao thức nào được dùng để truyền tải hình ảnh qua Internet?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 125,
-                "title": "Câu 125. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
+                "id": 70,
+                "title": "Câu 70. Trong các giao thức giao vận Internet, giao thức nào có liên kết:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 300.300.300.300",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 126,
-                "title": "Câu 126. Giao thức nào cho phép truy cập từ xa vào máy chủ?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SSH",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 127,
-                "title": "Câu 127. Địa chỉ nào dưới đây là địa chỉ công cộng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 128,
-                "title": "Câu 128. Giao thức nào cho phép truyền tải dữ liệu một cách không đáng tin cậy?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
@@ -7322,978 +5408,549 @@ const questions = {
                     },
                     {
                         "idResult": 3,
-                        "value": "c. ICMP",
+                        "value": "c. TCP và UDP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. IP",
+                        "value": "d. Không phải các đáp án trên",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 129,
-                "title": "Câu 129. Địa chỉ nào dưới đây thuộc lớp A?",
+                "id": 71,
+                "title": "Câu 71. Số nhị phân 01111100 có giá trị thập phân là:",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 10.0.0.1",
+                        "value": "a. 118",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.0.1",
+                        "value": "b. 120",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 172.16.0.1",
+                        "value": "c. 124",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 127.0.0.1",
+                        "value": "d. 126",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 130,
-                "title": "Câu 130. Giao thức nào được sử dụng để truyền tải thông tin qua mạng?",
+                "id": 72,
+                "title": "Câu 72. Nếu lấy 1 địa chỉ lớp B để chia Subnet với Netmask là 255.255.240.0 thì có bao nhiêu Subnets có thể sử dụng được?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. IP",
+                        "value": "a. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. TCP",
+                        "value": "b. 6",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. UDP",
+                        "value": "c. 15 hoặc 16",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. ICMP",
+                        "value": "d. 30",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 131,
-                "title": "Câu 131. Địa chỉ nào dưới đây là địa chỉ Private?",
+                "id": 73,
+                "title": "Câu 73. Thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 4,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 192.168.1.1",
+                        "value": "a. Hub",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 203.0.113.1",
+                        "value": "b. Bridge",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.5",
+                        "value": "c. Ethernet switch",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 172.31.255.255",
+                        "value": "d. Router",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 132,
-                "title": "Câu 132. Giao thức nào không được sử dụng trong kết nối SSL?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. TLS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTPS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. IMAP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 133,
-                "title": "Câu 133. Địa chỉ nào dưới đây là địa chỉ Loopback?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 134,
-                "title": "Câu 134. Giao thức nào được sử dụng để truyền tải dữ liệu giữa các máy tính?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. UDP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 135,
-                "title": "Câu 135. Địa chỉ nào dưới đây thuộc lớp B?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 136,
-                "title": "Câu 136. Giao thức nào được sử dụng để gửi email?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. POP3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. IMAP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 137,
-                "title": "Câu 137. Địa chỉ nào dưới đây là địa chỉ Private?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.10.5",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 203.0.113.5",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 172.29.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 8.8.8.8",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 138,
-                "title": "Câu 138. Giao thức nào dùng để quản lý mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 139,
-                "title": "Câu 139. Địa chỉ nào dưới đây là địa chỉ Loopback?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 140,
-                "title": "Câu 140. Giao thức nào được sử dụng để truyền tải nhạc qua Internet?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. RTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 141,
-                "title": "Câu 141. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
+                "id": 74,
+                "title": "Câu 74. Địa chỉ Subnet của một IP nằm từ bit thứ 17 tới bit thứ 23. Vậy địa chỉ IP của nó thuộc lớp nào:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 192.168.1.1",
+                        "value": "a. Lớp A",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 256.256.256.256",
+                        "value": "b. Lớp B",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.1",
+                        "value": "c. Lớp C",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 172.16.0.1",
+                        "value": "d. Lớp D",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 142,
-                "title": "Câu 142. Giao thức nào không phải là giao thức tầng mạng?",
+                "id": 75,
+                "title": "Câu 75. Subnet Mask nào sau đây là hợp lệ:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 0.255.255.255",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 0.0.0.255",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 255.0.0.255",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 255.255.255.0",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 76,
+                "title": "Câu 76. Trong địa chỉ IP, có 5 lớp A, B, C, D, E. Lớp B là lớp có dãy địa chỉ:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 192.0.0.0 tới 223.255.255.255",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 240.0.0.0 tới 255.255.255.255",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 128.0.0.0 tới 191.255.255.255",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 224.0.0.0 tới 239.255.255.255",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 77,
+                "title": "Câu 77. Trong địa chỉ IP, có 5 lớp tất cả : A, B, C, D, E. Lớp C là lớp có dãy địa chỉ:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. ICMP",
+                        "value": "a. 224.0.0.0 tới 239.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. FTP",
+                        "value": "b. 192.0.0.0 tới 223.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. UDP",
+                        "value": "c. 128.0.0.0 tới 191.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. IP",
+                        "value": "d. 240.0.0.0 tới 255.255.255.255",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 143,
-                "title": "Câu 143. Địa chỉ nào dưới đây thuộc lớp C?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.2.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 144,
-                "title": "Câu 144. Giao thức nào được sử dụng để truyền tải dữ liệu qua mạng không dây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 802.11",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Ethernet",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. TCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. IP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 145,
-                "title": "Câu 145. Địa chỉ nào dưới đây là địa chỉ công cộng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 198.51.100.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 146,
-                "title": "Câu 146. Giao thức nào được sử dụng để truy cập vào máy chủ web?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SNMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 147,
-                "title": "Câu 147. Địa chỉ nào dưới đây không phải là địa chỉ Private?",
+                "id": 78,
+                "title": "Câu 78. Lớp C được phép mượn tối đa bao nhiêu bit cho Subnet :",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 172.31.0.1",
+                        "value": "a. 8",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.0.1",
+                        "value": "b. 6",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 203.0.113.1",
+                        "value": "c. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 10.0.0.1",
+                        "value": "d. 2",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 148,
-                "title": "Câu 148. Giao thức nào không phải là giao thức tầng transport?",
+                "id": 79,
+                "title": "Câu 79. Byte đầu tiên của một địa chỉ IP có dạng: 00000010. Vậy nó thuộc lớp nào:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Lớp A",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. lớp B",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Lớp C",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Lớp D",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 80,
+                "title": "Câu 80. Một mạng lớp C cần chia thành 9 mạng con sử dụng Subnet Mask nào sau đây :",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 255.255.255.224",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 255.0.0.255",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 255.224.255.0",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 255.255.255.240",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 81,
+                "title": "Câu 81. Lệnh nào dưới đây được dùng để bổ sung đường truyền trong bảng định tuyến với hệ điều hành Windows:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. TCP",
+                        "value": "a. Nslookup",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. IP",
+                        "value": "b. Route",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. UDP",
+                        "value": "c. Ipconfig",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. SCTP",
+                        "value": "d. Tracert",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 149,
-                "title": "Câu 149. Địa chỉ nào dưới đây thuộc lớp D?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 224.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 150,
-                "title": "Câu 150. Giao thức nào được sử dụng để gửi tin nhắn qua mạng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. POP3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. IMAP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 151,
-                "title": "Câu 151. Địa chỉ nào dưới đây là địa chỉ Loopback?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 127.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.1.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.255",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 152,
-                "title": "Câu 152. Giao thức nào được sử dụng để truyền tải video qua Internet?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. RTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. SMTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 153,
-                "title": "Câu 153. Địa chỉ nào dưới đây không phải là địa chỉ IP hợp lệ?",
+                "id": 82,
+                "title": "Câu 82. Tầng hai trong mô hình OSI tách luồng bit từ Tầng vật lý chuyển lên thành:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 192.168.1.1",
+                        "value": "a. Segment",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 300.300.300.300",
+                        "value": "b. Frame",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.1",
+                        "value": "c. Packet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 172.16.0.1",
+                        "value": "d. PSU",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 154,
-                "title": "Câu 154. Giao thức nào được sử dụng để quản lý mạng?",
+                "id": 83,
+                "title": "Câu 83. Phương pháp nào dùng để ngăn chặn các thâm nhập trái phép (theo danh sách truy nhập xác định trước) và có thể lọc bỏ các gói tin:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Encryption",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Physical Protection",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Firewall",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Login/ password",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 84,
+                "title": "Câu 84. Cáp xoắn đôi có mấy kiểu (loại – Category):",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. SNMP",
+                        "value": "a. 6",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. HTTP",
+                        "value": "b. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. FTP",
+                        "value": "c.3 ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. SMTP",
+                        "value": "d. 4",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 155,
-                "title": "Câu 155. Địa chỉ nào dưới đây thuộc lớp A?",
+                "id": 85,
+                "title": "Câu 85. Để có một kiến trúc mạng chung tương thích giữa các mạng, năm 1984 tổ chức Tiêu chuẩn thế giới đã công bố một mô hình mạng, đó là:",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 10.1.1.1",
+                        "value": "a. ISO",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 172.16.0.1",
+                        "value": "b. DECNET",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 192.168.1.1",
+                        "value": "c. OSI",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 127.0.0.1",
+                        "value": "d. ARPANET",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 156,
-                "title": "Câu 156. Giao thức nào được sử dụng để gửi email?",
+                "id": 86,
+                "title": "Câu 86. Dịch vụ nào cho phép người sử dụng từ một trạm làm việc của mình có thể đăng nhập vào một trạm ở xa qua mạng và có thể làm việc với hệ thống:",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. SMTP",
+                        "value": "a. FTP",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. POP3",
+                        "value": "b. Email",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. IMAP",
+                        "value": "c. Telnet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. FTP",
+                        "value": "d. WWW",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 157,
-                "title": "Câu 157. Địa chỉ nào dưới đây là địa chỉ Public?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 203.0.113.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 10.0.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 172.16.0.1",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 158,
-                "title": "Câu 158. Giao thức nào được sử dụng để truyền tải tệp tin?",
+                "id": 87,
+                "title": "Câu 87. Dịch vụ nào cho phép chuyển các file từ trạm này sang trạm khác, bất kể yếu tố địa lý hay hệ điều hành sử dụng:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
@@ -8306,90 +5963,1446 @@ const questions = {
                     },
                     {
                         "idResult": 2,
-                        "value": "b. HTTP",
+                        "value": "b. Telnet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. SMTP",
+                        "value": "c. Email",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. SNMP",
+                        "value": "d. WWW",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 159,
-                "title": "Câu 159. Địa chỉ nào dưới đây thuộc lớp B?",
+                "id": 88,
+                "title": "Câu 88.Phương thức nào mà trong đó cả hai bên đều có thể đồng thời gửi dữ liệu đi:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Simplex",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Half - duplex",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Full - duplex",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Phương thức khác",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 89,
+                "title": "Câu 89. Địa chỉ Subnet của một IP nằm từ bit thứ 9 tới bit thứ 23. Vậy địa chỉ IP của nó thuộc lớp nào:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. lỚP A",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Lớp B",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Lớp C",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Lớp D",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 90,
+                "title": "Câu 90. Cáp sợi quang Fiber Optic) thường được sử dụng để:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Thay thế cáp UTP vì nó rẻ hơn",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Vượt qua giới hạn về khoảng cách",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Kết nối PC đến các hộp nối trên tường",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Liên kết các vị trí ở xa bằng việc sử dụng một kết nối WAN",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 91,
+                "title": "Câu 91. Điều gì là đúng đối với các giao thức dạng connectionless (không kết nối)?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Hoạt động chậm hơn các giao thức dạng connection-oriented",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Các gói dữ liệu có phần header phức tạp hơn so với giao thức dạng connection-oriented",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Cung cấp một dịch vụ phân phát dữ liệu không đáng tin cậy",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Nút gửi phải truyền lại những dữ liệu đã bị mất trên đường truyền.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 92,
+                "title": "Câu 92. Hãy chỉ ra địa chỉ IP của host không hợp lệ với Subnet Mask = 255.255.255.224",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 222.81.22.104",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 222.88.65.135",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 222.81.56.130",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 222.81.55.128",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 93,
+                "title": "Câu 93. Chương trình Telnet cho phép:",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 172.16.0.1",
+                        "value": "a. Người sử dụng từ xa có thể chạy các chương trình ở trên host",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.1.1",
+                        "value": "b. Gọi một cuộc điện thoại liên quốc gia",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10.0.0.1",
+                        "value": "c. Hiển thị danh sách các tập tin và thư mục",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 127.0.0.1",
+                        "value": "d. Theo dõi toàn bộ hoạt động của mạng",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             {
-                "id": 160,
-                "title": "Câu 160. Giao thức nào không phải là giao thức tầng ứng dụng?",
+                "id": 94,
+                "title": "Câu 94.Có một mạng sử dụng địa chỉ Class B, bạn muốn chia mạng con với mỗi Subnet có tối đa là 500 host, như vậy phải dùng Subnet Mask:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 11111111.11111111.11111110.00000000",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 11111111.11111111.11111111.00000000",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 11111111.11111111.11111100.00000000",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 11111111.11111111.11111111.11000000",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 95,
+                "title": "Câu 95. Một nút mạng có thông số về địa chỉ IP như sau: 194.12.2.179/255.255.255.240. Xác định số hiệu của Subnet mà host này thuộc vào và host number của nút mạng:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Subnet 111100002, host number 179",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Subnet 010101012, hostnumber 12 Câu ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Subnet 101100002, host number 3",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Subnet 111100002, host number 11",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 96,
+                "title": "Câu 96. Một network có địa chỉ thuộc Class B và sử dụng Subnet Mask là 255.255.252.0, như vậy có thể chia thành bao nhiêu Subnet? 252  111111002",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 16",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 32",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 64",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 128",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 97,
+                "title": "Câu 97. Một network có địa chỉ thuộc Class C và sử dụng Subnet Mask là 255.255.255.252. Hỏi có bao nhiêu host trên một Subnet?",
                 "thumb": "",
                 "isCorrect": false,
                 "idCorrectResult": 2,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. HTTP",
+                        "value": "a. Subnet Mask không hợp lệ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. TCP",
+                        "value": "b. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. FTP",
+                        "value": "c. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. SMTP",
+                        "value": "d. 6",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
+            {
+                "id": 98,
+                "title": "Câu 98. Chức năng chính của tầng Presentation là:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Sửa lỗi",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Chuyển dữ liệu sang khuôn dạng phù hợp",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Đánh số thứ tự các gói dữ liệu.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Kiểm soát luồng dữ liệu",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 99,
+                "title": "Câu 113.	Để kết nối máy tính và Switch với nhau ta có thể dùng:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Cáp chéo Cross – Cable)",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Cáp thẳng Straight Cable)",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Rollover Cable Câu ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Tất cả đều sai",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 100,
+                "title": "Câu 114. Trong số các cặp giao thức và dịch vụ sau, cặp nào là sai?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. SMTP TCP Port 25",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. FTP TCP Port 21",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. HTTP TCP Port 80",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. TFTP TCP Port 69",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 101,
+                "title": "Câu 119. Để kết nối máy tính và Router với nhau ta có thể dùng:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Cáp chéo Cross - Cable)",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Cáp thẳng Straight Cable)",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Rollover Cable",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. tất cả đều sai",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 102,
+                "title": "Câu 120. Để kết nối Router với Router ta dùng:",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Cáp chéo Cross - Cable)",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Cáp thẳng Straight Cable)",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Rollover Cable",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Tất cả đều sai",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 103,
+                "title": "Câu 121. DHCP sever có chức năng là gì ?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Cấp phát địa chỉ Ip động cho các máy trạm Lưu trữ dữ liệu website",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Phân giải tên miền trên hệ thống kết nối mạng ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Quản lý tệp tin",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. tất cả đều sai",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 104,
+                "title": "Câu 122. Phần NetID của địa chỉ lớp A chiếm bao nhiêu bit trong hệ thống địa chỉ Ipv4?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 16",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 8",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 24",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 32",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 105,
+                "title": "Câu 123.	Kiểu cáp chéo Cross-Through) của cáp xoắn đôi là?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. tất cả đều đúng",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. một đầu chuẩn T568B, một đầu chuẩn T568A.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. một đầu chuẩn T568A, một đầu chuẩn T568B.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. cặp dây truyền của đầu này nối với cặp dây nhận của đầu kia",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 106,
+                "title": "Câu 124. Địa chỉ nào được dành riêng cho những chức năng Loopback cục bộ?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 121.0.0.0",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 0.0.0.0",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 1.0.0.0",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 127.0.0.0",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 107,
+                "title": "Câu 130. hãy cho biết khái niệm băng thông (Bandwith) là gì?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Là độ dài giới hạn của một loại cáp",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. là tốc độ truyền tín hiệu của cáp.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. là khả năng truyền tín hiệu trong một khoảng thời gian nào đó.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. là khoảng tần số của tín hiệu mà đường truyền chấp nhận",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 108,
+                "title": "Câu 131. Hub hoạt động ở tầng nào trong mô hình osi?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. physical ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. data link ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Network",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Transport",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 109,
+                "title": "Câu 133. hãy cho biết kích thước địa chỉ Ipv4?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 48 bits",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 120 bits",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 32 bits",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 128 bits",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 110,
+                "title": "Câu 134. Hãy xác định việc thiết kế mạng cần hướng đến các mục tiêu cơ bản nào trong các phương án sau đây?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. khả năng vận hành,khả năng bảo mật,khả năng tương thích.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. khả năng vận hành, khả năng mở rộng,khả năng tương thích,quản lý được ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. khả năng bảo trì,khả năng mở rộng,khả năng tương thích ,quản lý được",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. hiệu suất mạng,cấu hình ,tài khoản ,an ninh mạng",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 111,
+                "title": "Câu 137. hãy cho biết giao thức UDP được sử dụng cho các ứng dụng nào?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. yêu cầu kiểm soát luồng và kiểm soát lỗi.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Yêu cầu độ tin cậy cao",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. không yêu cầu độ tin cậy cao",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. yêu cầu liên kết",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 112,
+                "title": "Câu 138. Mạng không dây được quy định trong chuẩn nào?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. IEEE 802.3",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. IEEE 802.1",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. IEEE 802.12",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. IEEE 802.11",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 113,
+                "title": "Câu 139. Hãy cho biết đặc điểm của Subnet Mask là gì?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Tất cả các bit của phần Netid là 1, tất cả các bit của phần Hostid là 0.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Tất cả các bit của phần Netid là 0, tất cả các bit của phần Hostid là 1.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Tất cả các bit của phần Netid là 1, tất cả các bit của phần Hostid là 1.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Là một số nhị phân bất kỳ gồm 32 bit.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 114,
+                "title": "Câu 140. Hãy cho biết mạng Wan(Wide Area Network) là loại mạng nào ?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Là loại mạng được kết nối trong phạm vi toàn thành phố với bán kính khoảng vài chục km.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Là loại mạng được kết nối trong phạm vi 1 cơ quan hoặc 1 trường học có bán kính dưới 10km",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Là loại mạng được kết nối trên phạm vi rộng lớn, có thể trong một quốc gia. ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Là loại mạng được kết nối trong một văn phòng, có phạm vi nhỏ.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 115,
+                "title": "Câu 142. hãy cho biết , khi cấu hình Ip cho máy tính , thông số tại mục Default Gateway là gì?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. là địa chỉ IP của Router mà kết nối đến mạng có chứa máy nguồn",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. là địa chỉ IP của switch mà kết nối trong mạng LAN",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. là địa chỉ MAC trên card mạng của máy tính kết nối trong mạng LAN",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. là địa chỉ IP của Router mà kết nối đến mạng có chứa máy đích",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 116,
+                "title": "Câu 144. switch là thiết bị hoạt động ở lớp nào trong mô hình OSI? ",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Physical",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Transport",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Network",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Data link",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 117,
+                "title": "Câu 145. NIC là thiết bị hoạt động ở lớp nào trong mô hình OSI? ",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Physical",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Transport",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Network ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Data link",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 118,
+                "title": "Câu 147. hãy cho biết đơn vị dữ liệu của tầng Mạng(Network) trong mô hình OSI là gì?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Message",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Packet",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Frame ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Bit",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 119,
+                "title": "Câu 148. DNS viết tắt của từ nào sau đây?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Domain None System",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Disk Name System",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Domain Name System",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Domain Name Security",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 120,
+                "title": "Câu 150. Hãy cho biết đặc điểm của địa chỉ quảng bá nội bộ Local Broadcast address) là gì? ",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. tất cả các bit của phần Netid và Hostid đều là 0",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. tất cả các bit của phần Hostid đều là 1.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. tất cả các bit của phần Netid và Hostid đều là 1. ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Tất cả các bit của phần Netid là 0",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 121,
+                "title": "Câu 152. chuỗi số 00 08 AC 41 5D 9F có thể là gì?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Địa chỉ IP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Tên Router",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Địa chỉ Port",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Địa chỉ MAC",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 122,
+                "title": "Câu 153. Khi thi công giải cáp mạng(cáp xoắn đôi),góc giới hạn cho phép của cáp là bao nhiêu?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 2,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. không giới hạn",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 90 độ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 60 độ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 5 độ",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 123,
+                "title": "Câu 154. hãy cho biết địa chỉ lớp nào phần NetID chiếm 8 bit?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Lớp A",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. lớp B",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Lớp C",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Lớp D",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 124,
+                "title": "Câu 155. hãy cho biết dịch vụ 3G 4G là gì?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 3,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Là chuẩn truyền thông chỉ cho phép truyền tải email nhưng không thể truyền âm thanh",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. là công nghệ ứng dụng cho điện thoại cố định",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. là chuẩn truyền thông cho phép truyền tải dữ liệu thoại và phí thoại",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. là một hệ thống máy tính nối mạng toàn cầu",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 125,
+                "title": "Câu 125. Hãy cho biết DHCP viết tắt của từ nào sau đây?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Dynamic Host Configuration Protocol",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Dynamic Hold Configuration Protocol",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Dynamic Host Configuration Program",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Disk Host Configuration Protocol",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 126,
+                "title": "Câu 126. Hãy chọn mục tiêu chính nào để kết nối các máy tính thành một mạng trong các phương án sau đây?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Để cung cấp các dịch vụ mạng đa dạng và chia sẻ tài nguyên chung.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Để cung cấp tài nguyên trên mạng và sử dụng các thiết bị giá thành rẻ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Để hạn chế sử dụng nhiều thiết bị cùng lúc.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Để cung cấp được nhiều thông tin cho nhiều người biết.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 127,
+                "title": "Câu 127. Hãy cho biết dịch vụ 3G là gì trong các phương án sau đây?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Là chuẩn truyền thông cho phép truyền tải dữ liệu thoại và phi thoại.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Là một hệ thống máy tính nối mạng toàn cầu.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Là chuẩn truyền thông chỉ cho phép truyền tải email nhưng không thể truyền âm thanh.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Là một hệ thống máy tính nối mạng toàn cầu.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 128,
+                "title": "Câu 128. Hãy chọn phương án đúng cho biết cáp xoắn đôi CAT 5 có tốc độ truyền là bao nhiêu?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 4,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. 10Mbps",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. 1000Mbps",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. 50Mbps",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. 100Mbps",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 129,
+                "title": "Câu 129. Hãy cho biết nhược điểm chính của mạng dạng Star là gì trong các phương án sau đây ?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Cần quá nhiều cáp để kết nối tới nút mạng trung tâm.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Khó cài đặt và bảo trì.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Khó khắc phục khi lỗi cáp xảy ra, và ảnh hường tới các nút mạng khác.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Không có khả năng thay đổi khi đã lắp đặt.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 130,
+                "title": "Câu 130. Hãy chọn phương thức trao đổi thông tin nào sau đây mà trong đó máy phát và máy thu có thể truyền thông tin hai chiều, nhưng tại mỗi thời điểm chỉ có một máy được phép truyền?",
+                "thumb": "",
+                "isCorrect": false,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "a. Truyền bán song công Half Duplex).",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "b. Truyền song công Full-Duplex).",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "c. Truyền đơn công Simplex).",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "d. Truyền vô hướng.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            
+           
+            
 
 
 
