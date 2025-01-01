@@ -5623,7 +5623,7 @@ const questions = {
                 "title": "Câu 77. Địa chỉ nào dưới đây là địa chỉ Broadcast của lớp C?",
                 "thumb": "",
                 "isCorrect": false,
-                "idCorrectResult": 3,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
