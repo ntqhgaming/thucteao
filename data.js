@@ -3116,7 +3116,7 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A. *HMAC."},
+                    {"idResult": 1, "value": "A. HMAC."},
                     {"idResult": 2, "value": "B. DES hoặc AES ở chế độ CBC."},
                     {"idResult": 3, "value": "C. IP Authentication Header AH."},
                     {"idResult": 4, "value": "D. Integrity Check Value ICV."}
@@ -3129,7 +3129,7 @@ const questions = {
                 "idCorrectResult": 2,
                 "results": [
                     {"idResult": 1, "value": "A. AH cung cấp xác thực nguồn, toàn vẹn dữ liệu, và bảo mật."},
-                    {"idResult": 2, "value": "B. *ESP cung cấp xác thực nguồn, toàn vẹn dữ liệu, và bảo mật."},
+                    {"idResult": 2, "value": "B. ESP cung cấp xác thực nguồn, toàn vẹn dữ liệu, và bảo mật."},
                     {"idResult": 3, "value": "C. AH và ESP không cung cấp các cơ chế an toàn và bảo mật."},
                     {"idResult": 4, "value": "D. AH và ESP sử dụng mã hóa DES hoặc AES (chế độ CBC để cung cấp bảo mật."}
                 ]
@@ -3142,7 +3142,7 @@ const questions = {
                 "results": [
                     {"idResult": 1, "value": "A. MDC với MD2, MD4 hoặc MD5."},
                     {"idResult": 2, "value": "B. SCK với MD5, SHA 1 hoặc SHA2."},
-                    {"idResult": 3, "value": "C. *HMAC với MD5, SHA 1 hoặc RIPEMD."},
+                    {"idResult": 3, "value": "C. HMAC với MD5, SHA 1 hoặc RIPEMD."},
                     {"idResult": 4, "value": "D. PCK với RSA, ElGamal hoặc Diffie-Hellman."}
                 ]
             },
@@ -3155,7 +3155,7 @@ const questions = {
                     {"idResult": 1, "value": "A. IPv4 mode và IPv6 mode."},
                     {"idResult": 2, "value": "B. IP AH mode và IP ESP mode."},
                     {"idResult": 3, "value": "C. Datagram mode và Payload mode."},
-                    {"idResult": 4, "value": "D. *Transport mode và Tunnel mode."}
+                    {"idResult": 4, "value": "D. Transport mode và Tunnel mode."}
                 ]
             },
             {
@@ -3166,7 +3166,7 @@ const questions = {
                 "results": [
                     {"idResult": 1, "value": "A. AH key, ESP key, SA key, RA key."},
                     {"idResult": 2, "value": "B. IP AH, IP ESP và IP Key Exchange."},
-                    {"idResult": 3, "value": "C. *ISAKMP, OAKLEY, IKE, Photuris."},
+                    {"idResult": 3, "value": "C. ISAKMP, OAKLEY, IKE, Photuris."},
                     {"idResult": 4, "value": "D. SSLv2.0, SSLv3.0, TLSv1.2, TLSv1.3."}
                 ]
             },
@@ -3179,7 +3179,7 @@ const questions = {
                     {"idResult": 1, "value": "A. Có 03 giai đoạn: Client Hello, Server Hello, Finished."},
                     {"idResult": 2, "value": "B. Có 03 giai đoạn: Encrypted Extensions, Certificate Request, Message Authentication."},
                     {"idResult": 3, "value": "C. Có 03 giai đoạn: Hanshake, Resuming, Finished."},
-                    {"idResult": 4, "value": "D. *Có 03 giai đoạn: Key Exchange, Server Parameters, Authentication."}
+                    {"idResult": 4, "value": "D. Có 03 giai đoạn: Key Exchange, Server Parameters, Authentication."}
                 ]
             },
             {
@@ -3188,7 +3188,7 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A. *Giai đoạn Key Exchange."},
+                    {"idResult": 1, "value": "A. Giai đoạn Key Exchange."},
                     {"idResult": 2, "value": "B. Giai đoạn Hanshake."},
                     {"idResult": 3, "value": "C. Giai đoạn Server Parameters."},
                     {"idResult": 4, "value": "D. Giai đoạn bắt tay TCP."}
@@ -3201,7 +3201,7 @@ const questions = {
                 "idCorrectResult": 2,
                 "results": [
                     {"idResult": 1, "value": "A. Giai đoạn Key Exchange, Authentication."},
-                    {"idResult": 2, "value": "B. *Giai đoạn Server Parameters, Authentication."},
+                    {"idResult": 2, "value": "B. Giai đoạn Server Parameters, Authentication."},
                     {"idResult": 3, "value": "C. Giai đoạn Key Exchange, Server Parameters."},
                     {"idResult": 4, "value": "D. Giai đoạn Key Exchange, Server Parameters, Authentication."}
                 ]
@@ -3213,7 +3213,7 @@ const questions = {
                 "idCorrectResult": 2,
                 "results": [
                     {"idResult": 1, "value": "A. Bắt tay 03 bước TCP trước khi client có thể bắt đầu nhận dữ liệu."},
-                    {"idResult": 2, "value": "B. *Bắt tay giao thức TLS 03 giai đoạn, sau đó là trao đổi dữ liệu thực tế."},
+                    {"idResult": 2, "value": "B. Bắt tay giao thức TLS 03 giai đoạn, sau đó là trao đổi dữ liệu thực tế."},
                     {"idResult": 3, "value": "C. Bắt tay 03 Round-trip time (RTT) kiểm tra dữ liệu đi từ điểm yêu cầu đến điểm kết thúc."},
                     {"idResult": 4, "value": "D. Bắt tay 01 Round-trip time (RTT) kiểm tra kết nối đã được khởi tạo hay chưa."}
                 ]
@@ -3227,7 +3227,7 @@ const questions = {
                     {"idResult": 1, "value": "A. TLS và SSL."},
                     {"idResult": 2, "value": "B. TLS."},
                     {"idResult": 3, "value": "C. SSL."},
-                    {"idResult": 4, "value": "D. *DTLS."}
+                    {"idResult": 4, "value": "D. DTLS."}
                 ]
             },
             {
@@ -3239,7 +3239,7 @@ const questions = {
                     {"idResult": 1, "value": "A. Kết nối TCP với server tại cổng 993."},
                     {"idResult": 2, "value": "B. Kết nối TCP với server tại cổng 636."},
                     {"idResult": 3, "value": "C. Kết nối TCP với server tại cổng 563."},
-                    {"idResult": 4, "value": "D. *Kết nối TCP với server tại cổng 443."}
+                    {"idResult": 4, "value": "D. Kết nối TCP với server tại cổng 443."}
                 ]
             },
             {
@@ -3248,7 +3248,7 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A. *Hai khóa mã hóa cho dữ liệu, hai khóa MAC cho dữ liệu (client-to-server, server-to-client)."},
+                    {"idResult": 1, "value": "A. Hai khóa mã hóa cho dữ liệu, hai khóa MAC cho dữ liệu (client-to-server, server-to-client)."},
                     {"idResult": 2, "value": "B. Một Khóa MAC cho dữ liệu client-to-server, một khóa mã hóa cho dữ liệu server-to-client."},
                     {"idResult": 3, "value": "C. Dùng một khóa master secret (MS) cho nhiều hơn một chức năng mật mã."},
                     {"idResult": 4, "value": "D. Dùng Key Derivation Function (KDF) để tạo khóa phiên cho mỗi lần mã hóa và xác thực."}
@@ -3261,7 +3261,7 @@ const questions = {
                 "idCorrectResult": 2,
                 "results": [
                     {"idResult": 1, "value": "A. Sử dụng giao thức giao vận khác thay vì TCP."},
-                    {"idResult": 2, "value": "B. *Sử dụng TLS sequence number, sử dụng số nounce (số dùng một lần trong đời)."},
+                    {"idResult": 2, "value": "B. Sử dụng TLS sequence number, sử dụng số nounce (số dùng một lần trong đời)."},
                     {"idResult": 3, "value": "C. Sử dụng MAC cho mỗi bản ghi client-to-server (ngắt luồng trong mỗi bản ghi)."},
                     {"idResult": 4, "value": "D. Sử dụng API mà TLS cung cấp, ứng dụng nào cũng có thể sử dụng."}
                 ]
@@ -3274,7 +3274,7 @@ const questions = {
                 "results": [
                     {"idResult": 1, "value": "A. Hỗ trợ 37 cipher suites."},
                     {"idResult": 2, "value": "B. Hỗ trợ 319 cipher suites."},
-                    {"idResult": 3, "value": "C. *Hỗ trợ 5 cipher suites."},
+                    {"idResult": 3, "value": "C. Hỗ trợ 5 cipher suites."},
                     {"idResult": 4, "value": "D. Hỗ trợ 32 cipher suites."}
                 ]
             },
@@ -3286,7 +3286,7 @@ const questions = {
                 "results": [
                     {"idResult": 1, "value": "A. Tất cả các khóa công khai trên máy chủ khóa PGP."},
                     {"idResult": 2, "value": "B. Các danh sách khóa công khai được người dùng bình chọn."},
-                    {"idResult": 3, "value": "C. *Các khóa công khai từ những cá nhân mà người dùng biết và tin tưởng."},
+                    {"idResult": 3, "value": "C. Các khóa công khai từ những cá nhân mà người dùng biết và tin tưởng."},
                     {"idResult": 4, "value": "D. Các khóa công khai lấy từ bên thứ ba (như các trung tâm xác thực khóa – CA)."}
                 ]
             },
@@ -3296,7 +3296,7 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A. *SHA hoặc MD5 để băm thông điệp; CAST, Triple-DES hoặc IDEA để mã hóa; RSA hoặc Diffe-Hellman để trao đổi khóa và chữ ký số."},
+                    {"idResult": 1, "value": "A. SHA hoặc MD5 để băm thông điệp; CAST, Triple-DES hoặc IDEA để mã hóa; RSA hoặc Diffe-Hellman để trao đổi khóa và chữ ký số."},
                     {"idResult": 2, "value": "B. HMAC hoặc MAC để băm thông điệp; SHA, IDEA hoặc MD5 để mã hóa; RSA hoặc Diffe-Hellman để trao đổi khóa và chữ ký số."},
                     {"idResult": 3, "value": "C. MD2, MD4, MD5 để băm thông điệp; DES, AES để mã hóa; RSA hoặc Diffe-Hellman để trao đổi khóa và chữ ký số."},
                     {"idResult": 4, "value": "D. MD5 để băm thông điệp, RC5 hoặc RC6 để mã hóa; tiêu chuẩn mã hóa công khai PKCS để trao đổi khóa và chữ ký số."}
@@ -3309,7 +3309,7 @@ const questions = {
                 "idCorrectResult": 2,
                 "results": [
                     {"idResult": 1, "value": "A. Facebook, Linkedin, Telegram, Tictok,…"},
-                    {"idResult": 2, "value": "B. *Apple Mail, Gmail, Microsoft Outlook, Proton Mail,…"},
+                    {"idResult": 2, "value": "B. Apple Mail, Gmail, Microsoft Outlook, Proton Mail,…"},
                     {"idResult": 3, "value": "C. Microsoft Office, Libre Office, Open Office, AO Office,…"},
                     {"idResult": 4, "value": "D. Google Chrome, Mozilla Firefox, Safari, Microsoft Edge,…"}
                 ]
@@ -3321,7 +3321,7 @@ const questions = {
                 "idCorrectResult": 2,
                 "results": [
                     {"idResult": 1, "value": "A. User-to-User."},
-                    {"idResult": 2, "value": "B. *User-to-Server."},
+                    {"idResult": 2, "value": "B. User-to-Server."},
                     {"idResult": 3, "value": "C. Client-to-Server."},
                     {"idResult": 4, "value": "D. Host-to-Host."}
                 ]
@@ -3335,7 +3335,7 @@ const questions = {
                     {"idResult": 1, "value": "A. Người sử dụng cung cấp khóa công khai hợp lệ được Authentication Server xác minh."},
                     {"idResult": 2, "value": "B. Người sử dụng cung cấp khóa bí mật được cấp riêng khi đăng ký vào Kerberos."},
                     {"idResult": 3, "value": "C. Người sử dụng cung cấp khóa xác thực nhận từ Key Distribution Center (KDC)."},
-                    {"idResult": 4, "value": "D. *Người sử dụng cung cấp khóa phiên TGS và phiếu cấp vé TGT."}
+                    {"idResult": 4, "value": "D. Người sử dụng cung cấp khóa phiên TGS và phiếu cấp vé TGT."}
                 ]
             },
             {
@@ -3346,7 +3346,7 @@ const questions = {
                 "results": [
                     {"idResult": 1, "value": "A. S/MIME là một tiêu chuẩn IETF để sử dụng mã hóa đối xứng và xác thực nội dung e-mail."},
                     {"idResult": 2, "value": "B. S/MIME là một tiêu chuẩn IETF để sử dụng bổ sung chữ ký số và nhận e-mail an toàn."},
-                    {"idResult": 3, "value": "C. *S/MIME là một tiêu chuẩn IETF để sử dụng mã hóa dựa trên khóa công khai và ký e-mail."},
+                    {"idResult": 3, "value": "C. S/MIME là một tiêu chuẩn IETF để sử dụng mã hóa dựa trên khóa công khai và ký e-mail."},
                     {"idResult": 4, "value": "D. S/MIME là một tiêu chuẩn IETF để sử dụng cho các tin nhắn MINE và PKCS #7 của RSA."}
                 ]
             },
@@ -3358,7 +3358,7 @@ const questions = {
                 "results": [
                     {"idResult": 1, "value": "A. Chỉ cần có phần mềm quản lý thư điện tử."},
                     {"idResult": 2, "value": "B. Không cần điều kiện gì, nó là plug-in có sẵn."},
-                    {"idResult": 3, "value": "C. *Phải có chứng chỉ S/MIME."},
+                    {"idResult": 3, "value": "C. Phải có chứng chỉ S/MIME."},
                     {"idResult": 4, "value": "D. Phải có khóa cá nhân và lưu khóa công khai của Mail Server."}
                 ]
             },
@@ -3368,7 +3368,7 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A. *Client-to-Client."},
+                    {"idResult": 1, "value": "A. Client-to-Client."},
                     {"idResult": 2, "value": "B. Server-to-Server."},
                     {"idResult": 3, "value": "C. Client-to-Server."},
                     {"idResult": 4, "value": "D. Server-to-Client."}
@@ -3380,7 +3380,7 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A. *E-mail phải được mã hóa trước khi rời khỏi máy tính người gửi và không thể được giải mã cho đến khi e-mail đến hệ thống của người nhận."},
+                    {"idResult": 1, "value": "A. E-mail phải được mã hóa trước khi rời khỏi máy tính người gửi và không thể được giải mã cho đến khi e-mail đến hệ thống của người nhận."},
                     {"idResult": 2, "value": "B. E-mail phải được mã hóa trước khi rời khỏi máy tính người gửi và được giải mã khi e-mail đến máy chủ thư của người nhận."},
                     {"idResult": 3, "value": "C. E-mail phải được mã hóa trên máy chủ thư của người gửi và được giải mã khi e-mail đến máy chủ thư của người nhận."},
                     {"idResult": 4, "value": "D. E-mail phải được mã hóa trước khi rời khỏi máy tính người gửi và được giải mã trên máy chủ thư, sau đó được chuyển."}
