@@ -1,35 +1,34 @@
 const questions = {
-    question_1: {
-        shuffle_question: [],
+    question_2: {
         origin_question: [
             {
                 "id": 1,
-                "title": "Câu 1: Trong giao diện của Unity, cửa sổ nào tạo và chỉnh sửa khung cảnh cũng như các đối tượng?",
+                "title": "Câu 1. An toàn máy tính là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Project",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Inspector",
+                        "value": "A. Là tập hợp các công cụ thiết kế để bảo vệ dữ liệu và trống Hacker.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Scene View",
+                        "value": "B. Là bảo vệ máy tính khỏi mất mát dữ liệu.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Hierarchy",
+                        "value": "C. Là bảo vệ máy tính khỏi Virus.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là những phần mềm trống Hacker.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -37,32 +36,32 @@ const questions = {
             },
             {
                 "id": 2,
-                "title": "Câu 2: Trong giao diện của Unity, cửa sổ nào chứa các giao diện để chỉnh sửa thuộc tính của đối tượng được chọn?",
+                "title": "Câu 2. An toàn mạng là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Hierarchy",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Scene View",
+                        "value": "A. Là tập hợp các công cụ thiết kế để bảo vệ dữ liệu và trống Hacker.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Inspector",
+                        "value": "B. Là các phương tiện bảo vệ mạng khi truyền chúng.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Project",
+                        "value": "C. Là các phương tiện bảo vệ dữ liệu khi truyền chúng trên tập các mạng liên kết với nhau.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là những phần mềm trống Hacker.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -70,32 +69,32 @@ const questions = {
             },
             {
                 "id": 3,
-                "title": "Câu 3: Trong giao diện của Unity, cửa sổ nào chứa tất cả các tài nguyên có thể sử dụng trong dự án?",
+                "title": "Câu 3. An toàn Internet là gì?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Hierarchy",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Project",
+                        "value": "A. Là các phương tiện bảo vệ dữ liệu khi truyền chúng trên tập các mạng liên kết với nhau.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Scene View",
+                        "value": "B. Là các phương tiện bảo vệ mạng khi truyền chúng.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Inspector",
+                        "value": "C. Là tập hợp các công cụ thiết kế để bảo vệ dữ liệu và trống Hacker.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là những phần mềm trống Hacker.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -103,32 +102,32 @@ const questions = {
             },
             {
                 "id": 4,
-                "title": "Câu 4: Trong giao diện của Unity, cửa sổ nào mô phỏng thông qua góc nhìn bằng Camera đã thiết lập trong cửa sổ thiết kế?",
+                "title": "Câu 4. Hiểm họa vô tình là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Scene View",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Inspector",
+                        "value": "A. Là khi người dùng khởi động hệ thống ở chế độ đặc quyền, có thể tuỳ ý chỉnh sửa hệ thống mà không chuyển ng chế độ thông thường, vô tình kẻ xấu lợi dụng.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Game View",
+                        "value": "B. Quên không đặt Password.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Hierarchy",
+                        "value": "C. Quên không tắt phần máy.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Vô tình để lộ thông tin.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -136,32 +135,32 @@ const questions = {
             },
             {
                 "id": 5,
-                "title": "Câu 5: Thanh Status Bar trong giao diện của Unity có chức năng gì?",
+                "title": "Câu 5. Hiểm họa cố ý là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chứa tên của dự án",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chứa các lỗi của chương trình",
+                        "value": "A. Cố tình gây mất dữ liệu.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chứa các thông tin về các hoạt động cũng như các lỗi của chương trình",
+                        "value": "B. Cố tình lấy cắp dữ liệu.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chứa các thuộc tính của đối tượng",
+                        "value": "C. Cố tình để lộ thông tin.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Cố tình truy nhập hệ thống trái phép.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -169,32 +168,32 @@ const questions = {
             },
             {
                 "id": 6,
-                "title": "Câu 6: Trong hình 5 chức năng nào để quản lý tài khoản?",
-                "thumb": "./assets/img/cau6-7title.jpg",
-                "isCorrect": false,
+                "title": "Câu 6. Hiểm họa thụ động là gì?",
+                "thumb": "",
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. D",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. C",
+                        "value": "A. Là việc sửa đổi thông tin, thay đổi tình trạng hoặc hoạt động của hệ thống.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. E",
+                        "value": "B. Cố tình truy nhập hệ thống trái phép.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. A",
+                        "value": "C. Là hiểm họa nhưng chưa hoặc không tác động trực tiếp lên hệ thống.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Vô tình để lộ thông tin.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -202,32 +201,32 @@ const questions = {
             },
             {
                 "id": 7,
-                "title": "Câu 7: Trong hình 5 chức năng nào để lưu lại các tùy chỉnh về giao diện?",
-                "thumb": "./assets/img/cau6-7title.jpg",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "title": "Câu 7. Hiểm họa chủ động là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. D",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. A",
+                        "value": "A. Cố tình truy nhập hệ thống trái phép.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. E",
+                        "value": "B. Là việc sửa đổi thông tin, thay đổi tình trạng hoặc hoạt động của hệ thống.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. C",
+                        "value": "C. Là hiểm họa nhưng chưa hoặc không tác động trực tiếp lên hệ thống.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Cố tình để lộ thông tin.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -235,32 +234,32 @@ const questions = {
             },
             {
                 "id": 8,
-                "title": "Câu 8: Để nhân bản đối tượng trong cửa sổ Hierarchy ta thao tác:",
+                "title": "Câu 8. Tấn công bị động là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Nhấp vào tên đối tượng trong cửa sổ Hierarchy ấn tổ hợp phím Ctrl+D",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Nhấp vào tên đối tượng trong cửa sổ Hierarchy ấn tổ hợp phím Ctrl+C rồi ấn Ctrl+V",
+                        "value": "A. Là quá trình do thám, theo dõi đường truyền để nhận được nội dung bản tin hoặc theo dõi luồng truyền tin.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Nhấp chuột phải vào tên đối tượng trong cửa sổ Hierarchy/ Duplicate",
+                        "value": "B. Là thay đổi luồng dữ liệu để: giả mạo một người nào đó, lặp lại bản tin trước, thay đổi bản tin khi truyền, từ chối dịch vụ.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Tất cả các phương án",
+                        "value": "C. Là quá trình do thám, theo dõi đường truyền để nhận được nội dung bản tin hoặc theo dõi luồng truyền tin.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là một thực thể tấn công giả danh một thực thể khác.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -268,32 +267,32 @@ const questions = {
             },
             {
                 "id": 9,
-                "title": "Câu 9: Chức năng của công cụ ProBuilder là gì?",
+                "title": "Câu 9. Tấn công chủ động là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Công cụ đưa sản phẩm lên kính thực tế ảo.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Tạo các thuộc tính màu sắc, âm thanh cho đối tượng.",
+                        "value": "A. Là quá trình do thám, theo dõi đường truyền để nhận được nội dung bản tin hoặc theo dõi luồng truyền tin.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Công cụ tạo hiệu ứng cho đối tượng.",
+                        "value": "B. Là thay đổi luồng dữ liệu để: giả mạo một người nào đó, lặp lại bản tin trước, thay đổi bản tin khi truyền, từ chối dịch vụ.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Tạo cấu trúc, mô hình cho đối tượng.",
+                        "value": "C. Là một thực thể tấn công giả danh một thực thể khác.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là phương thức tấn công làm cho thông tin được gửi đi nhiều lần, gây ra các tác động tiêu cực.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -301,32 +300,32 @@ const questions = {
             },
             {
                 "id": 10,
-                "title": "Câu 10: Quan sát hình ảnh cho biết nhóm công cụ nào dùng để thay đổi hình dạng đối tượng?",
-                "thumb": "./assets/img/cau10-13title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "title": "Câu 10. Tấn công giả mạo là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Object Tools.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Selection Tools.",
+                        "value": "A. Là quá trình do thám, theo dõi đường truyền để nhận được nội dung bản tin hoặc theo dõi luồng truyền tin.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Geometry tools.",
+                        "value": "B. Là thay đổi luồng dữ liệu để: giả mạo một người nào đó, lặp lại bản tin trước, thay đổi bản tin khi truyền, từ chối dịch vụ.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Tool Panels.",
+                        "value": "C. Là một thực thể tấn công giả danh một thực thể khác.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là phương thức tấn công làm cho thông tin được gửi đi nhiều lần, gây ra các tác động tiêu cực.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -334,32 +333,32 @@ const questions = {
             },
             {
                 "id": 11,
-                "title": "Câu 11: Quan sát hình ảnh cho biết nhóm công cụ nào dùng để tác động tới toàn bộ đối tượng?",
-                "thumb": "./assets/img/cau10-13title.png",
-                "isCorrect": false,
+                "title": "Câu 11. Tấn công chuyển tiếp là?",
+                "thumb": "",
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Tool Panels.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Object Tools.",
+                        "value": "A. Là một thực thể tấn công giả danh một thực thể khác.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Selection Tools.",
+                        "value": "B. Là phương thức tấn công làm cho thông tin được gửi đi nhiều lần, gây ra các tác động tiêu cực.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Geometry tools.",
+                        "value": "C. Là thay đổi luồng dữ liệu để: giả mạo một người nào đó, lặp lại bản tin trước, thay đổi bản tin khi truyền, từ chối dịch vụ.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là việc nghe trộm, thu chặn, giả mạo người dùng hợp pháp vượt quyền hoặc lách qua các cơ chế kiểm soát truy cập.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -367,32 +366,32 @@ const questions = {
             },
             {
                 "id": 12,
-                "title": "Câu 12: Quan sát hình ảnh cho biết nhóm công cụ nào dùng để thiết lập và thay đổi khi chọn hoặc tương tác với các đối tượng?",
-                "thumb": "./assets/img/cau10-13title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "title": "Câu 12. Tấn công sửa đổi là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Tool Panels.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Geometry tools.",
+                        "value": "A. Là phương thức tấn công làm cho thông tin được gửi đi nhiều lần, gây ra các tác động tiêu cực.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Object Tools.",
+                        "value": "B. Là hình thức tấn công khiến một thực thể không thực hiện được chức năng của mình gây cản trở cho thực thể khác thực hiện chức năng của nó.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Selection Tools.",
+                        "value": "C. Là một thực thể tấn công giả danh một thực thể khác.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là hình thức tấn công làm nội dung của thông tin bị sửa đổi nhưng không bị phát hiện.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -400,32 +399,32 @@ const questions = {
             },
             {
                 "id": 13,
-                "title": "Câu 13: Quan sát hình ảnh cho biết để chọn điểm góc đối tượng ta chọn công cụ số mấy?",
-                "thumb": "./assets/img/cau14-15title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "title": "Câu 13. Tấn công từ chối dịch vụ là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chọn số 3.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chọn số 4.",
+                        "value": "A. Là phương thức tấn công làm cho thông tin được gửi đi nhiều lần, gây ra các tác động tiêu cực.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chọn số 1.",
+                        "value": "B. Là một thực thể tấn công giả danh một thực thể khác.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chọn số 2.",
+                        "value": "C. Là hình thức tấn công khiến một thực thể không thực hiện được chức năng của mình gây cản trở cho thực thể khác thực hiện chức năng của nó.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là việc nghe trộm, thu chặn, giả mạo người dùng hợp pháp vượt quyền hoặc lách qua các cơ chế kiểm soát truy cập.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -433,32 +432,32 @@ const questions = {
             },
             {
                 "id": 14,
-                "title": "Câu 14: Quan sát hình ảnh cho biết để chọn cạnh đối tượng ta chọn công cụ số mấy?",
-                "thumb": "./assets/img/cau14-15title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "title": "Câu 14. Tấn công từ bên trong hệ thống là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chọn số 1.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chọn số 2.",
+                        "value": "A. Là phương thức tấn công làm cho thông tin được gửi đi nhiều lần, gây ra các tác động tiêu cực.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chọn số 4.",
+                        "value": "B. Là khi người dùng hợp pháp vô tình hoặc cố ý can thiệp hệ thống trái phép.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chọn số 3.",
+                        "value": "C. Là một thực thể tấn công giả danh một thực thể khác.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là việc nghe trộm, thu chặn, giả mạo người dùng hợp pháp vượt quyền hoặc lách qua các cơ chế kiểm soát truy cập.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -466,32 +465,32 @@ const questions = {
             },
             {
                 "id": 15,
-                "title": "Câu 15: Quan sát hình ảnh cho biết để chọn mặt phẳng đối tượng ta chọn công cụ số mấy?",
-                "thumb": "./assets/img/cau14-15title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
+                "title": "Câu 15. Tấn công từ bên ngoài hệ thống là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chọn số 4.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chọn số 2.",
+                        "value": "A. Là hình thức tấn công khiến một thực thể không thực hiện được chức năng của mình gây cản trở cho thực thể khác thực hiện chức năng của nó.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chọn số 1.",
+                        "value": "B. Là khi người dùng hợp pháp vô tình hoặc cố ý can thiệp hệ thống trái phép.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chọn số 3.",
+                        "value": "C. Là phương thức tấn công làm cho thông tin được gửi đi nhiều lần, gây ra các tác động tiêu cực.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là việc nghe trộm, thu chặn, giả mạo người dùng hợp pháp vượt quyền hoặc lách qua các cơ chế kiểm soát truy cập.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -499,32 +498,32 @@ const questions = {
             },
             {
                 "id": 16,
-                "title": "Câu 16: Thao tác để mở công cụ tạo mô hình cong?",
+                "title": "Câu 16. Hãy cho biết kết quả của 8 mod 9 + 7 mod 9?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Tools\\ProBuilder\\Editors\\New Brezier Shape.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Tools\\ProBuilder\\Editors\\New Poly Shape.",
+                        "value": "A. 15",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Window\\ProBuilder\\Editors\\New Brezier Shape.",
+                        "value": "B. 16",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Window\\ProBuilder\\Editors\\New Poly Shape.",
+                        "value": "C. 17",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 18",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -532,32 +531,32 @@ const questions = {
             },
             {
                 "id": 17,
-                "title": "Câu 17: Quan sát hình ảnh cho biết để phun màu cho bề mặt đối tượng ta chọn công cụ số?",
-                "thumb": "./assets/img/cau17-18title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "title": "Câu 17. Hãy cho biết kết quả của 8 mod 9 + 7 mod 9?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chọn số 4.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chọn số 5.",
+                        "value": "A. 56",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chọn số 3.",
+                        "value": "B. 57",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chọn số 2.",
+                        "value": "C. 58",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 59",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -565,32 +564,32 @@ const questions = {
             },
             {
                 "id": 18,
-                "title": "Câu 18: Quan sát hình ảnh cho biết để làm nhẵn bề mặt đối tượng ta chọn công cụ số?",
-                "thumb": "./assets/img/cau17-18title.png",
-                "isCorrect": false,
+                "title": "Câu 18. Hãy cho biết kết quả của 8 mod 9 + 7 mod 9?",
+                "thumb": "",
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Chọn số 4.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Chọn số 2.",
+                        "value": "A. 56",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Chọn số 1.",
+                        "value": "B. 57",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Chọn số 3.",
+                        "value": "C. 58",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 59",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -598,32 +597,32 @@ const questions = {
             },
             {
                 "id": 19,
-                "title": "Câu 19: Để giới hạn khoảng vùng phát ra âm thanh của đối tượng chúng ta chọn thuộc tính?",
-                "thumb": "./assets/img/cau19-21title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
+                "title": "Câu 19. Hãy cho biết kết quả của 72010 mod 13?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Spread",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Max Distance",
+                        "value": "A. 7",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Pitch",
+                        "value": "B. 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Reverb Zone Mix",
+                        "value": "C. 12",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Tất cả đều đúng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -631,32 +630,32 @@ const questions = {
             },
             {
                 "id": 20,
-                "title": "Câu 20: Để bỏ qua hiệu ứng khi phát âm thanh từ đối tượng ta lựa chọn?",
-                "thumb": "./assets/img/cau19-21title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "title": "Câu 20. Hãy cho biết kết quả của 72010 mod 13?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Spatial Blend",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Priority",
+                        "value": "A. 7",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Bypass Effects",
+                        "value": "B. 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Spread",
+                        "value": "C. 12",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Tất cả đều đúng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -664,32 +663,32 @@ const questions = {
             },
             {
                 "id": 21,
-                "title": "Câu 21: Để âm lượng của âm thanh phát tiếng to nhất có thể khi điều chỉnh volume sẽ có giá trị là bao nhiêu?",
-                "thumb": "./assets/img/cau19-21title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
+                "title": "Câu 21. Hãy cho biết kết quả của hàm phi Euler(440) là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. 0",
+                        "value": "A. 439",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. 0.5",
+                        "value": "B. 240",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. 2",
+                        "value": "C. 160",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Tất cả đều đúng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -697,32 +696,32 @@ const questions = {
             },
             {
                 "id": 22,
-                "title": "Câu 22: Kiểu ánh sáng sử dụng trong hình là kiểu ánh sáng gì?",
-                "thumb": "./assets/img/cau22title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
+                "title": "Câu 22. Hãy cho biết kết quả của 32086 mod 440 là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Kiểu Spot",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Kiểu Area",
+                        "value": "A. 289",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Kiểu Directional",
+                        "value": "B. 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Kiểu Point",
+                        "value": "C. 3",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 81",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -730,32 +729,32 @@ const questions = {
             },
             {
                 "id": 23,
-                "title": "Câu 23: Để thay đổi cường độ sáng của nguồn sáng ta thay đổi thông số?",
-                "thumb": "./assets/img/cau23title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
+                "title": "Câu 23. Cho biết kết quả phép toán u: 2^6 mod 12?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Intensity",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Indirect Multiplier",
+                        "value": "A. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Spot Angle",
+                        "value": "B. 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Mode",
+                        "value": "C. 2",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -763,32 +762,32 @@ const questions = {
             },
             {
                 "id": 24,
-                "title": "Câu 24: Trong các thuộc tính sau thuộc tính nào không phải của Animation?",
+                "title": "Câu 24. Cho biết kết quả phép toán u: 2^6 mod 12?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. Mesh",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Material",
+                        "value": "A. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Transform",
+                        "value": "B. 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Collider",
+                        "value": "C. 2",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -796,2044 +795,31 @@ const questions = {
             },
             {
                 "id": 25,
-                "title": "Câu 25: Cho đối tượng Cube như hình vẽ đang ở tọa độ (0,0,0) để cho đối tượng di chuyển sang trái ta thay đổi giá trị nào trong bảng Property?",
-                "thumb": "./assets/img/cau25title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Postion.y",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Postion.z",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Position.x",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Cả 3 giá trị Position.x. Position.y, Position.z",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 26,
-                "title": "Câu 26: Để nguồn sáng không bị thay trong suốt quá trình chạy chương trình và không tác động đến các đối tượng động ta chọn thuộc tính của chế độ Mode là?",
-                "thumb": "./assets/img/cau26title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Baked",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Mixed",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Realtime",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Shadow",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 27,
-                "title": "Câu 27: Trong Unity, công cụ nào có chức năng thiết kế mô hình 3D cũng như kết cấu, hoa văn của đối tượng?",
+                "title": "Câu 25. Cho biết kết quả phép toán u: 1234 + 2345 mod 17?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. ProBuilder.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Polybrush.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Shader Graph.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án nào đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 28,
-                "title": "Câu 28: Trong Unity, công cụ nào có chức năng pha trộn màu sắc/vật liệu, tạo độ lồi/lõm trên các mô hình 3D và rải trực tiếp các đối tượng?",
-                "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
-                        "idResult": 0,
-                        "value": "A. ProBuilder.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
                         "idResult": 1,
-                        "value": "B. Polybrush.",
+                        "value": "A. 9",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "C. Shader Graph.",
+                        "value": "B. 8",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "D. Không có đáp án nào đúng.",
+                        "value": "C. 7",
                         "url_thumb": "",
                         "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 29,
-                "title": "Câu 29: Trong Unity, công cụ nào có chức năng xây dựng hiệu ứng hình ảnh dựa trên các thuật toán và tính toán toán học để tính toán màu sắc mỗi điểm ảnh?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. ProBuilder.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Polybrush.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Shader Graph.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án nào đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 30,
-                "title": "Câu 30: Trong Unity, công cụ nào có chức năng thiết kế hiệu ứng bầu trời?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. ProBuilder.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Polybrush.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Shader Graph.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án nào đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 31,
-                "title": "Câu 31: Phầm mềm Unity xây dựng ứng dụng cho các nền tảng nào sau đây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Kính thực tế ảo Oculus.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Điện thoại di động chạy hệ điều hành Android.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Điện thoại di động chạy hệ điều hành IOS.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tất cả đáp án trên đều đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 32,
-                "title": "Câu 32: Shader trong Unity có chức năng gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Chức năng tạo chuyển động.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chứa các thuật toán để tính toán màu sắc cho mỗi điểm ảnh dựa trên ánh sáng và vật liệu.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chức năng tạo âm thanh.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Cả 3 đáp án trên đều sai.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 33,
-                "title": "Câu 33: Để thay đổi giao diện của phần mềm Unity Editor thì vào mục nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Edit\\Preference\\General\\Editor Theme.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Windows\\Preference\\General\\Editor Theme.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Edit\\Package Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Windows\\Package Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 34,
-                "title": "Câu 34: Để cài đặt các công cụ, tệp tin và plug-in thì vào mục nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Edit\\Preference\\General\\Editor Theme.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Windows\\Preference\\General\\Editor Theme.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Edit\\Package Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Windows\\Package Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 35,
-                "title": "Câu 35: Khi thiết kế sản phẩm VR, ta thực hiện theo các bước nào sau đây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1-2-3-4-5-6.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 4-3-1-5-6-2.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 4-3-5-1-6-2.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 1-2-3-6-5-4.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 36,
-                "title": "Câu 36: Quan sát hình ảnh hãy cho biết để tách một cạnh thành hai cạnh song song ta chọn số?",
-                "thumb": "./assets/img/cau36,38title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Chọn số 7.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chọn số 6.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chọn số 8.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Chọn số 9.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 37,
-                "title": "Câu 37: Hãy cho biết thao tác đúng khi tạo một Material cho đối tượng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Project\\click dấu +\\Material, kéo thả Material vào đối tượng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. File\\Material, kéo thả Material vào đối tượng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Hierarchy\\click dấu +\\Material, kéo thả Material vào đối tượng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Tools\\Material, kéo thả Material vào đối tượng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 38,
-                "title": "Câu 38: Quan sát hình ảnh hãy cho biết muốn lưu đối tượng thành Model 3D ta chọn số?",
-                "thumb": "./assets/img/cau36,38title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Chọn số 8.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Chọn số 7.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Chọn số 6.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Chọn số 5.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 39,
-                "title": "Câu 39: Khi sử dụng các công cụ trong chế độ Vertex, ta muốn nối tất cả các điểm về điểm chính giữa hoặc điểm đầu tiên thì ta chọn chức năng nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Collapse Vertices.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Weld Vertices.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Connect Vertices.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Split Vertices.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 40,
-                "title": "Câu 40: Khi sử dụng các công cụ trong chế độ Edge, ta muốn chia một cạnh thành nhiều cạnh thì ta chọn chức năng nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Subdivide Edge.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Extrude Edge.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Connect Edge.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Insert Edge Loop.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 41,
-                "title": "Câu 41: Khi sử dụng các công cụ trong chế độ Face, ta muốn chia các mặt phẳng được chọn thành các hình tam giác thì ta chọn chức năng nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Trianqulate Faces.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Subdivide Faces.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Merge Faces.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Flip Face Edge.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 42,
-                "title": "Câu 42: Muốn lưu đối tượng thành hình khối có sẵn của ProBuilder ta chọn chức năng nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. ProBuilderize Object.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Subdivide Object.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Flip Object Normals.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Move Pivot to Center of Object.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 43,
-                "title": "Câu 43: Hãy cho biết đối tượng nào trong hình là Prefab?",
-                "thumb": "./assets/img/cau43,44title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Plane",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Cube",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Spot Light",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Quad",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 44,
-                "title": "Câu 44: Dựa vào hình hãy cho biết đối tượng nào được tạo từ nhóm 3D Object?",
-                "thumb": "./assets/img/cau43,44title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Plane, Camera, Cube",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Camera, Spot Light, Quad",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Plane, Cube, Quad",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Plane, Cube",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 45,
-                "title": "Câu 45: Để tạo hiệu ứng như trong hình ta có thể thêm thuộc tính trong các hiệu ứng Effects?",
-                "thumb": "./assets/img/cau45title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Halo",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Lens Flare",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Visual Effect",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Projector",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 46,
-                "title": "Câu 46: Để thiết lập biến dạng cho đối tượng khi có va chạm xảy ra ta có thể thiết lập trong?",
-                "thumb": "./assets/img/cau46title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Transform",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Mesh Filter",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Mesh Renderer",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Collider",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 47,
-                "title": "Câu 47: Định dạng âm thanh nào không được Unity hỗ trợ?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. MP3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. AIFF",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. OGG",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. MIDI",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 48,
-                "title": "Câu 48: Để có hiệu ứng âm thanh vọng lại ta có thể điều chỉnh ở thuộc tính nào?",
-                "thumb": "./assets/img/cau48title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Priority",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Pitch",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Spatial Blend",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Reverb Zone Mix",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 49,
-                "title": "Câu 49: Để có hiệu ứng ánh sáng như hình ta có thể chọn ánh sáng kiểu?",
-                "thumb": "./assets/img/cau49title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Spot",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Directional",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Point",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Area",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 50,
-                "title": "Câu 50: Để khung timeline của Animation hiển thị như hình ta chọn chế độ hiển thị nào?",
-                "thumb": "./assets/img/cau50-52title.png",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Dopesheet",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Curves",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Point",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Area",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 51,
-                "title": "Câu 51: Để chuyển động của đối tượng mượt mà trong khung timeline tại các điểm ta có thể chọn thuộc tính nào?",
-                "thumb": "./assets/img/cau50-52title.png",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Clamped Auto",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Free Smooth",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Flat",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Broken",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 52,
-                "title": "Câu 52: Để tạo chuyển động rơi của đối tượng theo chiều thẳng đứng và không bị tác động bên ngoài trong khung timeline tại các điểm ta có thể chọn thuộc tính nào?",
-                "thumb": "./assets/img/cau50-52title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Clamped Auto",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Free Smooth",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Flat",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Broken",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 53,
-                "title": "Câu 53: Để tạo chuyển động vật rơi sang phải ta cần thay đổi những thuộc tính nào?",
-                "thumb": "./assets/img/cau53title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Position.x; Position.y",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Position.x; Position.z",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Position.y; Position.z",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Position.z",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 54,
-                "title": "Câu 54: Để bỏ bóng đổ của xe trong khung hình ta lựa chọn thay đổi thuộc tính nào trong Mesh Renderer?",
-                "thumb": "./assets/img/cau54,55title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Cast Shadows",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Receive Shadows",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Light Probes",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Anchor Override",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 55,
-                "title": "Câu 55: Khi xe di chuyển đến vị trí 1 muốn xe quay trái và di chuyển ta cần thay đổi những thuộc tính trong bảng?",
-                "thumb": "./assets/img/cau54,55title.png",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Position.x; Rotation.z",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Position.z; Rotation.y",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Position.y; Rotation.x",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Position.z; Rotation.x",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 56,
-                "title": "Câu 56: Để chỉnh sửa đối tượng đang là Prefab muốn đối tượng trở lại thành đối tượng thông thường (Game Object) ta lựa chọn thuộc tính?",
-                "thumb": "./assets/img/cau56title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Open Asset in Context",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Open Asset in Isolation",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Unpack",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Unpack Completely",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 57,
-                "title": "Câu 57: Khi build 1 ứng dụng bằng Unity để chạy trên hệ điều hành Android ta được file có đuôi?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. *.APK",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. *.UNI",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. *.ANDROID",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. .*VR",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 58,
-                "title": "Câu 58: Để thiết lập chế độ nén các Texture hình ảnh phù hợp thiết bị Oculus, ta chọn?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. ETC(Default).",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. ETC2.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. ASTC.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. DXT.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 59,
-                "title": "Câu 59: Để quản lý các Plugin cho VR ta cần download gói nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. XR Interaction Toolkit.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. XR Plugin Management.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Oculus XR Plugin.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Cả 3 gói trên.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 60,
-                "title": "Câu 60: SDK là gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Là giao diện lập trình ứng dụng, để xây dựng các chương trình ứng dụng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Là môi trường dùng soạn thảo viết mã lập trình để phát triển ứng dụng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Là công cụ cốt lõi dùng để biên dịch mã nguồn thành các mã nhị phân để máy tính hiểu được.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Là công cụ cung cấp các thư viện, tài liệu, mẫu template, sample code, tiện ích gỡ rối (debugging), các ghi chú hỗ trợ (documentation) hoặc các tài liệu bổ sung,… để nhà phát triển có thể tích hợp thêm vào phần mềm.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 61,
-                "title": "Câu 61: Unity3d có thể build được các nền tảng nào sau đây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Ios, Android, Linux, tvOS.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Ios, Android, Linux, HarmonyOS.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Ios, Android, tvOS, HarmonyOS.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Ios, Android, FirefoxOS, ChromeOS.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 62,
-                "title": "Câu 62: Để build 1 chương trình chạy trực tiếp trên điện thoại, ta chọn?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. File/Build and run.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. File/Build setting/Build and run.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. File/build setting/Build.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Đáp án 1,2 đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 63,
-                "title": "Câu 63: Người dùng phải trả phí cho những bản Unity nào sau đây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Personal, Plus, Pro, Enterprise.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Personal, Plus, Pro.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Personal, Pro, Enterprise.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Plus, Pro, Enterprise.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 64,
-                "title": "Câu 64: Kích hoạt quyền phát triển để tùy chỉnh trên Android ta gõ vào màn hình điện thoại mấy lần?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 6",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 8",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 65,
-                "title": "Câu 65: Unity hỗ trợ kính VR từ phiên bản bao nhiêu trở lên?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 2016",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2017",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 2018",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. 2019",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 66,
-                "title": "Câu 66: Trong phần: Scenes in Build ta có thể Add được bao nhiêu scenes?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không giới hạn.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 67,
-                "title": "Câu 67: Minimum API Level trong Project Settings dùng để thiết lập?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Các loại kính VR.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Các loại hệ điều hành.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Phiên bản hệ điều hành Android.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 68,
-                "title": "Câu 68: APK(Android Package Kit) là gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Là tên 1 chương trình ứng dụng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Là tên 1 công ty phát triển hệ điều hành.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Là một chương trình soạn thảo để lập trình trên điện thoại di động.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Định dạng tệp được sử dụng bởi hệ điều hành Android để phân phối và cài đặt các ứng dụng di động.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 69,
-                "title": "Câu 69: Xcode là gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Là một hệ điều hành.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Là 1 package trên Asset Store Unity.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Là bộ phát triển phần mềm tích hợp được Apple phát triển chạy trên hệ điều hành Mac.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Là 1 plugin trong Unity.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 70,
-                "title": "Câu 70: Oculus là thương hiệu của công ty nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Apple.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. FaceBook.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Unity.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. SpaceX.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 71,
-                "title": "Câu 71: Phần mềm Unity có thể sử dụng những ngôn ngữ nào để viết mã lệnh?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Java, C#.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. C, C#.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. C, C++.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. C#, JavaScript.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 72,
-                "title": "Câu 72: Để di chuyển 1 đối tượng đến vị trí khác ta sử dụng lệnh nào sau đây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. this.transform",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. this.transform.position",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. this.transform.rotation",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. this.transform.scale",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 73,
-                "title": "Câu 73: Để xoay 1 đối tượng ta sử dụng lệnh nào sau đây?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. this.transform",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. this.transform.position.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. this.transform.rotation.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. this.transform.rotation.up",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 74,
-                "title": "Câu 74: Để chỉnh kích thước của 1 đối tượng ta sử dụng lệnh nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. this.transform.size",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. this.transform.scale.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. this.transform.position.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. this.transform.rotation.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 75,
-                "title": "Câu 75: Khi 1 trong 2 đối tượng để IS Trigger = true (hộp checkbox được đánh dấu) sẽ xảy ra sự kiện gì sau va chạm?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 2 đối tượng đi xuyên qua nhau.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2 đối tượng va chạm vật lý với nhau.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Đối tượng mất tương tác vật lý.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 76,
-                "title": "Câu 76: Khi cả 2 đối tượng để IS Trigger = false (hộp checkbox không đánh dấu) sẽ xảy ra sự kiện gì sau va chạm?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 2 đối tượng đi xuyên qua nhau.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2 đối tượng va chạm vật lý với nhau.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Đối tượng mất tương tác vật lý.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 77,
-                "title": "Câu 77: Hàm Start được gọi mấy lần trong Unity?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Vô số lần",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 78,
-                "title": "Câu 78: Hàm Update được gọi mấy lần trong Unity?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Vô số lần.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 79,
-                "title": "Câu 79: Muốn đưa một tài nguyên (ảnh, âm thanh, mô hình…) tạo ra bởi các phần mềm khác vào Unity ta làm thế nào?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Copy vào thư mục Assets của dự án.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Kéo thả trực tiếp vào cửa sổ Project của Unity.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Cả hai cách trên đều đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 80,
-                "title": "Câu 80: Một Audio Source có thể tạo được bao nhiêu Audio Clip?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Vô số.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 81,
-                "title": "Câu 81: Nếu bạn sử dụng mã lệnh (Script) để khai báo Audio Source thì 1 đối tượng có thể tạo được bao nhiêu Audio Clip?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Vô số.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 82,
-                "title": "Câu 82: Chương trình tạo ra bởi Unity cho nền tảng iOS có phần mở rộng là gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. *.xcodeproj.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. *.exe.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. *.apk.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. *.jpg.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 83,
-                "title": "Câu 83: Chương trình tạo ra bởi Unity cho nền tảng Android có phần mở rộng là gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. *.xcodeproj.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. *.exe.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. *.apk.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. *.jpg.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 84,
-                "title": "Câu 84: Khi thiết kế Material cho một đối tượng, giữa việc thiết kế 1 material duy nhất cho tất cả mặt đối tượng (công cụ UV) với việc thiết kế mỗi mặt một Material, phương pháp nào tối ưu hiệu năng thiết bị hơn?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 1 Material duy nhất.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Mỗi mặt một Material.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Cả hai cách trên như nhau.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 85,
-                "title": "Câu 85: Công cụ Terrain trong Unity dùng để làm gì?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Thiết kế địa hình.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Thiết kế mô hình.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Thiết kế vật liệu.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Thiết kế chuyển động.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 86,
-                "title": "Câu 86: Có mấy loại liên kết (Constraint) trong Unity?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. 4",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. 5",
-                        "url_thumb": "",
-                        "type": ""
                     },
                     {
-                        "idResult": 3,
+                        "idResult": 4,
                         "value": "D. 6",
                         "url_thumb": "",
                         "type": ""
@@ -2841,1128 +827,33 @@ const questions = {
                 ]
             },
             {
-                "id": 87,
-                "title": "Câu 87: Để thiết lập tùy chỉnh cho thiết bị đầu ra của sản phẩm, ta chọn mục nào trong hình sau?",
-                "thumb": "./assets/img/cau87-89title.png",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Adaptive Performance.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Player.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Preset Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. XR-Plug-in Management.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 88,
-                "title": "Câu 88: Để thiết lập hiển thị các thông số về hiệu năng của thiết bị đầu ra của sản phẩm, ta chọn mục nào trong hình sau?",
-                "thumb": "./assets/img/cau87-89title.png",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Adaptive Performance.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Player.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Preset Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. XR-Plug-in Management.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 89,
-                "title": "Câu 89: Để xem và quản lý các Plug-in, ta chọn mục nào trong hình sau?",
-                "thumb": "./assets/img/cau87-89title.png",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Adaptive Performance.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Player.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Preset Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. XR Plug-in Management.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 90,
-                "title": "Câu 90: Kiểu ánh sáng trong hình sau là ánh sáng gì trong Unity?",
-                "thumb": "./assets/img/cau90title.png",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Directional Light.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Point Light.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Spot Light.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Area Light.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 91,
-                "title": "Câu 91: Hình ảnh sau hiển thị chức năng nào?",
-                "thumb": "./assets/img/cau91title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Hiệu ứng ánh sáng.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Hiệu ứng âm thanh.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Hiệu ứng bầu trời.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Không có đáp án đúng.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 92,
-                "title": "Câu 92: Để xem và quản lý các thông số đã được lưu trong chương trình, ta chọn mục nào trong hình sau?",
-                "thumb": "./assets/img/cau92title.png",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Adaptive Performance.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Player.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Preset Manager.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. XR-Plug-in Management.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 93,
-                "title": "Câu 93: Để kết nối Unity với các phần mềm hỗ trợ lập trình ta vào đâu?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Edit\\Preference\\Colors.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Windows\\Preference\\Colors.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Edit\\Preference\\External Tools.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Windows\\Preference\\External Tools.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 94,
-                "title": "Câu 94: Để thay đổi màu hiển thị các công cụ hỗ trợ trong Unity ta vào đâu?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 0,
-                "results": [
-                    {
-                        "idResult": 0,
-                        "value": "A. Edit\\Preference\\Colors.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 1,
-                        "value": "B. Windows\\Preference\\Colors.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "C. Edit\\Preference\\External Tools.",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "D. Windows\\Preference\\External Tools.",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            }
-        ],
-    },
-    question_2: {
-        shuffle_question: [],
-        origin_question: [
-            {
-                "id": 1,
-                "title": "Câu 1. Trong các mô hình sau, mô hình nào là mô hình mạng được dùng phổ biến hiện nay?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Peer - to - Peer",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Remote Access",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Terminal - Mainframe",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Client - Server",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "title": "Câu 2. Dịch vụ mạng DNS dùng để:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Cấp địa chỉ cho các máy trạm",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Phân giải tên và địa chỉ",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Truyền file và dữ liệu",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Gửi thư điện tử",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Câu 3. Giao thức DHCP có thể cấp được các thông số sau cho máy trạm client:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. IP Address",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Subnet Mask",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. DNS Server",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Default Gateway",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "title": "Câu 4. Một mạng con lớp C mượn 2 bit để chia Subnet thì Subnet Mask sẽ là:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 255.255.224.0",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 255.255.255.192",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 255.255.255.240",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 255.255.255.128",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "title": "Câu 5. Địa chỉ IPv6 gồm bao nhiêu bit?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 32",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 48",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 64",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 128",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "title": "Câu 6. Thiết bị mạng nào làm giảm bớt sự va chạm (collisions)?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Hub",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. NIC",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Switch",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Transceiver",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 7,
-                "title": "Câu 7. Địa chỉ MAC là:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Địa chỉ lớp 3 được Router xử lý cho việc định tuyến",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Địa chỉ lớp 4 được gắn với cổng dịch vụ",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Có thể thay đổi bằng TCP/IP Properties của Windows",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Địa chỉ lớp 2 được gắn cứng vào Card mạng",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 8,
-                "title": "Câu 8. Trong số các Hệ điều hành sau, Hệ điều hành mạng là:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Windows 98",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Windows 2003 Professional",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Windows 2003 Server",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Windows XP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 9,
-                "title": "Câu 9. Dịch vụ mạng SMTP dùng để:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Gửi thư điện tử",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Nhận thư điện tử",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Phân giải tên và địa chỉ",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Cấp địa chỉ cho máy trạm",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 10,
-                "title": "Câu 10. Định tuyến tĩnh là loại định tuyến:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Dùng cho mạng nhỏ cấu trúc đơn giản",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Nhà quản trị chỉ việc cấu hình giao thức định tuyến cho Router",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Nhà quản trị phải cấu hình từng dòng lệnh cho các mạng đích cần thiết",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Router có thể giúp lựa chọn đường đi ngắn nhất trên mạng",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 11,
-                "title": "Câu 11. Trong số các cặp giao thức và cổng dịch vụ sau, cặp nào là đúng:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. SMTP TCP Port 21",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Telnet: UDP Port 23",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP TCP Port 80",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. TFTP TCP Port 69",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 12,
-                "title": "Câu 12. Để phân giải địa chỉ IP thành địa chỉ MAC, sử dụng giao thức:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. ARP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. DHCP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. RARP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. ICMP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 13,
-                "title": "Câu 13. Khả năng định tuyến được thực hiện bởi thiết bị:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Switch",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Hub",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. NIC",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Router",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 14,
-                "title": "Câu 14. Các dịch vụ quay số tương tự (Dial-up) sử dụng thiết bị nào để chuyển đổi tín hiệu số sang tín hiệu tương tự?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Repeater",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Modem",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Router",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. NIC",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 15,
-                "title": "Câu 15. Dịch vụ nào cho phép tham chiếu host bằng tên thay cho việc dùng địa chỉ IP khi duyệt Internet?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. POTS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. DNS",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. HTTP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. FTP",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 16,
-                "title": "Câu 16. Giao thức được sử dụng phổ biến trên Internet là:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Ethernet",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. TCP/IP",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. OSI",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. IEEE",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 17,
-                "title": "Câu 17. Hub là thiết bị hoạt động ở tầng nào của mô hình OSI?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Tầng Vật lý",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Tầng Data Link",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Tầng Transport",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Tầng Network",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 18,
-                "title": "Câu 18. Một Hub tốc độ 100Mbps có 12 cổng thì tốc độ của mỗi cổng sẽ là:",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Tối đa 100Mbps khi chỉ có một máy tính cắm vào Hub",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Tối đa 100Mbps khi có 12 máy tính cắm vào Hub",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Tối thiểu 8.3Mbps khi có 12 máy tính cắm vào Hub",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Tối thiểu 100Mbps khi chỉ có một máy tính cắm vào Hub",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 19,
-                "title": "Câu 19. NIC là thiết bị hoạt động ở lớp nào của mô hình OSI?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Lớp 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Lớp 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Lớp 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Lớp 4",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-
-            {
-                "id": 20,
-                "title": "Câu 20. Switch là thiết bị hoạt động ở lớp nào của mô hình OSI?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Lớp 1",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Lớp 2",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Lớp 3",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Lớp 4",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 21,
-                "title": "Câu 21. Địa chỉ nào sau đây là địa chỉ quảng bá của mạng 192.168.25.128/28?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 192.168.25.255",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 192.168.25.141",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 192.168.25.180",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 192.168.25.143",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 22,
-                "title": "Câu 22. Topo thường dùng hiện nay trong các mạng LAN?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Ethernet bus",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Bus",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Token Ring",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Token bus",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 23,
-                "title": "Câu 23. Để kết nối trực tiếp hai máy tính với nhau ta có thể dùng?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. Cáp chéo Cross - Cable",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Rollover Cable",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. Cáp thẳng (Straight Cable)",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Không có loại nào",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 24,
-                "title": "Câu 24. Mô hình phân lớp OSI có bao nhiêu lớp?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. 7",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. 4",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. 5",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 2",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
-                "id": 25,
-                "title": "Câu 25. Các đơn vị dữ liệu giao thức trong mô hình OSI được gọi là?",
-                "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 1,
-                "results": [
-                    {
-                        "idResult": 1,
-                        "value": "a. PDU (Protocol Data Unit)",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 2,
-                        "value": "b. Packet",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 3,
-                        "value": "c. CSU",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. Frame",
-                        "url_thumb": "",
-                        "type": ""
-                    }
-                ]
-            },
-            {
                 "id": 26,
-                "title": "Câu 26. Thứ tự đóng gói dữ liệu khi truyền qua mô hình OSI?",
+                "title": "Câu 26. Cho biết kết quả phép toán u: 213 + 345 mod 19?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Data, Packet, Segment, Bit, Frame",
+                        "value": "A. 12",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Data, Packet, Segment, Frame, Bit",
+                        "value": "B. 11",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Data, Segment, Packet, Frame, Bit",
+                        "value": "C. 10",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Data, Segment, Frame, Packet, Bit",
+                        "value": "D. 9",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -3970,32 +861,32 @@ const questions = {
             },
             {
                 "id": 27,
-                "title": "Câu 27. Nếu lấy 1 địa chỉ lớp B để chia Subnet với Netmask là 255.255.240.0 thì có bao nhiêu Subnets có thể sử dụng được?",
+                "title": "Câu 27. Cho biết kết quả phép toán u: 5 mod 11 + 9 mod 11?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 2",
+                        "value": "A. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 6",
+                        "value": "B. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 16 hoặc 14",
+                        "value": "C. 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 30",
+                        "value": "D. 2",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4003,32 +894,32 @@ const questions = {
             },
             {
                 "id": 28,
-                "title": "Câu 28. Thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast?",
+                "title": "Câu 28. Tìm ra các kết luận đúng trong các khẳng định dưới đây",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Hub",
+                        "value": "A. 26 mod 1 = 0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Bridge",
+                        "value": "B. 412 mod 2 = 0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Ethernet switch",
+                        "value": "C. 58 mod 2 = 0",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Router",
+                        "value": "D. 56 mod 12 = 8",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4036,32 +927,32 @@ const questions = {
             },
             {
                 "id": 29,
-                "title": "Câu 29. Địa chỉ nào là địa chỉ broadcast của lớp 2?",
+                "title": "Câu 29. Hàm băm là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 111.111.111.111",
+                        "value": "A. Là quá trình biến đầu vào một nội dung có kích thước cố định rồi sử dụng những thuật toán, công thức toán học để biến đầu ra các giá trị kích thước thay đổi. Các giá trị được trả về bởi hàm băm được gọi là giá trị băm.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 255.255.255.255",
+                        "value": "B. Là quá trình biến một dữ liệu đầu vào có độ dài bất kỳ thành một chuỗi đầu ra đặc trưng có độ dài bất kỳ. Hashing được thực hiện thông qua hàm băm (hash function).",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. AAAA.AAAA.AAAA",
+                        "value": "C. Là các thuật toán dùng để ánh xạ dữ liệu có kích thước cố định thành các giá trị kích thước cố định. Các giá trị được trả về bởi hàm băm được gọi là giá trị băm, giá trị của hàm băm phụ thuộc vào nội dung đầu vào.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. FFFF.FFFF.FFFF",
+                        "value": "D. Là các thuật toán dùng để ánh xạ dữ liệu có kích thước tùy ý thành các giá trị kích thước cố định. Các giá trị được trả về bởi hàm băm được gọi là giá trị băm, mã băm, thông điệp băm, hoặc đơn giản là “hash”. Giá trị của hàm băm là duy nhất, và không thể suy ngược lại được nội dung thông điệp từ giá trị băm này.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4069,32 +960,32 @@ const questions = {
             },
             {
                 "id": 30,
-                "title": "Câu 30. Địa chỉ được SWITCH sử dụng khi quyết định gửi data sang cổng (port) nào?",
+                "title": "Câu 30. Hàm băm có những tính chất gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Source MAC address",
+                        "value": "A. Tính xác định. Khó tính toán. Có thể đảo ngược. Có hiệu ứng lan truyền. Chấp nhận mọi kiểu dữ liệu truyền vào.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Destination MAC address",
+                        "value": "B. Tính xác định. Dễ tính toán, tính được nhanh. Không thể đảo ngược. Chống chịu được những xung đột. Có hiệu ứng lở tuyết. Chấp nhận mọi kiểu dữ liệu truyền vào.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Network address",
+                        "value": "C. Không thể đảo ngược. Chống chịu được những xung đột. Có hiệu ứng lở tuyết. Kiểu dữ liệu truyền vào tùy vào thuật toán.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Subnetwork address",
+                        "value": "D. Tính xác định. Khó tính toán. Có thể đảo ngược. Chống chịu được những xung đột. Có hiệu ứng lan truyền. Chấp nhận mọi kiểu dữ liệu truyền vào.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4102,32 +993,32 @@ const questions = {
             },
             {
                 "id": 31,
-                "title": "Câu 31. Một mạng con lớp C mượn 5 bit để chia Subnet thì Subnet Mask sẽ là?",
+                "title": "Câu 31. Kích thước đầu vào của khối MD4?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 255.255.224.0",
+                        "value": "A. 64 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 255.255.255.1",
+                        "value": "B. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 255.255.255.128",
+                        "value": "C. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 255.255.255.248",
+                        "value": "D. 1024 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4135,32 +1026,32 @@ const questions = {
             },
             {
                 "id": 32,
-                "title": "Câu 32. Thẻ giao tiếp mạng (NIC) thuộc lớp nào trong mô hình OSI?",
+                "title": "Câu 32. Kích thước đầu ra của MD4?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Layer 1",
+                        "value": "A. 32 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Layer 2",
+                        "value": "B. 64 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Layer 3",
+                        "value": "C. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Layer 4",
+                        "value": "D. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4168,32 +1059,32 @@ const questions = {
             },
             {
                 "id": 33,
-                "title": "Câu 33. Nếu 4 PCs kết nối với nhau thông qua HUB thì cần bao nhiêu địa chỉ IP cho 5 trang thiết bị mạng này?",
+                "title": "Câu 33. Kích thước đầu vào của khối MD5?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 1",
+                        "value": "A. 32 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 2",
+                        "value": "B. 64 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 4",
+                        "value": "C. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 5",
+                        "value": "D. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4201,32 +1092,32 @@ const questions = {
             },
             {
                 "id": 34,
-                "title": "Câu 34. Routers làm việc ở lớp nào trong mô hình OSI?",
+                "title": "Câu 34. Kích thước đầu ra của MD5?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Layer 1",
+                        "value": "A. 32 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Layer 2",
+                        "value": "B. 64 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Layer 3",
+                        "value": "C. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Layer 4",
+                        "value": "D. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4234,32 +1125,32 @@ const questions = {
             },
             {
                 "id": 35,
-                "title": "Câu 35. Độ dài tối đa cho phép khi sử dụng dây cáp mạng UTP là bao nhiêu mét?",
+                "title": "Câu 35. Kích thước đầu ra của SHA256?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 100",
+                        "value": "A. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 185",
+                        "value": "B. 256 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 200",
+                        "value": "C. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 500",
+                        "value": "D. 1024 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4267,32 +1158,32 @@ const questions = {
             },
             {
                 "id": 36,
-                "title": "Câu 36. Có bao nhiêu vùng va chạm (collision domains) trong mạng gồm 88 máy tính, 10 HUB và 2 REPEATER?",
+                "title": "Câu 36. Kích thước đầu vào của khối SHA512?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 1",
+                        "value": "A. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 10",
+                        "value": "B. 256 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 12",
+                        "value": "C. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 100",
+                        "value": "D. 1024 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4300,32 +1191,32 @@ const questions = {
             },
             {
                 "id": 37,
-                "title": "Câu 37. Vai trò của tầng vật lý trong mô hình OSI là?",
+                "title": "Câu 37. Kích thước đầu ra của SHA512?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Cung cấp các phương tiện điện, cơ",
+                        "value": "A. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Cung cấp chức năng và thủ tục",
+                        "value": "B. 256 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Kích hoạt, duy trì và đình chỉ liên kết vật lý giữa các hệ thống",
+                        "value": "C. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Cả a, b và c",
+                        "value": "D. 1024 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4333,32 +1224,32 @@ const questions = {
             },
             {
                 "id": 38,
-                "title": "Câu 38. Trong mô hình TCP/IP thì giao thức IP nằm ở?",
+                "title": "Câu 38. MD5 là viết tắt của từ gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Tầng 1",
+                        "value": "A. Manager Digital 5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Tầng 2",
+                        "value": "B. Message Digest 5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Tầng 3",
+                        "value": "C. Message Digital 5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Tầng 4",
+                        "value": "D. Manager Digest 5",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4366,32 +1257,32 @@ const questions = {
             },
             {
                 "id": 39,
-                "title": "Câu 39. Lớp nào thực hiện việc chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền dữ liệu của các ứng dụng?",
+                "title": "Câu 39. Trong thuật toán MD5, một bộ đệm có mấy từ? Kích thước của mỗi từ là bao nhiêu bit?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Transport",
+                        "value": "A. Một bộ đệm có 4 từ (A, B, C, D), kích thước mỗi từ là một thanh ghi 32 bit.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Session",
+                        "value": "B. Một bộ đệm có 4 từ (A, B, C, D), kích thước mỗi từ là một thanh ghi 64 bit.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Presentation",
+                        "value": "C. Một bộ đệm có 8 từ (A, B, C, D, E, F, G, H), kích thước mỗi từ là một thanh ghi 64 bit.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Application",
+                        "value": "D. Một bộ đệm có 8 từ (A, B, C, D, E, F, G, H), kích thước mỗi từ là một thanh ghi 128 bit.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4399,32 +1290,32 @@ const questions = {
             },
             {
                 "id": 40,
-                "title": "Câu 40. Trong mô hình mạng 7 tầng do ISO công bố, tầng nào làm nhiệm vụ truyền dữ liệu giữa hai điểm cuối, thực hiện kiểm soát lỗi/luồng, có thể thực hiện ghép kênh (multiplexing/demultiplexing), cắt/hợp dữ liệu?",
+                "title": "Câu 40. Trong thuật toán MD5, quá trình xử lý khối tin có mấy vòng? Mỗi vòng có mấy tác vụ?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Data link",
+                        "value": "A. 4 vòng, mỗi vòng 16 tác vụ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Transport",
+                        "value": "B. 64 vòng, mỗi vòng 16 tác vụ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Network",
+                        "value": "C. 80 vòng, mỗi vòng 32 tác vụ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Session",
+                        "value": "D. 4 vòng, mỗi vòng 32 tác vụ",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4432,32 +1323,32 @@ const questions = {
             },
             {
                 "id": 41,
-                "title": "Câu 41. Đơn vị đo thông lượng là?",
+                "title": "Câu 41. Những thanh ghi trong MD5 được khởi tạo theo những giá trị hex như thế nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Byte/s",
+                        "value": "A. A01234567; B89abcdef; C=fedcba98; D76543210",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Bit/s",
+                        "value": "B. A01234567; B87654321; C=fedcba98; D76543210",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Byte/phút",
+                        "value": "C. A01234567; B=fedcba98; C89abcdef; D76543210",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Bit/phút",
+                        "value": "D. A76543210; B89abcdef; C=fedcba98; D01234567",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4465,32 +1356,32 @@ const questions = {
             },
             {
                 "id": 42,
-                "title": "Câu 42. Công nghệ mạng LAN nào được sử dụng rộng rãi nhất hiện nay?",
+                "title": "Câu 42. Trong công thức h=HM, thì h, H, M lần lượt là:",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Token Ring",
+                        "value": "A. H là hash code. h là hash function và M là message.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Ethernet",
+                        "value": "B. h là hash code có độ dài cố định. H là hash function và M là message có độ dài thay đổi.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. ArcNet",
+                        "value": "C. h là hash code có độ dài thay đổi. H là hash function và M là message có độ dài cố định.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. FDDI",
+                        "value": "D. H là hash code có độ dài thay đổi. h là hash function và M là message có độ dài thay đổi.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4498,32 +1389,32 @@ const questions = {
             },
             {
                 "id": 43,
-                "title": "Câu 43. Phần nào trong địa chỉ IP được ROUTER sử dụng khi tìm đường đi?",
+                "title": "Câu 43. SHA 512 là viết tắt của từ gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. FDDI",
+                        "value": "A. Secure Hash Algorithm",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Network address",
+                        "value": "B. Security Hash Algorithm",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Router address",
+                        "value": "C. Secure Hash Although",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Host address",
+                        "value": "D. Secure Hash Algorithm",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4531,32 +1422,32 @@ const questions = {
             },
             {
                 "id": 44,
-                "title": "Câu 44. Một mạng con lớp A mượn 21 bit để chia Subnet thì Subnet Mask sẽ là?",
+                "title": "Câu 44. Trong thuật toán SHA 512, quá trình xử lý khối tin có mấy vòng? Mỗi vòng sử dụng những gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 255.255.224.0",
+                        "value": "A. 4 vòng. Mỗi vòng sử dụng một hằng số K và 1 khối Mi.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 255.255.192.0",
+                        "value": "B. 64 vòng. Mỗi vòng sử dụng một hằng số K, 1 khối Mi và bộ đệm 8 từ (A, B, C, D, E, F, G, H).",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 255.255.248.0",
+                        "value": "C. 80 vòng. Mỗi vòng sử dụng một hằng số K và khối Mi.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 255.255.255.248",
+                        "value": "D. 80 vòng. Mỗi vòng sử dụng một hằng số K, bộ đệm 8 từ (A, B, C, D, E, F, G, H) để lưu trữ các kết quả trung gian và đầu ra, một Qword (w) có kích thước 64 bit được tạo ra từ plain text.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4564,32 +1455,32 @@ const questions = {
             },
             {
                 "id": 45,
-                "title": "Câu 45. Địa chỉ nào trong số những địa chỉ dưới đây là địa chỉ Broadcast của IP thuộc lớp C?",
+                "title": "Câu 45. Quá trình bắt tay giao thức TLS v1.3 bao gồm 03 giai đoạn, các giai đoạn nào được mã hóa?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 190.12.253.255",
+                        "value": "A. Giai đoạn Key Exchange, Authentication.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 190.44.255.255",
+                        "value": "B. Giai đoạn Server Parameters, Authentication.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 221.218.253.255",
+                        "value": "C. Giai đoạn Key Exchange, Server Parameters.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 129.219.145.255",
+                        "value": "D. Giai đoạn Key Exchange, Server Parameters, Authentication.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4597,32 +1488,32 @@ const questions = {
             },
             {
                 "id": 46,
-                "title": "Câu 46. Số lượng bit nhiều nhất có thể mượn để chia Subnet của địa chỉ IP lớp C là?",
+                "title": "Câu 46. TLS v1.3 là giao thức bảo mật độc lập với ứng dụng qua Internet cho giao thức HTTPS, dữ liệu ứng dụng được trao đổi khi thực hiện điều gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 2",
+                        "value": "A. Bắt tay 03 bước TCP trước khi client có thể bắt đầu nhận dữ liệu.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 4",
+                        "value": "B. Bắt tay giao thức TLS 03 giai đoạn, sau đó là trao đổi dữ liệu thực tế.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 8",
+                        "value": "C. Bắt tay 03 Round-trip time (RTT) kiểm tra dữ liệu đi từ điểm yêu cầu đến điểm kết thúc.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 6",
+                        "value": "D. Bắt tay 01 Round-trip time (RTT) kiểm tra kết nối đã được khởi tạo hay chưa.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4630,32 +1521,32 @@ const questions = {
             },
             {
                 "id": 47,
-                "title": "Câu 47. Trong HEADER của IP PACKET có chứa?",
+                "title": "Câu 47. Giao thức an toàn nào được thiết kế để hoạt động trên giao thức giao vận UDP?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Source address",
+                        "value": "A. TLS và SSL.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Destination address",
+                        "value": "B. TLS.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Source and Destination addresses",
+                        "value": "C. SSL.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Không chứa địa chỉ nào cả",
+                        "value": "D. DTLS.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4663,32 +1554,32 @@ const questions = {
             },
             {
                 "id": 48,
-                "title": "Câu 48. Lớp nào trong mô hình OSI đóng gói dữ liệu kèm theo IP HEADER?",
+                "title": "Câu 48. Khi sử dụng giao thức Transport Layer Security TLS v1.3, client kết nối với server với cổng mặc định là bao nhiêu?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Layer 1",
+                        "value": "A. Kết nối TCP với server tại cổng 993.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Layer 2",
+                        "value": "B. Kết nối TCP với server tại cổng 636.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Layer 3",
+                        "value": "C. Kết nối TCP với server tại cổng 563.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Layer 4",
+                        "value": "D. Kết nối TCP với server tại cổng 443.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4696,32 +1587,32 @@ const questions = {
             },
             {
                 "id": 49,
-                "title": "Câu 49. Địa chỉ 139.219.255.255 là địa chỉ gì?",
+                "title": "Câu 49. Các khóa mật mã sử dụng trong mã hóa và xác thực thông điệp cho giao thức Transport Layer Security (TLS 1.3) là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Broadcast lớp A",
+                        "value": "A. Hai khóa mã hóa cho dữ liệu, hai khóa MAC cho dữ liệu (client-to-server, server-to-client).",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Broadcast lớp B",
+                        "value": "B. Một Khóa MAC cho dữ liệu client-to-server, một khóa mã hóa cho dữ liệu server-to-client.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Broadcast lớp C",
+                        "value": "C. Dùng một khóa master secret (MS) cho nhiều hơn một chức năng mật mã.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Host lớp B",
+                        "value": "D. Dùng Key Derivation Function (KDF) để tạo khóa phiên cho mỗi lần mã hóa và xác thực.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4729,32 +1620,32 @@ const questions = {
             },
             {
                 "id": 50,
-                "title": "Câu 50. Số nhị phân nào dưới đây có giá trị là 164?",
+                "title": "Câu 50. Trong giao thức Transport Layer Security (TLS 1.3) để chống tấn công trên luồng dữ liệu (reordering, replay) sử dụng giải pháp nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 10010010",
+                        "value": "A. Sử dụng giao thức giao vận khác thay vì TCP.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 11000100",
+                        "value": "B. Sử dụng TLS sequence number, sử dụng số nonce (số dùng một lần trong đời).",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 10100100",
+                        "value": "C. Sử dụng MAC cho mỗi bản ghi client-to-server (ngắt luồng trong mỗi bản ghi).",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 10101010",
+                        "value": "D. Sử dụng API mà TLS cung cấp, ứng dụng nào cũng có thể sử dụng.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4762,32 +1653,32 @@ const questions = {
             },
             {
                 "id": 51,
-                "title": "Câu 51. Địa chỉ lớp nào cho phép mượn 15 bits để chia Subnet?",
+                "title": "Câu 51. Giao thức Transport Layer Security (TLS v1.3) sử dụng bao nhiêu bộ mật mã (cipher suites)?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. Hỗ trợ 37 cipher suites.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lớp B",
+                        "value": "B. Hỗ trợ 319 cipher suites.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. Hỗ trợ 5 cipher suites.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Không câu nào đúng",
+                        "value": "D. Hỗ trợ 32 cipher suites.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4795,32 +1686,32 @@ const questions = {
             },
             {
                 "id": 52,
-                "title": "Câu 52. Giao thức nào dùng để tìm địa chỉ IP khi biết địa chỉ MAC của máy tính?",
+                "title": "Câu 52. Pretty Good Privacy (PGP) lưu chuỗi khóa công khai gồm những khóa nào?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. RARP",
+                        "value": "A. Tất cả các khóa công khai trên máy chủ khóa PGP.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. DHCP",
+                        "value": "B. Các danh sách khóa công khai được người dùng bình chọn.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. TCP/IP",
+                        "value": "C. Các khóa công khai từ những cá nhân mà người dùng biết và tin tưởng.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. ARP",
+                        "value": "D. Các khóa công khai lấy từ bên thứ ba (như các trung tâm xác thực khóa – CA).",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4828,32 +1719,32 @@ const questions = {
             },
             {
                 "id": 53,
-                "title": "Câu 53. TCP làm việc ở lớp nào của mô hình OSI?",
+                "title": "Câu 53. Nêu ví dụ về sự kết hợp băm (hashing), nén (compression), khóa bí mật (SKC) và khóa công khai (PKC) trong Pretty Good Privacy (PGP)?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Layer 4",
+                        "value": "A. SHA hoặc MD5 để băm thông điệp; CAST, Triple-DES hoặc IDEA để mã hóa; RSA hoặc Diffe-Hellman để trao đổi khóa và chữ ký số.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Layer 5",
+                        "value": "B. HMAC hoặc MAC để băm thông điệp; SHA, IDEA hoặc MD5 để mã hóa; RSA hoặc Diffe-Hellman để trao đổi khóa và chữ ký số.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Layer 6",
+                        "value": "C. MD2, MD4, MD5 để băm thông điệp; DES, AES để mã hóa; RSA hoặc Diffe-Hellman để trao đổi khóa và chữ ký số.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Layer 7",
+                        "value": "D. MD5 để băm thông điệp, RC5 hoặc RC6 để mã hóa; tiêu chuẩn mã hóa công khai PKCS để trao đổi khóa và chữ ký số.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4861,32 +1752,32 @@ const questions = {
             },
             {
                 "id": 54,
-                "title": "Câu 54. Giao thức nào dưới đây không đảm bảo dữ liệu gửi đi có tới máy nhận hoàn chỉnh hay không?",
+                "title": "Câu 54. Pretty Good Privacy (PGP) có sẵn như một plug-in cho các ứng dụng nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. TCP",
+                        "value": "A. Facebook, Linkedin, Telegram, Tictok,…",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. UDP",
+                        "value": "B. Apple Mail, Gmail, Microsoft Outlook, Proton Mail,…",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. ARP",
+                        "value": "C. Microsoft Office, Libre Office, Open Office, AO Office,…",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. RARP",
+                        "value": "D. Google Chrome, Mozilla Firefox, Safari, Microsoft Edge,…",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4894,32 +1785,32 @@ const questions = {
             },
             {
                 "id": 55,
-                "title": "Câu 55. Độ dài của địa chỉ MAC là?",
+                "title": "Câu 55. Kerberos là một sơ đồ xác thực được sử dụng phổ biến trên Internet, nó xác thực theo cách nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 8 bits",
+                        "value": "A. User-to-User.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 24 bits",
+                        "value": "B. User-to-Server.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 36 bits",
+                        "value": "C. Client-to-Server.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 48 bits",
+                        "value": "D. Host-to-Host.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4927,32 +1818,32 @@ const questions = {
             },
             {
                 "id": 56,
-                "title": "Câu 56. Trang thiết bị mạng trung tâm dùng để kết nối các máy tính trong mạng hình sao (STAR) là?",
+                "title": "Câu 56. Kerberos xác minh tính hợp lệ của người sử dụng trong hệ thống như thế nào?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Switch/Hub",
+                        "value": "A. Người sử dụng cung cấp khóa công khai hợp lệ được Authentication Server xác minh.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Router",
+                        "value": "B. Người sử dụng cung cấp khóa bí mật được cấp riêng khi đăng ký vào Kerberos.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Repeater",
+                        "value": "C. Người sử dụng cung cấp khóa xác thực nhận từ Key Distribution Center (KDC).",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. NIC",
+                        "value": "D. Người sử dụng cung cấp được khóa phiên TGS và phiếu cấp vé TGT.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4960,32 +1851,32 @@ const questions = {
             },
             {
                 "id": 57,
-                "title": "Câu 57. Giao thức mạng nào dưới đây được sử dụng trong mạng cục bộ (LAN)?",
+                "title": "Câu 57. Secure Multipurpose Internet Mail Extensions (S/MIME) là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. TCP/IP",
+                        "value": "A. S/MIME là một tiêu chuẩn IETF để sử dụng mã hóa đối xứng và xác thực nội dung e-mail.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. NETBIOS",
+                        "value": "B. S/MIME là một tiêu chuẩn IETF để sử dụng bổ sung chữ ký số và nhận e-mail an toàn.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. IPX",
+                        "value": "C. S/MIME là một tiêu chuẩn IETF để sử dụng mã hóa dựa trên khóa công khai và ký e-mail.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Tất cả các câu trên",
+                        "value": "D. S/MIME là một tiêu chuẩn IETF để sử dụng cho các tin nhắn MIME và PKCS #7 của R.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -4993,32 +1884,32 @@ const questions = {
             },
             {
                 "id": 58,
-                "title": "Câu 58. Địa chỉ IP nào sau đây không được dùng để kết nối trực tiếp trong mạng Internet (không tồn tại trong mạng Internet)?",
+                "title": "Câu 58. Để sử dụng chức năng S/MIME của ứng dụng e-mail client, chúng ta cần điều kiện gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 126.0.0.1",
+                        "value": "A. Chỉ cần có phần mềm quản lý thư điện tử.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.98.20",
+                        "value": "B. Không cần điều kiện gì, nó là plug-in có sẵn.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 201.134.1.1",
+                        "value": "C. Phải có chứng chỉ S/MIME.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 10.0.0.1",
+                        "value": "D. Phải có khóa cá nhân và lưu khóa công khai của Mail Server.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5026,32 +1917,32 @@ const questions = {
             },
             {
                 "id": 59,
-                "title": "Câu 59. Địa chỉ IP nào sau đây thuộc lớp C ",
+                "title": "Câu 59. Secure Multipurpose Internet Mail Extensions (S/MIME) được thiết kế để mã hóa theo mô hình nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 190.184.254.20",
+                        "value": "A. Client-to-Client.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 195.148.21.10",
+                        "value": "B. Server-to-Server.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 225.198.20.10",
+                        "value": "C. Client-to-Server.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. câu a. và b",
+                        "value": "D. Server-to-Client.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5059,32 +1950,32 @@ const questions = {
             },
             {
                 "id": 60,
-                "title": "Câu 60. Lệnh PING dùng để:",
+                "title": "Câu 60. Trong gửi e-mail an toàn sử dụng mã hóa end-to-end, kiểu mã hóa này nghĩa là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Kiểm tra các máy tính có đĩa cứng hay không",
+                        "value": "A. E-mail phải được mã hóa trước khi rời khỏi máy tính người gửi và không thể được giải mã cho đến khi e-mail đến hệ thống của người nhận.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Kiểm tra các máy tính có hoạt động tốt hay không",
+                        "value": "B. E-mail phải được mã hóa trước khi rời khỏi máy tính người gửi và được giải mã khi e-mail đến máy chủ thư của người nhận.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Kiểm tra các máy tính trong mạng có thông không",
+                        "value": "C. E-mail phải được mã hóa trên máy chủ thư của người gửi và được giải mã khi e-mail đến máy chủ thư của người nhận.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Kiểm tra các máy tính có truy cập vào Internet không",
+                        "value": "D. E-mail phải được mã hóa trước khi rời khỏi máy tính người gửi và được giải mã trên máy chủ thư, sau đó được chuyển đến hệ thống của người nhận.",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5092,32 +1983,32 @@ const questions = {
             },
             {
                 "id": 61,
-                "title": "Câu 61. Lệnh nào sau đây cho biết địa chỉ IP của máy tính:",
+                "title": "Câu 61. Bản rõ là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. IP",
+                        "value": "A. Là bản tin gốc",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. TCP_IP",
+                        "value": "B. Là bản tin gốc được mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. FTP",
+                        "value": "C. Là thông tin tham số dùng để mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. IPCONFIG",
+                        "value": "D. Là nghiên cứu các nguyên lý và phương pháp",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5125,32 +2016,32 @@ const questions = {
             },
             {
                 "id": 62,
-                "title": "Câu 62. Trong mạng máy tính dùng giao thức TCP/IP và đều dùng Subnet Mask là 255.255.255.0 thì cặp máy tính nào sau đây liên thông:",
+                "title": "Câu 62. Bản mã là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a.192.168.1.3 và 192.168.100.1",
+                        "value": "A. Là bản tin gốc đã được mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.15.1 và 192.168.15.254",
+                        "value": "B. Là bản tin gốc",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 192.168.100.15 và 192.186.100.16",
+                        "value": "C. Là thông tin tham số dùng để mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 172.25.11.1 và 172.26.11.2",
+                        "value": "D. Là nghiên cứu các nguyên lý và phương pháp",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5158,32 +2049,32 @@ const questions = {
             },
             {
                 "id": 63,
-                "title": "Câu 63. Trong mạng máy tính dùng giao thức TCP/IP và Subnet Mask là 255.255.255.224, hãy xác định địa chỉ broadcast của mạng nếu biết rằng một máy tính trong mạng có địa chỉ 192.168.1.1 ",
+                "title": "Câu 63. Khóa là?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 192.168.1.31",
+                        "value": "A. Là thông tin tham số dùng để mã hóa, chỉ người nhận và người gửi biết",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.168.1.255",
+                        "value": "B. Là bản tin gốc đã được mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 192.168.1.15",
+                        "value": "C. Là bản tin gốc",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 192.168.1.96",
+                        "value": "D. Là nghiên cứu các nguyên lý và phương pháp",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5191,32 +2082,32 @@ const questions = {
             },
             {
                 "id": 64,
-                "title": "Câu 64. Trong mạng Ring, mỗi trạm của mạng được nối với vòng nhờ bộ phận:",
+                "title": "Câu 64. Giải mã là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Hub, Switch",
+                        "value": "A. Chuyển bản mã thành bản rõ, đây là quá trình ngược của mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Bridge, Router",
+                        "value": "B. Là bản tin gốc đã được mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Router",
+                        "value": "C. Là bản tin gốc",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Repeater",
+                        "value": "D. Là nghiên cứu các nguyên lý và phương pháp",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5224,32 +2115,32 @@ const questions = {
             },
             {
                 "id": 65,
-                "title": "Câu 65. Topo mạng cục bộ nào mà tất cả các trạm phân chia chung một đường truyền chính:",
+                "title": "Câu 65. Mật mã?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Bus",
+                        "value": "A. Là chuyên ngành khoa học của Khoa học máy tính nghiên cứu về các nguyên lý và phương pháp mã hoá",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Ring",
+                        "value": "B. Chuyển bản mã thành bản rõ, đây là quá trình ngược của mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Star",
+                        "value": "C. Là bản tin gốc đã được mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Hybrid",
+                        "value": "D. Là bản tin gốc",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5257,32 +2148,32 @@ const questions = {
             },
             {
                 "id": 66,
-                "title": "Câu 66. Byte đầu tiên của một địa chỉ IP có dạng: 11011011. Vậy nó thuộc lớp nào:",
+                "title": "Câu 66. Kiểu thao tác mã hóa được sử dụng trên bản rõ?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. Phép thế, hoán vị, tích",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lớp B",
+                        "value": "B. Khối, dòng",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. Cột, dòng",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. Phép thế, hoán vị",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5290,32 +2181,32 @@ const questions = {
             },
             {
                 "id": 67,
-                "title": "Câu 67. Byte đầu tiên của một địa chỉ IP có dạng: 01000111. Vậy nó thuộc lớp nào:",
+                "title": "Câu 67. Thám mã là gì?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. Quá trình tấn công hệ mật mã để tìm bản rõ hoặc khóa bí mật",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lớp B",
+                        "value": "B. Quá trình giải mã",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. Quá trình biến đổi thông tin từ dạng không đọc được sang dạng đọc được",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. Dò tìm thông tin có ích",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5323,32 +2214,32 @@ const questions = {
             },
             {
                 "id": 68,
-                "title": "Câu 68. Byte đầu tiên của một địa chỉ IP có dạng 10110111. Vậy nó thuộc lớp nào:",
+                "title": "Câu 68. Tiếp cận tấn công mã đối xứng có mấy cách?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lớp B",
+                        "value": "B. 1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. 5",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5356,32 +2247,32 @@ const questions = {
             },
             {
                 "id": 69,
-                "title": "Câu 69. Trong các lớp A, B, C, D, E thì lớp nào dùng cho các mạng có số trạm cực lớn:",
+                "title": "Câu 69. Phương pháp tiếp cận tấn công mã đối xứng là?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. Tấn công thám mã và tấn công duyệt toàn bộ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lớp B",
+                        "value": "B. Tấn công thám mã",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. Tấn công duyệt toàn bộ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. Tấn công thám mã và không tấn công duyệt toàn bộ",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5389,32 +2280,32 @@ const questions = {
             },
             {
                 "id": 70,
-                "title": "Câu 70. Trong các giao thức giao vận Internet, giao thức nào có liên kết:",
+                "title": "Câu 70. Tấn công thám mã dựa vào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. UDP",
+                        "value": "A. Thuật toán và một số thông tin về các đặc trưng chung về bản rõ hoặc một số mẫu bản rõ/bản mã",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. TCP",
+                        "value": "B. Chuyển bản mã thành bản rõ, đây là quá trình ngược của mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. TCP và UDP",
+                        "value": "C. Là bản tin gốc đã được mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Không phải các đáp án trên",
+                        "value": "D. Là bản tin gốc",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5422,32 +2313,32 @@ const questions = {
             },
             {
                 "id": 71,
-                "title": "Câu 71. Số nhị phân 01111100 có giá trị thập phân là:",
+                "title": "Câu 71. Tấn công toàn bộ là gì?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 118",
+                        "value": "A. Tìm mọi cách thử tất cả các khóa trên bản mã cho đến khi nhận được bản rõ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 120",
+                        "value": "B. Chuyển bản mã thành bản rõ, đây là quá trình ngược của mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 124",
+                        "value": "C. Là bản tin gốc đã được mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 126",
+                        "value": "D. Là bản tin gốc",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5455,32 +2346,32 @@ const questions = {
             },
             {
                 "id": 72,
-                "title": "Câu 72. Nếu lấy 1 địa chỉ lớp B để chia Subnet với Netmask là 255.255.240.0 thì có bao nhiêu Subnets có thể sử dụng được?",
+                "title": "Câu 72. Các kiểu tấn công thám mã?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 2",
+                        "value": "A. Chỉ dùng bản mã, biết bản rõ, chọn bản rõ, chọn bản mã, chọn bản tin",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 6",
+                        "value": "B. Chuyển bản mã thành bản rõ, đây là quá trình ngược của mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 15 hoặc 16",
+                        "value": "C. Chọn bản rõ, chọn bản mã, chọn bản tin",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 30",
+                        "value": "D. Chỉ dùng bản mã, biết bản rõ, chọn bản tin",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5488,32 +2379,32 @@ const questions = {
             },
             {
                 "id": 73,
-                "title": "Câu 73. Thiết bị mạng nào dùng để nối các mạng và kiểm soát được broadcast?",
+                "title": "Câu 73. Độ an toàn trong mã đối xứng là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Hub",
+                        "value": "A. An toàn không điều kiện, an toàn tính toán",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Bridge",
+                        "value": "B. An toàn không điều kiện, không gồm an toàn tính toán",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Ethernet switch",
+                        "value": "C. An toàn không điều kiện",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Router",
+                        "value": "D. An toàn tính toán",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5521,32 +2412,32 @@ const questions = {
             },
             {
                 "id": 74,
-                "title": "Câu 74. Địa chỉ Subnet của một IP nằm từ bit thứ 17 tới bit thứ 23. Vậy địa chỉ IP của nó thuộc lớp nào:",
+                "title": "Câu 74. Mã thay thế cổ điển có mấy loại?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. 2",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lớp B",
+                        "value": "B. 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. 5",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5554,32 +2445,32 @@ const questions = {
             },
             {
                 "id": 75,
-                "title": "Câu 75. Subnet Mask nào sau đây là hợp lệ:",
+                "title": "Câu 75. Các loại mã thay thế cổ điển là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 0.255.255.255",
+                        "value": "A. Mã thay thế và mã hoán vị",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 0.0.0.255",
+                        "value": "B. Mã thay thế",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 255.0.0.255",
+                        "value": "C. Mã hoán vị",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 255.255.255.0",
+                        "value": "D. Tất cả đều đúng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5587,32 +2478,32 @@ const questions = {
             },
             {
                 "id": 76,
-                "title": "Câu 76. Trong địa chỉ IP, có 5 lớp A, B, C, D, E. Lớp B là lớp có dãy địa chỉ:",
+                "title": "Câu 76. Mã thay thế là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 192.0.0.0 tới 223.255.255.255",
+                        "value": "A. Là phương pháp mà từng kí tự (nhóm kí tự) trong bản rõ được thay thế bằng một kí tự (một nhóm kí tự) khác để tạo ra bản mã",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 240.0.0.0 tới 255.255.255.255",
+                        "value": "B. Chỉ dùng bản mã, biết bản rõ, chọn bản rõ, chọn bản mã, chọn bản tin",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 128.0.0.0 tới 191.255.255.255",
+                        "value": "C. Là phương pháp mà từng kí tự (nhóm kí tự) trong bản rõ được thay thế bằng một kí tự (một nhóm kí tự) khác để tạo ra bản rõ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 224.0.0.0 tới 239.255.255.255",
+                        "value": "D. Là phương pháp mà từng kí tự trong bản rõ được thay thế bằng một nhóm kí tự khác để tạo ra bản mã",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5620,32 +2511,32 @@ const questions = {
             },
             {
                 "id": 77,
-                "title": "Câu 77. Trong địa chỉ IP, có 5 lớp tất cả : A, B, C, D, E. Lớp C là lớp có dãy địa chỉ:",
+                "title": "Câu 77. Mã hoán vị là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 224.0.0.0 tới 239.255.255.255",
+                        "value": "A. Các kí tự trong bản rõ được giữ nguyên, chúng chỉ được sắp xếp lại vị trí để tạo ra bản mã",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 192.0.0.0 tới 223.255.255.255",
+                        "value": "B. Chỉ dùng bản mã, biết bản rõ, chọn bản rõ, chọn bản mã, chọn bản tin",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 128.0.0.0 tới 191.255.255.255",
+                        "value": "C. Là phương pháp mà từng kí tự (nhóm kí tự) trong bản rõ được thay thế bằng một kí tự (một nhóm kí tự) khác để tạo ra bản rõ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 240.0.0.0 tới 255.255.255.255",
+                        "value": "D. Là phương pháp mà từng kí tự trong bản rõ được thay thế bằng một nhóm kí tự khác để tạo ra bản mã",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5653,32 +2544,32 @@ const questions = {
             },
             {
                 "id": 78,
-                "title": "Câu 78. Lớp C được phép mượn tối đa bao nhiêu bit cho Subnet :",
+                "title": "Câu 78. Mã Cear được thực hiện như thế nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 8",
+                        "value": "A. Thay mỗi chữ trong bản rõ bằng chữ thứ ba tiếp theo trong bảng chữ cái",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 6",
+                        "value": "B. Thay mỗi chữ trong bản rõ bằng chữ thứ hai tiếp theo trong bảng chữ cái",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 4",
+                        "value": "C. Thay mỗi chữ trong bản rõ bằng chữ thứ tư tiếp theo trong bảng chữ cái",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 2",
+                        "value": "D. Thay mỗi chữ trong bản rõ bằng chữ thứ năm tiếp theo trong bảng chữ cái",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5686,32 +2577,32 @@ const questions = {
             },
             {
                 "id": 79,
-                "title": "Câu 79. Byte đầu tiên của một địa chỉ IP có dạng: 00000010. Vậy nó thuộc lớp nào:",
+                "title": "Câu 79. Mã Playfair?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. Mã bộ các chữ, nghĩa là mỗi chữ sẽ được mã bằng một số chữ khác nhau tùy thuộc vào các chữ mà nó đứng cạnh",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. lớp B",
+                        "value": "B. Mã bộ các ảnh, nghĩa là mỗi chữ sẽ được mã bằng một số chữ khác nhau tùy thuộc vào các chữ mà nó đứng cạnh",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. Mã bộ các chữ, nghĩa là mỗi chữ sẽ không được mã bằng một số chữ khác nhau tùy thuộc vào các chữ mà nó đứng cạnh",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. Không có đáp án đúng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5719,32 +2610,32 @@ const questions = {
             },
             {
                 "id": 80,
-                "title": "Câu 80. Một mạng lớp C cần chia thành 9 mạng con sử dụng Subnet Mask nào sau đây :",
+                "title": "Câu 80. Ma trận Playfair là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 255.255.255.224",
+                        "value": "A. Ma trận cỡ 5 x 5",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 255.0.0.255",
+                        "value": "B. Ma trận cỡ 3 x 3",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 255.224.255.0",
+                        "value": "C. Ma trận cỡ 4 x 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 255.255.255.240",
+                        "value": "D. Ma trận cỡ 16 x 4",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5752,32 +2643,32 @@ const questions = {
             },
             {
                 "id": 81,
-                "title": "Câu 81. Lệnh nào dưới đây được dùng để bổ sung đường truyền trong bảng định tuyến với hệ điều hành Windows:",
+                "title": "Câu 81. Mã Playfair là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Nslookup",
+                        "value": "A. là một hệ mã hóa nhiều chữ, giảm bớt tương quan giữa văn bản mã hóa và nguyên bản bằng cách mã hóa đồng thời nhiều chữ cái của nguyên bản",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Route",
+                        "value": "B. là một hệ mã hóa nhiều chữ, tăng sự tương quan giữa văn bản mã hóa và nguyên bản bằng cách mã hóa đồng thời nhiều chữ cái của nguyên bản",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Ipconfig",
+                        "value": "C. là một hệ mã hóa nhiều chữ, tăng sự tương quan giữa văn bản mã hóa và nguyên bản bằng cách mã hóa đồng thời xóa chữ cái của nguyên bản",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Tracert",
+                        "value": "D. Tất cả đều đúng",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5785,32 +2676,32 @@ const questions = {
             },
             {
                 "id": 82,
-                "title": "Câu 82. Tầng hai trong mô hình OSI tách luồng bit từ Tầng vật lý chuyển lên thành:",
+                "title": "Câu 82. Chọn phương án đúng cho mã hóa “chung tay” bằng mã Cear?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Segment",
+                        "value": "A. FKXQJ WDB",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Frame",
+                        "value": "B. WDB FKXQJ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Packet",
+                        "value": "C. FKXQJWDB",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. PSU",
+                        "value": "D. WDBFKXQJ",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5818,32 +2709,32 @@ const questions = {
             },
             {
                 "id": 83,
-                "title": "Câu 83. Phương pháp nào dùng để ngăn chặn các thâm nhập trái phép (theo danh sách truy nhập xác định trước) và có thể lọc bỏ các gói tin:",
+                "title": "Câu 83. Chọn phương án đúng cho mã hóa “thi” bằng mã Cear?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Encryption",
+                        "value": "A. WKL",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Physical Protection",
+                        "value": "B. KLW",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Firewall",
+                        "value": "C. LKW",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Login/ password",
+                        "value": "D. ZWK",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5851,32 +2742,32 @@ const questions = {
             },
             {
                 "id": 84,
-                "title": "Câu 84. Cáp xoắn đôi có mấy kiểu (loại – Category):",
+                "title": "Câu 84. Cho bản rõ DOG, khóa k là CAT. Khi mã hóa bản rõ với khóa k theo hệ mã Vigenere ta sẽ thu được bản mã nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 6",
+                        "value": "A. FOZ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 2",
+                        "value": "B. OFZ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c.3 ",
+                        "value": "C. FOZ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 4",
+                        "value": "D. ZOF",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5884,32 +2775,32 @@ const questions = {
             },
             {
                 "id": 85,
-                "title": "Câu 85. Để có một kiến trúc mạng chung tương thích giữa các mạng, năm 1984 tổ chức Tiêu chuẩn thế giới đã công bố một mô hình mạng, đó là:",
+                "title": "Câu 85. Cho bản rõ DOG, khóa k là BIG. Khi mã hóa bản rõ với khóa k theo hệ mã Vigenere ta sẽ thu được bản mã nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. ISO",
+                        "value": "A. EWM",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. DECNET",
+                        "value": "B. EMW",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. OSI",
+                        "value": "C. MEW",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. ARPANET",
+                        "value": "D. WEM",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5917,32 +2808,32 @@ const questions = {
             },
             {
                 "id": 86,
-                "title": "Câu 86. Dịch vụ nào cho phép người sử dụng từ một trạm làm việc của mình có thể đăng nhập vào một trạm ở xa qua mạng và có thể làm việc với hệ thống:",
+                "title": "Câu 86. Cho bản rõ NUOC, khóa k là IT. Khi mã hóa bản rõ với khóa k theo hệ mã Vigenere ta sẽ thu được bản mã nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. FTP",
+                        "value": "A. VNWV",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Email",
+                        "value": "B. NVVW",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Telnet",
+                        "value": "C. MVNV",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. WWW",
+                        "value": "D. VWNV",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5950,32 +2841,26 @@ const questions = {
             },
             {
                 "id": 87,
-                "title": "Câu 87. Dịch vụ nào cho phép chuyển các file từ trạm này sang trạm khác, bất kể yếu tố địa lý hay hệ điều hành sử dụng:",
+                "title": "Câu 87. Cho bản mã ICVM, khóa k là GO. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. FTP",
+                        "value": "A. copy",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Telnet",
+                        "value": "B. pase",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Email",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. WWW",
+                        "value": "C. page",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -5983,32 +2868,32 @@ const questions = {
             },
             {
                 "id": 88,
-                "title": "Câu 88.Phương thức nào mà trong đó cả hai bên đều có thể đồng thời gửi dữ liệu đi:",
+                "title": "Câu 88. Cho bản mã RXVA, khóa k là KP. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Simplex",
+                        "value": "A. Hill",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Half - duplex",
+                        "value": "B. viet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Full - duplex",
+                        "value": "C. bill",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Phương thức khác",
+                        "value": "D. sice",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6016,32 +2901,32 @@ const questions = {
             },
             {
                 "id": 89,
-                "title": "Câu 89. Địa chỉ Subnet của một IP nằm từ bit thứ 9 tới bit thứ 23. Vậy địa chỉ IP của nó thuộc lớp nào:",
+                "title": "Câu 89. Cho bản mã JZOP, khóa k là CL. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. lỚP A",
+                        "value": "A. move",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Lớp B",
+                        "value": "B. mail",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. name",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. home",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6049,32 +2934,32 @@ const questions = {
             },
             {
                 "id": 90,
-                "title": "Câu 90. Cáp sợi quang Fiber Optic) thường được sử dụng để:",
+                "title": "Câu 90. Cho bản mã PMGQ, khóa k là AM. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Thay thế cáp UTP vì nó rẻ hơn",
+                        "value": "A. stef",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Vượt qua giới hạn về khoảng cách",
+                        "value": "B. page",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Kết nối PC đến các hộp nối trên tường",
+                        "value": "C. sage",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Liên kết các vị trí ở xa bằng việc sử dụng một kết nối WAN",
+                        "value": "D. seft",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6082,32 +2967,32 @@ const questions = {
             },
             {
                 "id": 91,
-                "title": "Câu 91. Điều gì là đúng đối với các giao thức dạng connectionless (không kết nối)?",
+                "title": "Câu 91. Cho bản mã AGTA, khóa k là AM. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Hoạt động chậm hơn các giao thức dạng connection-oriented",
+                        "value": "A. tobe",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Các gói dữ liệu có phần header phức tạp hơn so với giao thức dạng connection-oriented",
+                        "value": "B. auto",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Cung cấp một dịch vụ phân phát dữ liệu không đáng tin cậy",
+                        "value": "C. atin",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Nút gửi phải truyền lại những dữ liệu đã bị mất trên đường truyền.",
+                        "value": "D. into",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6115,32 +3000,32 @@ const questions = {
             },
             {
                 "id": 92,
-                "title": "Câu 92. Hãy chỉ ra địa chỉ IP của host không hợp lệ với Subnet Mask = 255.255.255.224",
+                "title": "Câu 92. Cho bản mã OEUH, khóa k là HE. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 222.81.22.104",
+                        "value": "A. hand",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 222.88.65.135",
+                        "value": "B. name",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 222.81.56.130",
+                        "value": "C. band",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 222.81.55.128",
+                        "value": "D. hend",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6148,32 +3033,32 @@ const questions = {
             },
             {
                 "id": 93,
-                "title": "Câu 93. Chương trình Telnet cho phép:",
+                "title": "Câu 93. Cho bản mã AKIGZ, khóa k là PC. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Người sử dụng từ xa có thể chạy các chương trình ở trên host",
+                        "value": "A. liner",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Gọi một cuộc điện thoại liên quốc gia",
+                        "value": "B. lytek",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Hiển thị danh sách các tập tin và thư mục",
+                        "value": "C. litte",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Theo dõi toàn bộ hoạt động của mạng",
+                        "value": "D. litek",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6181,32 +3066,32 @@ const questions = {
             },
             {
                 "id": 94,
-                "title": "Câu 94.Có một mạng sử dụng địa chỉ Class B, bạn muốn chia mạng con với mỗi Subnet có tối đa là 500 host, như vậy phải dùng Subnet Mask:",
+                "title": "Câu 94. Cho bản mã URV, khóa k là IN. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 11111111.11111111.11111110.00000000",
+                        "value": "A. men",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 11111111.11111111.11111111.00000000",
+                        "value": "B. nam",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 11111111.11111111.11111100.00000000",
+                        "value": "C. kem",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 11111111.11111111.11111111.11000000",
+                        "value": "D. sem",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6214,32 +3099,32 @@ const questions = {
             },
             {
                 "id": 95,
-                "title": "Câu 95. Một nút mạng có thông số về địa chỉ IP như sau: 194.12.2.179/255.255.255.240. Xác định số hiệu của Subnet mà host này thuộc vào và host number của nút mạng:",
+                "title": "Câu 95. Cho bản mã TEBBC, khóa k là MEM. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Subnet 111100002, host number 179",
+                        "value": "A. sanbi",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Subnet 010101012, hostnumber 12 Câu ",
+                        "value": "B. micky",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Subnet 101100002, host number 3",
+                        "value": "C. happy",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Subnet 111100002, host number 11",
+                        "value": "D. lucky",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6247,32 +3132,32 @@ const questions = {
             },
             {
                 "id": 96,
-                "title": "Câu 96. Một network có địa chỉ thuộc Class B và sử dụng Subnet Mask là 255.255.252.0, như vậy có thể chia thành bao nhiêu Subnet? 252  111111002",
+                "title": "Câu 96. Cho bản mã IESC, khóa k là BE. Khi giải mã bản mã với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 16",
+                        "value": "A. hapy",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 32",
+                        "value": "B. kaki",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 64",
+                        "value": "C. jupi",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 128",
+                        "value": "D. hary",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6280,32 +3165,32 @@ const questions = {
             },
             {
                 "id": 97,
-                "title": "Câu 97. Một network có địa chỉ thuộc Class C và sử dụng Subnet Mask là 255.255.255.252. Hỏi có bao nhiêu host trên một Subnet?",
+                "title": "Câu 97. Hacker cố gắng tấn công một máy chủ qua internet được gọi là loại tấn công?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Subnet Mask không hợp lệ",
+                        "value": "A. Tấn công truy cập địa phương",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 2",
+                        "value": "B. Tấn công từ xa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 4",
+                        "value": "C. Tấn công truy cập vật lý",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 6",
+                        "value": "D. Tấn công nội bộ",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6313,32 +3198,32 @@ const questions = {
             },
             {
                 "id": 98,
-                "title": "Câu 98. Chức năng chính của tầng Presentation là:",
+                "title": "Câu 98. Kỹ thuật tấn công phổ biến trên web là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Sửa lỗi",
+                        "value": "A. Chèn câu truy vấn SQL",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Chuyển dữ liệu sang khuôn dạng phù hợp",
+                        "value": "B. Chiếm hữu phiên làm việc",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Đánh số thứ tự các gói dữ liệu.",
+                        "value": "C. Tràn bộ đệm",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Kiểm soát luồng dữ liệu",
+                        "value": "D. Tấn công từ chối dịch vụ",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6346,32 +3231,32 @@ const questions = {
             },
             {
                 "id": 99,
-                "title": "Câu 113.	Để kết nối máy tính và Switch với nhau ta có thể dùng:",
+                "title": "Câu 99. Chiều dài tối thiểu của mật khẩu cần phải là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Cáp chéo Cross – Cable)",
+                        "value": "A. 16 ký tự",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Cáp thẳng Straight Cable)",
+                        "value": "B. 8 ký tự",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Rollover Cable Câu ",
+                        "value": "C. 35 ký tự",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Tất cả đều sai",
+                        "value": "D. 1215 ký tự",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6379,32 +3264,32 @@ const questions = {
             },
             {
                 "id": 100,
-                "title": "Câu 114. Trong số các cặp giao thức và dịch vụ sau, cặp nào là sai?",
+                "title": "Câu 100. Mật khẩu an toàn phải bao gồm?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. SMTP TCP Port 25",
+                        "value": "A. Ký tự hoa, ký tự thường, chữ số, ký tự đặc biệt",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. FTP TCP Port 21",
+                        "value": "B. Ký tự đặc biệt, ký tư hoa, ký tự số",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. HTTP TCP Port 80",
+                        "value": "C. Ký tự thường, hoa, số",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. TFTP TCP Port 69",
+                        "value": "D. Phương án khác",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6412,32 +3297,26 @@ const questions = {
             },
             {
                 "id": 101,
-                "title": "Câu 119. Để kết nối máy tính và Router với nhau ta có thể dùng:",
+                "title": "Câu 101. Một user báo cáo là anh ta đang nhận một lỗi chỉ ra rằng địa chỉ TCP/IP của anh ta đã bị sử dụng khi anh ta bật máy tính. Tấn công nào có thể đang thực hiện?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Cáp chéo Cross - Cable)",
+                        "value": "A. Tấn công dạng Man in the middle",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Cáp thẳng Straight Cable)",
+                        "value": "B. Tấn công cửa sau",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Rollover Cable",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. tất cả đều sai",
+                        "value": "C. TCP/IP hijacking",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6445,32 +3324,32 @@ const questions = {
             },
             {
                 "id": 102,
-                "title": "Câu 120. Để kết nối Router với Router ta dùng:",
+                "title": "Câu 102. IPSec là",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Cáp chéo Cross - Cable)",
+                        "value": "A. Là cơ chế an toàn IP tổng quan được dùng trên mạng LAN, WAN, Internet",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Cáp thẳng Straight Cable)",
+                        "value": "B. Là cơ chế an toàn cho địa chỉ IP sử dụng trên mạng LAN",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Rollover Cable",
+                        "value": "C. Không có đáp án đúng",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Tất cả đều sai",
+                        "value": "D. Là cơ chế an toàn cho địa chỉ IP sử dụng trên mạng Internet",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6478,32 +3357,32 @@ const questions = {
             },
             {
                 "id": 103,
-                "title": "Câu 121. DHCP sever có chức năng là gì ?",
+                "title": "Câu 103. Cơ chế an toàn IP tổng quan – IPSec cung cấp chức năng gì",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Cấp phát địa chỉ Ip động cho các máy trạm Lưu trữ dữ liệu website",
+                        "value": "A. Bảo mật",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Phân giải tên miền trên hệ thống kết nối mạng ",
+                        "value": "B. Xác thực",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Quản lý tệp tin",
+                        "value": "C. Xác thực, Bảo mật, Quản trị khóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. tất cả đều sai",
+                        "value": "D. Bảo mật, Quản trị khóa",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6511,32 +3390,32 @@ const questions = {
             },
             {
                 "id": 104,
-                "title": "Câu 122. Phần NetID của địa chỉ lớp A chiếm bao nhiêu bit trong hệ thống địa chỉ Ipv4?",
+                "title": "Câu 104. IPSec nằm ở tầng nào trong mô hình OSI",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 16",
+                        "value": "A. Vận chuyển",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 8",
+                        "value": "B. Mạng",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 24",
+                        "value": "C. Ứng dụng",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 32",
+                        "value": "D. Vật lý",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6544,32 +3423,32 @@ const questions = {
             },
             {
                 "id": 105,
-                "title": "Câu 123.	Kiểu cáp chéo Cross-Through) của cáp xoắn đôi là?",
+                "title": "Câu 105. Lợi ích của IPSec là",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. tất cả đều đúng",
+                        "value": "A. Nó cho phép việc đi vòng qua Tường lửa và Router",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. một đầu chuẩn T568B, một đầu chuẩn T568A.",
+                        "value": "B. Nó không cho phép đi vòng qua Tường lửa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. một đầu chuẩn T568A, một đầu chuẩn T568B.",
+                        "value": "C. Nó không cho phép đi vòng qua Tường lửa và Router",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. cặp dây truyền của đầu này nối với cặp dây nhận của đầu kia",
+                        "value": "D. Nó cho phép đi qua Router và đi vòng qua Tường lửa",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6577,32 +3456,32 @@ const questions = {
             },
             {
                 "id": 106,
-                "title": "Câu 124. Địa chỉ nào được dành riêng cho những chức năng Loopback cục bộ?",
+                "title": "Câu 106. Dịch vụ IPSec không cung cấp chức năng nào sau đây:",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 121.0.0.0",
+                        "value": "A. Xác thực nguồn gốc dữ liệu",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 0.0.0.0",
+                        "value": "B. Kiểm soát truy cập",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 1.0.0.0",
+                        "value": "C. Bảo mật luồng vận chuyển có giới hạn",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 127.0.0.0",
+                        "value": "D. Cho phép tải lại gói tin",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6610,32 +3489,32 @@ const questions = {
             },
             {
                 "id": 107,
-                "title": "Câu 130. hãy cho biết khái niệm băng thông (Bandwith) là gì?",
+                "title": "Câu 107. AH Phần đầu xác thực là viết tắt của:",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Là độ dài giới hạn của một loại cáp",
+                        "value": "A. Authentication Header",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. là tốc độ truyền tín hiệu của cáp.",
+                        "value": "B. Auto Header",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. là khả năng truyền tín hiệu trong một khoảng thời gian nào đó.",
+                        "value": "C. Authentic Head",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. là khoảng tần số của tín hiệu mà đường truyền chấp nhận",
+                        "value": "D. Authentic Header",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6643,32 +3522,32 @@ const questions = {
             },
             {
                 "id": 108,
-                "title": "Câu 131. Hub hoạt động ở tầng nào trong mô hình osi?",
+                "title": "Câu 108. ESP Tải trọng an toàn đóng gói là viết tắt của:",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. physical ",
+                        "value": "A. Encapsulated security payload",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. data link ",
+                        "value": "B. Encapsulate Security Pay",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Network",
+                        "value": "C. Encapsulating Security Payload",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Transport",
+                        "value": "D. Exception Security Payload",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6676,32 +3555,26 @@ const questions = {
             },
             {
                 "id": 109,
-                "title": "Câu 133. hãy cho biết kích thước địa chỉ Ipv4?",
+                "title": "Câu 109. Cho hệ mật mã khóa công khai RSA, khóa công khai là K1n, e, khóa bí mật là K2p, q, d}, với n=p*q, p, q là số nguyên tố. Khi đó số trường hợp bị lộ bản rõ là",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 48 bits",
+                        "value": "A. S1UCLN(p, e))1UCLN(d-1, q-1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 120 bits",
+                        "value": "B. S1UCLN(p-1, e-11UCLN(d-1, q-1",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 32 bits",
-                        "url_thumb": "",
-                        "type": ""
-                    },
-                    {
-                        "idResult": 4,
-                        "value": "d. 128 bits",
+                        "value": "C. S1UCLN(p-1, e-11UCLN(d-1, q-1",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6709,32 +3582,32 @@ const questions = {
             },
             {
                 "id": 110,
-                "title": "Câu 134. Hãy xác định việc thiết kế mạng cần hướng đến các mục tiêu cơ bản nào trong các phương án sau đây?",
+                "title": "Câu 110. Tìm đáp án sai về chế độ vận chuyển ESP",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. khả năng vận hành,khả năng bảo mật,khả năng tương thích.",
+                        "value": "A. Tốt đối với ESP máy chủ vận chuyển tới máy chủ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. khả năng vận hành, khả năng mở rộng,khả năng tương thích,quản lý được ",
+                        "value": "B. Dữ liệu được mã hóa hoàn toàn",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. khả năng bảo trì,khả năng mở rộng,khả năng tương thích ,quản lý được",
+                        "value": "C. Có thể phân tích vận chuyển một cách hiệu quả",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. hiệu suất mạng,cấu hình ,tài khoản ,an ninh mạng",
+                        "value": "D. Dữ liệu được bảo vệ nhưng phần đầu vẫn để rõ để biết địa chỉ đích",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6742,32 +3615,32 @@ const questions = {
             },
             {
                 "id": 111,
-                "title": "Câu 137. hãy cho biết giao thức UDP được sử dụng cho các ứng dụng nào?",
+                "title": "Câu 111. Oakley là thủ tục gì:",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. yêu cầu kiểm soát luồng và kiểm soát lỗi.",
+                        "value": "A. Trao đổi khóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Yêu cầu độ tin cậy cao",
+                        "value": "B. Liên kết an toàn",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. không yêu cầu độ tin cậy cao",
+                        "value": "C. Tất cả đều sai",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. yêu cầu liên kết",
+                        "value": "D. Quản trị khóa",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6775,32 +3648,32 @@ const questions = {
             },
             {
                 "id": 112,
-                "title": "Câu 138. Mạng không dây được quy định trong chuẩn nào?",
+                "title": "Câu 112. ISAKMP là thủ tục gì:",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. IEEE 802.3",
+                        "value": "A. Quản trị khóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. IEEE 802.1",
+                        "value": "B. Trao đổi khóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. IEEE 802.12",
+                        "value": "C. Liên kết an toàn trên mạng",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. IEEE 802.11",
+                        "value": "D. Liên kết an toàn trên mạng và quản trị khóa",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6808,32 +3681,32 @@ const questions = {
             },
             {
                 "id": 113,
-                "title": "Câu 139. Hãy cho biết đặc điểm của Subnet Mask là gì?",
+                "title": "Câu 113. Kiểu nào không phải là kiểu trao đổi mẩu tin ISAKMP",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Tất cả các bit của phần Netid là 1, tất cả các bit của phần Hostid là 0.",
+                        "value": "A. Cơ sở",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Tất cả các bit của phần Netid là 0, tất cả các bit của phần Hostid là 1.",
+                        "value": "B. Mã hóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Tất cả các bit của phần Netid là 1, tất cả các bit của phần Hostid là 1.",
+                        "value": "C. Tích cực",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Là một số nhị phân bất kỳ gồm 32 bit.",
+                        "value": "D. Bảo vệ định danh và xác thực",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6841,32 +3714,32 @@ const questions = {
             },
             {
                 "id": 114,
-                "title": "Câu 140. Hãy cho biết mạng Wan(Wide Area Network) là loại mạng nào ?",
+                "title": "Câu 114. Mã hoá RSA. Cho p, q là số nguyên tố lớn. Hàm Phi(n)=(p-1)*(q-1), e là số mũ được chọn để mã hoá. Số e được chọn như thế nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Là loại mạng được kết nối trong phạm vi toàn thành phố với bán kính khoảng vài chục km.",
+                        "value": "A. 1<e< q, e và n là 2 số nguyên tố cùng nhau",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Là loại mạng được kết nối trong phạm vi 1 cơ quan hoặc 1 trường học có bán kính dưới 10km",
+                        "value": "B. 1<e< p, e và n là 2 số nguyên tố cùng nhau",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Là loại mạng được kết nối trên phạm vi rộng lớn, có thể trong một quốc gia. ",
+                        "value": "C. Chọn e sao cho : 1<e< Phi(n), e và Phi(n) là 2 số nguyên tố cùng nhau",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Là loại mạng được kết nối trong một văn phòng, có phạm vi nhỏ.",
+                        "value": "D. 1<e< n, e và n là 2 số nguyên tố cùng nhau",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6874,32 +3747,32 @@ const questions = {
             },
             {
                 "id": 115,
-                "title": "Câu 142. hãy cho biết , khi cấu hình Ip cho máy tính , thông số tại mục Default Gateway là gì?",
+                "title": "Câu 115. Khóa bí mật của hệ mật mã RSA là gì?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. là địa chỉ IP của Router mà kết nối đến mạng có chứa máy nguồn",
+                        "value": "A. KPhi (n), p, q}",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. là địa chỉ IP của switch mà kết nối trong mạng LAN",
+                        "value": "B. Kp, q, n}",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. là địa chỉ MAC trên card mạng của máy tính kết nối trong mạng LAN",
+                        "value": "C. Kp, q, d}",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. là địa chỉ IP của Router mà kết nối đến mạng có chứa máy đích",
+                        "value": "D. Kp, q, e}",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6907,32 +3780,32 @@ const questions = {
             },
             {
                 "id": 116,
-                "title": "Câu 144. switch là thiết bị hoạt động ở lớp nào trong mô hình OSI? ",
+                "title": "Câu 116. Để hệ mật mã trên an toàn cần phải giữ khóa bí mật nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Physical",
+                        "value": "A. d",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Transport",
+                        "value": "B. p, q, d",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Network",
+                        "value": "C. Phi(n), p, q",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Data link",
+                        "value": "D. p, q",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6940,32 +3813,32 @@ const questions = {
             },
             {
                 "id": 117,
-                "title": "Câu 145. NIC là thiết bị hoạt động ở lớp nào trong mô hình OSI? ",
+                "title": "Câu 117. Để mã hóa bản rõ x cần sử dụng hàm nào sau đây?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Physical",
+                        "value": "A. Ek(x)=x^e mod n",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Transport",
+                        "value": "B. Ek(x)=x^e mod Phi(n)",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Network ",
+                        "value": "C. Ek(x)=e^1) mod Phi(n)",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Data link",
+                        "value": "D. Ek(x)=x^1) mod Phi(n)",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -6973,32 +3846,32 @@ const questions = {
             },
             {
                 "id": 118,
-                "title": "Câu 147. hãy cho biết đơn vị dữ liệu của tầng Mạng(Network) trong mô hình OSI là gì?",
+                "title": "Câu 118. Một bảng băm MD5 thường được diễn tả bằng một số hệ thập lục phân gồm bao nhiêu ký tự?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Message",
+                        "value": "A. 32",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Packet",
+                        "value": "B. 16.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Frame ",
+                        "value": "C. 64",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Bit",
+                        "value": "D. 128",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7006,32 +3879,32 @@ const questions = {
             },
             {
                 "id": 119,
-                "title": "Câu 148. DNS viết tắt của từ nào sau đây?",
+                "title": "Câu 119. Một thao tác MD5 bao gồm bao nhiêu tác vụ?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Domain None System",
+                        "value": "A. 64",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Disk Name System",
+                        "value": "B. 16.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Domain Name System",
+                        "value": "C. 256",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Domain Name Security",
+                        "value": "D. 128",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7039,32 +3912,32 @@ const questions = {
             },
             {
                 "id": 120,
-                "title": "Câu 150. Hãy cho biết đặc điểm của địa chỉ quảng bá nội bộ Local Broadcast address) là gì? ",
+                "title": "Câu 120. Quá trình xử lý khối tin trong MD5 gồm bao nhiêu giai đoạn giống nhau?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. tất cả các bit của phần Netid và Hostid đều là 0",
+                        "value": "A. 4",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. tất cả các bit của phần Hostid đều là 1.",
+                        "value": "B. 16.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. tất cả các bit của phần Netid và Hostid đều là 1. ",
+                        "value": "C. 8",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Tất cả các bit của phần Netid là 0",
+                        "value": "D. 2",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7072,32 +3945,32 @@ const questions = {
             },
             {
                 "id": 121,
-                "title": "Câu 152. chuỗi số 00 08 AC 41 5D 9F có thể là gì?",
+                "title": "Câu 121. Năm thuật toán SHA là?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Địa chỉ IP",
+                        "value": "A. SHA1, SHA224, SHA256, SHA384, SHA512",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Tên Router",
+                        "value": "B. SHA1, SHA225, SHA256, SHA384, SHA512",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Địa chỉ Port",
+                        "value": "C. SHA1, SHA128, SHA256, SHA384, SHA512",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Địa chỉ MAC",
+                        "value": "D. SHA1, SHA64, SHA256, SHA384, SHA512",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7105,32 +3978,32 @@ const questions = {
             },
             {
                 "id": 122,
-                "title": "Câu 153. Khi thi công giải cáp mạng(cáp xoắn đôi),góc giới hạn cho phép của cáp là bao nhiêu?",
+                "title": "Câu 122. SHA1 trả lại kết quả dài bao nhiêu bit?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 2,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. không giới hạn",
+                        "value": "A. 160 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 90 độ",
+                        "value": "B. 512 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 60 độ",
+                        "value": "C. 64 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 5 độ",
+                        "value": "D. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7138,32 +4011,32 @@ const questions = {
             },
             {
                 "id": 123,
-                "title": "Câu 154. hãy cho biết địa chỉ lớp nào phần NetID chiếm 8 bit?",
+                "title": "Câu 123. SHA224 trả lại kết quả dài bao nhiêu bit?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Lớp A",
+                        "value": "A. 224 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. lớp B",
+                        "value": "B. 160 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Lớp C",
+                        "value": "C. 640 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Lớp D",
+                        "value": "D. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7171,32 +4044,32 @@ const questions = {
             },
             {
                 "id": 124,
-                "title": "Câu 155. hãy cho biết dịch vụ 3G 4G là gì?",
+                "title": "Câu 124. SHA256 trả lại kết quả dài bao nhiêu bit?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 3,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Là chuẩn truyền thông chỉ cho phép truyền tải email nhưng không thể truyền âm thanh",
+                        "value": "A. 256 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. là công nghệ ứng dụng cho điện thoại cố định",
+                        "value": "B. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. là chuẩn truyền thông cho phép truyền tải dữ liệu thoại và phí thoại",
+                        "value": "C. 64 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. là một hệ thống máy tính nối mạng toàn cầu",
+                        "value": "D. 224 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7204,32 +4077,32 @@ const questions = {
             },
             {
                 "id": 125,
-                "title": "Câu 125. Hãy cho biết DHCP viết tắt của từ nào sau đây?",
+                "title": "Câu 125. SHA384 trả lại kết quả dài bao nhiêu bit?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Dynamic Host Configuration Protocol",
+                        "value": "A. 384 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Dynamic Hold Configuration Protocol",
+                        "value": "B. 256 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Dynamic Host Configuration Program",
+                        "value": "C. 224 bit",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Disk Host Configuration Protocol",
+                        "value": "D. 128 bit",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7237,32 +4110,32 @@ const questions = {
             },
             {
                 "id": 126,
-                "title": "Câu 126. Hãy chọn mục tiêu chính nào để kết nối các máy tính thành một mạng trong các phương án sau đây?",
+                "title": "Câu 126. Thuật toán SHA là thuật giải băm mật được phát triển bởi?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Để cung cấp các dịch vụ mạng đa dạng và chia sẻ tài nguyên chung.",
+                        "value": "A. Cục an ninh quốc gia Mỹ",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Để cung cấp tài nguyên trên mạng và sử dụng các thiết bị giá thành rẻ.",
+                        "value": "B. Cục an ninh Microsoft",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Để hạn chế sử dụng nhiều thiết bị cùng lúc.",
+                        "value": "C. BKAV",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Để cung cấp được nhiều thông tin cho nhiều người biết.",
+                        "value": "D. Kaspersky",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7270,32 +4143,32 @@ const questions = {
             },
             {
                 "id": 127,
-                "title": "Câu 127. Hãy cho biết dịch vụ 3G là gì trong các phương án sau đây?",
+                "title": "Câu 127. SHA512 trả lại kết quả dài bao nhiêu bit?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Là chuẩn truyền thông cho phép truyền tải dữ liệu thoại và phi thoại.",
+                        "value": "A. 512",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Là một hệ thống máy tính nối mạng toàn cầu.",
+                        "value": "B. 256",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Là chuẩn truyền thông chỉ cho phép truyền tải email nhưng không thể truyền âm thanh.",
+                        "value": "C. 128",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Là một hệ thống máy tính nối mạng toàn cầu.",
+                        "value": "D. 128",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7303,32 +4176,32 @@ const questions = {
             },
             {
                 "id": 128,
-                "title": "Câu 128. Hãy chọn phương án đúng cho biết cáp xoắn đôi CAT 5 có tốc độ truyền là bao nhiêu?",
+                "title": "Câu 128. SHA1 được sử dụng rộng rãi trong nhiều ứng dụng và giao thức an ninh nào?",
                 "thumb": "",
-                "isCorrect": false,
-                "idCorrectResult": 4,
+                "isCorrect": true,
+                "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. 10Mbps",
+                        "value": "A. TLS và SSL, PGP, SSH, S/MIME, IPSec",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. 1000Mbps",
+                        "value": "B. SSL, PGP, SSH, MIME, IPSec",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. 50Mbps",
+                        "value": "C. TLS, PGP, SSH, S, IPSec",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. 100Mbps",
+                        "value": "D. PGP, SSH, S/MIME, IPSec",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7336,32 +4209,32 @@ const questions = {
             },
             {
                 "id": 129,
-                "title": "Câu 129. Hãy cho biết nhược điểm chính của mạng dạng Star là gì trong các phương án sau đây ?",
+                "title": "Câu 129. Quá trình thực hiện xử lý của 4 hàm F, G, H, I trong MD5?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Cần quá nhiều cáp để kết nối tới nút mạng trung tâm.",
+                        "value": "A. 32",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Khó cài đặt và bảo trì.",
+                        "value": "B. 16.",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Khó khắc phục khi lỗi cáp xảy ra, và ảnh hường tới các nút mạng khác.",
+                        "value": "C. 64",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Không có khả năng thay đổi khi đã lắp đặt.",
+                        "value": "D. 128",
                         "url_thumb": "",
                         "type": ""
                     }
@@ -7369,43 +4242,884 @@ const questions = {
             },
             {
                 "id": 130,
-                "title": "Câu 130. Hãy chọn phương thức trao đổi thông tin nào sau đây mà trong đó máy phát và máy thu có thể truyền thông tin hai chiều, nhưng tại mỗi thời điểm chỉ có một máy được phép truyền?",
+                "title": "Câu 130. Bảng chữ cái được sử dụng trong hệ mã hóa Vigenère là?",
                 "thumb": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
                     {
                         "idResult": 1,
-                        "value": "a. Truyền bán song công Half Duplex).",
+                        "value": "A. 26^m cách chọn khóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 2,
-                        "value": "b. Truyền song công Full-Duplex).",
+                        "value": "B. 312 cách chọn khóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 3,
-                        "value": "c. Truyền đơn công Simplex).",
+                        "value": "C. 26 ! cách chọn khóa",
                         "url_thumb": "",
                         "type": ""
                     },
                     {
                         "idResult": 4,
-                        "value": "d. Truyền vô hướng.",
+                        "value": "D. m ! cách chọn khóa",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 118,
+                "title": "Câu 118. Một bảng băm MD5 thường được diễn tả bằng một số hệ thập lục phân gồm bao nhiêu ký tự?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 32",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 16.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 64",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 128",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 119,
+                "title": "Câu 119. Một thao tác MD5 bao gồm bao nhiêu tác vụ?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 64",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 16.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 256",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 128",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 120,
+                "title": "Câu 120. Quá trình xử lý khối tin trong MD5 gồm bao nhiêu giai đoạn giống nhau?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 4",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 16.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 8",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 2",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 121,
+                "title": "Câu 121. Năm thuật toán SHA là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. SHA1, SHA224, SHA256, SHA384, SHA512",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. SHA1, SHA225, SHA256, SHA384, SHA512",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. SHA1, SHA128, SHA256, SHA384, SHA512",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. SHA1, SHA64, SHA256, SHA384, SHA512",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 122,
+                "title": "Câu 122. SHA1 trả lại kết quả dài bao nhiêu bit?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 160 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 512 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 64 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 128 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 123,
+                "title": "Câu 123. SHA224 trả lại kết quả dài bao nhiêu bit?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 224 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 160 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 640 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 128 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 124,
+                "title": "Câu 124. SHA256 trả lại kết quả dài bao nhiêu bit?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 256 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 128 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 64 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 224 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 125,
+                "title": "Câu 125. SHA384 trả lại kết quả dài bao nhiêu bit?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 384 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 256 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 224 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 128 bit",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 126,
+                "title": "Câu 126. Thuật toán SHA là thuật giải băm mật được phát triển bởi?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Cục an ninh quốc gia Mỹ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Cục an ninh Microsoft",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. BKAV",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Kaspersky",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 127,
+                "title": "Câu 127. SHA512 trả lại kết quả dài bao nhiêu bit?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 512",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 256",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 128",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 128",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 128,
+                "title": "Câu 128. SHA1 được sử dụng rộng rãi trong nhiều ứng dụng và giao thức an ninh nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. TLS và SSL, PGP, SSH, S/MIME, IPSec",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. SSL, PGP, SSH, MIME, IPSec",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. TLS, PGP, SSH, S, IPSec",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. PGP, SSH, S/MIME, IPSec",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 129,
+                "title": "Câu 129. Quá trình thực hiện xử lý của 4 hàm F, G, H, I trong MD5?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 32",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 16.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 64",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. 128",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 130,
+                "title": "Câu 130. Bảng chữ cái được sử dụng trong hệ mã hóa Vigenère là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. 26^m cách chọn khóa",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. 312 cách chọn khóa",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. 26 ! cách chọn khóa",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. m ! cách chọn khóa",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 131,
+                "title": "Câu 131. Tấn công từ chối dịch vụ là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Tấn công từ chối dịch vụ là một loại hình tấn công nhằm ngăn chặn những người dùng hợp lệ được sử dụng một dịch vụ đó.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Là hình thức tấn công chiếm quyền điều khiển",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Là hình thức tấn công nhằm chiếm đoạt các thông tin có giá trị",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là hình thức tấn công vào cơ sở dữ liệu",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 132,
+                "title": "Câu 132. Honey port là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Là hệ thống phòng ngừa local attack",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Là hệ thống phát hiện và cảnh báo xâm nhập",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Là hệ thống quét virus",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là hệ thống phòng chống tấn công từ chối dịch vụ",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 133,
+                "title": "Câu 133. Các cuộc tấn công từ chối dịch vụ thường nhằm vào các thiết bị nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Chỉ có thể tấn công vào web server",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Chỉ có thể tấn công vào các thiết bị định tuyến",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Chỉ có thể tấn công vào DNS server",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Các thiết bị định tuyến, web, thư điện tử và hệ thống DNS.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 134,
+                "title": "Câu 134. Phòng chống tấn công từ chối dịch vụ phân bố DDoS?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Cách hiệu quả duy nhất là lưu trữ và phục hồi (backup và restore)",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Hiện nay đã có cách phòng chống hiệu quả",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Chỉ có thể dùng tường lửa",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Có thể hạn chế bằng cách lập trình",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 135,
+                "title": "Câu 135. Backdoor (cửa sau) là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Là một lỗ hổng trong kiến trúc phần cứng",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Là một điểm vào chương trình bí mật",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Là một tiện ích của chương trình",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 136,
+                "title": "Câu 136. Trong IP header gồm những thành phần nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. IP đích của gói tin",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Thông số port của gói tin",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. IP nguồn của gói tin",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. IP nguồn, IP đích của gói tin",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 137,
+                "title": "Câu 137. Một IP flood theo các host phát tán trực tiếp đến một Web server là một ví dụ của loại tấn công gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. DoS phân tán DDoS",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Tấn công IP",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Sâu",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Trojan Horse",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 138,
+                "title": "Câu 138. Loại virus nào biết tự thay đổi hình thức của nó, gây ra sự khó khăn cho các chương trình chống virus?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Polymorphic virus",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Sâu",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Armored virus",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Retrovirus",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 139,
+                "title": "Câu 139. Sâu máy tính (worm) là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Là các chương trình cũng có khả năng tự nhân bản tự tìm cách lan truyền qua hệ thống mạng với mục đích làm giảm khả năng hoạt động hay hủy hoại các hệ thống mạng.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Là 1 phần mềm",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Là 1 loại trojan",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 140,
+                "title": "Câu 140. Trojan Horse có thể nhân bản giống virus được không?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Có thể",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Tất cả đều sai",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Tùy thuộc vào từng loại trojan horse",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Không thể",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 141,
+                "title": "Câu 141. Botnet là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Là tên của một loại virus",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Là một hệ thống phòng chống tấn công từ chối dịch vụ",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Là tên của một loại trojan horse",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là những máy tính bị điều khiển bởi người khác thông qua trojan, virus.",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 142,
+                "title": "Câu 142. Keylogger là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Là loại phần mềm chống virus",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Là một công cụ nghe lén trên đường truyền",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Là loại phần mềm cho phép ghi lại các thao tác trên màn hình, bàn phím, chuột, các thiết bị nhập liệu.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Là loại chương trình phá hoại bàn phím máy tính",
+                        "url_thumb": "",
+                        "type": ""
+                    }
+                ]
+            },
+            {
+                "id": 143,
+                "title": "Câu 143. Mục đích của việc tạo ra botnet là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 1,
+                "results": [
+                    {
+                        "idResult": 1,
+                        "value": "A. Hacker sử dụng mạng botnet tấn công DDoS tới đích nào đó.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 2,
+                        "value": "B. Hacker sử dụng mạng botnet tấn công DoS tới đích nào đó.",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 3,
+                        "value": "C. Tất cả đều sai",
+                        "url_thumb": "",
+                        "type": ""
+                    },
+                    {
+                        "idResult": 4,
+                        "value": "D. Hacker sử dụng mạng botnet để tấn công vào các máy đã bị lây nhiễm lấy ra thông tin có giá trị.",
                         "url_thumb": "",
                         "type": ""
                     }
                 ]
             },
             
-           
-            
-
-
-
         ],
     }
 };
