@@ -1,2479 +1,482 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App - Đăng nhập/Đăng ký</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thi Trắc Nghiệm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
-        /* Reset CSS */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #f5f5f5;
-            transition: background-color 0.5s;
-        }
-
-        .hidden {
-            display: none !important;
-        }
-
-        /* Container Styles */
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        /* Auth Box Styles */
-        .auth-box {
-            background-color: white;
-            width: 100%;
-            max-width: 400px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .auth-header {
-            background-color: #4a6fa5;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .auth-header i {
-            font-size: 50px;
-            margin-bottom: 10px;
-        }
-
-        .auth-header h1 {
-            font-size: 24px;
-        }
-
-        .auth-tabs {
-            display: flex;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .auth-tab {
-            flex: 1;
-            padding: 15px;
-            text-align: center;
-            cursor: pointer;
-            background-color: #f5f5f5;
-            transition: all 0.3s;
-        }
-
-        .auth-tab.active {
-            background-color: white;
-            font-weight: bold;
-            color: #4a6fa5;
-        }
-
-        .auth-content {
-            padding: 25px;
-        }
-
-        /* Form Styles */
-        .form-group {
-            margin-bottom: 20px;
-            position: relative;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            color: #555;
-        }
-
-        .form-group label i {
-            margin-right: 8px;
-            width: 20px;
-        }
-
-        .form-group input {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        .toggle-password {
-            position: absolute;
-            right: 15px;
-            top: 40px;
-            cursor: pointer;
-            color: #777;
-        }
-
-        .form-options {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            font-size: 14px;
-        }
-
-        .auth-btn {
-            width: 100%;
-            padding: 12px;
-            background-color: #4a6fa5;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .auth-btn:hover {
-            background-color: #3a5a80;
-        }
-
-        .switch-auth {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 14px;
-        }
-
-        .switch-auth a {
-            color: #4a6fa5;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .error-message {
-            background-color: #ffebee;
-            color: #c62828;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 15px;
-            display: none;
-        }
-
-        /* Quiz Section Styles */
-        .quiz-section {
-            width: 100%;
-            display: none;
-        }
-
-        /* Quiz Header */
-        .quiz-header {
-            background-color: #4a6fa5;
-            color: white;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .user-info {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .user-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #4a6fa5;
-            font-weight: bold;
-        }
-
-        .logout-btn {
-            background-color: transparent;
-            color: white;
-            border: 1px solid white;
-            padding: 8px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .logout-btn:hover {
-            background-color: rgba(255, 255, 255, 0.1);
-        }
-
-        /* Quiz Main Content */
-        .quiz-main {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-
-        .welcome-message {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .welcome-message h2 {
-            color: #4a6fa5;
-            margin-bottom: 10px;
-        }
-
-        .category-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .category-card {
-            background-color: white;
-            border-radius: 10px;
-            padding: 25px;
-            text-align: center;
-            cursor: pointer;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .category-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .category-card i {
-            font-size: 40px;
-            color: #4a6fa5;
-            margin-bottom: 15px;
-        }
-
-        .category-card h3 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .category-card p {
-            color: #777;
-            font-size: 14px;
-        }
-
-        /* Quiz Container Styles */
-        .quiz-container {
-            background-color: white;
-            border-radius: 10px;
-            padding: 25px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .quiz-progress {
-            margin-bottom: 25px;
-        }
-
-        .progress-bar {
-            height: 8px;
-            background-color: #e0e0e0;
-            border-radius: 4px;
-            margin-bottom: 10px;
-            overflow: hidden;
-        }
-
-        .progress-bar-fill {
-            height: 100%;
-            width: 0%;
-            background-color: #4a6fa5;
-            transition: width 0.5s ease;
-        }
-
-        .question-counter {
-            text-align: right;
-            color: #777;
-            font-size: 14px;
-        }
-
-        .question-container {
-            margin-bottom: 25px;
-        }
-
-        .question-container h2 {
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        .options-container {
-            display: grid;
-            gap: 12px;
-            margin-bottom: 25px;
-        }
-
-        .option {
-            padding: 12px 15px;
-            background-color: #f5f5f5;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .option:hover {
-            background-color: #e0e0e0;
-        }
-
-        .option.selected {
-            background-color: #4a6fa5;
-            color: white;
-        }
-
-        .option.correct {
-            background-color: #4caf50;
-            color: white;
-        }
-
-        .option.wrong {
-            background-color: #f44336;
-            color: white;
-        }
-
-        .next-btn {
-            background-color: #4a6fa5;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            display: none;
-        }
-
-        .next-btn:hover {
-            background-color: #3a5a80;
-        }
-
-        /* Quiz Result Styles */
-        .quiz-result {
-            background-color: white;
-            border-radius: 10px;
-            padding: 30px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .quiz-result h2 {
-            color: #4a6fa5;
-            margin-bottom: 20px;
-        }
-
-        .score-display {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        .score-display span {
-            font-weight: bold;
-            color: #4a6fa5;
-        }
-
-        .result-message {
-            margin-bottom: 25px;
-            font-size: 18px;
-        }
-
-        .retake-btn, .another-btn, .review-btn {
-            padding: 12px 25px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s;
-            margin: 10px 5px;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .retake-btn {
-            background-color: #4a6fa5;
-            color: white;
-        }
-
-        .retake-btn:hover {
-            background-color: #3a5a80;
-        }
-
-        .another-btn {
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        .another-btn:hover {
-            background-color: #e0e0e0;
-        }
-
-        .review-btn {
-            background-color: #ff9800;
-            color: white;
-        }
-
-        .review-btn:hover {
-            background-color: #f57c00;
-        }
-
-        .review-btn i {
-            font-size: 14px;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 600px) {
-            .auth-box {
-                max-width: 100%;
-            }
-            
-            .quiz-header {
-                flex-direction: column;
-                gap: 10px;
-                text-align: center;
-            }
-            
-            .retake-btn, .another-btn, .review-btn {
-                width: 100%;
-                margin: 5px 0;
-            }
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      html {
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: #f4f4f4;
+        padding: 20px;
+        margin: 0;
+      }
+
+      h1 {
+        color: red;
+        /* Màu đỏ cho tiêu đề */
+        text-align: center;
+        /* Căn giữa tiêu đề */
+      }
+
+      .quiz-container {
+        border: 2px solid #ccc;
+        /* Viền cho hộp */
+        border-radius: 10px;
+        /* Bo góc cho hộp */
+        padding: 20px;
+        /* Khoảng cách bên trong hộp */
+        background-color: white;
+        /* Màu nền cho hộp */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        /* Đổ bóng nhẹ cho hộp */
+        margin: 0 auto;
+        /* Căn giữa hộp */
+        max-width: 600px;
+        /* Đặt chiều rộng tối đa cho hộp */
+      }
+
+      .question {
+        margin-bottom: 20px;
+      }
+
+      .answer {
+        display: block;
+        margin: 10px 0;
+        padding: 12px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 5px;
+        user-select: none;
+        /* Bo góc cho đáp án */
+      }
+
+      .correct {
+        background-color: #4caf50;
+        /* Màu xanh */
+        color: white;
+      }
+
+      .incorrect {
+        background-color: #f44336;
+        /* Màu đỏ */
+        color: white;
+      }
+
+      .correct-answer {
+        background-color: #4caf50;
+        /* Màu xanh */
+        color: white;
+      }
+
+      #result {
+        margin-top: 20px;
+        font-size: 1.2em;
+      }
+
+      .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      button {
+        padding: 10px 15px;
+        margin: 0 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        /* Màu xanh */
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button.rounded {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+
+      button.hidden {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+        /* Màu xanh tối hơn khi hover */
+      }
+
+      #title {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      #thumb_question {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        object-fit: contain;
+      }
+
+      #head {
+        display: flex;
+        align-items: center;
+      }
+
+      #head > #title {
+        margin-right: 30px;
+      }
+
+      #head > span {
+        flex: 0 0 50px;
+        margin-left: auto;
+      }
     </style>
-</head>
-<body>
-    <!-- Authentication Section -->
-    <div class="container" id="authSection">
-        <div class="auth-box">
-            <div class="auth-header">
-                <i class="fas fa-question-circle"></i>
-                <h1>Quiz App</h1>
-            </div>
-            
-            <div class="auth-tabs">
-                <div class="auth-tab active" id="loginTab">Đăng nhập</div>
-                <div class="auth-tab" id="registerTab">Đăng ký</div>
-            </div>
-            
-            <!-- Login Form -->
-            <div class="auth-content" id="loginForm">
-                <form id="loginFormContent">
-                    <div class="form-group">
-                        <label for="loginUsername"><i class="fas fa-user"></i> Tên đăng nhập</label>
-                        <input type="text" placeholder="Ma SV" id="loginUsername" name="username" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="loginPassword"><i class="fas fa-lock"></i> Mật khẩu</label>
-                        <input type="password" placeholder="Ma sv" id="loginPassword" name="password" required>
-                        <span class="toggle-password" id="toggleLoginPassword">
-                            <i class="fas fa-eye"></i>
-                        </span>
-                    </div>
-                    
-                    <div class="form-options">
-                        <label>
-                            <input type="checkbox" name="remember"> Ghi nhớ đăng nhập
-                        </label>
-                        <a href="#" id="forgotPassword">Quên mật khẩu?</a>
-                    </div>
-                    
-                    <button type="submit" class="auth-btn">Đăng nhập</button>
-                </form>
-                
-                <div class="switch-auth">
-                    Chưa có tài khoản? <a href="#" id="switchToRegister">Đăng ký ngay</a>
-                </div>
-                
-                <div id="loginError" class="error-message hidden"></div>
-            </div>
-            
-            <!-- Register Form -->
-            <div class="auth-content hidden" id="registerForm">
-                <form id="registerFormContent">
-                    <div class="form-group">
-                        <label for="registerUsername"><i class="fas fa-user"></i> Tên đăng nhập</label>
-                        <input type="text" id="registerUsername" name="username" required>
-                        <small>Tên đăng nhập từ 4-20 ký tự (a-z, 0-9, _)</small>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="registerEmail"><i class="fas fa-envelope"></i> Email</label>
-                        <input type="email" id="registerEmail" name="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="registerPassword"><i class="fas fa-lock"></i> Mật khẩu</label>
-                        <input type="password" id="registerPassword" name="password" required>
-                        <span class="toggle-password" id="toggleRegisterPassword">
-                            <i class="fas fa-eye"></i>
-                        </span>
-                        <small>Mật khẩu ít nhất 6 ký tự</small>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="registerConfirmPassword"><i class="fas fa-lock"></i> Nhập lại mật khẩu</label>
-                        <input type="password" id="registerConfirmPassword" name="confirmPassword" required>
-                    </div>
-                    
-                    <button type="submit" class="auth-btn">Đăng ký</button>
-                </form>
-                
-                <div class="switch-auth">
-                    Đã có tài khoản? <a href="#" id="switchToLogin">Đăng nhập ngay</a>
-                </div>
-                
-                <div id="registerError" class="error-message hidden"></div>
-                <div id="registerSuccess" class="error-message hidden" style="background-color: #e8f5e9; color: #2e7d32;"></div>
-            </div>
-        </div>
+  </head>
+
+  <body>
+    <h1>Thi Trắc Nghiệm Môn Trí Tuệ Nhân Tạo</h1>
+
+    <div class="quiz-container">
+      <div id="questionsContainer"></div>
+      <div class="navigation">
+        <button id="shuffleButton" class="rounded">
+          <i style="pointer-events: none" class="fa-solid fa-shuffle"></i>
+        </button>
+        <button id="backButton">Quay lại</button>
+        <button id="nextButton">Tiếp theo</button>
+        <button id="againButton">Làm lại câu sai</button>
+      </div>
+
+      <div id="result"></div>
     </div>
 
-    <!-- Quiz Section -->
-    <div class="quiz-section" id="quizSection">
-        <header class="quiz-header">
-            <div class="user-info">
-                <div class="user-avatar" id="userAvatar">A</div>
-                <span id="usernameDisplay">Người dùng</span>
-            </div>
-            <button id="logoutBtn" class="logout-btn">
-                <i class="fas fa-sign-out-alt"></i> Đăng xuất
-            </button>
-        </header>
+    <script type="module">
+      import questions from "./data.js";
 
-        <main class="quiz-main">
-            <!-- Quiz Selection Screen -->
-            <div id="quizSelection">
-                <div class="welcome-message">
-                    <h2>Chào mừng <span id="userWelcomeName"></span> đến với Quiz App!</h2>
-                    <p>Hãy chọn một chủ đề để bắt đầu.</p>
-                </div>
-                
-                <div class="category-grid" id="categoryGrid">
-                    <!-- Categories will be added by JavaScript -->
-                </div>
-            </div>
+      let selectList = [];
+      let incorrectList = [];
+      let currentQuestionIndex = 0;
+      let questionList = questions.question_2.origin_question;
+      let isShuffle = false;
+      let makeAgainMode = false;
+      let autoPlayTimeout = null;
 
-            <!-- Quiz Screen -->
-            <div id="quizScreen" class="hidden">
-                <div class="quiz-container">
-                    <div class="quiz-progress">
-                        <div class="progress-bar">
-                            <div class="progress-bar-fill" id="progressBar"></div>
-                        </div>
-                        <div class="question-counter" id="questionCounter">Câu 1/10</div>
-                    </div>
-                    
-                    <div class="question-container">
-                        <h2 id="questionText">Đây là câu hỏi?</h2>
-                    </div>
-                    
-                    <div class="options-container" id="optionsContainer">
-                        <!-- Options will be added by JavaScript -->
-                    </div>
-                    
-                    <button id="nextQuestionBtn" class="next-btn">Câu tiếp theo</button>
-                </div>
-            </div>
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i >= 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
 
-            <!-- Quiz Result Screen -->
-            <div id="quizResult" class="quiz-result hidden">
-                <h2>Kết quả quiz</h2>
-                <div class="score-display">
-                    Bạn đã đúng <span id="correctAnswers">0</span>/<span id="totalQuestions">0</span> câu
-                </div>
-                <div class="result-message" id="resultMessage"></div>
-                <div class="result-buttons">
-                    <button id="retakeQuizBtn" class="retake-btn"><i class="fas fa-sync-alt"></i> Làm lại quiz</button>
-                    <button id="chooseAnotherBtn" class="another-btn"><i class="fas fa-list"></i> Chọn quiz khác</button>
-                    <!-- Review button will be added dynamically -->
-                </div>
-            </div>
-        </main>
-    </div>
+        return array;
+      }
 
-    <!-- Font Awesome for icons -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+      const questionContainer = document.getElementById("questionsContainer");
+      const shuffleBtn = document.getElementById("shuffleButton");
+      const nextBtn = document.getElementById("nextButton");
+      const backBtn = document.getElementById("backButton");
+      const againBtn = document.getElementById("againButton");
 
-    <script>
-        // Dữ liệu ứng dụng
-        const quizData = {
-            math: [
-                {
-                    question: "Kết quả của phép tính 5 + 7 là bao nhiêu?",
-                    options: ["10", "11", "12", "13"],
-                    answer: "12"
-                },
-                {
-                    question: "Số nào là số nguyên tố trong các số sau?",
-                    options: ["9", "15", "17", "21"],
-                    answer: "17"
-                },
-                {
-                    question: "Giá trị của π (pi) xấp xỉ bằng bao nhiêu?",
-                    options: ["2.14", "3.14", "4.14", "5.14"],
-                    answer: "3.14"
-                }
-            ],
-            history: [
-                {
-                    question: "Ai là vị vua đầu tiên của nước Đại Việt?",
-                    options: ["Lý Thái Tổ", "Đinh Bộ Lĩnh", "Lê Hoàn", "Lý Công Uẩn"],
-                    answer: "Đinh Bộ Lĩnh"
-                },
-                {
-                    question: "Trận chiến Bạch Đằng diễn ra vào năm nào?",
-                    options: ["938", "981", "1010", "1288"],
-                    answer: "938"
-                }
-            ],
-            TriTueNhanTao: [
-            {
-                question: "Xe không người lái sử dụng công nghệ nào?",
-                options: ["Công nghệ AI phản ứng", "Lý thuyết trí tuệ nhân tạo", "Tự nhận thức", "Công nghệ AI với bộ nhớ hạn chế"],
-                answer: "Công nghệ AI với bộ nhớ hạn chế"
-            },
-            {
-                question: "Chương trình chơi cờ vua tự động, được tạo ra bởi IBM, với khả năng xác định các nước cờ đồng thời dự đoán những bước đi tiếp theo của đối thủ có tên là gì?",
-                options: ["Deep Blue", "Deep Green", "Deep Yellow", "Deem Black"],
-                answer: "Deep Blue"
-            },
-            {
-                question: "Công nghệ AI nào có khả năng phân tích những động thái khả thi nhất của chính mình và của đối thủ, từ đó, đưa ra được giải pháp tối ưu nhất?",
-                options: ["Tự nhận thức", "Lý thuyết trí tuệ nhân tạo", "Công nghệ AI phản ứng", "Công nghệ AI với bộ nhớ hạn chế"],
-                answer: "Công nghệ AI phản ứng"
-            },
-            {
-                question: "Các chương trình TTNT đầu tiên vào những năm nào?",
-                options: ["1930s", "1950s", "1990s", "2000s"],
-                answer: "1950s"
-            },
-            {
-                question: "Đâu không phải là lợi ích của trí tuệ nhân tạo?",
-                options: ["Phát hiện và ngăn chặn các rủi ro", "Hạn chế sử dụng sức lao động của con người", "Xóa bỏ khoảng cách ngôn ngữ", "Mất nhiều sức lao động của con người"],
-                answer: "Mất nhiều sức lao động của con người"
-            },
-            {
-                question: "Ibm Watson (2006) là sản phẩm trí tuệ nhân tạo sử dụng công nghệ nào dưới đây là chính?",
-                options: ["Ngôn ngữ tự nhiên", "Văn bản (text)", "Hình ảnh (Computer vision)", "Robotic"],
-                answer: "Ngôn ngữ tự nhiên"
-            },
-            {
-                question: "Thuật ngữ nào chỉ áp dụng AI cho các nhiệm vụ cụ thể?",
-                options: ["Artificial Super Intelligence", "Artificial General Intelligence", "Artificial Narrow Intelligence", "Artificial Min Intelligence"],
-                answer: "Artificial Narrow Intelligence"
-            },
-            {
-                question: "Phương pháp chấm điểm tín dụng sử dụng dữ liệu lớn (Big Data) và trí tuệ nhân tạo (AI) thì dữ liệu nào có giá trị:",
-                options: ["Dữ liệu hành vi", "Hóa đơn thanh toán các loại cước phí", "Thói quen mua sắm online", "Tất cả các phương án trên"],
-                answer: "Tất cả các phương án trên"
-            },
-            {
-                question: "Artificial General Intelligence nghĩa là gì?",
-                options: ["Trí tuệ nhân tạo hẹp", "Trí tuệ tổng hợp nhân tạo", "Siêu trí tuệ nhân tạo", "Khoa học công nghệ"],
-                answer: "Trí tuệ tổng hợp nhân tạo"
-            },
-            {
-                question: "Thuật ngữ nào chỉ khả năng của máy tính sẽ vượt qua con người?",
-                options: ["Artificial Super Intelligence", "Artificial General Intelligence", "Artificial Narrow Intelligence", "Artificial Min Intelligence"],
-                answer: "Artificial Super Intelligence"
-            },
-            {
-                question: "Mục tiêu của ngành trí tuệ nhân tạo là gì?",
-                options: [
-                    "Giúp máy tính suy nghĩ và hành động giống như con người",
-                    "Giúp con người thông minh hơn",
-                    "Giúp cho máy tính thông minh hơn",
-                    "Tất cả cùng đúng"
-                ],
-                answer: "Giúp máy tính suy nghĩ và hành động giống như con người"
-            },
-            {
-                question: "Ngôn ngữ lập trình nào có nhiều thư viện hỗ trợ để viết các chương trình ứng dụng trí tuệ nhân tạo?",
-                options: [
-                    "C#",
-                    "Pascal",
-                    "C",
-                    "Python"
-                ],
-                answer: "Python"
-            },
-            {
-                question: "Hàm heuristic là gì?",
-                options: [
-                    "Là ước lượng về khả năng dẫn đến lời giải",
-                    "Là về khả năng dẫn đến lời giải",
-                    "Là chi phí về khả năng dẫn đến lời giải",
-                    "Là chi phí về khả năng dẫn đến lời giải"
-                ],
-                answer: "Là ước lượng về khả năng dẫn đến lời giải"
-            },
-            {
-                question: "Hàm Heuristic trong thuật giải Heuristic?",
-                options: [
-                    "Giá trị phụ thuộc vào trạng thái kế tiếp",
-                    "Giá trị phụ thuộc vào trạng thái trước đó",
-                    "Giá trị phụ thuộc vào trạng thái hiện tại",
-                    "Giá trị phụ thuộc vào trạng thái bắt đầu T0"
-                ],
-                answer: "Giá trị phụ thuộc vào trạng thái kế tiếp"
-            },
-            {
-                question: "Đâu là ứng dụng của trí tuệ nhân tạo?",
-                options: [
-                    "Nhận dạng tiếng nói",
-                    "Nhận dạng chữ viết",
-                    "Tất cả đều đúng",
-                    "Tất cả đều sai"
-                ],
-                answer: "Tất cả đều đúng"
-            },
-            {
-                question: "Đâu không phải là vấn đề cốt lõi của trí tuệ nhân tạo?",
-                options: [
-                    "Biểu diễn",
-                    "Lập luận",
-                    "Học",
-                    "Chế tạo ra máy móc"
-                ],
-                answer: "Chế tạo ra máy móc"
-            },
-            {
-                question: "Lý thuyết được áp dụng trong TTNT nhiều nhất là:",
-                options: [
-                    "Lý thuyết giải bài toán và suy diễn thông minh",
-                    "Lý thuyết biểu diễn tri thức và hệ chuyên gia",
-                    "Lý thuyết nhận dạng và xử lý tiếng nói",
-                    "Lý thuyết tìm kiếm may rủi"
-                ],
-                answer: "Lý thuyết tìm kiếm may rủi"
-            },
-            {
-                question: "Tương tác giữa người và máy tính trong TTNT chủ yếu là:",
-                options: [
-                    "Qua giao diện người - máy tính sử dụng menu",
-                    "Qua giao diện người - máy tính sử dụng văn bản",
-                    "Qua giao diện người - máy tính sử dụng âm thanh",
-                    "Qua giao diện tự động"
-                ],
-                answer: "Qua giao diện tự động"
-            },
-            {
-                question: "Có thể nói một chương trình lập trình bằng ngôn ngữ Prolog là một chương trình lập trình theo",
-                options: [
-                    "Lập trình cấu trúc",
-                    "Lập trình hướng đối tượng",
-                    "Lập trình hướng thành phần",
-                    "Lập trình logic"
-                ],
-                answer: "Lập trình logic"
-            },
-            {
-                question: "Ai được coi là người khai sinh ra ngành trí tuệ nhân tạo?",
-                options: [
-                    "Turing",
-                    "M. Minsky",
-                    "Bill Gate",
-                    "A.Newell"
-                ],
-                answer: "Turing"
-            },
-            {
-                question: "Áp dụng thuật giải tham lam (Greedy). Tìm đường đi ngắn nhất từ đỉnh 1 đi qua các đỉnh và trở lại đỉnh ban đầu, tổng chiều dài đường đi là ngắn nhất. Đỉnh kế tiếp bạn chọn để theo Greedy đi là:",
-                options: ["Đỉnh 3", "Đỉnh 2", "Đỉnh 4", "Đỉnh 5"],
-                answer: "Đỉnh 3"
-            },
-            {
-                question: "Áp dụng thuật giải tham lam (Greedy). Tìm đường đi ngắn nhất từ đỉnh 1 đi qua các đỉnh và trở lại đỉnh ban đầu, tổng chiều dài đường đi là ngắn nhất. Sau khi chọn được đỉnh kế tiếp của đỉnh 1 bạn chọn tiếp đỉnh?",
-                options: ["Đỉnh 4", "Đỉnh 2", "Đỉnh 5", "Đỉnh 3"],
-                answer: "Đỉnh 4"
-            },
-            {
-                question: "Áp dụng thuật giải tham lam (Greedy). Tìm đường đi ngắn nhất từ đỉnh 1 đi qua các đỉnh và trở lại đỉnh ban đầu, tổng chiều dài đường đi là ngắn nhất. Chu trình bạn sẽ đi theo Greedy là?",
-                options: [ "1,2,3,4,5,1", "1,4,5,3,2,1","1,3,4,2,5,1", "1,4,3,4,2,1"],
-                answer: "1,3,4,2,5,1"
-            },
-            {
-                question: "Áp dụng thuật giải tham lam (Greedy). Tìm đường đi ngắn nhất từ đỉnh 1 đi qua các đỉnh và trở lại đỉnh ban đầu, tổng chiều dài đường đi là ngắn nhất. Chi phí (độ dài đường đi) theo Greedy là?",
-                options: ["13", "14", "15", "16"],
-                answer: "13"
-            },
-            {
-                question: "Thuật giải tham lam (Greedy) là?",
-                options: [ "Cho kết quả tối ưu nhất", "Cho kết quả tốt hơn kết quả tối ưu","Nhanh chóng tìm ra lời giải", "Tất cả đều sai"],
-                answer: "Nhanh chóng tìm ra lời giải"
-            },
-            {
-                question: "Thuật giải tham lam (Greedy) không sử dụng nguyên lý nào?",
-                options: ["Nguyên lý hình ống", "Nguyên lý tham lam", "Nguyên lý vét cạn thông minh", "Nguyên lý thứ tự"],
-                answer: "Nguyên lý hình ống"
-            },
-            {
-                question: "Thuật giải tham lam (Greedy) sử dụng nguyên lý nào?",
-                options: [ "Nguyên lý pipeline","Nguyên lý thứ tự", "Nguyên lý FIFO", "Nguyên lý hình ống"],
-                answer: "Nguyên lý thứ tự"
-            },
-            {
-                question: "Thuật giải heuristic là?",
-                options: ["Nhanh chóng tìm ra lời giải", "Luôn luôn không tìm được lời giải", "Cho kết quả tốt hơn kết quả tối ưu", "Cho kết quả tối ưu nhất"],
-                answer: "Nhanh chóng tìm ra lời giải"
-            },
-            {
-                question: "Phát biểu nào sai?",
-                options: [
-                    
-                    "Thuật giải áp dụng nguyên lý thứ tự là thuật giải heuristics",
-                    "Thuật giải áp dụng nguyên lý Greedy là thuật giải heuristics",
-                    "Thuật giải sắp xếp là thuật giải heuristics",
-                    "Thuật giải áp dụng vét cạn thông minh là thuật giải heuristics"
-                ],
-                answer: "Thuật giải sắp xếp là thuật giải heuristics"
-            },
-            {
-                question: "Phát biểu nào đúng?",
-                options: [
-                    
-                    "Thuật giải sắp xếp chèn là thuật giải heuristics",
-                    "Thuật giải sắp xếp chọn là thuật giải heuristics",
-                    "Thuật giải tìm kiếm nhị phân là thuật giải heuristics",
-                    "Thuật giải áp dụng nguyên lý tham Greedy là thuật giải heuristics"
-                ],
-                answer: "Thuật giải áp dụng nguyên lý tham Greedy là thuật giải heuristics"
-            },
-            {
-                question: "Cho 2 máy P1, P2 và 5 công việc có thời gian thực hiện công việc như sau: t1=6, t2=2, t3=1, t4=4, t5=3. Áp dụng kỹ thuật của thuật giải Heuristic sắp xếp công việc vào các máy sao cho thời gian thực hiện xong công việc nhanh nhất. Thứ tự công việc được sắp xếp theo thứ tự là?",
-                options: [
-                    "t1=6,t4=4,t5=3,t2=2,t3=1",
-                    "t3=1, t2=2, t5=3, t4=4, t1=6",
-                    "t4=4,t5=3,t2=2,t3=1, t1=6",
-                    "t2=2, t5=3, t4=4, t1=6, t3=1"
-                ],
-                answer: "t1=6,t4=4,t5=3,t2=2,t3=1"
-            },
-            {
-                question: "Cho 2 máy P1, P2 và 5 công việc có thời gian thực hiện công việc như sau: t1=6, t2=2, t3=1, t4=4, t5=3. Áp dụng kỹ thuật của thuật giải Heuristic sắp xếp công việc vào các máy sao cho thời gian thực hiện xong công việc nhanh nhất. Ở bước 1 (máy thứ 1 P1, máy thứ 2 P2) gồm các công việc?",
-                options: [
-                    
-                    "P1: t3=1, P2: t4=4",
-                    "P1: t1=6, P2: t4=4",
-                    "P1: t2=2, P2: t3=1",
-                    "P1: t1=6, P2: t3=1"
-                ],
-                answer: "P1: t1=6, P2: t4=4"
-            },
-            {
-                question: "Cho 2 máy P1, P2 và 5 công việc có thời gian thực hiện công việc như sau: t1=6, t2=2, t3=1, t4=4, t5=3. Áp dụng kỹ thuật của thuật giải Heuristic sắp xếp công việc vào các máy sao cho thời gian thực hiện xong công việc nhanh nhất. Các công việc thực hiện ở máy 1?",
-                options: [
-                    
-                    "P1: t1=6, t4=4",
-                    "P1: t1=6, t2=2",
-                    "P1: t1=6, t2=2, t3=1",
-                    "P1: t1=6, t3=1"
-                ],
-                answer: "P1: t1=6, t2=2"
-            },
-            {
-                question: "Cho 2 máy P1, P2 và 5 công việc có thời gian thực hiện công việc như sau: t1=6, t2=2, t3=1, t4=4, t5=3. Áp dụng kỹ thuật của thuật giải Heuristic sắp xếp công việc vào các máy sao cho thời gian thực hiện xong công việc nhanh nhất. Công việc được thực hiện ở máy 2 là?",
-                options: [
-                    "P2: t4=4, t5=3, t3=1",
-                    "P2: t1=6, t4=4",
-                    "P2: t1=6, t2=2",
-                    "P2: t4=4, t5=3, t3=1"
-                ],
-                answer: "P2: t4=4, t5=3, t3=1"
-            },
-            {
-                question: "Cho 2 máy P1, P2 và 5 công việc có thời gian thực hiện công việc như sau: t1=6, t2=2, t3=1, t4=4, t5=3. Áp dụng kỹ thuật của thuật giải Heuristic sắp xếp công việc vào các máy sao cho thời gian thực hiện xong công việc nhanh nhất. Thời gian thực hiện theo nguyên lý thứ tự của kỹ thuật heuristic là?",
-                options: ["8", "6", "7", "9"],
-                answer: "8"
-            },
-            {
-                question: "Không gian trạng thái là gì?",
-                options: [
-                    
-                    "Không gian trạng thái là trạng thái đầu",
-                    "Không gian trạng thái là trạng thái cuối",
-                    "Không gian trạng thái là tập tất cả các trạng thái có thể có và tập các toán tử của bài toán.",
-                    "Không gian trạng thái là trạng thái đầu và trạng thái cuối"
-                ],
-                answer: "Không gian trạng thái là tập tất cả các trạng thái có thể có và tập các toán tử của bài toán."
-            },
-            {
-                question: "Không gian trạng thái của bài toán đong nước là bộ bốn (T, S, G, F). Trạng thái đầu là?",
-                options: [
-                    "S = (0,0)",
-                    "S = (0,1)",
-                    "S = (1,0)",
-                    "S = (1,1)"
-                ],
-                answer: "S = (0,0)"
-            },
-            {
-                question: "Không gian trạng thái của bài toán đong nước là bộ bốn (T, S, G, F), trong đó T = { (x,y) / 0 <= x <= m; 0 <= y <= n } là gì?",
-                options: [
-                    
-                    "Trạng thái đầu",
-                    "Trạng thái cuối",
-                    "Tập tất cả các trạng thái có thể có của bài toán",
-                    "Trạng thái đầu và trạng thái cuối"
-                ],
-                answer: "Tập tất cả các trạng thái có thể có của bài toán"
-            },
-            {
-                question: "Không gian trạng thái của bài toán Tháp Hà Nội với n = 3, trong đó S = (1, 1, 1) là gì?",
-                options: [
-                    
-                    "Trạng thái kết thúc",
-                    "Trạng thái bắt đầu",
-                    "Tất cả trạng thái có thể có của bài toán",
-                    "Tất cả đều sai"
-                ],
-                answer: "Trạng thái bắt đầu"
-            },
-            {
-                question: "Không gian trạng thái của bài toán Tháp Hà Nội với n = 3, trong đó G = (3, 3, 3) là gì?",
-                options: [
-                    
-                    "Trạng thái bắt đầu",
-                    "Tất cả trạng thái có thể có của bài toán",
-                    "Tất cả đều sai",
-                    "Trạng thái kết thúc"
-                ],
-                answer: "Trạng thái kết thúc"
-            },
-            {
-                question: "Phương pháp tìm kiếm chiều sâu được viết tắt bằng những chữ cái nào?",
-                options: ["DFS", "BFS", "SFD", "SFB"],
-                answer: "DFS"
-            },
-            {
-                question: "Depth-First Search là phương pháp tìm kiếm gì?",
-                options: [
-                    "Tìm kiếm theo chiều sâu",
-                    "Tìm kiếm theo chiều rộng",
-                    "Tìm kiếm tối ưu",
-                    "Tìm kiếm leo đồi"
-                ],
-                answer: "Tìm kiếm theo chiều sâu"
-            },
-            {
-                question: "Phương pháp tìm kiếm chiều rộng được viết tắt bằng những chữ cái nào?",
-                options: [ "DFS", "SFD", "SFB","BFS"],
-                answer: "BFS"
-            },
-            {
-                question: "Breadth-First Search là phương pháp tìm kiếm nào?",
-                options: [
-                    "Tìm kiếm theo chiều rộng",
-                    "Tìm kiếm theo chiều sâu",
-                    "Tìm kiếm tối ưu",
-                    "Tìm kiếm leo đồi"
-                ],
-                answer: "Tìm kiếm theo chiều rộng"
-            },
-            {
-                question: "Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp BFS?",
-                options: [
-                    "A, B, C, D, E, G",
-                    "A, B, D, G, E, C",
-                    "A, B, C, D, G, E",
-                    "A, B, E, G, D, C"
-                ],
-                answer: "A, B, C, D, E, G"
-            },
-            {
-                question: "Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp DFS?",
-                options: [
-                    
-                    "A, D, G, E, C",
-                    "A, B, C, D, E, G",
-                    "A, B, D, G, E, C",
-                    "A, B, E, G, C"
-                ],
-                answer: "A, B, C, D, E, G"
-            },
-            {
-                question: "Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp BFS?",
-                options: [
-                    
-                    "A, B, D, G, E, C, K, H, F",
-                    "A, B, C, D, G, E, F, H, K",
-                    "A, B, C, D, E, F, G, H, K",
-                    "A, B, E, G, D, C"
-                ],
-                answer: "A, B, C, D, E, F, G, H, K"
-            },
-            {
-                question: "Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp DFS?",
-                options: [
-                    "A, B, E, G, K, H, F, D, C",
-                    "A, B, D, C, G, E, K",
-                    "A, B, C, D, G, E",
-                    "A, B, E, G, D, C"
-                ],
-                answer: "A, B, E, G, K, H, F, D, C"
-            },
-            {
-                question: "Tìm kiếm chiều sâu và tìm kiếm chiều rộng đều là các phương pháp tìm kiếm truyền thống đúng hay sai?",
-                options: ["Đúng", "Sai"],
-                answer: "Đúng"
-            },
-            {
-                question: "Giải thuật tìm kiếm theo chiều rộng bắt đầu duyệt từ?",
-                options: [
-                    "Nút cha",
-                    "Nút con",
-                    "Nút kề",
-                    "Nút gốc"
-                ],
-                answer: "Nút gốc"
-            },
-            {
-                question: "Đâu không phải là ứng dụng của giải thuật tìm kiếm theo chiều rộng trong bài toán lý thuyết đồ thị?",
-                options: [
-                    "Tìm các thành phần liên thông",
-                    "Tìm đường đi ngắn nhất giữa 2 đỉnh u và v",
-                    "Tìm kiếm có giới hạn",
-                    "Tìm tất cả các đỉnh trong một thành phần liên thông"
-                ],
-                answer: "Tìm kiếm có giới hạn"
-            },
-            {
-                question: "Hãy cho biết thuật toán dưới đây là thuật toán dùng để tìm kiếm?\n\nBegin\n(* Initialization *)\nFor v ∈ V do Chuaxet[v] := true;\nFor v ∈ V do\nIf Chuaxet[v] then DFS(v);\nEnd;",
-                options: [
-                    "Thuật toán tìm kiếm theo chiều sâu",
-                    "Thuật toán tìm kiếm leo đồi",
-                    "Thuật toán tìm kiếm tối ưu",
-                    "Thuật toán tìm kiếm theo chiều rộng"
-                ],
-                answer: "Thuật toán tìm kiếm theo chiều sâu"
-            },
-            {
-                question: "Hãy cho biết thuật toán dưới đây là thuật toán dùng để tìm kiếm?\n\nBegin\n(* Initialization *)\nFor v ∈ V do Chuaxet[v] := true;\nFor v ∈ V do\nIf Chuaxet[v] then BFS(v);\nEnd;",
-                options: [
-                    "Thuật toán tìm kiếm theo chiều sâu",
-                    "Thuật toán tìm kiếm theo chiều rộng",
-                    "Thuật toán tìm kiếm leo đồi",
-                    "Thuật toán tìm kiếm tối ưu"
-                ],
-                answer: "Thuật toán tìm kiếm theo chiều rộng"
-            },
-            {
-                question: "Phát biểu nào sau đây đúng về Học không có giám sát?",
-                options: [
-                    "Học dựa vào tập dữ liệu có gán nhãn",
-                    "Dữ liệu huấn luyện không được gán nhãn",
-                    "Học không dựa vào dữ liệu",
-                    "Học dựa vào tập dữ liệu có gán nhãn và học không dựa vào dữ liệu"
-                ],
-                answer: "Dữ liệu huấn luyện không được gán nhãn"
-            },
-            {
-                question: "Lưu lượng bộ nhớ sử dụng để lưu trữ các trạng thái của phương pháp tìm kiếm BFS?",
-                options: [
-                    "Chỉ lưu lại các trạng thái chưa xét đến",
-                    "Lưu lại các trạng thái đã xét",
-                    "Không lưu lại các trạng thái chưa xét đến",
-                    "Phải lưu toàn bộ các trạng thái"
-                ],
-                answer: "Phải lưu toàn bộ các trạng thái"
-            },
-            {
-                question: "Lưu lượng bộ nhớ sử dụng để lưu trữ các trạng thái của phương pháp tìm kiếm DFS?",
-                options: [
-                    "Chỉ lưu lại các trạng thái chưa xét đến",
-                    "Lưu lại các trạng thái đã xét",
-                    "Không lưu lại các trạng thái chưa xét đến",
-                    "Phải lưu toàn bộ các trạng thái"
-                ],
-                answer: "Chỉ lưu lại các trạng thái chưa xét đến"
-            },
-            {
-                question: "Đâu là đáp án đúng khi nói về giải thuật tìm kiếm tốt nhất đầu tiên?",
-                options: [
-                    "Giải thuật tìm kiếm tốt nhất đầu tiên có thể bị kẹt trong một vòng lặp như DFS",
-                    "Giải thuật tìm kiếm tốt nhất đầu tiên không thể bị kẹt trong một vòng lặp như DFS",
-                    "Giải thuật tìm kiếm tốt nhất đầu tiên có thể bị kẹt trong một vòng lặp như A*",
-                    "Tất cả các đáp án đều sai"
-                ],
-                answer: "Giải thuật tìm kiếm tốt nhất đầu tiên có thể bị kẹt trong một vòng lặp như DFS"
-            },
-            {
-                question: "Trường hợp tốt nhất của tìm kiếm theo chiều sâu là?",
-                options: [
-                    "Phương án chọn hướng đi tuyệt đối chính xác. Lời giải được xác định một cách chính xác",
-                    "Vét toàn bộ",
-                    "Không cho lời giải",
-                    "Phương án chọn hướng đi không chính xác"
-                ],
-                answer: "Phương án chọn hướng đi tuyệt đối chính xác. Lời giải được xác định một cách chính xác"
-            },
-            {
-                question: "Phương pháp tìm kiếm leo đồi có nhược điểm gì?",
-                options: [
-                    "Tìm được lời giải nhưng chưa chắc đã tối ưu",
-                    "Giải thuật có thể gặp vòng lặp vô hạn do không lưu trữ thông tin về mặt trạng thái đã duyệt",
-                    "Cả hai đáp án trên",
-                    "Không có nhược điểm"
-                ],
-                answer: "Cả hai đáp án trên"
-            },
-            {
-                question: "Phương pháp tìm kiếm leo đồi khác tìm kiếm theo chiều sâu là:",
-                options: [
-                    "Leo đồi không lưu bất kỳ trạng thái nào hoặc lưu đúng một trạng thái được chọn nếu có",
-                    "Leo đồi lưu tất cả các trạng thái",
-                    "Không thể quay lui",
-                    "Tất cả các đáp án đều đúng"
-                ],
-                answer: "Leo đồi không lưu bất kỳ trạng thái nào hoặc lưu đúng một trạng thái được chọn nếu có"
-            },
-            {
-                question: "Bản chất của phương pháp tìm kiếm leo đồi?",
-                options: [
-                    "Leo đồi sẽ duyệt tất cả các hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái kế tiếp của nó",
-                    "Leo đồi sẽ duyệt tất cả các hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái không kế tiếp của nó",
-                    "Leo đồi sẽ duyệt theo một hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái kế tiếp của nó"
-                ],
-                answer: "Leo đồi sẽ duyệt tất cả các hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái kế tiếp của nó"
-            },
-            {
-                question: "Có mấy giải thuật dựa vào giải thuật tìm kiếm tốt nhất đầu tiên?",
-                options: ["1", "2", "3", "4"],
-                answer: "3"
-            },
-            {
-                question: "Thuật ngữ Hàm Heuristic muốn nói điều gì?",
-                options: [
-                    "Là một ước lượng về khả năng dẫn đến lời giải tính từ khoảng cách giữa trạng thái hiện tại và trạng thái đích",
-                    "Là một ước lượng về khả năng dẫn đến lời giải tính từ khoảng cách giữa trạng thái ban đầu và trạng thái đích",
-                    "Không phải là một ước lượng về khả năng dẫn đến lời giải tính từ khoảng cách giữa trạng thái ban đầu và trạng thái đích",
-                    "Là một ước lượng về khả năng không dẫn đến lời giải tính từ khoảng cách giữa trạng thái ban đầu và trạng thái đích"
-                ],
-                answer: "Là một ước lượng về khả năng dẫn đến lời giải tính từ khoảng cách giữa trạng thái hiện tại và trạng thái đích"
-            },
-            {
-                question: "Hill-climbing là phương pháp tìm kiếm:",
-                options: [
-                    "Leo đồi",
-                    "Duyệt theo chiều sâu",
-                    "Duyệt theo chiều rộng",
-                    "Không có đáp án đúng"
-                ],
-                answer: "Leo đồi"
-            },
-            {
-                question: "Hãy cho biết ý tưởng của phương pháp tìm kiếm leo đồi?",
-                options: [
-                    "Muốn lên đỉnh đồi thì càng leo càng cao",
-                    "Muốn lên đỉnh đồi thì càng leo càng trượt",
-                    "Tất cả đều đúng"
-                ],
-                answer: "Muốn lên đỉnh đồi thì càng leo càng cao"
-            },
-            {
-                question: "Phương pháp tìm kiếm leo đồi thuộc trường hợp đặc biệt của loại tìm kiếm?",
-                options: ["BFS", "DFS", "FBS", "FDS"],
-                answer: "DFS"
-            },
-            {
-                question: "Đâu là đáp án đúng của giải thuật tìm kiếm theo chiều sâu?",
-                options: [
-                    "Sử dụng ngăn xếp",
-                    "Sử dụng hàng đợi",
-                    "Sử dụng ma trận",
-                    "Sử dụng mảng nhiều chiều"
-                ],
-                answer: "Sử dụng ngăn xếp"
-            },
-            {
-                question: "Phương pháp tìm kiếm leo đồi thuộc phương pháp tìm kiếm?",
-                options: [
-                    "Tìm kiếm Heuristic",
-                    "Tìm kiếm chiều sâu",
-                    "Tìm kiếm chiều rộng",
-                    "Không có đáp án đúng"
-                ],
-                answer: "Tìm kiếm Heuristic"
-            },
-            {
-                question: "Dòng lệnh nào sai trong đoạn lệnh dưới đây?\n\n1. T := T0;\n2. Stop := false;\n3. While stop > false do begin\n4. If T ∈ TG then begin (* tìm được kết quả *)\n5. Stop := true;\n6. End;",
-                options: ["1", "2", "3", "4"],
-                answer: "3"
-            },
-            {
-                question: "Giải thuật tìm kiếm theo chiều rộng có tính chất vét cạn, vậy ta có nên áp dụng vào đồ thị có số đỉnh lớn không?",
-                options: [
-                    "Nên",
-                    "Không nên",
-                    "Nên áp dụng vào một số trường hợp",
-                    "Tất cả đều sai"
-                ],
-                answer: "Không nên"
-            },
-            {
-                question: "Trong phương pháp tìm kiếm leo đồi nếu trạng thái bắt đầu bằng trạng thái đích thì?",
-                options: [
-                    "Thoát và báo tìm được lời giải",
-                    "Tiếp tục tìm kiếm",
-                    "Thoát và báo không tìm được lời giải",
-                    "Báo lỗi"
-                ],
-                answer: "Thoát và báo tìm được lời giải"
-            },
-            {
-                question: "Dùng thuật toán A* để giải bài toán TACI như hình 1, giá trị của (g, h, f) là?",
-                options: [
-                    "g=0, h=4, f=4",
-                    "g=1, h=3, f=4",
-                    "g=2, h=2, f=4",
-                    "g=3, h=1, f=4"
-                ],
-                answer: "g=0, h=4, f=4"
-            },
-            {
-                question: "Dùng thuật toán A* để giải bài toán TACI như hình 1, sau bao nhiêu bước đưa từ trạng thái đầu tiên đến trạng thái đích?",
-                options: [ "4", "3","5", "2"],
-                answer: "5"
-            },
-            {
-                question: "Dùng thuật toán A* để giải bài toán TACI như hình 1, từ trạng thái ban đầu, có thể có bao nhiêu trạng thái kế tiếp có thể xảy ra?",
-                options: ["3", "4", "5", "2"],
-                answer: "3"
-            },
-            {
-                question: "Dùng thuật toán A* để giải bài toán TACI như hình 1, giá trị của hàm heuristic h' là?",
-                options: [ "3","4", "2", "1"],
-                answer: "4"
-            },
-            {
-                question: "Dùng thuật toán A* để giải bài toán TACI như hình 1, từ trạng thái ban đầu, chọn chi phí tương ứng để bài toán đạt được kết quả cuối cùng?",
-                options: [
-                    "g=5, h=0, f=5",
-                    "g=4, h=1, f=5",
-                    "g=3, h=2, f=5",
-                    "g=2, h=3, f=5"
-                ],
-                answer: "g=5, h=0, f=5"
-            },
-            {
-                question: "Áp dụng giải thuật A* tìm đường đi ngắn nhất từ A đến F, trạng thái A giá trị (g, h, f) là?",
-                options: [
-                    
-                    "g=1, h=100, f=101",
-                    "g=100, h=0, f=100",
-                    "g=0, h=100, f=100",
-                    "g=100, h=1, f=101"
-                ],
-                answer: "g=0, h=100, f=100"
-            },
-            {
-                question: "Áp dụng giải thuật A* tìm đường đi ngắn nhất từ A đến F, trạng thái nào được chọn làm trạng thái Tmax bắt đầu từ trạng thái A?",
-                options: [
-                    "trạng thái D",
-                    "trạng thái K",
-                    "trạng thái C",
-                    "trạng thái F"
-                ],
-                answer: "trạng thái D"
-            },
-            {
-                question: "Áp dụng giải thuật A* tìm đường đi ngắn nhất từ A đến F, trạng thái D giá trị (g, h, f) là?",
-                options: [
-                   
-                    "g=10, h=103, f=113",
-                    "g=203, h=10, f=213",
-                    "g=10, h=203, f=213",
-                    "g=103, h=10, f=113"
-                ],
-                answer: "g=10, h=203, f=213"
-            },
-            {
-                question: "Mục đích của biểu diễn tri thức là phương án nào sau đây?",
-                options: [
-                    "Biểu diễn tri thức cho con người dễ hiểu",
-                    "Biểu diễn tri thức cho hệ thống dễ hiểu",
-                    "Biểu diễn tri thức theo một cách cố định cho mọi người cùng hiểu",
-                    "Biểu diễn tri thức cho hệ thống hiểu và xử lý được"
-                ],
-                answer: "Biểu diễn tri thức cho hệ thống hiểu và xử lý được"
-            },
-            {
-                question: "So sánh về mặt số lượng của 3 khái niệm: dữ liệu, thông tin và tri thức ta có phương án nào sau đây?",
-                options: [
-                    "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức",
-                    "Dữ liệu ít hơn thông tin, thông tin ít hơn tri thức",
-                    "Dữ liệu nhiều hơn thông tin, thông tin ít hơn tri thức",
-                    "Dữ liệu ít hơn thông tin, thông tin nhiều hơn tri thức"
-                ],
-                answer: "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức"
-            },
-            {
-                question: "So sánh về mức độ trừu tượng của 3 khái niệm: dữ liệu, thông tin và tri thức ta có phương án nào sau đây?",
-                options: [
-                    "Tri thức ít hơn thông tin, thông tin nhiều hơn dữ liệu",
-                    "Tri thức nhiều hơn thông tin, thông tin ít hơn dữ liệu",
-                    "Tri thức nhiều hơn thông tin, thông tin nhiều hơn dữ liệu",
-                    "Tri thức ít hơn thông tin, thông tin ít hơn dữ liệu"
-                ],
-                answer: "Tri thức nhiều hơn thông tin, thông tin nhiều hơn dữ liệu"
-            },
-            {
-                question: "Tri thức thủ tục là phương án nào sau đây?",
-                options: [
-                    "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào",
-                    "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề",
-                    "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó",
-                    "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện"
-                ],
-                answer: "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện"
-            },
-            {
-                question: "Tri thức mô tả là phương án nào sau đây?",
-                options: [
-                    "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào",
-                    "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề",
-                    "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó",
-                    "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện"
-                ],
-                answer: "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào"
-            },
-            {
-                question: "Tri thức Meta là phương án nào sau đây?",
-                options: [
-                    "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào",
-                    "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề",
-                    "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó",
-                    "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện"
-                ],
-                answer: "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề"
-            },
-            {
-                question: "Tri thức Heuristic là phương án nào sau đây?",
-                options: [
-                    "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào",
-                    "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề",
-                    "Là một dạng tri thức cảm tính, có dạng ước lượng, phỏng đoán và thường được hình thành thông qua kinh nghiệm",
-                    "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện"
-                ],
-                answer: "Là một dạng tri thức cảm tính, có dạng ước lượng, phỏng đoán và thường được hình thành thông qua kinh nghiệm"
-            },
-            {
-                question: "Tri thức may rủi là phương án nào sau đây?",
-                options: [
-                    "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào",
-                    "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề",
-                    "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó",
-                    "Diễn tả luật may rủi dẫn dắt quá trình suy diễn còn được gọi là tri thức nông cạn"
-                ],
-                answer: "Diễn tả luật may rủi dẫn dắt quá trình suy diễn còn được gọi là tri thức nông cạn"
-            },
-            {
-                question: "Tri thức cấu trúc là phương án nào sau đây?",
-                options: [
-                    "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào",
-                    "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề",
-                    "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó",
-                    "Diễn tả luật may rủi dẫn dắt quá trình suy diễn còn được gọi là tri thức nông cạn"
-                ],
-                answer: "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó"
-            },
-            {
-                question: "Các luật, các chiến lược và các lịch trình là các đặc trưng của loại tri thức nào sau đây?",
-                options: [
-                    "Tri thức mô tả",
-                    "Tri thức Meta",
-                    "Tri thức cấu trúc",
-                    "Tri thức thủ tục"
-                ],
-                answer: "Tri thức thủ tục"
-            },
-            {
-                question: "Các chuyên gia thường hay sử dụng loại tri thức nào sau đây để diễn giải tri thức?",
-                options: [
-                    "Tri thức mô tả",
-                    "Tri thức Meta",
-                    "Tri thức cấu trúc",
-                    "Tri thức thủ tục"
-                ],
-                answer: "Tri thức Meta"
-            },
-            {
-                question: "Loại tri thức nào sau đây thường lấy kinh nghiệm để giải quyết vấn đề?",
-                options: [
-                    "Tri thức mô tả",
-                    "Tri thức Meta",
-                    "Tri thức Heuristic",
-                    "Tri thức thủ tục"
-                ],
-                answer: "Tri thức Heuristic"
-            },
-            {
-                question: "Để biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào ta thường sử dụng loại tri thức nào sau đây?",
-                options: [
-                    "Tri thức mô tả",
-                    "Tri thức Meta",
-                    "Tri thức cấu trúc",
-                    "Tri thức thủ tục"
-                ],
-                answer: "Tri thức mô tả"
-            },
-            {
-                question: "Cho hai bình rỗng X và Y có thể tích lần lượt là VX và VY, dùng hai bình này để đong ra z lít nước (z <= min(VX, VY)). Có bao nhiêu luật được áp dụng trong bài toán đong nước tổng quát trên?",
-                options: ["1 luật", "2 luật", "3 luật", "4 luật"],
-                answer: "3 luật"
-            },
-            {
-                question: "Cho hai bình rỗng X và Y có thể tích lần lượt là VX và VY, dùng hai bình này để đong ra z lít nước (z <= min(VX, VY)). Luật nào không được sử dụng để giải bài toán đong nước tổng quát trên?",
-                options: [
-                    "Nếu bình X rỗng, bình Y rỗng thì đổ đầy nước vào 2 bình",
-                    "Nếu bình X đầy thì đổ hết nước trong bình X đi",
-                    "Nếu bình Y rỗng thì đổ đầy nước vào bình Y",
-                    "Nếu bình X không đầy và bình Y không rỗng thì đổ nước từ bình Y sang bình X cho đến khi bình X đầy hoặc bình Y rỗng"
-                ],
-                answer: "Nếu bình X rỗng, bình Y rỗng thì đổ đầy nước vào 2 bình"
-            },
-            {
-                question: "Có mấy phép kết nối logic trong logic mệnh đề?",
-                options: ["5", "6", "4", "3"],
-                answer: "5"
-            },
-            {
-                question: "Biểu thức A→B sử dụng phép kết nối logic gì?",
-                options: [
-                    "Kéo theo",
-                    "Hội",
-                    "Tuyển",
-                    "Tương đương"
-                ],
-                answer: "Kéo theo"
-            },
-            {
-                question: "Biểu thức A∨B sử dụng phép kết nối logic gì?",
-                options: [
-                    "Kéo theo",
-                    "Hội",
-                    "Tuyển",
-                    "Tương đương"
-                ],
-                answer: "Tuyển"
-            },
-            {
-                question: "Biểu thức A∧B sử dụng phép kết nối logic gì?",
-                options: [
-                    "Kéo theo",
-                    "Hội",
-                    "Tuyển",
-                    "Tương đương"
-                ],
-                answer: "Hội"
-            },
-            {
-                question: "Biểu thức A↔B sử dụng phép kết nối logic gì?",
-                options: [
-                    "Kéo theo",
-                    "Hội",
-                    "Tuyển",
-                    "Tương đương"
-                ],
-                answer: "Tương đương"
-            },
-            {
-                question: "Cơ sở tri thức là gì?",
-                options: [
-                    "Cơ sở tri thức là một tập hợp các tri thức được biểu diễn dưới dạng nào đó. Mỗi khi nhận được các thông tin đưa vào, tác nhân cần có khả năng suy diễn để đưa ra các câu trả lời, các hành động hợp lý.",
-                    "Mỗi khi nhận được các thông tin đưa vào, tác nhân cần có khả năng suy diễn để đưa ra các câu trả lời, các hành động hợp lý.",
-                    "Cơ sở tri thức là một tập hợp các tri thức được biểu diễn dưới dạng nào đó.",
-                    "Tất cả đều sai"
-                ],
-                answer: "Cơ sở tri thức là một tập hợp các tri thức được biểu diễn dưới dạng nào đó. Mỗi khi nhận được các thông tin đưa vào, tác nhân cần có khả năng suy diễn để đưa ra các câu trả lời, các hành động hợp lý."
-            },
-            {
-                question: "Tìm trả lời đúng sau:",
-                options: [
-                    "Mỗi khi tiếp nhận các sự kiện từ môi trường, thủ tục suy diễn thực hiện quá trình liên kết các sự kiện với các tri thức trong CSTT để rút ra các câu trả lời, hoặc các hành động hợp lý mà tác nhân cần thực hiện.",
-                    "Mỗi khi tiếp nhận các sự kiện từ môi trường, thủ tục suy diễn không thực hiện quá trình liên kết các sự kiện với các tri thức trong CSTT để rút ra các câu trả lời.",
-                    "Thủ tục suy diễn không thực hiện quá trình liên kết các sự kiện với các tri thức trong CSTT để rút ra các câu trả lời, hoặc các hành động hợp lý mà tác nhân cần thực hiện.",
-                    "Không có câu trả lời đúng."
-                ],
-                answer: "Mỗi khi tiếp nhận các sự kiện từ môi trường, thủ tục suy diễn thực hiện quá trình liên kết các sự kiện với các tri thức trong CSTT để rút ra các câu trả lời, hoặc các hành động hợp lý mà tác nhân cần thực hiện."
-            },
-            {
-                question: "Chọn câu trả lời đúng:",
-                options: [
-                    "Tất cả các câu đều đúng.",
-                    "Dữ liệu là nguyên liệu thô để xử lý đó là các con số, chữ cái, hình ảnh, âm thanh",
-                    "Thông tin là tất cả những gì con người có thể cảm nhận trực tiếp qua các giác quan hoặc gián tiếp thông qua các phương tiện kỹ thuật.",
-                    "Tri thức là một khái niệm trừu tượng. So sánh tri thức với hai khái niệm có liên quan là dữ liệu và thông tin."
-                ],
-                answer: "Tất cả các câu đều đúng."
-            },
-            {
-                question: "Chọn câu trả lời đúng:",
-                options: [
-                    "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức.",
-                    "Dữ liệu ít hơn thông tin, thông tin ít hơn tri thức.",
-                    "Dữ liệu nhiều hơn thông tin, thông tin ít hơn tri thức.",
-                    "Dữ liệu ít hơn thông tin, thông tin nhiều hơn tri thức."
-                ],
-                answer: "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức."
-            },
-            {
-                question: "Đâu là luật Modus ponens",
-                options: [
-                    "Nếu mệnh đề A là đúng và mệnh đề A→B là đúng thì giá trị của B sẽ là đúng.",
-                    "Nếu mệnh đề A→B là đúng và mệnh đề B là sai thì giá trị của A sẽ là sai.",
-                    "Nếu mệnh đề A là đúng và mệnh đề A→B là đúng thì giá trị của B sẽ là đúng. Nếu mệnh đề A→B là đúng và mệnh đề B là sai thì giá trị của A sẽ là sai.",
-                    "Không có câu nào đúng."
-                ],
-                answer: "Nếu mệnh đề A là đúng và mệnh đề A→B là đúng thì giá trị của B sẽ là đúng."
-            },
-            {
-                question: "Suy diễn tiến là gì?",
-                options: [
-                    "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.",
-                    "Loại suy diễn để đưa ra kết luận thì dựa vào thông tin đã biết. Các thông tin đã biết có quan hệ với nhau.",
-                    "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.",
-                    "Loại suy diễn có vẻ hợp lý từ các sự kiện và thông tin đã biết. Với suy diễn giả định thì câu kết luận có thể đúng cũng có thể không đúng."
-                ],
-                answer: "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước."
-            },
-            {
-                question: "Suy diễn lùi là gì?",
-                options: [
-                    "Là quá trình suy luận ngược xuất phát từ một số sự kiện ban đầu, ta tìm kiếm các sự kiện đã sinh ra sự kiện này.",
-                    "Loại suy diễn để đưa ra kết luận thì dựa vào thông tin đã biết. Các thông tin đã biết có quan hệ với nhau.",
-                    "Loại suy diễn có vẻ hợp lý từ các sự kiện và thông tin đã biết. Với suy diễn giả định thì câu kết luận có thể đúng cũng có thể không đúng.",
-                    "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước."
-                ],
-                answer: "Là quá trình suy luận ngược xuất phát từ một số sự kiện ban đầu, ta tìm kiếm các sự kiện đã sinh ra sự kiện này."
-            },
-            {
-                question: "Chọn câu trả lời đúng.",
-                options: [
-                    "Tất cả đều đúng.",
-                    "Suy diễn tiến xem xét các luật.",
-                    "Với mỗi luật ta xét phần điều kiện - ở vế trái, tới phần kết luận - ở vế phải."
-                ],
-                answer: "Tất cả đều đúng."
-            },
-            {
-                question: "Ưu điểm của suy diễn tiến là gì?",
-                options: [
-                    "Tất cả đều đúng.",
-                    "Làm việc tốt khi bài toán có bản chất là đi thu thập thông tin rồi thấy điều cần suy diễn.",
-                    "Cho ra khối lượng lớn các thông tin từ một số thông tin ban đầu. Nó sinh ra nhiều thông tin mới.",
-                    "Suy diễn tiến là tiếp cận lý tưởng đối với các loại bài toán cần giải quyết các nhiệm vụ như lập kế hoạch, điều hành, điều khiển và diễn dịch."
-                ],
-                answer: "Tất cả đều đúng."
-            },
-            {
-                question: "Ưu điểm của suy diễn lùi là gì?",
-                options: [
-                    "Phù hợp với bài toán đưa ra giả thuyết và liệu giả thuyết đó có đúng hay không.",
-                    "Khi suy diễn một điều gì từ thông tin đã biết, nó chỉ tìm trên một phần của cơ sở tri thức thích đáng đối với bài toán đang xét.",
-                    "Tập trung vào đích đã cho. Nó tạo ra một loạt câu hỏi chỉ liên quan đến vấn đề đang xét, thuận tiện đối với người dùng.",
-                    "Tất cả đều đúng."
-                ],
-                answer: "Tất cả đều đúng."
-            },
-            {
-                question: "Có bao nhiêu loại tri thức?",
-                options: ["5", "4", "3", "2"],
-                answer: "5"
-            },
-            {
-                question: "Đối tượng nghiên cứu của ngành AI là?",
-                options: [
-                    "Các hành xử thông minh",
-                    "Sự thông minh",
-                    "Sự sáng tạo",
-                    "Sự kiên trì"
-                ],
-                answer: "Các hành xử thông minh"
-            },
-            {
-                question: "Tìm kiếm theo hai hướng là gì?",
-                options: [
-                    "Là phương pháp tìm kiếm trong đó ta đồng thời xây dựng hai cây tìm kiếm có nút gốc là trạng thái xuất phát và trạng thái đích",
-                    "Là phương pháp tìm kiếm trong đó ta đồng thời xây dựng hai cây tìm kiếm có nút con là trạng thái xuất phát và trạng thái đích",
-                    "Là phương pháp tìm kiếm trong đó ta đồng thời xây dựng hai cây tìm kiếm có nút gốc và nút con là trạng thái xuất phát và trạng thái đích",
-                    "Không có câu nào đúng"
-                ],
-                answer: "Là phương pháp tìm kiếm trong đó ta đồng thời xây dựng hai cây tìm kiếm có nút gốc là trạng thái xuất phát và trạng thái đích"
-            },
-            {
-                question: "Phương pháp mờ hoá suy diễn là gì?",
-                options: [
-                    "Là phương pháp dựa trên luật để phát triển các hàm liên thuộc",
-                    "Là phương pháp dựa trên luật để phát triển các hàm cũ",
-                    "Là phương pháp dựa trên luật để phát triển các hàm không liên thuộc",
-                    "Tất cả đều đúng"
-                ],
-                answer: "Là phương pháp dựa trên luật để phát triển các hàm liên thuộc"
-            },
-            {
-                question: "Có bao nhiêu phương pháp Concept learning?",
-                options: ["4", "3", "2", "1"],
-                answer: "4"
-            },
-            {
-                question: "Học máy là gì?",
-                options: [
-                    "Là một tập con của trí tuệ nhân tạo, sử dụng neural networks để giải quyết các vấn đề phức tạp",
-                    "Là một lĩnh khoa học rộng lớn giúp máy móc bắt chước hành vi của con người",
-                    "Là một tập con của trí tuệ nhân tạo, liên quan đến lĩnh vực nghiên cứu nhằm giúp máy tính có khả năng tự động học bằng cách cung cấp dữ liệu cho nó mà không cần lập trình cụ thể",
-                    "Là một tập con của trí tuệ nhân tạo, liên quan đến lĩnh vực nghiên cứu nhằm giúp máy tính chước hành vi của con người"
-                ],
-                answer: "Là một tập con của trí tuệ nhân tạo, liên quan đến lĩnh vực nghiên cứu nhằm giúp máy tính có khả năng tự động học bằng cách cung cấp dữ liệu cho nó mà không cần lập trình cụ thể"
-            },
-            {
-                question: "Học máy tên Tiếng Anh là gì?",
-                options: [
-                    "Machine Learning",
-                    "Deep Learning",
-                    "Artificial Intelligence",
-                    "Machin Learning"
-                ],
-                answer: "Machine Learning"
-            },
-            {
-                question: "Hạn chế của Machine Learning",
-                options: [
-                    "Không có khả năng sử dụng các thuật toán để phân tích những thông tin có liên quan",
-                    "Không có khả năng xử lý dữ liệu với số chiều lớn",
-                    "Không được huấn luyện",
-                    "Không có khả năng đưa ra quyết định"
-                ],
-                answer: "Không có khả năng xử lý dữ liệu với số chiều lớn"
-            },
-            {
-                question: "Học có giám sát là gì?",
-                options: [
-                    "Là thuật toán dự đoán một dữ liệu mới chưa được gán nhãn dựa trên tập dữ liệu huấn luyện",
-                    "Là học thuộc các mẫu dữ liệu, sử dụng một phép đo độ tương đồng để so sánh với dữ liệu đã học",
-                    "Là xây dựng một mô hình từ dữ liệu rồi dùng mô hình đó để đưa ra các dự đoán",
-                    "Là thuật toán dự đoán một dữ liệu mới đã được gán nhãn dựa trên tập dữ liệu huấn luyện"
-                ],
-                answer: "Là thuật toán dự đoán một dữ liệu mới đã được gán nhãn dựa trên tập dữ liệu huấn luyện"
-            },
-            {
-                question: "Học không giám sát là gì?",
-                options: [
-                    "Là học thuộc các mẫu dữ liệu, sử dụng một phép đo độ tương đồng để so sánh với dữ liệu đã học",
-                    "Là thuật toán dự đoán nhãn của một dữ liệu mới dựa trên tập dữ liệu huấn luyện chưa được gán nhãn",
-                    "Là thuật toán dự đoán nhãn của một dữ liệu mới dựa trên tập dữ liệu huấn luyện đã được gán nhãn",
-                    "Là xây dựng một mô hình từ dữ liệu rồi dùng mô hình đó để đưa ra các dự đoán"
-                ],
-                answer: "Là thuật toán dự đoán nhãn của một dữ liệu mới dựa trên tập dữ liệu huấn luyện chưa được gán nhãn"
-            },
-            {
-                question: "Bài toán phân loại sử dụng trong trường hợp",
-                options: [
-                    "Nếu y chỉ nhận giá trị từ một tập rời rạc",
-                    "Nếu y chỉ nhận giá trị từ số thực",
-                    "Nếu y chỉ nhận giá trị từ một tập rời rạc và số thực",
-                    "Nếu y nhận mọi giá trị"
-                ],
-                answer: "Nếu y chỉ nhận giá trị từ một tập rời rạc"
-            },
-            {
-                question: "Bài toán hồi quy sử dụng trong trường hợp",
-                options: [
-                    "Nếu y chỉ nhận giá trị từ một tập rời rạc",
-                    "Nếu y chỉ nhận giá trị từ một tập rời rạc và số thực",
-                    "Nếu y nhận giá trị số thực",
-                    "Nếu y nhận mọi giá trị"
-                ],
-                answer: "Nếu y nhận giá trị số thực"
-            },
-            {
-                question: "Cây định danh là gì?",
-                options: [
-                    "Cây định danh là cây mà các nút của cây là thuộc tính sản xuất, các cung của cây là giá trị thuộc tính dẫn xuất, còn lá của cây là các phần tử có cùng thuộc tính mục tiêu",
-                    "Cây định danh là cây mà các nút của cây là thuộc tính dẫn xuất, các cung của cây là thuộc tính mục tiêu, còn lá của cây là giá trị thuộc tính sản xuất",
-                    "Cây định danh là cây mà các nút của cây là thuộc tính dẫn xuất, các cung của cây là giá trị thuộc tính sản xuất, còn lá của cây là các phần tử có cùng thuộc tính mục tiêu",
-                    "Cây định danh là cây mà các nút của cây là các phần tử có cùng thuộc tính mục tiêu, các cung của cây là giá trị thuộc tính sản xuất, còn lá của cây là thuộc tính dẫn xuất"
-                ],
-                answer: "Cây định danh là cây mà các nút của cây là thuộc tính dẫn xuất, các cung của cây là giá trị thuộc tính sản xuất, còn lá của cây là các phần tử có cùng thuộc tính mục tiêu"
-            },
-            {
-                question: "Các nút của cây định danh là thuộc tính gì?",
-                options: [
-                    "Dự đoán",
-                    "Dẫn xuất",
-                    "Sản xuất",
-                    "Mục tiêu"
-                ],
-                answer: "Dẫn xuất"
-            },
-            {
-                question: "Các cung của cây định danh là",
-                options: [
-                    "Giá trị thuộc tính sản xuất",
-                    "Thuộc tính dẫn xuất",
-                    "Thuộc tính mục tiêu",
-                    "Thuộc tính dự đoán"
-                ],
-                answer: "Giá trị thuộc tính sản xuất"
-            },
-            {
-                question: "Lá của cây định danh là?",
-                options: [
-                    "Giá trị thuộc tính sản xuất",
-                    "Thuộc tính dự đoán",
-                    "Thuộc tính dẫn xuất",
-                    "Các phần tử có cùng thuộc tính mục tiêu"
-                ],
-                answer: "Các phần tử có cùng thuộc tính mục tiêu"
-            },
-            {
-                question: "Trong công thức: VA(j) = (T(j,r1), T(j,r2),...,T(j,rn)) thì V là gì?",
-                options: [
-                    "V là vector đơn vị",
-                    "V là vector đặc trưng",
-                    "V là thuộc tính dẫn xuất",
-                    "V là thuộc tính mục tiêu"
-                ],
-                answer: "V là vector đặc trưng"
-            },
-            {
-                question: "Trong công thức: VA(j) = (T(j,r1), T(j,r2),...,T(j,rn)) thì A là gì?",
-                options: [
-                    "là thuộc tính dẫn xuất",
-                    "là thuộc tính mục tiêu",
-                    "là vector đơn vị",
-                    "là vector đặc trưng"
-                ],
-                answer: "là thuộc tính dẫn xuất"
-            },
-            {
-                question: "Trong công thức: VA(j) = (T(j,r1), T(j,r2),...,T(j,rn)) thì j là gì?",
-                options: [
-                    "j là vector đặc trưng",
-                    "j là thuộc tính mục tiêu",
-                    "j là giá trị của thuộc tính dẫn xuất A",
-                    "Tất cả đều sai"
-                ],
-                answer: "j là giá trị của thuộc tính dẫn xuất A"
-            },
-            {
-                question: "Trong công thức: VA(j) = (T(j,r1), T(j,r2),...,T(j,rn)) thì r1, r2, rn là gì?",
-                options: [
-                    "r1, r2, rn là các vector đặc trưng",
-                    "r1, r2, rn là các giá trị của thuộc tính dẫn xuất",
-                    "r1, r2, rn là các giá trị của thuộc tính sản xuất",
-                    "r1, r2, rn là các giá trị của thuộc tính mục tiêu"
-                ],
-                answer: "r1, r2, rn là các giá trị của thuộc tính mục tiêu"
-            },
-            {
-                question: "Các bước xây dựng mô hình học máy",
-                options: [
-                    "Thu thập dữ liệu, chuẩn bị dữ liệu, lựa chọn mô hình, huấn luyện mô hình, đánh giá mô hình, thay đổi tham số, áp dụng mô hình",
-                    "Thu thập dữ liệu, chuẩn bị dữ liệu, đánh giá mô hình, thay đổi tham số, áp dụng mô hình",
-                    "Thu thập dữ liệu, chuẩn bị dữ liệu, lựa chọn mô hình, huấn luyện mô hình, đánh giá mô hình",
-                    "Lựa chọn mô hình, huấn luyện mô hình, đánh giá mô hình, thay đổi tham số, áp dụng mô hình"
-                ],
-                answer: "Thu thập dữ liệu, chuẩn bị dữ liệu, lựa chọn mô hình, huấn luyện mô hình, đánh giá mô hình, thay đổi tham số, áp dụng mô hình"
-            },
-            {
-                question: "Dựa vào Hình 1 sử dụng thuật toán Quinlan để tính vector đặc trưng V(cay) = (T(cay, độc), T(cay, không độc))",
-                options: [
-                    "0/3, 3/3",
-                    "3/3, 0/3",
-                    "1/3, 2/3",
-                    "2/3, 1/3"
-                ],
-                answer: "2/3, 1/3"
-            },
-            {
-                question: "Mạng nơ ron là gì?",
-                options: [
-                    "Mạng nơ-ron là một phương thức trong lĩnh vực trí tuệ nhân tạo, được sử dụng để dạy máy tính xử lý dữ liệu theo cách được lấy cảm hứng từ bộ não con người",
-                    "Mạng nơ-ron là mạng xử lý thông tin để đưa ra quyết định như con người",
-                    "Mạng nơ-ron là mạng mà dữ liệu đầu vào có thể là dữ liệu gán nhãn và không gán nhãn",
-                    "Tất cả các phương án trên"
-                ],
-                answer: "Tất cả các phương án trên"
-            },
-            {
-                question: "Những bài toán nào sau đây thường dùng Học máy để giải quyết?",
-                options: [
-                    "Tìm đường đi ngắn nhất",
-                    "Tìm giá trị nhỏ nhất của hàm số",
-                    "Dự báo thời tiết",
-                    "Tất cả các đáp án trên"
-                ],
-                answer: "Dự báo thời tiết"
-            },
-            {
-                question: "Học máy có giám sát sử dụng cho các bài toán nào?",
-                options: [
-                    "Bài toán phân lớp (classification)",
-                    "Bài toán hồi quy (regression)",
-                    "Bài toán tối ưu",
-                    "Bài toán phân lớp (classification) và bài toán hồi quy (regression)"
-                ],
-                answer: "Bài toán phân lớp (classification) và bài toán hồi quy (regression)"
-            },
-            {
-                question: "Các ứng dụng thực tiễn của học có giám sát?",
-                options: [
-                    "Lọc thư rác",
-                    "Phân loại các trang web",
-                    "Phát hiện tấn công mạng",
-                    "Tất cả các phương án trên"
-                ],
-                answer: "Tất cả các phương án trên"
-            }
-            ]
-        };
+      window.addEventListener("keydown", (e) => {
+        switch (e.keyCode) {
+          case 39:
+            handleNextQuestion(nextBtn, makeAgainMode);
+            break;
+          case 37:
+            handleBackQuestion(backBtn);
+            break;
+        }
+      });
 
-        // Database simulation (in a real app, use a real database)
-        let users = [
-            {
-                username: "admin",
-                email: "admin@quizapp.com",
-                password: "123456",
-                name: "Quản trị viên",
-                createdAt: new Date()
-            },
-            {
-                username: "2722245541",
-                email: "admin@quizapp.com",
-                password: "2722245541",
-                name: "Nguyen The Quang Huy - VIP",
-                createdAt: new Date()
-            },
-            {
-                username: "2722220714",
-                email: "admin@quizapp.com",
-                password: "2722220714",
-                name: "Nguyễn Thị Phương Anh",
-                createdAt: new Date()
-            },
-            {
-                username: "2722211514",
-                email: "admin@quizapp.com",
-                password: "2722211514",
-                name: "Đầu Quốc Cường",
-                createdAt: new Date()
-            },
-            {
-                username: "2722151265",
-                email: "admin@quizapp.com",
-                password: "2722151265",
-                name: "Vu Van Dang",
-                createdAt: new Date()
-            },
-            {
-                username: "2722211080",
-                email: "admin@quizapp.com",
-                password: "2722211080",
-                name: "Nguyen Van Dat",
-                createdAt: new Date()
-            },
-            {
-                username: "2722245080",
-                email: "admin@quizapp.com",
-                password: "2722245080",
-                name: "Phan Binh Duong",
-                createdAt: new Date()
-            },
-            {
-                username: "2722220459",
-                email: "admin@quizapp.com",
-                password: "2722220459",
-                name: "Nguyen Quang Duy",
-                createdAt: new Date()
-            },
-            {
-                username: "2722221207",
-                email: "admin@quizapp.com",
-                password: "2722221207",
-                name: "Vi Gia Hoang Duy",
-                createdAt: new Date()
-            },
-            {
-                username: "2722250420",
-                email: "admin@quizapp.com",
-                password: "2722250420",
-                name: "Hoang Trung Hieu",
-                createdAt: new Date()
-            },
-            {
-                username: "2722225324",
-                email: "admin@quizapp.com",
-                password: "2722225324",
-                name: "Tran Dang Huy - Vip",
-                createdAt: new Date()
-            },
-            {
-                username: "2722220179",
-                email: "admin@quizapp.com",
-                password: "2722220179",
-                name: "Hoang Viet Linh",
-                createdAt: new Date()
-            },
-            {
-                username: "2722250339",
-                email: "admin@quizapp.com",
-                password: "2722250339",
-                name: "Nguyen Thi Khanh Linh",
-                createdAt: new Date()
-            },
-            {
-                username: "2722216007",
-                email: "admin@quizapp.com",
-                password: "2722216007",
-                name: "Hoang Dinh Long",
-                createdAt: new Date()
-            },
-            {
-                username: "2722217022",
-                email: "admin@quizapp.com",
-                password: "2722217022",
-                name: "Nguyen Khac Manh",
-                createdAt: new Date()
-            },
-            {
-                username: "2722245761",
-                email: "admin@quizapp.com",
-                password: "2722245761",
-                name: "Dinh The Phong",
-                createdAt: new Date()
-            },
-            {
-                username: "2722240112",
-                email: "admin@quizapp.com",
-                password: "2722240112",
-                name: "Hoang Van Quan",
-                createdAt: new Date()
-            },
-            {
-                username: "2722230381",
-                email: "admin@quizapp.com",
-                password: "2722230381",
-                name: "Le Duy Anh Quan",
-                createdAt: new Date()
-            },
-            {
-                username: "2722216396",
-                email: "admin@quizapp.com",
-                password: "2722216396",
-                name: "Nguyen Minh Quang",
-                createdAt: new Date()
-            },
-            {
-                username: "2722211481",
-                email: "admin@quizapp.com",
-                password: "2722211481",
-                name: "Pham Hong Thai",
-                createdAt: new Date()
-            },
-            {
-                username: "2722240967",
-                email: "admin@quizapp.com",
-                password: "2722240967",
-                name: "Trinh Van Thuong",
-                createdAt: new Date()
-            },
-            {
-                username: "2722215811",
-                email: "admin@quizapp.com",
-                password: "2722215811",
-                name: "Dao Quang Tien",
-                createdAt: new Date()
-            },
-            {
-                username: "2722225197",
-                email: "admin@quizapp.com",
-                password: "2722225197",
-                name: "Nguyen Van Vy",
-                createdAt: new Date()
-            }
+      const handleShuffleArray = (e) => {
+        console.log(e);
+        isShuffle = true;
 
+        questionContainer.innerHTML = "";
+        questionList = isShuffle
+          ? shuffleArray(questions.question_2.origin_question)
+          : questions.question_2.origin_question;
+        displayQuestion(questionList[currentQuestionIndex]);
+
+        e.target.classList.add("hidden");
+        e.target.disabled = true;
+      };
+
+      const handleMakeIncorrect = (ques) => {
+        incorrectList = [
+          ...incorrectList,
+          ...ques.filter((sl) => !sl?.isCorrect),
         ];
+        selectList = ques.filter(
+          (sl) => !incorrectList.some((ic) => sl?.id === ic?.id)
+        );
+        const idIncorrect = questionList.findIndex(
+          (ques) => ques?.id === incorrectList[0]?.id
+        );
 
-        // Biến toàn cục
-        let currentUser = null;
-        let currentCategory = null;
-        let currentQuestionIndex = 0;
-        let score = 0;
-        let questions = [];
-        let wrongAnswers = []; // Mảng lưu các câu trả lời sai
+        if (incorrectList.length > 0) makeAgainMode = true;
+        if (idIncorrect !== -1) {
+          questionContainer.innerHTML = "";
 
-        // DOM Elements
-        const authSection = document.getElementById('authSection');
-        const quizSection = document.getElementById('quizSection');
-        const loginTab = document.getElementById('loginTab');
-        const registerTab = document.getElementById('registerTab');
-        const loginForm = document.getElementById('loginForm');
-        const registerForm = document.getElementById('registerForm');
-        const loginFormContent = document.getElementById('loginFormContent');
-        const registerFormContent = document.getElementById('registerFormContent');
-        const toggleLoginPassword = document.getElementById('toggleLoginPassword');
-        const toggleRegisterPassword = document.getElementById('toggleRegisterPassword');
-        const loginPassword = document.getElementById('loginPassword');
-        const registerPassword = document.getElementById('registerPassword');
-        const registerConfirmPassword = document.getElementById('registerConfirmPassword');
-        const switchToRegister = document.getElementById('switchToRegister');
-        const switchToLogin = document.getElementById('switchToLogin');
-        const loginError = document.getElementById('loginError');
-        const registerError = document.getElementById('registerError');
-        const registerSuccess = document.getElementById('registerSuccess');
-        const logoutBtn = document.getElementById('logoutBtn');
-        const usernameDisplay = document.getElementById('usernameDisplay');
-        const userWelcomeName = document.getElementById('userWelcomeName');
-        const userAvatar = document.getElementById('userAvatar');
-        const categoryGrid = document.getElementById('categoryGrid');
-        const quizSelection = document.getElementById('quizSelection');
-        const quizScreen = document.getElementById('quizScreen');
-        const quizResult = document.getElementById('quizResult');
-        const questionText = document.getElementById('questionText');
-        const optionsContainer = document.getElementById('optionsContainer');
-        const nextQuestionBtn = document.getElementById('nextQuestionBtn');
-        const progressBar = document.getElementById('progressBar');
-        const questionCounter = document.getElementById('questionCounter');
-        const correctAnswers = document.getElementById('correctAnswers');
-        const totalQuestions = document.getElementById('totalQuestions');
-        const resultMessage = document.getElementById('resultMessage');
-        const retakeQuizBtn = document.getElementById('retakeQuizBtn');
-        const chooseAnotherBtn = document.getElementById('chooseAnotherBtn');
-        const resultButtons = document.querySelector('.result-buttons');
+          currentQuestionIndex = idIncorrect;
+          displayQuestion(questionList[currentQuestionIndex]);
+        }
 
-        // Initialize the app
-        document.addEventListener('DOMContentLoaded', function() {
-            // Check if user is already logged in
-            const rememberedUser = localStorage.getItem('rememberedUser');
-            if (rememberedUser) {
-                const user = users.find(u => u.username === rememberedUser);
-                if (user) {
-                    loginUser(user);
-                    return;
-                }
-            }
+        console.log(
+          currentQuestionIndex,
+          makeAgainMode,
+          selectList,
+          incorrectList
+        );
+      };
 
-            // Setup event listeners
-            setupEventListeners();
+      const handleNextQuestion = (target) => {
+        if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
+
+        if (currentQuestionIndex >= questionList.length - 1) {
+          displayResult();
+
+          return;
+        } else {
+          questionContainer.innerHTML = "";
+          currentQuestionIndex = makeAgainMode
+            ? questionList.findIndex(
+                (ques) => ques?.id === incorrectList[0]?.id
+              )
+            : ++currentQuestionIndex;
+          displayQuestion(questionList[currentQuestionIndex]);
+          target.disabled = false;
+        }
+
+        const answer = document.querySelectorAll(".answer");
+        const indexSelected = selectList.findIndex(
+          (item) => item?.id === questionList[currentQuestionIndex].id
+        );
+
+        if (answer)
+          checkAnswer(
+            answer,
+            selectList,
+            indexSelected,
+            selectList[indexSelected]?.chooseId
+          );
+
+        console.log(
+          currentQuestionIndex,
+          questionList.findIndex((ques) => ques?.id === incorrectList[0]?.id),
+          makeAgainMode
+        );
+      };
+
+      const handleBackQuestion = (target) => {
+        if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
+
+        if (currentQuestionIndex <= 0) {
+          target.disabled = true;
+
+          return;
+        } else {
+          questionContainer.innerHTML = "";
+          currentQuestionIndex = makeAgainMode
+            ? questionList.findIndex(
+                (ques) => ques?.id === incorrectList[0]?.id
+              )
+            : --currentQuestionIndex;
+          displayQuestion(questionList[currentQuestionIndex]);
+          target.disabled = false;
+        }
+
+        const answer = document.querySelectorAll(".answer");
+        const indexSelected = selectList.findIndex(
+          (item) => item?.id === questionList[currentQuestionIndex].id
+        );
+
+        if (answer)
+          checkAnswer(
+            answer,
+            selectList,
+            indexSelected,
+            selectList[indexSelected]?.chooseId
+          );
+
+        console.log(
+          currentQuestionIndex,
+          questionList.findIndex((ques) => ques?.id === incorrectList[0]?.id),
+          makeAgainMode
+        );
+      };
+
+      shuffleBtn.addEventListener("click", (e) => handleShuffleArray(e));
+      againBtn.addEventListener("click", () => handleMakeIncorrect(selectList));
+      nextBtn.addEventListener("click", (e) => handleNextQuestion(e.target));
+      backBtn.addEventListener("click", (e) => handleBackQuestion(e.target));
+
+      function checkAnswer(element, ques, index, idActiveResult) {
+        const question = ques[index] || [];
+        const correctIndex = question?.idCorrectResult;
+
+        console.log(question);
+
+        if (correctIndex !== undefined && idActiveResult !== undefined) {
+          if (+idActiveResult === +correctIndex) {
+            element.forEach((elm) => {
+              if (+elm.dataset.result === +idActiveResult)
+                elm.classList.add("correct");
+            });
+          } else {
+            element.forEach((elm) => {
+              if (+elm.dataset.result === +correctIndex)
+                elm.classList.add("correct");
+              else if (
+                +elm.dataset.result !== +correctIndex &&
+                +elm.dataset.result === +idActiveResult
+              )
+                elm.classList.add("incorrect");
+            });
+          }
+        }
+      }
+
+      const head = document.createElement("section");
+      const title = document.createElement("h2");
+      const currentQuestion = document.createElement("span");
+      const thumb_question = document.createElement("img");
+
+      function displayQuestion(question) {
+        const currentId = currentQuestionIndex;
+        if (question.thumb) {
+          thumb_question.id = "thumb_question";
+          thumb_question.setAttribute("src", question.thumb);
+          questionContainer.appendChild(thumb_question);
+        }
+
+        title.id = "title";
+        title.textContent = question.title;
+        currentQuestion.textContent = `${currentId + 1}/ ${
+          questionList.length
+        }`;
+        head.id = "head";
+        head.appendChild(title);
+        head.appendChild(currentQuestion);
+        questionContainer.appendChild(head);
+
+        question.results.forEach((answer, index) => {
+          const answerDiv = document.createElement("div");
+          answerDiv.setAttribute("data-result", answer.idResult);
+          answerDiv.classList.add("answer");
+          answerDiv.textContent = answer.value;
+          questionContainer.appendChild(answerDiv);
         });
 
-        function setupEventListeners() {
-            // Auth tabs
-            loginTab.addEventListener('click', () => switchAuthTab('login'));
-            registerTab.addEventListener('click', () => switchAuthTab('register'));
-            
-            // Switch between login/register
-            switchToRegister.addEventListener('click', (e) => {
-                e.preventDefault();
-                switchAuthTab('register');
-            });
-            
-            switchToLogin.addEventListener('click', (e) => {
-                e.preventDefault();
-                switchAuthTab('login');
-            });
+        const answerItem = document.querySelectorAll(".answer");
+        answerItem.forEach((as, index) => {
+          as.addEventListener("click", (e) => {
+            incorrectList = incorrectList.filter(
+              (ic) => ic?.id !== question?.id
+            );
 
-            // Toggle password visibility
-            toggleLoginPassword.addEventListener('click', function() {
-                togglePasswordVisibility(loginPassword, this);
-            });
-            
-            toggleRegisterPassword.addEventListener('click', function() {
-                togglePasswordVisibility(registerPassword, this);
-            });
+            const selected = selectList.some((item) => item.id === question.id);
 
-            // Form submissions
-            loginFormContent.addEventListener('submit', handleLogin);
-            registerFormContent.addEventListener('submit', handleRegister);
+            if (incorrectList.length === 0 && makeAgainMode)
+              makeAgainMode = false;
+            if (!selected) {
+              const selectData = {};
+              const statusResult =
+                +e.target.dataset.result === +question.idCorrectResult;
 
-            // Quiz buttons
-            logoutBtn.addEventListener('click', handleLogout);
-            nextQuestionBtn.addEventListener('click', goToNextQuestion);
-            retakeQuizBtn.addEventListener('click', retakeQuiz);
-            chooseAnotherBtn.addEventListener('click', chooseAnotherQuiz);
-        }
+              selectData.id = question.id;
+              selectData.idCorrectResult = question.idCorrectResult;
+              selectData.chooseId = +e.target.dataset.result;
+              selectData.isCorrect = statusResult;
+              selectList.push(selectData);
 
-        function switchAuthTab(tab) {
-            if (tab === 'login') {
-                loginTab.classList.add('active');
-                registerTab.classList.remove('active');
-                loginForm.classList.remove('hidden');
-                registerForm.classList.add('hidden');
-                loginError.classList.add('hidden');
-            } else {
-                registerTab.classList.add('active');
-                loginTab.classList.remove('active');
-                registerForm.classList.remove('hidden');
-                loginForm.classList.add('hidden');
-                registerError.classList.add('hidden');
-                registerSuccess.classList.add('hidden');
-            }
-        }
+              e.target.classList.add("active");
+              checkAnswer(
+                answerItem,
+                questionList,
+                currentQuestionIndex,
+                e.target.dataset.result
+              );
 
-        function togglePasswordVisibility(passwordInput, toggleElement) {
-            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-            passwordInput.setAttribute('type', type);
-            toggleElement.querySelector('i').classList.toggle('fa-eye-slash');
-        }
-
-        function handleLogin(e) {
-            e.preventDefault();
-            
-            const username = document.getElementById('loginUsername').value.trim();
-            const password = loginPassword.value.trim();
-            const rememberMe = document.querySelector('input[name="remember"]').checked;
-
-            // Validate input
-            if (!username || !password) {
-                showLoginError('Vui lòng nhập tên đăng nhập và mật khẩu!');
-                return;
+              // Chuyển sang câu hỏi tiếp theo sau 3 giây
+              autoPlayTimeout = setTimeout(
+                () => handleNextQuestion(nextBtn),
+                1500
+              );
             }
 
-            // Find user
-            const user = users.find(u => u.username === username && u.password === password);
-            
-            if (user) {
-                // Remember user if checked
-                if (rememberMe) {
-                    localStorage.setItem('rememberedUser', username);
-                } else {
-                    localStorage.removeItem('rememberedUser');
-                }
+            console.log(selectList, incorrectList, makeAgainMode);
+          });
+        });
+      }
 
-                // Login user
-                loginUser(user);
-            } else {
-                showLoginError('Tên đăng nhập hoặc mật khẩu không đúng!');
-            }
+      function displayResult() {
+        let totalCorrect = 0;
+        let totalScore = 0;
+        let avgScore = 10 / questionList.length;
+        const resultContainer = document.getElementById("result");
+
+        if (selectList.length < questionList.length) {
+          return;
         }
 
-        function handleRegister(e) {
-            e.preventDefault();
-            
-            const username = document.getElementById('registerUsername').value.trim();
-            const email = document.getElementById('registerEmail').value.trim();
-            const password = registerPassword.value.trim();
-            const confirmPassword = registerConfirmPassword.value.trim();
+        selectList.forEach((ans) => {
+          if (ans.isCorrect) totalCorrect++;
+        });
 
-            // Validate input
-            if (!username || !email || !password || !confirmPassword) {
-                showRegisterError('Vui lòng điền đầy đủ thông tin!');
-                return;
-            }
+        totalScore = totalCorrect * avgScore;
 
-            // Validate username
-            if (!/^[a-zA-Z0-9_]{4,20}$/.test(username)) {
-                showRegisterError('Tên đăng nhập từ 4-20 ký tự (a-z, 0-9, _)');
-                return;
-            }
+        console.log(totalCorrect, avgScore, totalScore);
+        resultContainer.innerHTML = `
+            <span>Tổng số câu đúng: ${totalCorrect}</span>
+            <p>Bạn đã hoàn thành bài thi!<br>Điểm của bạn là:
+                ${totalScore.toFixed(1)} / 10
+            </p>
+        `;
+      }
 
-            // Check if username exists
-            if (users.some(u => u.username === username)) {
-                showRegisterError('Tên đăng nhập đã tồn tại!');
-                return;
-            }
+      // Hiển thị câu hỏi đầu tiên
+      displayQuestion(questionList[currentQuestionIndex]);
 
-            // Validate email
-            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                showRegisterError('Email không hợp lệ!');
-                return;
-            }
+      // const a = questions.question_2.origin_question.map((question, index) => ({
+      //     id: index + 1,
+      //     title: question.questionText,
+      //     thumb: "", // Có thể thêm URL ảnh ở đây nếu cần
+      //     isCorrect: false, // Trạng thái có thể được cập nhật vào thời điểm kiểm tra
+      //     idCorrectResult: question.correctAnswerIndex,
+      //     results: question.answers.map((answer, answerIndex) => ({
+      //         idResult: answerIndex + 1,
+      //         value: answer,
+      //         url_thumb: "", // Có thể thêm URL ảnh ở đây nếu cần
+      //         type: "" // Có thể xác định loại nếu cần
+      //     }))
+      // }));
 
-            // Check if email exists
-            if (users.some(u => u.email === email)) {
-                showRegisterError('Email đã được sử dụng!');
-                return;
-            }
-
-            // Validate password
-            if (password.length < 6) {
-                showRegisterError('Mật khẩu phải có ít nhất 6 ký tự!');
-                return;
-            }
-
-            // Check password match
-            if (password !== confirmPassword) {
-                showRegisterError('Mật khẩu không khớp!');
-                return;
-            }
-
-            // Create new user
-            const newUser = {
-                username,
-                email,
-                password,
-                name: username,
-                createdAt: new Date()
-            };
-
-            // Add to users array
-            users.push(newUser);
-
-            // Show success message
-            registerSuccess.textContent = 'Đăng ký thành công! Bạn có thể đăng nhập ngay bây giờ.';
-            registerSuccess.classList.remove('hidden');
-            registerError.classList.add('hidden');
-
-            // Clear form
-            registerFormContent.reset();
-
-            // Switch to login tab after 2 seconds
-            setTimeout(() => {
-                switchAuthTab('login');
-                document.getElementById('loginUsername').value = username;
-                loginPassword.focus();
-            }, 2000);
-        }
-
-        function showLoginError(message) {
-            loginError.textContent = message;
-            loginError.classList.remove('hidden');
-        }
-
-        function showRegisterError(message) {
-            registerError.textContent = message;
-            registerError.classList.remove('hidden');
-            registerSuccess.classList.add('hidden');
-        }
-
-        function loginUser(user) {
-            currentUser = user;
-            
-            // Hide auth section, show quiz section
-            authSection.style.display = 'none';
-            quizSection.style.display = 'block';
-            
-            // Update user info
-            usernameDisplay.textContent = user.name;
-            userWelcomeName.textContent = user.name;
-            userAvatar.textContent = user.name.charAt(0).toUpperCase();
-
-            // Load categories
-            loadCategories();
-        }
-
-        function handleLogout() {
-            currentUser = null;
-            localStorage.removeItem('rememberedUser');
-            
-            // Show auth section, hide quiz section
-            authSection.style.display = 'flex';
-            quizSection.style.display = 'none';
-            
-            // Reset forms
-            loginFormContent.reset();
-            loginError.classList.add('hidden');
-            
-            // Switch to login tab
-            switchAuthTab('login');
-        }
-
-        function loadCategories() {
-            categoryGrid.innerHTML = '';
-            
-            for (const category in quizData) {
-                const categoryCard = document.createElement('div');
-                categoryCard.className = 'category-card';
-                categoryCard.dataset.category = category;
-                
-                let iconClass;
-                switch(category) {
-                    case 'math':
-                        iconClass = 'fas fa-square-root-alt';
-                        break;
-                    case 'history':
-                        iconClass = 'fas fa-landmark';
-                        break;
-                    case 'TriTueNhanTao':
-                        iconClass = 'fas fa-atom';
-                        break;
-                    default:
-                        iconClass = 'fas fa-question-circle';
-                }
-                
-                categoryCard.innerHTML = `
-                    <i class="${iconClass}"></i>
-                    <h3>${getCategoryName(category)}</h3>
-                    <p>${quizData[category].length} câu hỏi</p>
-                `;
-                
-                categoryCard.addEventListener('click', () => startQuiz(category));
-                categoryGrid.appendChild(categoryCard);
-            }
-        }
-
-        function getCategoryName(category) {
-            const names = {
-                'math': 'Toán học',
-                'history': 'Lịch sử',
-                'TriTueNhanTao': 'Trí Tuệ Nhân TạoTạo'
-            };
-            return names[category] || category;
-        }
-
-        function startQuiz(category) {
-            currentCategory = category;
-            currentQuestionIndex = 0;
-            score = 0;
-            wrongAnswers = [];
-            questions = [...quizData[category]];
-            
-            quizSelection.classList.add('hidden');
-            quizScreen.classList.remove('hidden');
-            quizResult.classList.add('hidden');
-            
-            showQuestion();
-        }
-
-        function showQuestion() {
-            const question = questions[currentQuestionIndex];
-            
-            // Update progress
-            progressBar.style.width = `${((currentQuestionIndex + 1) / questions.length) * 100}%`;
-            questionCounter.textContent = `Câu ${currentQuestionIndex + 1}/${questions.length}`;
-            
-            // Show question
-            questionText.textContent = question.question;
-            
-            // Show options
-            optionsContainer.innerHTML = '';
-            question.options.forEach((option, index) => {
-                const optionElement = document.createElement('div');
-                optionElement.className = 'option';
-                optionElement.textContent = option;
-                optionElement.dataset.answer = option;
-                optionElement.addEventListener('click', selectOption);
-                optionsContainer.appendChild(optionElement);
-            });
-            
-            // Hide next button initially
-            nextQuestionBtn.style.display = 'none';
-        }
-
-        function selectOption(e) {
-            const selectedOption = e.target;
-            const correctAnswer = questions[currentQuestionIndex].answer;
-            const options = document.querySelectorAll('.option');
-            
-            // Thêm thuộc tính data-question-index để theo dõi
-            options.forEach(option => {
-                option.setAttribute('data-question-index', currentQuestionIndex);
-            });
-            
-            // Disable all options
-            options.forEach(option => {
-                option.removeEventListener('click', selectOption);
-                
-                if (option.dataset.answer === correctAnswer) {
-                    option.classList.add('correct');
-                }
-            });
-            
-            // Mark selected option
-            selectedOption.classList.add('selected');
-            
-            // Check if answer is correct
-            if (selectedOption.dataset.answer === correctAnswer) {
-                score++;
-            } else {
-                selectedOption.classList.add('wrong');
-                // Lưu câu hỏi sai vào mảng
-                wrongAnswers.push({
-                    question: questions[currentQuestionIndex],
-                    selectedAnswer: selectedOption.dataset.answer,
-                    questionIndex: currentQuestionIndex
-                });
-            }
-            
-            // Show next button
-            nextQuestionBtn.style.display = 'block';
-        }
-
-        function goToNextQuestion() {
-            currentQuestionIndex++;
-            
-            if (currentQuestionIndex < questions.length) {
-                showQuestion();
-            } else {
-                showResult();
-            }
-        }
-
-        function showResult() {
-            quizScreen.classList.add('hidden');
-            quizResult.classList.remove('hidden');
-            
-            correctAnswers.textContent = score;
-            totalQuestions.textContent = questions.length;
-            
-            const percentage = (score / questions.length) * 100;
-            
-            if (percentage >= 80) {
-                resultMessage.textContent = 'Xuất sắc! Bạn thực sự hiểu biết về chủ đề này.';
-            } else if (percentage >= 50) {
-                resultMessage.textContent = 'Khá tốt! Nhưng bạn có thể làm tốt hơn.';
-            } else {
-                resultMessage.textContent = 'Cần cố gắng thêm! Hãy ôn tập lại nhé.';
-            }
-
-            // Thêm nút xem lại các câu sai nếu có
-            if (wrongAnswers.length > 0) {
-                // Xóa nút xem lại cũ nếu có
-                const oldReviewBtn = document.getElementById('reviewWrongBtn');
-                if (oldReviewBtn) {
-                    oldReviewBtn.remove();
-                }
-                
-                const reviewBtn = document.createElement('button');
-                reviewBtn.id = 'reviewWrongBtn';
-                reviewBtn.className = 'review-btn';
-                reviewBtn.innerHTML = '<i class="fas fa-redo"></i> Xem lại các câu sai (' + wrongAnswers.length + ')';
-                reviewBtn.addEventListener('click', reviewWrongAnswers);
-                
-                resultButtons.insertBefore(reviewBtn, resultButtons.firstChild);
-            }
-        }
-
-        // Hàm xem lại các câu sai
-        function reviewWrongAnswers() {
-            // Tạo mảng các câu hỏi sai
-            const wrongQuestions = wrongAnswers.map(item => {
-                return {
-                    ...item.question,
-                    originalIndex: item.questionIndex // Lưu lại vị trí gốc trong mảng questions
-                };
-            });
-
-            // Cập nhật danh sách câu hỏi chỉ với các câu sai
-            questions = wrongQuestions;
-            currentQuestionIndex = 0;
-            score = 0;
-            wrongAnswers = []; // Reset lại mảng câu sai
-            
-            // Ẩn kết quả, hiển thị lại phần quiz
-            quizResult.classList.add('hidden');
-            quizScreen.classList.remove('hidden');
-            
-            showQuestion();
-        }
-
-        function retakeQuiz() {
-            startQuiz(currentCategory);
-        }
-
-        function chooseAnotherQuiz() {
-            quizResult.classList.add('hidden');
-            quizSelection.classList.remove('hidden');
-        }
+      // console.log(a)
     </script>
-</body>
+  </body>
 </html>
