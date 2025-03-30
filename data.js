@@ -266,10 +266,11 @@ const questions = {
                 "title": "Câu 21. Áp dụng thuật giải tham lam Greedy. Đỉnh kế tiếp bạn chọn để đi theo Greedy là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "Đỉnh 3", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Đỉnh 2", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Đỉnh 2", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Đỉnh 3", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Đỉnh 4", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Đỉnh 5", "url_thumb": "", "type": ""}
                 ]
@@ -292,11 +293,12 @@ const questions = {
                 "title": "Câu 23. Chu trình đi theo Greedy là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "1,3,4,2,5,1", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "1,2,3,4,5,1", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "1,4,5,3,2,1", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "1,2,3,4,5,1", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "1,4,5,3,2,1", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "1,3,4,2,5,1", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "1,4,3,4,2,1", "url_thumb": "", "type": ""}
                 ]
             },
@@ -305,10 +307,11 @@ const questions = {
                 "title": "Câu 24. Chi phí (độ dài đường đi) theo Greedy là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "13", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "14", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "14", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "13", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "15", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "16", "url_thumb": "", "type": ""}
                 ]
@@ -344,11 +347,12 @@ const questions = {
                 "title": "Câu 27. Thuật giải tham lam Greedy sử dụng nguyên lý nào?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "Nguyên lý thứ tự", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nguyên lý pipeline", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nguyên lý FIFO", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Nguyên lý pipeline", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Nguyên lý FIFO", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Nguyên lý thứ tự", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Nguyên lý hình ống", "url_thumb": "", "type": ""}
                 ]
             },
@@ -357,10 +361,11 @@ const questions = {
                 "title": "Câu 28. Thuật giải heuristic là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "Nhanh chóng tìm ra lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Luôn luôn không tìm được lời giải", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Luôn luôn không tìm được lời giải", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Nhanh chóng tìm ra lời giải", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Cho kết quả tốt hơn kết quả tối ưu", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Cho kết quả tối ưu nhất", "url_thumb": "", "type": ""}
                 ]
@@ -370,10 +375,11 @@ const questions = {
                 "title": "Câu 29. Phát biểu nào sai?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "Thuật giải sắp xếp là thuật giải heuristics", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thuật giải áp dụng nguyên lý thứ tự là thuật giải heuristics", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Thuật giải áp dụng nguyên lý thứ tự là thuật giải heuristics", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Thuật giải sắp xếp là thuật giải heuristics", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Thuật giải áp dụng nguyên lý Greedy là thuật giải heuristics", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Thuật giải áp dụng vét cạn thông minh là thuật giải heuristics", "url_thumb": "", "type": ""}
                 ]
@@ -396,11 +402,12 @@ const questions = {
                 "title": "Câu 31. Áp dụng kỹ thuật của thuật giải Heuristic để sắp xếp công việc vào các máy sao cho thời gian thực hiện nhanh nhất. Thứ tự công việc là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "t16, t44, t53, t22, t31", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "t31, t22, t53, t44, t16", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "t44, t53, t22, t31, t16", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "t31, t22, t53, t44, t16", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "t44, t53, t22, t31, t16", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "t16, t44, t53, t22, t31", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "t22, t53, t44, t16, t31", "url_thumb": "", "type": ""}
                 ]
             },
@@ -422,10 +429,11 @@ const questions = {
                 "title": "Câu 33. Các công việc thực hiện ở máy 1?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "P1: t16, t22", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "P1: t16, t44", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "P1: t16, t44", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "P1: t16, t22", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "P1: t16, t22, t31", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "P1: t16, t31", "url_thumb": "", "type": ""}
                 ]
@@ -435,11 +443,12 @@ const questions = {
                 "title": "Câu 34. Công việc được thực hiện ở máy 2 là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "P2: t16, t22, t31", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "P2: t16, t44", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "P2: t16, t22", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "P2: t16, t44", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "P2: t16, t22", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "P2: t16, t22, t31", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "P2: t14, t53, t31", "url_thumb": "", "type": ""}
                 ]
             },
@@ -474,11 +483,12 @@ const questions = {
                 "title": "Câu 37. Không gian trạng thái của bài toán đong nước là bộ bốn T, S, G, F. Trạng thái đầu là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "S 0,0", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "S 0,1", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "S 1,0", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "S 0,1", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "S 1,0", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "S 0,0", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "S 1,1", "url_thumb": "", "type": ""}
                 ]
             },
@@ -487,10 +497,11 @@ const questions = {
                 "title": "Câu 38. Không gian trạng thái của bài toán đong nước là bộ bốn T, S, G, F, Trong đó T = { (x,y) / 0 <= x <= m; 0 <= y <= n } là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "Tập tất cả các trạng thái có thể có của bài toán", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Trạng thái đầu", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Trạng thái đầu", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tập tất cả các trạng thái có thể có của bài toán", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Trạng thái cuối", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Trạng thái đầu và trạng thái cuối", "url_thumb": "", "type": ""}
                 ]
@@ -513,12 +524,13 @@ const questions = {
                 "title": "Câu 40. Không gian trạng thái của bài toán Tháp Hà Nội với n = 3, trong đó G = (3, 3, 3) là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 3,
                 "results": [
-                    {"idResult": 0, "value": "Trạng thái kết thúc", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Trạng thái bắt đầu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tất cả trạng thái có thể có của bài toán", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 0, "value": "Trạng thái bắt đầu", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tất cả trạng thái có thể có của bài toán", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tất cả đều sai", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Trạng thái kết thúc", "url_thumb": "", "type": ""}
                 ]
             },
             {
@@ -539,11 +551,12 @@ const questions = {
                 "title": "Câu 42. Depth – First Search là phương pháp tìm kiếm gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "Tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tìm kiếm tối ưu", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tìm kiếm tối ưu", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Tìm kiếm leo đồi", "url_thumb": "", "type": ""}
                 ]
             },
@@ -552,10 +565,11 @@ const questions = {
                 "title": "Câu 43. Phương pháp tìm kiếm chiều rộng được viết tắt bằng những chữ cái nào?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "BFS", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "DFS", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "DFS", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "BFS", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "SFD", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "SFB", "url_thumb": "", "type": ""}
                 ]
@@ -578,11 +592,12 @@ const questions = {
                 "title": "Câu 45. Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp BFS?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "A, B, D, G, E, C", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "A, B, C, D, G, E", "url_thumb": "", "type": ""},
+                   
+                    {"idResult": 0, "value": "A, B, D, G, E, C", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "A, B, C, D, G, E", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "A, B, E, G, D, C", "url_thumb": "", "type": ""}
                 ]
             },
@@ -591,10 +606,11 @@ const questions = {
                 "title": "Câu 46. Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp DFS?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "A, D, G, E, C", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "A, D, G, E, C", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "A, B, D, G, E, C", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "A, B, E, G, C", "url_thumb": "", "type": ""}
                 ]
@@ -617,11 +633,12 @@ const questions = {
                 "title": "Câu 48. Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp DFS?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "A,B, E, G, K, H, F, D,C", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "A, B, D, C, G, E, K", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "A, B, C, D, G, E", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "A, B, D, C, G, E, K", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "A, B, C, D, G, E", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "A,B, E, G, K, H, F, D,C", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "A, B, E, G, D, C", "url_thumb": "", "type": ""}
                 ]
             },
@@ -859,11 +876,12 @@ const questions = {
                 "title": "Câu 67. Đâu là đáp án đúng của giải thuật tìm kiếm theo chiều sâu?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "Sử dụng ngăn xếp", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Sử dụng hàng đợi", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Sử dụng ma trận", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Sử dụng hàng đợi", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Sử dụng ma trận", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Sử dụng ngăn xếp", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Sử dụng mảng nhiều chiều", "url_thumb": "", "type": ""}
                 ]
             },
@@ -872,10 +890,11 @@ const questions = {
                 "title": "Câu 68. Phương pháp tìm kiếm leo đồi thuộc phương pháp tìm kiếm?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 0, "value": "Tìm kiếm Heuristic", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tìm kiếm chiều sâu", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "Tìm kiếm chiều sâu", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tìm kiếm Heuristic", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Tìm kiếm chiều rộng", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Không có đáp án đúng", "url_thumb": "", "type": ""}
                 ]
@@ -924,11 +943,12 @@ const questions = {
                 "title": "Câu 72. Dùng thuật toán A để giải bài toán TACI như hình 1, giá trị của (g,h,fʼ) là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "g=0,hʼ4,fʼ4.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "g=1,hʼ3,fʼ4.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "g=2,hʼ2,fʼ4.", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "g=1,hʼ3,fʼ4.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "g=2,hʼ2,fʼ4.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "g=0,hʼ4,fʼ4.", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "g=3,hʼ1,fʼ4.", "url_thumb": "", "type": ""}
                 ]
             },
@@ -950,11 +970,12 @@ const questions = {
                 "title": "Câu 74. Dùng thuật toán AKT để giải bài toán TACI như hình 1, từ trạng thái ban đầu, có thể có bao nhiêu trạng thái kế tiếp có thể xảy ra?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 0,
+                "idCorrectResult": 2,
                 "results": [
-                    {"idResult": 0, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "4", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "5", "url_thumb": "", "type": ""},
+                    
+                    {"idResult": 0, "value": "4", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "5", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "2", "url_thumb": "", "type": ""}
                 ]
             },
@@ -978,8 +999,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "g=5, hʼ0, fʼ5.", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "g=4, hʼ1, fʼ5.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "g=5, hʼ0, fʼ5.", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "g=3, hʼ2, fʼ5.", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "g=2, hʼ3, fʼ5.", "url_thumb": "", "type": ""}
                 ]
@@ -1004,9 +1026,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "trạng thái D", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "trạng thái K", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "trạng thái C", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "trạng thái D", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "trạng thái F", "url_thumb": "", "type": ""}
                 ]
             },
@@ -1017,8 +1040,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "g=10, h=203,f=213", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "g=10, h=103,f=113", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "g=10, h=203,f=213", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "g=203, h=10,f=213", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "g=103, h=10,f=113", "url_thumb": "", "type": ""}
                 ]
@@ -1212,9 +1236,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Nếu bình X rỗng, bình Y rỗng thì đổ đầy nước vào 2 bình", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "Nếu bình X đầy thì đổ hết nước trong bình X đi", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Nếu bình Y rỗng thì đổ đầy nước vào bình Y", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Nếu bình X rỗng, bình Y rỗng thì đổ đầy nước vào 2 bình", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Nếu bình X không đầy và bình Y không rỗng thì đổ nước từ bình Y sang bình X cho đến khi bình X đầy hoặc bình Y rỗng", "url_thumb": "", "type": ""}
                 ]
             },
@@ -1225,9 +1250,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "5", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "6", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "5", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "3", "url_thumb": "", "type": ""}
                 ]
             },
@@ -1329,8 +1355,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức.", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "Dữ liệu ít hơn thông tin, thông tin ít hơn tri thức.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức.", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Dữ liệu nhiều hơn thông tin, thông tin ít hơn tri thức.", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Dữ liệu ít hơn thông tin, thông tin nhiều hơn tri thức.", "url_thumb": "", "type": ""}
                 ]
@@ -1355,9 +1382,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "Loại suy diễn để đưa ra kết luận thì dựa vào thông tin đã biết. Các thông tin đã biết có quan hệ với nhau.", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Loại suy diễn có vẻ hợp lý từ các sự kiện và thông tin đã biết. Với suy diễn giả định thì câu kết luận có thể đúng cũng có thể không đúng.", "url_thumb": "", "type": ""}
                 ]
             },
@@ -1381,8 +1409,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 1, "value": "Suy diễn tiến xem xét các luật.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Với mỗi luật ta xét phần điều kiện – ở vế trái, tới phần kết luận – ở vế phải.", "url_thumb": "", "type": ""}
                 ]
             },
@@ -1458,8 +1487,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Là phương pháp dựa trên luật để phát triển các hàm liên thuộc.", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 1, "value": "Là phương pháp dựa trên luật để phát triển các hàm cũ.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Là phương pháp dựa trên luật để phát triển các hàm liên thuộc.", "url_thumb": "", "type": ""},
                     {"idResult": 2, "value": "Là phương pháp dựa trên luật để phát triển các hàm không liên thuộc.", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""}
                 ]
