@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - Đăng nhập/Đăng ký</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            transition: background-color 0.5s;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Container Styles */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Auth Box Styles */
+        .auth-box {
+            background-color: white;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .auth-header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .auth-header i {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .auth-header h1 {
+            font-size: 24px;
+        }
+
+        .auth-tabs {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .auth-tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #f5f5f5;
+            transition: all 0.3s;
+        }
+
+        .auth-tab.active {
+            background-color: white;
+            font-weight: bold;
+            color: #4a6fa5;
+        }
+
+        .auth-content {
+            padding: 25px;
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .form-group label i {
+            margin-right: 8px;
+            width: 20px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .toggle-password {
+            position: absolute;
+            right: 15px;
+            top: 40px;
+            cursor: pointer;
+            color: #777;
+        }
+
+        .form-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .auth-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #4a6fa5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .auth-btn:hover {
+            background-color: #3a5a80;
+        }
+
+        .switch-auth {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .switch-auth a {
+            color: #4a6fa5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .error-message {
+            background-color: #ffebee;
+            color: #c62828;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            display: none;
+        }
+
+        /* Quiz Section Styles */
+        .quiz-section {
+            width: 100%;
+            display: none;
+        }
+
+        /* Quiz Header */
+        .quiz-header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4a6fa5;
+            font-weight: bold;
+        }
+
+        .logout-btn {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .logout-btn:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Quiz Main Content */
+        .quiz-main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .welcome-message {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .welcome-message h2 {
+            color: #4a6fa5;
+            margin-bottom: 10px;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .category-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-card i {
+            font-size: 40px;
+            color: #4a6fa5;
+            margin-bottom: 15px;
+        }
+
+        .category-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .category-card p {
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* Quiz Container Styles */
+        .quiz-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .quiz-progress {
+            margin-bottom: 25px;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background-color: #4a6fa5;
+            transition: width 0.5s ease;
+        }
+
+        .question-counter {
+            text-align: right;
+            color: #777;
+            font-size: 14px;
+        }
+
+        .question-container {
+            margin-bottom: 25px;
+        }
+
+        .question-container h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .options-container {
+            display: grid;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .option {
+            padding: 12px 15px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .option:hover {
+            background-color: #e0e0e0;
+        }
+
+        .option.selected {
+            background-color: #4a6fa5;
+            color: white;
+        }
+
+        .option.correct {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .option.wrong {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .next-btn {
+            background-color: #4a6fa5;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: none;
+        }
+
+        .next-btn:hover {
+            background-color: #3a5a80;
+        }
+
+        /* Quiz Result Styles */
+        .quiz-result {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .quiz-result h2 {
+            color: #4a6fa5;
+            margin-bottom: 20px;
+        }
+
+        .score-display {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .score-display span {
+            font-weight: bold;
+            color: #4a6fa5;
+        }
+
+        .result-message {
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+
+        .retake-btn, .another-btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 0 10px;
+        }
+
+        .retake-btn {
+            background-color: #4a6fa5;
+            color: white;
+        }
+
+        .retake-btn:hover {
+            background-color: #3a5a80;
+        }
+
+        .another-btn {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .another-btn:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Authentication Section -->
+    <div class="container" id="authSection">
+        <div class="auth-box">
+            <div class="auth-header">
+                <i class="fas fa-question-circle"></i>
+                <h1>Quiz App</h1>
+            </div>
+            
+            <div class="auth-tabs">
+                <div class="auth-tab active" id="loginTab">Đăng nhập</div>
+                <div class="auth-tab" id="registerTab">Đăng ký</div>
+            </div>
+            
+            <!-- Login Form -->
+            <div class="auth-content" id="loginForm">
+                <form id="loginFormContent">
+                    <div class="form-group">
+                        <label for="loginUsername"><i class="fas fa-user"></i> Tên đăng nhập</label>
+                        <input type="text" id="loginUsername" name="username" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPassword"><i class="fas fa-lock"></i> Mật khẩu</label>
+                        <input type="password" id="loginPassword" name="password" required>
+                        <span class="toggle-password" id="toggleLoginPassword">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                    </div>
+                    
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" name="remember"> Ghi nhớ đăng nhập
+                        </label>
+                        <a href="#" id="forgotPassword">Quên mật khẩu?</a>
+                    </div>
+                    
+                    <button type="submit" class="auth-btn">Đăng nhập</button>
+                </form>
+                
+                <div class="switch-auth">
+                    Chưa có tài khoản? <a href="#" id="switchToRegister">Đăng ký ngay</a>
+                </div>
+                
+                <div id="loginError" class="error-message hidden"></div>
+            </div>
+            
+            <!-- Register Form -->
+            <div class="auth-content hidden" id="registerForm">
+                <form id="registerFormContent">
+                    <div class="form-group">
+                        <label for="registerUsername"><i class="fas fa-user"></i> Tên đăng nhập</label>
+                        <input type="text" id="registerUsername" name="username" required>
+                        <small>Tên đăng nhập từ 4-20 ký tự (a-z, 0-9, _)</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerEmail"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" id="registerEmail" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerPassword"><i class="fas fa-lock"></i> Mật khẩu</label>
+                        <input type="password" id="registerPassword" name="password" required>
+                        <span class="toggle-password" id="toggleRegisterPassword">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                        <small>Mật khẩu ít nhất 6 ký tự</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerConfirmPassword"><i class="fas fa-lock"></i> Nhập lại mật khẩu</label>
+                        <input type="password" id="registerConfirmPassword" name="confirmPassword" required>
+                    </div>
+                    
+                    <button type="submit" class="auth-btn">Đăng ký</button>
+                </form>
+                
+                <div class="switch-auth">
+                    Đã có tài khoản? <a href="#" id="switchToLogin">Đăng nhập ngay</a>
+                </div>
+                
+                <div id="registerError" class="error-message hidden"></div>
+                <div id="registerSuccess" class="error-message hidden" style="background-color: #e8f5e9; color: #2e7d32;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="quiz-section" id="quizSection">
+        <header class="quiz-header">
+            <div class="user-info">
+                <div class="user-avatar" id="userAvatar">A</div>
+                <span id="usernameDisplay">Người dùng</span>
+            </div>
+            <button id="logoutBtn" class="logout-btn">
+                <i class="fas fa-sign-out-alt"></i> Đăng xuất
+            </button>
+        </header>
+
+        <main class="quiz-main">
+            <!-- Quiz Selection Screen -->
+            <div id="quizSelection">
+                <div class="welcome-message">
+                    <h2>Chào mừng <span id="userWelcomeName"></span> đến với Quiz App!</h2>
+                    <p>Hãy chọn một chủ đề để bắt đầu.</p>
+                </div>
+                
+                <div class="category-grid" id="categoryGrid">
+                    <!-- Categories will be added by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Quiz Screen -->
+            <div id="quizScreen" class="hidden">
+                <div class="quiz-container">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill" id="progressBar"></div>
+                        </div>
+                        <div class="question-counter" id="questionCounter">Câu 1/10</div>
+                    </div>
+                    
+                    <div class="question-container">
+                        <h2 id="questionText">Đây là câu hỏi?</h2>
+                    </div>
+                    
+                    <div class="options-container" id="optionsContainer">
+                        <!-- Options will be added by JavaScript -->
+                    </div>
+                    
+                    <button id="nextQuestionBtn" class="next-btn">Câu tiếp theo</button>
+                </div>
+            </div>
+
+            <!-- Quiz Result Screen -->
+            <div id="quizResult" class="quiz-result hidden">
+                <h2>Kết quả quiz</h2>
+                <div class="score-display">
+                    Bạn đã đúng <span id="correctAnswers">0</span>/<span id="totalQuestions">0</span> câu
+                </div>
+                <div class="result-message" id="resultMessage"></div>
+                <button id="retakeQuizBtn" class="retake-btn">Làm lại quiz</button>
+                <button id="chooseAnotherBtn" class="another-btn">Chọn quiz khác</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <script>
+        // Dữ liệu ứng dụng
+        const quizData = {
+            math: [
+                {
+                    question: "Kết quả của phép tính 5 + 7 là bao nhiêu?",
+                    options: ["10", "11", "12", "13"],
+                    answer: "12"
+                },
+                {
+                    question: "Số nào là số nguyên tố trong các số sau?",
+                    options: ["9", "15", "17", "21"],
+                    answer: "17"
+                },
+                {
+                    question: "Giá trị của π (pi) xấp xỉ bằng bao nhiêu?",
+                    options: ["2.14", "3.14", "4.14", "5.14"],
+                    answer: "3.14"
+                }
+            ],
+            history: [
+                {
+                    question: "Ai là vị vua đầu tiên của nước Đại Việt?",
+                    options: ["Lý Thái Tổ", "Đinh Bộ Lĩnh", "Lê Hoàn", "Lý Công Uẩn"],
+                    answer: "Đinh Bộ Lĩnh"
+                },
+                {
+                    question: "Trận chiến Bạch Đằng diễn ra vào năm nào?",
+                    options: ["938", "981", "1010", "1288"],
+                    answer: "938"
+                }
+            ],
+            science: [
+                {
+                    question: "Nguyên tố nào nhẹ nhất trong bảng tuần hoàn?",
+                    options: ["Heli", "Hydro", "Oxi", "Nitơ"],
+                    answer: "Hydro"
+                }
+            ]
+        };
+
+        // Database simulation (in a real app, use a real database)
+        let users = [
+            {
+                username: "admin",
+                email: "admin@quizapp.com",
+                password: "123456",
+                name: "Quản trị viên",
+                createdAt: new Date()
+            }
+        ];
+
+        // Biến toàn cục
+        let currentUser = null;
+        let currentCategory = null;
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let questions = [];
+
+        // DOM Elements
+        const authSection = document.getElementById('authSection');
+        const quizSection = document.getElementById('quizSection');
+        const loginTab = document.getElementById('loginTab');
+        const registerTab = document.getElementById('registerTab');
+        const loginForm = document.getElementById('loginForm');
+        const registerForm = document.getElementById('registerForm');
+        const loginFormContent = document.getElementById('loginFormContent');
+        const registerFormContent = document.getElementById('registerFormContent');
+        const toggleLoginPassword = document.getElementById('toggleLoginPassword');
+        const toggleRegisterPassword = document.getElementById('toggleRegisterPassword');
+        const loginPassword = document.getElementById('loginPassword');
+        const registerPassword = document.getElementById('registerPassword');
+        const registerConfirmPassword = document.getElementById('registerConfirmPassword');
+        const switchToRegister = document.getElementById('switchToRegister');
+        const switchToLogin = document.getElementById('switchToLogin');
+        const loginError = document.getElementById('loginError');
+        const registerError = document.getElementById('registerError');
+        const registerSuccess = document.getElementById('registerSuccess');
+        const logoutBtn = document.getElementById('logoutBtn');
+        const usernameDisplay = document.getElementById('usernameDisplay');
+        const userWelcomeName = document.getElementById('userWelcomeName');
+        const userAvatar = document.getElementById('userAvatar');
+        const categoryGrid = document.getElementById('categoryGrid');
+        const quizSelection = document.getElementById('quizSelection');
+        const quizScreen = document.getElementById('quizScreen');
+        const quizResult = document.getElementById('quizResult');
+        const questionText = document.getElementById('questionText');
+        const optionsContainer = document.getElementById('optionsContainer');
+        const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+        const progressBar = document.getElementById('progressBar');
+        const questionCounter = document.getElementById('questionCounter');
+        const correctAnswers = document.getElementById('correctAnswers');
+        const totalQuestions = document.getElementById('totalQuestions');
+        const resultMessage = document.getElementById('resultMessage');
+        const retakeQuizBtn = document.getElementById('retakeQuizBtn');
+        const chooseAnotherBtn = document.getElementById('chooseAnotherBtn');
+
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if user is already logged in
+            const rememberedUser = localStorage.getItem('rememberedUser');
+            if (rememberedUser) {
+                const user = users.find(u => u.username === rememberedUser);
+                if (user) {
+                    loginUser(user);
+                    return;
+                }
+            }
+
+            // Setup event listeners
+            setupEventListeners();
+        });
+
+        function setupEventListeners() {
+            // Auth tabs
+            loginTab.addEventListener('click', () => switchAuthTab('login'));
+            registerTab.addEventListener('click', () => switchAuthTab('register'));
+            
+            // Switch between login/register
+            switchToRegister.addEventListener('click', (e) => {
+                e.preventDefault();
+                switchAuthTab('register');
+            });
+            
+            switchToLogin.addEventListener('click', (e) => {
+                e.preventDefault();
+                switchAuthTab('login');
+            });
+
+            // Toggle password visibility
+            toggleLoginPassword.addEventListener('click', function() {
+                togglePasswordVisibility(loginPassword, this);
+            });
+            
+            toggleRegisterPassword.addEventListener('click', function() {
+                togglePasswordVisibility(registerPassword, this);
+            });
+
+            // Form submissions
+            loginFormContent.addEventListener('submit', handleLogin);
+            registerFormContent.addEventListener('submit', handleRegister);
+
+            // Quiz buttons
+            logoutBtn.addEventListener('click', handleLogout);
+            nextQuestionBtn.addEventListener('click', goToNextQuestion);
+            retakeQuizBtn.addEventListener('click', retakeQuiz);
+            chooseAnotherBtn.addEventListener('click', chooseAnotherQuiz);
+        }
+
+        function switchAuthTab(tab) {
+            if (tab === 'login') {
+                loginTab.classList.add('active');
+                registerTab.classList.remove('active');
+                loginForm.classList.remove('hidden');
+                registerForm.classList.add('hidden');
+                loginError.classList.add('hidden');
+            } else {
+                registerTab.classList.add('active');
+                loginTab.classList.remove('active');
+                registerForm.classList.remove('hidden');
+                loginForm.classList.add('hidden');
+                registerError.classList.add('hidden');
+                registerSuccess.classList.add('hidden');
+            }
+        }
+
+        function togglePasswordVisibility(passwordInput, toggleElement) {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            toggleElement.querySelector('i').classList.toggle('fa-eye-slash');
+        }
+
+        function handleLogin(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('loginUsername').value.trim();
+            const password = loginPassword.value.trim();
+            const rememberMe = document.querySelector('input[name="remember"]').checked;
+
+            // Validate input
+            if (!username || !password) {
+                showLoginError('Vui lòng nhập tên đăng nhập và mật khẩu!');
+                return;
+            }
+
+            // Find user
+            const user = users.find(u => u.username === username && u.password === password);
+            
+            if (user) {
+                // Remember user if checked
+                if (rememberMe) {
+                    localStorage.setItem('rememberedUser', username);
+                } else {
+                    localStorage.removeItem('rememberedUser');
+                }
+
+                // Login user
+                loginUser(user);
+            } else {
+                showLoginError('Tên đăng nhập hoặc mật khẩu không đúng!');
+            }
+        }
+
+        function handleRegister(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('registerUsername').value.trim();
+            const email = document.getElementById('registerEmail').value.trim();
+            const password = registerPassword.value.trim();
+            const confirmPassword = registerConfirmPassword.value.trim();
+
+            // Validate input
+            if (!username || !email || !password || !confirmPassword) {
+                showRegisterError('Vui lòng điền đầy đủ thông tin!');
+                return;
+            }
+
+            // Validate username
+            if (!/^[a-zA-Z0-9_]{4,20}$/.test(username)) {
+                showRegisterError('Tên đăng nhập từ 4-20 ký tự (a-z, 0-9, _)');
+                return;
+            }
+
+            // Check if username exists
+            if (users.some(u => u.username === username)) {
+                showRegisterError('Tên đăng nhập đã tồn tại!');
+                return;
+            }
+
+            // Validate email
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                showRegisterError('Email không hợp lệ!');
+                return;
+            }
+
+            // Check if email exists
+            if (users.some(u => u.email === email)) {
+                showRegisterError('Email đã được sử dụng!');
+                return;
+            }
+
+            // Validate password
+            if (password.length < 6) {
+                showRegisterError('Mật khẩu phải có ít nhất 6 ký tự!');
+                return;
+            }
+
+            // Check password match
+            if (password !== confirmPassword) {
+                showRegisterError('Mật khẩu không khớp!');
+                return;
+            }
+
+            // Create new user
+            const newUser = {
+                username,
+                email,
+                password,
+                name: username,
+                createdAt: new Date()
+            };
+
+            // Add to users array
+            users.push(newUser);
+
+            // Show success message
+            registerSuccess.textContent = 'Đăng ký thành công! Bạn có thể đăng nhập ngay bây giờ.';
+            registerSuccess.classList.remove('hidden');
+            registerError.classList.add('hidden');
+
+            // Clear form
+            registerFormContent.reset();
+
+            // Switch to login tab after 2 seconds
+            setTimeout(() => {
+                switchAuthTab('login');
+                document.getElementById('loginUsername').value = username;
+                loginPassword.focus();
+            }, 2000);
+        }
+
+        function showLoginError(message) {
+            loginError.textContent = message;
+            loginError.classList.remove('hidden');
+        }
+
+        function showRegisterError(message) {
+            registerError.textContent = message;
+            registerError.classList.remove('hidden');
+            registerSuccess.classList.add('hidden');
+        }
+
+        function loginUser(user) {
+            currentUser = user;
+            
+            // Hide auth section, show quiz section
+            authSection.style.display = 'none';
+            quizSection.style.display = 'block';
+            
+            // Update user info
+            usernameDisplay.textContent = user.name;
+            userWelcomeName.textContent = user.name;
+            userAvatar.textContent = user.name.charAt(0).toUpperCase();
+
+            // Load categories
+            loadCategories();
+        }
+
+        function handleLogout() {
+            currentUser = null;
+            localStorage.removeItem('rememberedUser');
+            
+            // Show auth section, hide quiz section
+            authSection.style.display = 'flex';
+            quizSection.style.display = 'none';
+            
+            // Reset forms
+            loginFormContent.reset();
+            loginError.classList.add('hidden');
+            
+            // Switch to login tab
+            switchAuthTab('login');
+        }
+
+        function loadCategories() {
+            categoryGrid.innerHTML = '';
+            
+            for (const category in quizData) {
+                const categoryCard = document.createElement('div');
+                categoryCard.className = 'category-card';
+                categoryCard.dataset.category = category;
+                
+                let iconClass;
+                switch(category) {
+                    case 'math':
+                        iconClass = 'fas fa-square-root-alt';
+                        break;
+                    case 'history':
+                        iconClass = 'fas fa-landmark';
+                        break;
+                    case 'science':
+                        iconClass = 'fas fa-atom';
+                        break;
+                    default:
+                        iconClass = 'fas fa-question-circle';
+                }
+                
+                categoryCard.innerHTML = `
+                    <i class="${iconClass}"></i>
+                    <h3>${getCategoryName(category)}</h3>
+                    <p>${quizData[category].length} câu hỏi</p>
+                `;
+                
+                categoryCard.addEventListener('click', () => startQuiz(category));
+                categoryGrid.appendChild(categoryCard);
+            }
+        }
+
+        function getCategoryName(category) {
+            const names = {
+                'math': 'Toán học',
+                'history': 'Lịch sử',
+                'science': 'Khoa học'
+            };
+            return names[category] || category;
+        }
+
+        function startQuiz(category) {
+            currentCategory = category;
+            currentQuestionIndex = 0;
+            score = 0;
+            questions = [...quizData[category]];
+            
+            quizSelection.classList.add('hidden');
+            quizScreen.classList.remove('hidden');
+            quizResult.classList.add('hidden');
+            
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const question = questions[currentQuestionIndex];
+            
+            // Update progress
+            progressBar.style.width = `${((currentQuestionIndex + 1) / questions.length) * 100}%`;
+            questionCounter.textContent = `Câu ${currentQuestionIndex + 1}/${questions.length}`;
+            
+            // Show question
+            questionText.textContent = question.question;
+            
+            // Show options
+            optionsContainer.innerHTML = '';
+            question.options.forEach((option, index) => {
+                const optionElement = document.createElement('div');
+                optionElement.className = 'option';
+                optionElement.textContent = option;
+                optionElement.dataset.answer = option;
+                optionElement.addEventListener('click', selectOption);
+                optionsContainer.appendChild(optionElement);
+            });
+            
+            // Hide next button initially
+            nextQuestionBtn.style.display = 'none';
+        }
+
+        function selectOption(e) {
+            const selectedOption = e.target;
+            const correctAnswer = questions[currentQuestionIndex].answer;
+            const options = document.querySelectorAll('.option');
+            
+            // Disable all options
+            options.forEach(option => {
+                option.removeEventListener('click', selectOption);
+                
+                if (option.dataset.answer === correctAnswer) {
+                    option.classList.add('correct');
+                }
+            });
+            
+            // Mark selected option
+            selectedOption.classList.add('selected');
+            
+            // Check if answer is correct
+            if (selectedOption.dataset.answer === correctAnswer) {
+                score++;
+            } else {
+                selectedOption.classList.add('wrong');
+            }
+            
+            // Show next button
+            nextQuestionBtn.style.display = 'block';
+        }
+
+        function goToNextQuestion() {
+            currentQuestionIndex++;
+            
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else {
+                showResult();
+            }
+        }
+
+        function showResult() {
+            quizScreen.classList.add('hidden');
+            quizResult.classList.remove('hidden');
+            
+            correctAnswers.textContent = score;
+            totalQuestions.textContent = questions.length;
+            
+            const percentage = (score / questions.length) * 100;
+            
+            if (percentage >= 80) {
+                resultMessage.textContent = 'Xuất sắc! Bạn thực sự hiểu biết về chủ đề này.';
+            } else if (percentage >= 50) {
+                resultMessage.textContent = 'Khá tốt! Nhưng bạn có thể làm tốt hơn.';
+            } else {
+                resultMessage.textContent = 'Cần cố gắng thêm! Hãy ôn tập lại nhé.';
+            }
+        }
+
+        function retakeQuiz() {
+            startQuiz(currentCategory);
+        }
+
+        function chooseAnotherQuiz() {
+            quizResult.classList.add('hidden');
+            quizSelection.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
