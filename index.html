@@ -386,13 +386,16 @@
             font-size: 18px;
         }
 
-        .retake-btn, .another-btn {
+        .retake-btn, .another-btn, .review-btn {
             padding: 12px 25px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             transition: all 0.3s;
-            margin: 0 10px;
+            margin: 10px 5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .retake-btn {
@@ -411,6 +414,37 @@
 
         .another-btn:hover {
             background-color: #e0e0e0;
+        }
+
+        .review-btn {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .review-btn:hover {
+            background-color: #f57c00;
+        }
+
+        .review-btn i {
+            font-size: 14px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .auth-box {
+                max-width: 100%;
+            }
+            
+            .quiz-header {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+            
+            .retake-btn, .another-btn, .review-btn {
+                width: 100%;
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
@@ -556,8 +590,11 @@
                     Bạn đã đúng <span id="correctAnswers">0</span>/<span id="totalQuestions">0</span> câu
                 </div>
                 <div class="result-message" id="resultMessage"></div>
-                <button id="retakeQuizBtn" class="retake-btn">Làm lại quiz</button>
-                <button id="chooseAnotherBtn" class="another-btn">Chọn quiz khác</button>
+                <div class="result-buttons">
+                    <button id="retakeQuizBtn" class="retake-btn"><i class="fas fa-sync-alt"></i> Làm lại quiz</button>
+                    <button id="chooseAnotherBtn" class="another-btn"><i class="fas fa-list"></i> Chọn quiz khác</button>
+                    <!-- Review button will be added dynamically -->
+                </div>
             </div>
         </main>
     </div>
@@ -623,6 +660,7 @@
         let currentQuestionIndex = 0;
         let score = 0;
         let questions = [];
+        let wrongAnswers = []; // Mảng lưu các câu trả lời sai
 
         // DOM Elements
         const authSection = document.getElementById('authSection');
@@ -661,6 +699,7 @@
         const resultMessage = document.getElementById('resultMessage');
         const retakeQuizBtn = document.getElementById('retakeQuizBtn');
         const chooseAnotherBtn = document.getElementById('chooseAnotherBtn');
+        const resultButtons = document.querySelector('.result-buttons');
 
         // Initialize the app
         document.addEventListener('DOMContentLoaded', function() {
@@ -936,6 +975,7 @@
             currentCategory = category;
             currentQuestionIndex = 0;
             score = 0;
+            wrongAnswers = [];
             questions = [...quizData[category]];
             
             quizSelection.classList.add('hidden');
@@ -975,6 +1015,11 @@
             const correctAnswer = questions[currentQuestionIndex].answer;
             const options = document.querySelectorAll('.option');
             
+            // Thêm thuộc tính data-question-index để theo dõi
+            options.forEach(option => {
+                option.setAttribute('data-question-index', currentQuestionIndex);
+            });
+            
             // Disable all options
             options.forEach(option => {
                 option.removeEventListener('click', selectOption);
@@ -992,6 +1037,12 @@
                 score++;
             } else {
                 selectedOption.classList.add('wrong');
+                // Lưu câu hỏi sai vào mảng
+                wrongAnswers.push({
+                    question: questions[currentQuestionIndex],
+                    selectedAnswer: selectedOption.dataset.answer,
+                    questionIndex: currentQuestionIndex
+                });
             }
             
             // Show next button
@@ -1024,6 +1075,46 @@
             } else {
                 resultMessage.textContent = 'Cần cố gắng thêm! Hãy ôn tập lại nhé.';
             }
+
+            // Thêm nút xem lại các câu sai nếu có
+            if (wrongAnswers.length > 0) {
+                // Xóa nút xem lại cũ nếu có
+                const oldReviewBtn = document.getElementById('reviewWrongBtn');
+                if (oldReviewBtn) {
+                    oldReviewBtn.remove();
+                }
+                
+                const reviewBtn = document.createElement('button');
+                reviewBtn.id = 'reviewWrongBtn';
+                reviewBtn.className = 'review-btn';
+                reviewBtn.innerHTML = '<i class="fas fa-redo"></i> Xem lại các câu sai (' + wrongAnswers.length + ')';
+                reviewBtn.addEventListener('click', reviewWrongAnswers);
+                
+                resultButtons.insertBefore(reviewBtn, resultButtons.firstChild);
+            }
+        }
+
+        // Hàm xem lại các câu sai
+        function reviewWrongAnswers() {
+            // Tạo mảng các câu hỏi sai
+            const wrongQuestions = wrongAnswers.map(item => {
+                return {
+                    ...item.question,
+                    originalIndex: item.questionIndex // Lưu lại vị trí gốc trong mảng questions
+                };
+            });
+
+            // Cập nhật danh sách câu hỏi chỉ với các câu sai
+            questions = wrongQuestions;
+            currentQuestionIndex = 0;
+            score = 0;
+            wrongAnswers = []; // Reset lại mảng câu sai
+            
+            // Ẩn kết quả, hiển thị lại phần quiz
+            quizResult.classList.add('hidden');
+            quizScreen.classList.remove('hidden');
+            
+            showQuestion();
         }
 
         function retakeQuiz() {
