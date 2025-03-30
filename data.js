@@ -253,11 +253,12 @@ const questions = {
                 "title": "Câu 20. Ai được coi là người khai sinh ra ngành trí tuệ nhân tạo?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
-                    { "idResult": 1, "value": "Turing", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "M. Minsky", "url_thumb": "", "type": "" },
-                    { "idResult": 3, "value": "Bill Gate", "url_thumb": "", "type": "" },
+                   
+                    { "idResult": 1, "value": "M. Minsky", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "Bill Gate", "url_thumb": "", "type": "" },
+                    { "idResult": 3, "value": "Turing", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "A. Newell", "url_thumb": "", "type": "" }
                 ]
             },
@@ -279,10 +280,11 @@ const questions = {
                 "title": "Câu 22. Áp dụng thuật giải tham lam Greedy. Tìm đường đi ngắn nhất từ đỉnh 1 đi qua các đỉnh và trở lại đỉnh ban đầu, tổng chiều dài đường đi là ngắn nhất. Sau khi chọn được đỉnh kế tiếp của đỉnh 1 bạn chọn tiếp đỉnh?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
-                    { "idResult": 1, "value": "Đỉnh 4", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "Đỉnh 2", "url_thumb": "", "type": "" },
+                    
+                    { "idResult": 1, "value": "Đỉnh 2", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "Đỉnh 4", "url_thumb": "", "type": "" },
                     { "idResult": 3, "value": "Đỉnh 5", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "Đỉnh 3", "url_thumb": "", "type": "" }
                 ]
@@ -318,11 +320,12 @@ const questions = {
                 "title": "Câu 25. Thuật giải tham lam Greedy là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
-                    { "idResult": 1, "value": "Nhanh chóng tìm ra lời giải", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "Cho kết quả tối ưu nhất", "url_thumb": "", "type": "" },
-                    { "idResult": 3, "value": "Cho kết quả tốt hơn kết quả tối ưu", "url_thumb": "", "type": "" },
+                    
+                    { "idResult": 1, "value": "Cho kết quả tối ưu nhất", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "Cho kết quả tốt hơn kết quả tối ưu", "url_thumb": "", "type": "" },
+                    { "idResult": 3, "value": "Nhanh chóng tìm ra lời giải", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "Tất cả đều sai", "url_thumb": "", "type": "" }
                 ]
             },
@@ -331,11 +334,12 @@ const questions = {
                 "title": "Câu 26. Thuật giải tham lam Greedy không sử dụng nguyên lý nào?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 3,
                 "results": [
-                    { "idResult": 1, "value": "Nguyên lý hình ống", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "Nguyên lý tham lam", "url_thumb": "", "type": "" },
-                    { "idResult": 3, "value": "Nguyên lý vét cạn thông minh", "url_thumb": "", "type": "" },
+                    
+                    { "idResult": 1, "value": "Nguyên lý tham lam", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "Nguyên lý vét cạn thông minh", "url_thumb": "", "type": "" },
+                    { "idResult": 3, "value": "Nguyên lý hình ống", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "Nguyên lý thứ tự", "url_thumb": "", "type": "" }
                 ]
             },
@@ -370,12 +374,13 @@ const questions = {
                 "title": "Câu 29. Phát biểu nào sai?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 4,
                 "results": [
-                    { "idResult": 1, "value": "Thuật giải sắp xếp là thuật giải heuristics", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "Thuật giải áp dụng nguyên lý thứ tự là thuật giải heuristics", "url_thumb": "", "type": "" },
-                    { "idResult": 3, "value": "Thuật giải áp dụng nguyên lý Greedy là thuật giải heuristics", "url_thumb": "", "type": "" },
-                    { "idResult": 4, "value": "Thuật giải áp dụng vét cạn thông minh là thuật giải heuristics", "url_thumb": "", "type": "" }
+                    
+                    { "idResult": 1, "value": "Thuật giải áp dụng nguyên lý thứ tự là thuật giải heuristics", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "Thuật giải áp dụng nguyên lý Greedy là thuật giải heuristics", "url_thumb": "", "type": "" },
+                    { "idResult": 3, "value": "Thuật giải áp dụng vét cạn thông minh là thuật giải heuristics", "url_thumb": "", "type": "" },
+                    { "idResult": 4, "value": "Thuật giải sắp xếp là thuật giải heuristics", "url_thumb": "", "type": "" }
                 ]
             },
             {
@@ -396,10 +401,11 @@ const questions = {
                 "title": "Câu 31. Thứ tự công việc được sắp xếp theo thuật giải Heuristic?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
-                    { "idResult": 1, "value": "t16,t44,t53,t22,t31", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "t31, t22, t53, t44, t16", "url_thumb": "", "type": "" },
+                    
+                    { "idResult": 1, "value": "t31, t22, t53, t44, t16", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "t16,t44,t53,t22,t31", "url_thumb": "", "type": "" },
                     { "idResult": 3, "value": "t44,t53,t22,t31, t16", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "t22, t53, t44, t16, t31", "url_thumb": "", "type": "" }
                 ]
@@ -409,10 +415,11 @@ const questions = {
                 "title": "Câu 32. Công việc ở bước 1 theo thuật giải Heuristic?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
-                    { "idResult": 1, "value": "P1: t16, P2: t44", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "P1: t31, P2: t44", "url_thumb": "", "type": "" },
+                    
+                    { "idResult": 1, "value": "P1: t31, P2: t44", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "P1: t16, P2: t44", "url_thumb": "", "type": "" },
                     { "idResult": 3, "value": "P1: t22, P2: t31", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "P1: t16, P2: t31", "url_thumb": "", "type": "" }
                 ]
@@ -435,12 +442,13 @@ const questions = {
                 "title": "Câu 34. Công việc được thực hiện ở máy 2?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 4,
                 "results": [
-                    { "idResult": 1, "value": "P2: t16, t22, t31", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "P2: t16, t44", "url_thumb": "", "type": "" },
-                    { "idResult": 3, "value": "P2: t16, t22", "url_thumb": "", "type": "" },
-                    { "idResult": 4, "value": "P2: t1 4, t53, t31", "url_thumb": "", "type": "" }
+                    
+                    { "idResult": 1, "value": "P2: t16, t44", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "P2: t16, t22", "url_thumb": "", "type": "" },
+                    { "idResult": 3, "value": "P2: t1 4, t53, t31", "url_thumb": "", "type": "" },
+                    { "idResult": 4, "value": "P2: t16, t22, t31", "url_thumb": "", "type": "" }
                 ]
             },
             {
@@ -448,12 +456,13 @@ const questions = {
                 "title": "Câu 35. Thời gian thực hiện theo nguyên lý thứ tự của thuật giải heuristic?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 4,
                 "results": [
-                    { "idResult": 1, "value": "8", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "6", "url_thumb": "", "type": "" },
-                    { "idResult": 3, "value": "7", "url_thumb": "", "type": "" },
-                    { "idResult": 4, "value": "9", "url_thumb": "", "type": "" }
+                    
+                    { "idResult": 1, "value": "6", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "7", "url_thumb": "", "type": "" },
+                    { "idResult": 3, "value": "9", "url_thumb": "", "type": "" },
+                    { "idResult": 4, "value": "8", "url_thumb": "", "type": "" }
                 ]
             },
             {
@@ -487,10 +496,11 @@ const questions = {
                 "title": "Câu 38. Không gian trạng thái của bài toán đong nước là bộ bốn T, S, G, F, Trong đó T = { (x,y) / 0 <= x <= m; 0 <= y <= n } là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 2,
                 "results": [
-                    { "idResult": 1, "value": "Tập tất cả các trạng thái có thể có của bài toán", "url_thumb": "", "type": "" },
-                    { "idResult": 2, "value": "Trạng thái đầu", "url_thumb": "", "type": "" },
+                    
+                    { "idResult": 1, "value": "Trạng thái đầu", "url_thumb": "", "type": "" },
+                    { "idResult": 2, "value": "Tập tất cả các trạng thái có thể có của bài toán", "url_thumb": "", "type": "" },
                     { "idResult": 3, "value": "Trạng thái cuối", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "Trạng thái đầu và trạng thái cuối", "url_thumb": "", "type": "" }
                 ]
@@ -502,8 +512,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    { "idResult": 1, "value": "Trạng thái bắt đầu", "url_thumb": "", "type": "" },
+                    
                     { "idResult": 2, "value": "Trạng thái kết thúc", "url_thumb": "", "type": "" },
+                    { "idResult": 1, "value": "Trạng thái bắt đầu", "url_thumb": "", "type": "" },
                     { "idResult": 3, "value": "Tất cả trạng thái có thể có của bài toán", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "Tất cả đều sai", "url_thumb": "", "type": "" }
                 ]
@@ -515,9 +526,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    { "idResult": 1, "value": "Trạng thái kết thúc", "url_thumb": "", "type": "" },
+                    
                     { "idResult": 2, "value": "Trạng thái bắt đầu", "url_thumb": "", "type": "" },
                     { "idResult": 3, "value": "Tất cả trạng thái có thể có của bài toán", "url_thumb": "", "type": "" },
+                    { "idResult": 1, "value": "Trạng thái kết thúc", "url_thumb": "", "type": "" },
                     { "idResult": 4, "value": "Tất cả đều sai", "url_thumb": "", "type": "" }
                 ]
             },
@@ -541,9 +553,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "Tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 2, "value": "Tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Tìm kiếm tối ưu", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "Tìm kiếm leo đồi", "url_thumb": "", "type": ""}
                 ]
             },
@@ -554,8 +567,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "BFS", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 2, "value": "DFS", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "BFS", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "SFD", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "SFB", "url_thumb": "", "type": ""}
                 ]
@@ -567,9 +581,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "Tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "Tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Tìm kiếm tối ưu", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "Tìm kiếm leo đồi", "url_thumb": "", "type": ""}
                 ]
             },
@@ -580,10 +595,11 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "A, B, D, G, E, C", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "A, B, C, D, G, E", "url_thumb": "", "type": ""},
-                    {"idResult": 4, "value": "A, B, E, G, D, C", "url_thumb": "", "type": ""}
+                    {"idResult": 4, "value": "A, B, E, G, D, C", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""}
                 ]
             },
             {
@@ -593,8 +609,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "A, D, G, E, C", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "A, B, D, G, E, C", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "A, B, E, G, C", "url_thumb": "", "type": ""}
                 ]
@@ -940,8 +957,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "5", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "5", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "3", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "2", "url_thumb": "", "type": ""}
                 ]
@@ -953,9 +971,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "5", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "2", "url_thumb": "", "type": ""}
                 ]
             },
@@ -979,8 +998,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "g=5, h=0, f=5", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "g=4, h=1, f=5", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "g=5, h=0, f=5", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "g=3, h=2, f=5", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "g=2, h=3, f=5", "url_thumb": "", "type": ""}
                 ]
@@ -992,8 +1012,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "g=0, h=100, f=100", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "g=1, h=100, f=101", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "g=0, h=100, f=100", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "g=100, h=0, f=100", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "g=100, h=1, f=101", "url_thumb": "", "type": ""}
                 ]
@@ -1343,8 +1364,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "Nếu mệnh đề A là đúng và mệnh đề A → B là đúng thì giá trị của B sẽ là đúng.", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "Nếu mệnh đề A → B là đúng và mệnh đề B là sai thì giá trị của A sẽ là sai.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Nếu mệnh đề A là đúng và mệnh đề A → B là đúng thì giá trị của B sẽ là đúng.", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Nếu mệnh đề A là đúng và mệnh đề A → B là đúng thì giá trị của B sẽ là đúng. Nếu mệnh đề A → B là đúng và mệnh đề B là sai thì giá trị của A sẽ là sai.", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "Không có câu nào đúng.", "url_thumb": "", "type": ""}
                 ]
@@ -1356,9 +1378,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 2, "value": "Loại suy diễn để đưa ra kết luận thì dựa vào thông tin đã biết. Các thông tin đã biết có quan hệ với nhau.", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "Loại suy diễn có vẻ hợp lý từ các sự kiện và thông tin đã biết. Với suy diễn giả định thì câu kết luận có thể đúng cũng có thể không đúng.", "url_thumb": "", "type": ""}
                 ]
             },
@@ -1382,9 +1405,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "Suy diễn tiến xem xét các luật.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Với mỗi luật ta xét phần điều kiện – ở vế trái, tới phần kết luận – ở vế phải.", "url_thumb": "", "type": ""}
+                    {"idResult": 3, "value": "Với mỗi luật ta xét phần điều kiện – ở vế trái, tới phần kết luận – ở vế phải.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""}
                 ]
             },
             {
@@ -1433,8 +1457,9 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "Các hành xử thông minh", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "Sự thông minh", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Các hành xử thông minh", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Sự sáng tạo", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "Sự kiên trì", "url_thumb": "", "type": ""}
                 ]
@@ -1459,9 +1484,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "Là phương pháp dựa trên luật để phát triển các hàm liên thuộc", "url_thumb": "", "type": ""},
+                   
                     {"idResult": 2, "value": "Là phương pháp dựa trên luật để phát triển các hàm cũ", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "Là phương pháp dựa trên luật để phát triển các hàm không liên thuộc", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Là phương pháp dựa trên luật để phát triển các hàm liên thuộc", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "Tất cả đều đúng", "url_thumb": "", "type": ""}
                 ]
             },
@@ -1472,9 +1498,10 @@ const questions = {
                 "isCorrect": true,
                 "idCorrectResult": 1,
                 "results": [
-                    {"idResult": 1, "value": "4", "url_thumb": "", "type": ""},
+                    
                     {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "2", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "4", "url_thumb": "", "type": ""},
                     {"idResult": 4, "value": "1", "url_thumb": "", "type": ""}
                 ]
             },
