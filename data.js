@@ -3,1768 +3,962 @@ const questions = {
         origin_question: [
             {
                 "id": 1,
-                "title": "Câu 1. Xe không người lái sử dụng công nghệ nào?",
+                "title": "Câu 1: Lập trình mạng phân tán là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 3,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Công nghệ AI phản ứng", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Lý thuyết trí tuệ nhân tạo", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tự nhận thức", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Công nghệ AI với bộ nhớ hạn chế", "url_thumb": "", "type": ""}
+                    {"idResult": 0, "value": "Lập trình mạng phân tán thường có 2 khái niệm chính là: peer to peer và client - server.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Lập trình peer to peer là lập trình ngang hàng giữa 2 máy tính.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Lập trình client – server là lập trình cho phép n máy client kết nối với m máy server.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Cả 1,2,3 đúng.", "url_thumb": "", "type": ""}
                 ]
             },
             {
                 "id": 2,
-                "title": "Câu 2. Chương trình chơi cờ vua tự động, được tạo ra bởi IBM, có tên là gì?",
+                "title": "Câu 2: Căn cứ theo mức độ thân thiện với developer và khả năng triển khai, ta có thể chia lập trình mạng thành mấy cấp độ?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Deep Blue", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Deep Green", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Deep Yellow", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Deem Black", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "4", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "3", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "2", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "5", "url_thumb": "", "type": ""}
                 ]
             },
             {
                 "id": 3,
-                "title": "Câu 3. Công nghệ AI nào có khả năng phân tích những động thái khả thi nhất của chính mình và của đối thủ?",
+                "title": "Câu 3: Căn cứ theo mức độ thân thiện với developer và khả năng triển khai, ta có thể chia lập trình mạng thành?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 2,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Tự nhận thức", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Lý thuyết trí tuệ nhân tạo", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Công nghệ AI phản ứng", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Công nghệ AI với bộ nhớ hạn chế", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Mức lập trình sử dụng socket.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Mức lập trình sử dụng, triển khai ứng dụng theo mô hình dịch vụ.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Tất cả các ý trên.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Mức lập trình ứng dụng theo mô hình triển khai trên web.", "url_thumb": "", "type": ""}
                 ]
             },
             {
                 "id": 4,
-                "title": "Câu 4. Các chương trình trí tuệ nhân tạo đầu tiên xuất hiện vào những năm nào?",
+                "title": "Câu 4: Định nghĩa về hệ phân tán phù hợp nhất với các hệ phân tán tốt nhất hiện nay là?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 1,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "1930s", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "1950s", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "1990s", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "2000s", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Hệ phân tán là một tổ hợp các máy tính độc lập mà đối với người dùng nó có vẻ như một hệ thống đơn nhất quán.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Cả 2 khái niệm trên đều đúng.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Hệ phân tán là một tổ hợp các máy tính độc lập được sử dụng kết hợp để thực hiện một tác vụ hoặc để cung cấp một dịch vụ.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Cả 2 khái niệm trên đều sai.", "url_thumb": "", "type": ""}
                 ]
             },
             {
                 "id": 5,
-                "title": "Câu 5. Đâu không phải là lợi ích của trí tuệ nhân tạo?",
+                "title": "Câu 5: Theo Andrew Tanenbaum thì hệ phân tán là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 3,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Phát hiện và ngăn chặn các rủi ro", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Hạn chế sử dụng sức lao động của con người", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Xóa bỏ khoảng cách ngôn ngữ", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Mất nhiều sức lao động của con người", "url_thumb": "", "type": ""}
+                    {"idResult": 0, "value": "Hệ phân tán là một tổ hợp các máy tính độc lập mà đối với người dùng nó có vẻ như một hệ thống đơn nhất quán.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Hệ phân tán là một tổ hợp các máy tính độc lập được sử dụng kết hợp để thực hiện một tác vụ hoặc để cung cấp một dịch vụ.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Cả 2 khái niệm trên đều đúng.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Cả 2 khái niệm trên đều sai.", "url_thumb": "", "type": ""}
                 ]
             },
             {
                 "id": 6,
-                "title": "Câu 6. IBM Watson (2006) là sản phẩm trí tuệ nhân tạo sử dụng công nghệ nào chính?",
+                "title": "Câu 6: Ưu điểm của hệ phân tán gồm?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Ngôn ngữ tự nhiên", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Văn bản (text)", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Hình ảnh (Computer vision)", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Robotic", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Hiệu năng, khả năng mở rộng, độ tin cậy, tính phân tán cố hữu, bảo mật.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Chi phí, hiệu năng, khả năng mở rộng, độ tin cậy, tính phân tán cố hữu.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Chi phí, hiệu năng, khả năng mở rộng, độ tin cậy, bảo mật.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Chi phí, hiệu năng, bảo mật, độ tin cậy, tính phân tán cố hữu.", "url_thumb": "", "type": ""}
                 ]
             },
             {
                 "id": 7,
-                "title": "Câu 7. Thuật ngữ nào chỉ áp dụng AI cho các nhiệm vụ cụ thể?",
+                "title": "Câu 7: Nhược điểm của hệ phân tán bao gồm?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 2,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Artificial Super Intelligence", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Artificial General Intelligence", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Artificial Narrow Intelligence", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Artificial Min Intelligence", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Tính phân tán cố hữu, bảo mật, độ phức tạp.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Thành phần mới, bảo mật, độ phức tạp.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Thành phần mới, độ phức tạp.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Bảo mật, độ phức tạp.", "url_thumb": "", "type": ""}
                 ]
             },
             {
                 "id": 8,
-                "title": "Câu 8. Phương pháp chấm điểm tín dụng sử dụng dữ liệu lớn (Big Data) và trí tuệ nhân tạo (AI) thì dữ liệu nào có giá trị?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Dữ liệu hành vi", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Hóa đơn thanh toán các loại cước phí", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thói quen mua sắm online", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả các phương án trên", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 9,
-                "title": "Câu 9. Artificial General Intelligence nghĩa là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Trí tuệ nhân tạo hẹp", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Trí tuệ tổng hợp nhân tạo", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Siêu trí tuệ nhân tạo", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Khoa học công nghệ", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 10,
-                "title": "Câu 10. Thuật ngữ nào chỉ khả năng của máy tính sẽ vượt qua con người?",
+                "title": "Câu 8: Hệ phân tán có mấy mô hình ứng dụng?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Artificial Super Intelligence", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Artificial General Intelligence", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Artificial Narrow Intelligence", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Artificial Min Intelligence", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 11,
-                "title": "Câu 11. Mục tiêu của ngành trí tuệ nhân tạo là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Giúp máy tính suy nghĩ và hành động giống như con người", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Giúp con người thông minh hơn", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Giúp cho máy tính thông minh hơn", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả cùng đúng", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 12,
-                "title": "Câu 12. Ngôn ngữ lập trình nào có nhiều thư viện hỗ trợ để viết các chương trình ứng dụng trí tuệ nhân tạo?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "C#", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Pascal", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "C", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Python", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 13,
-                "title": "Câu 13. Hàm heuristic là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Là ước lượng về khả năng dẫn đến lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Là về khả năng dẫn đến lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là chi phí về khả năng dẫn đến lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Là chi phí về khả năng dẫn đến lời giải", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 14,
-                "title": "Câu 14. Hàm Heuristic trong thuật giải Heuristic?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Giá trị phụ thuộc vào trạng thái kế tiếp", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Giá trị phụ thuộc vào trạng thái trước đó", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Giá trị phụ thuộc vào trạng thái hiện tại", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Giá trị phụ thuộc vào trạng thái bắt đầu T0", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 15,
-                "title": "Câu 15. Đâu là ứng dụng của trí tuệ nhân tạo?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Nhận dạng tiếng nói", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nhận dạng chữ viết", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tất cả đều đúng", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 16,
-                "title": "Câu 16. Đâu không phải là vấn đề cốt lõi của trí tuệ nhân tạo?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Biểu diễn", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Lập luận", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Học", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Chế tạo ra máy móc", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 17,
-                "title": "Câu 17. Lý thuyết được áp dụng trong TTNT nhiều nhất là:",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Lý thuyết giải bài toán và suy diễn thông minh", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Lý thuyết biểu diễn tri thức và hệ chuyên gia", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Lý thuyết nhận dạng và xử lý tiếng nói", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Lý thuyết tìm kiếm may rủi", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 18,
-                "title": "Câu 18. Tương tác giữa người và máy tính trong TTNT chủ yếu là:",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Qua giao diện người - máy tính sử dụng menu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Qua giao diện người - máy tính sử dụng văn bản", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Qua giao diện người - máy tính sử dụng âm thanh", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Qua giao diện tự động", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 19,
-                "title": "Câu 19. Có thể nói một chương trình lập trình bằng ngôn ngữ Prolog là một chương trình lập trình theo?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Lập trình cấu trúc", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Lập trình hướng đối tượng", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Lập trình hướng thành phần", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Lập trình logic", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 20,
-                "title": "Câu 20. Ai được coi là người khai sinh ra ngành trí tuệ nhân tạo?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Turing", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "M. Minsky", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Bill Gates", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "A. Newell", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 21,
-                "title": "Câu 21. Áp dụng thuật giải tham lam Greedy. Đỉnh kế tiếp bạn chọn để đi theo Greedy là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
                 "results": [
                     
-                    {"idResult": 0, "value": "Đỉnh 2", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Đỉnh 3", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Đỉnh 4", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Đỉnh 5", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 22,
-                "title": "Câu 22. Sau khi chọn đỉnh kế tiếp của đỉnh 1, bạn chọn tiếp đỉnh nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Đỉnh 4", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Đỉnh 2", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Đỉnh 5", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Đỉnh 3", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 23,
-                "title": "Câu 23. Chu trình đi theo Greedy là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "1,2,3,4,5,1", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "1,4,5,3,2,1", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "1,3,4,2,5,1", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "1,4,3,4,2,1", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 24,
-                "title": "Câu 24. Chi phí (độ dài đường đi) theo Greedy là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "14", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "13", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "15", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "16", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 25,
-                "title": "Câu 25. Thuật giải tham lam Greedy là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Nhanh chóng tìm ra lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Cho kết quả tối ưu nhất", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Cho kết quả tốt hơn kết quả tối ưu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 26,
-                "title": "Câu 26. Thuật giải tham lam Greedy không sử dụng nguyên lý nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Nguyên lý hình ống", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nguyên lý tham lam", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nguyên lý vét cạn thông minh", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Nguyên lý thứ tự", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 27,
-                "title": "Câu 27. Thuật giải tham lam Greedy sử dụng nguyên lý nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Nguyên lý pipeline", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nguyên lý FIFO", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nguyên lý thứ tự", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Nguyên lý hình ống", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 28,
-                "title": "Câu 28. Thuật giải heuristic là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Luôn luôn không tìm được lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nhanh chóng tìm ra lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Cho kết quả tốt hơn kết quả tối ưu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Cho kết quả tối ưu nhất", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 29,
-                "title": "Câu 29. Phát biểu nào sai?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Thuật giải áp dụng nguyên lý thứ tự là thuật giải heuristics", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thuật giải sắp xếp là thuật giải heuristics", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thuật giải áp dụng nguyên lý Greedy là thuật giải heuristics", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Thuật giải áp dụng vét cạn thông minh là thuật giải heuristics", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 30,
-                "title": "Câu 30. Phát biểu nào đúng?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Thuật giải áp dụng nguyên lý tham Greedy là thuật giải heuristics", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thuật giải sắp xếp chèn là thuật giải heuristics", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thuật giải sắp xếp chọn là thuật giải heuristics", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Thuật giải tìm kiếm nhị phân là thuật giải heuristics", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 31,
-                "title": "Câu 31. Áp dụng kỹ thuật của thuật giải Heuristic để sắp xếp công việc vào các máy sao cho thời gian thực hiện nhanh nhất. Thứ tự công việc là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "t31, t22, t53, t44, t16", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "t44, t53, t22, t31, t16", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "t16, t44, t53, t22, t31", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "t22, t53, t44, t16, t31", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 32,
-                "title": "Câu 32. Ở bước 1, các công việc được phân bổ vào hai máy như thế nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "P1: t16, P2: t44", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "P1: t31, P2: t44", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "P1: t22, P2: t31", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "P1: t16, P2: t31", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 33,
-                "title": "Câu 33. Các công việc thực hiện ở máy 1?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "P1: t16, t44", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "P1: t16, t22", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "P1: t16, t22, t31", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "P1: t16, t31", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 34,
-                "title": "Câu 34. Công việc được thực hiện ở máy 2 là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "P2: t16, t44", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "P2: t16, t22", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "P2: t16, t22, t31", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "P2: t14, t53, t31", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 35,
-                "title": "Câu 35. Thời gian thực hiện theo nguyên lý thứ tự của kỹ thuật heuristic là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "8", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "6", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "7", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "9", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 36,
-                "title": "Câu 36. Không gian trạng thái là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Không gian trạng thái là tập tất cả các trạng thái có thể có và tập các toán tử của bài toán.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Không gian trạng thái là trạng thái đầu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Không gian trạng thái là trạng thái cuối", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không gian trạng thái là trạng thái đầu và trạng thái cuối", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 37,
-                "title": "Câu 37. Không gian trạng thái của bài toán đong nước là bộ bốn T, S, G, F. Trạng thái đầu là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "S 0,1", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "S 1,0", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "S 0,0", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "S 1,1", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 38,
-                "title": "Câu 38. Không gian trạng thái của bài toán đong nước là bộ bốn T, S, G, F, Trong đó T = { (x,y) / 0 <= x <= m; 0 <= y <= n } là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Trạng thái đầu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tập tất cả các trạng thái có thể có của bài toán", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Trạng thái cuối", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Trạng thái đầu và trạng thái cuối", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 39,
-                "title": "Câu 39. Không gian trạng thái của bài toán Tháp Hà Nội với n = 3, trong đó S = (1, 1, 1) là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Trạng thái bắt đầu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Trạng thái kết thúc", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tất cả trạng thái có thể có của bài toán", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 40,
-                "title": "Câu 40. Không gian trạng thái của bài toán Tháp Hà Nội với n = 3, trong đó G = (3, 3, 3) là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Trạng thái bắt đầu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tất cả trạng thái có thể có của bài toán", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tất cả đều sai", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Trạng thái kết thúc", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 41,
-                "title": "Câu 41. Phương pháp tìm kiếm chiều sâu được viết tắt bằng những chữ cái nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "DFS", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "BFS", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "SFD", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "SFB", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 42,
-                "title": "Câu 42. Depth – First Search là phương pháp tìm kiếm gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tìm kiếm tối ưu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tìm kiếm leo đồi", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 43,
-                "title": "Câu 43. Phương pháp tìm kiếm chiều rộng được viết tắt bằng những chữ cái nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "DFS", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "BFS", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "SFD", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "SFB", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 44,
-                "title": "Câu 44. Breath - First Search là phương pháp tìm kiếm nào?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tìm kiếm tối ưu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tìm kiếm leo đồi", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 45,
-                "title": "Câu 45. Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp BFS?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                   
-                    {"idResult": 0, "value": "A, B, D, G, E, C", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "A, B, C, D, G, E", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "A, B, E, G, D, C", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 46,
-                "title": "Câu 46. Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp DFS?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "A, D, G, E, C", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "A, B, C, D, E, G", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "A, B, D, G, E, C", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "A, B, E, G, C", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 47,
-                "title": "Câu 47. Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp BFS?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "A, B, C, D, E, F, G, H, K", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "A, B, D, G, E, C, K, H, F", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "A, B, C, D, G, E, F, H, K", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "A, B, E, G, D, C", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 48,
-                "title": "Câu 48. Dựa vào hình cho biết kết quả quá trình thăm các đỉnh của đồ thị sau bằng phương pháp DFS?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "A, B, D, C, G, E, K", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "A, B, C, D, G, E", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "A,B, E, G, K, H, F, D,C", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "A, B, E, G, D, C", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 49,
-                "title": "Câu 49. Tìm kiếm chiều sâu và tìm kiếm chiều rộng đều là các phương pháp tìm kiếm truyền thống đúng hay sai?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Đúng", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Sai", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 50,
-                "title": "Câu 50. Giải thuật tìm kiếm theo chiều rộng bắt đầu duyệt từ?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Nút cha", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nút con", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nút kề", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Nút gốc", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 51,
-                "title": "Câu 51. Đâu không phải là ứng dụng của giải thuật tìm kiếm theo chiều rộng trong bài toán lý thuyết đồ thị?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Tìm các thành phần liên thông", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tìm đường đi ngắn nhất giữa 2 đỉnh u và v", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tìm kiếm có giới hạn", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tìm tất cả các đỉnh trong một thành phần liên thông", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 52,
-                "title": "Câu 52. Hãy cho biết thuật toán dưới đây là thuật toán dùng để tìm kiếm?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Thuật toán tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thuật toán tìm kiếm leo đồi", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thuật toán tìm kiếm tối ưu", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 53,
-                "title": "Câu 53. Hãy cho biết thuật toán dưới đây là thuật toán dùng để tìm kiếm?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Thuật toán tìm kiếm theo chiều sâu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thuật toán tìm kiếm theo chiều rộng", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thuật toán tìm kiếm leo đồi", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Thuật toán tìm kiếm tối ưu", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 54,
-                "title": "Câu 54. Phát biểu nào sau đây đúng về Học không có giám sát?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Học dựa vào tập dữ liệu có gán nhãn.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Dữ liệu huấn luyện không được gán nhãn.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Học không dựa vào dữ liệu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Học dựa vào tập dữ liệu có gán nhãn và học không dựa vào dữ liệu.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 55,
-                "title": "Câu 55. Lưu lượng bộ nhớ sử dụng để lưu trữ các trạng thái của phương pháp tìm kiếm BFS?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Chỉ lưu lại các trạng thái chưa xét đến", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Lưu lại các trạng thái đã xét", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Không lưu lại các trạng thái chưa xét đến", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Phải lưu toàn bộ các trạng thái", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 56,
-                "title": "Câu 56. Lưu lượng bộ nhớ sử dụng để lưu trữ các trạng thái của phương pháp tìm kiếm DFS?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Chỉ lưu lại các trạng thái chưa xét đến", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Lưu lại các trạng thái đã xét", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Không lưu lại các trạng thái chưa xét đến", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Phải lưu toàn bộ các trạng thái", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 57,
-                "title": "Câu 57. Đâu là đáp án đúng khi nói về giải thuật tìm kiếm tốt nhất đầu tiên?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Giải thuật tìm kiếm tốt nhất đầu tiên có thể bị kẹt trong một vòng lặp như DFS", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Giải thuật tìm kiếm tốt nhất đầu tiên không thể bị kẹt trong một vòng lặp như DFS", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Giải thuật tìm kiếm tốt nhất đầu tiên có thể bị kẹt trong một vòng lặp như A", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả các đáp án đều sai", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 58,
-                "title": "Câu 58. Trường hợp tốt nhất của tìm kiếm theo chiều sâu là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Phương án chọn hướng đi tuyệt đối chính xác. Lời giải được xác định một cách chính xác", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Vét toàn bộ", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Không cho lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Phương án chọn hướng đi không chính xác", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 59,
-                "title": "Câu 59. Phương pháp tìm kiếm leo đồi có nhược điểm gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Tìm được lời giải nhưng chưa chắc đã tối ưu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Giải thuật có thể gặp vòng lặp vô hạn do không lưu trữ thông tin về mặt trạng thái đã duyệt", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Cả hai đáp án trên", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không có nhược điểm", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 60,
-                "title": "Câu 60. Phương pháp tìm kiếm leo đồi khác tìm kiếm theo chiều sâu là:",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Leo đồi không lưu bất kỳ trạng thái nào hoặc lưu đúng một trạng thái được chọn nếu có", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Leo đồi lưu tất cả các trạng thái", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Không thể quay lui", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả các đáp án đều đúng", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 61,
-                "title": "Câu 61. Bản chất của phương pháp tìm kiếm leo đồi?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Leo đồi sẽ duyệt tất cả các hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái kế tiếp của nó", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Leo đồi sẽ duyệt tất cả các hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái không kế tiếp của nó", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Leo đồi sẽ duyệt theo một hướng đi có thể và chọn đi theo trạng thái tốt nhất trong số các trạng thái kế tiếp của nó", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 62,
-                "title": "Câu 62. Có mấy giải thuật dựa vào giải thuật tìm kiếm tốt nhất đầu tiên?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "1", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "2", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "4", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 63,
-                "title": "Câu 63. Thuật ngữ Hàm Heuristic muốn nói điều gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Là một ước lượng về khả năng dẫn đến lời giải tính từ khoảng cách giữa trạng thái hiện tại và trạng thái đích", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Là một ước lượng về khả năng dẫn đến lời giải tính từ khoảng cách giữa trạng thái ban đầu và trạng thái đích", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Không phải là một ước lượng về khả năng dẫn đến lời giải tính từ khoảng cách giữa trạng thái ban đầu và trạng thái đích", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Là một ước lượng về khả năng không dẫn đến lời giải tính từ khoảng cách giữa trạng thái ban đầu và trạng thái đích", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 64,
-                "title": "Câu 64. Hill-climbing là phương pháp tìm kiếm:",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Leo đồi", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Duyệt theo chiều sâu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Duyệt theo chiều rộng", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không có đáp án đúng", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 65,
-                "title": "Câu 65. Hãy cho biết ý tưởng của phương pháp tìm kiếm leo đồi?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Muốn lên đỉnh đồi thì càng leo càng cao", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Muốn lên đỉnh đồi thì càng leo càng trượt", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tất cả đều đúng", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 66,
-                "title": "Câu 66. Phương pháp tìm kiếm leo đồi thuộc trường hợp đặc biệt của loại tìm kiếm?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "BFS", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "DFS", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "FBS", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "FDS", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 67,
-                "title": "Câu 67. Đâu là đáp án đúng của giải thuật tìm kiếm theo chiều sâu?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Sử dụng hàng đợi", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Sử dụng ma trận", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Sử dụng ngăn xếp", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Sử dụng mảng nhiều chiều", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 68,
-                "title": "Câu 68. Phương pháp tìm kiếm leo đồi thuộc phương pháp tìm kiếm?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    
-                    {"idResult": 0, "value": "Tìm kiếm chiều sâu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tìm kiếm Heuristic", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tìm kiếm chiều rộng", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không có đáp án đúng", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 69,
-                "title": "Câu 69. Dòng lệnh nào sai trong đoạn lệnh dưới đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "1", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "2", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "4", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 70,
-                "title": "Câu 70. Giải thuật tìm kiếm theo chiều rộng có tính chất vét cạn, vậy ta có nên áp dụng vào đồ thị có số đỉnh lớn không?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Nên", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Không nên", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nên áp dụng vào một số trường hợp", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 71,
-                "title": "Câu 71. Trong phương pháp tìm kiếm leo đồi nếu trạng thái bắt đầu bằng trạng thái đích thì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Thoát và báo tìm được lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tiếp tục tìm kiếm", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thoát và báo không tìm được lời giải", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Báo lỗi", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 72,
-                "title": "Câu 72. Dùng thuật toán A để giải bài toán TACI như hình 1, giá trị của (g,h,fʼ) là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "g=1,hʼ3,fʼ4.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "g=2,hʼ2,fʼ4.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "g=0,hʼ4,fʼ4.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "g=3,hʼ1,fʼ4.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 73,
-                "title": "Câu 73. Dùng thuật toán A để giải bài toán TACI như hình 1, sau bao nhiêu bước đưa từ trạng thái đầu tiên đến trạng thái đích?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "5", "url_thumb": "", "type": ""},
                     {"idResult": 1, "value": "4", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "2", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 74,
-                "title": "Câu 74. Dùng thuật toán AKT để giải bài toán TACI như hình 1, từ trạng thái ban đầu, có thể có bao nhiêu trạng thái kế tiếp có thể xảy ra?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    
-                    {"idResult": 0, "value": "4", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "5", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "2", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 75,
-                "title": "Câu 75. Dùng thuật toán A để giải bài toán TACI như hình 1, giá trị của hàm heuristic hʼ là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "4", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "2", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "1", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 76,
-                "title": "Câu 76. Dùng thuật toán A để giải bài toán TACI như hình 1, từ trạng thái ban đầu, chọn chi phí tương ứng để bài toán đạt được kết quả cuối cùng?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    
-                    {"idResult": 1, "value": "g=4, hʼ1, fʼ5.", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "g=5, hʼ0, fʼ5.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "g=3, hʼ2, fʼ5.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "g=2, hʼ3, fʼ5.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 77,
-                "title": "Câu 77. Áp dụng giải thuật A* tìm đường đi ngắn nhất từ A đến F, trạng thái A giá trị (g,h,f) là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "g=0, h=100,f=100", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "g=1, h=100,f=101", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "g=100, h=0,f=100", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "g=100, h=1,f=101", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 78,
-                "title": "Câu 78. Áp dụng giải thuật A* tìm đường đi ngắn nhất từ A đến F, trạng thái nào được chọn làm trạng thái Tmax bắt đầu từ trạng thái A?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    
-                    {"idResult": 1, "value": "trạng thái K", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "trạng thái C", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "trạng thái D", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "trạng thái F", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 79,
-                "title": "Câu 79. Áp dụng giải thuật A* tìm đường đi ngắn nhất từ A đến F, trạng thái D giá trị (g,h,f) là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    
-                    {"idResult": 1, "value": "g=10, h=103,f=113", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "g=10, h=203,f=213", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "g=203, h=10,f=213", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "g=103, h=10,f=113", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 80,
-                "title": "Câu 80. Mục đích của biểu diễn tri thức là phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Biểu diễn tri thức cho con người dễ hiểu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Biểu diễn tri thức cho hệ thống dễ hiểu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Biểu diễn tri thức theo một cách cố định cho mọi người cùng hiểu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Biểu diễn tri thức cho hệ thống hiểu và xử lý được", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 81,
-                "title": "Câu 81. So sánh về mặt số lượng của 3 khái niệm: dữ liệu, thông tin và tri thức ta có phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Dữ liệu ít hơn thông tin, thông tin ít hơn tri thức", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Dữ liệu nhiều hơn thông tin, thông tin ít hơn tri thức", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Dữ liệu ít hơn thông tin, thông tin nhiều hơn tri thức", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 82,
-                "title": "Câu 82. So sánh về mức độ trừu tượng của 3 khái niệm: dữ liệu, thông tin và tri thức ta có phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Tri thức ít hơn thông tin, thông tin nhiều hơn dữ liệu", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tri thức nhiều hơn thông tin, thông tin ít hơn dữ liệu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tri thức nhiều hơn thông tin, thông tin nhiều hơn dữ liệu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tri thức ít hơn thông tin, thông tin ít hơn dữ liệu", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 83,
-                "title": "Câu 83. Tri thức thủ tục là phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 84,
-                "title": "Câu 84. Tri thức mô tả là phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 85,
-                "title": "Câu 85. Tri thức Meta là phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 86,
-                "title": "Câu 86. Tri thức Heuristic là phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là một dạng tri thức cảm tính, có dạng ước lượng, phỏng đoán và thường được hình thành thông qua kinh nghiệm", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Diễn tả cách giải quyết một vấn đề, quy trình xử lý công việc. Dạng tri thức này cho biết phương hướng thực hiện", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 87,
-                "title": "Câu 87. Tri thức may rủi là phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Diễn tả luật may rủi dẫn dắt quá trình suy diễn còn được gọi là tri thức nông cạn", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 88,
-                "title": "Câu 88. Tri thức cấu trúc là phương án nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Cho biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Diễn tả tri thức về tri thức. Loại tri thức này giúp lấy ra tri thức thích hợp nhất để giải quyết vấn đề", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Diễn tả các cấu trúc của tri thức. Loại tri thức này mô tả mô hình trí tuệ tổng quát của chuyên gia về một vấn đề nào đó", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Diễn tả luật may rủi dẫn dắt quá trình suy diễn còn được gọi là tri thức nông cạn", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 89,
-                "title": "Câu 89. Các luật, các chiến lược và các lịch trình là các đặc trưng của loại tri thức nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Tri thức mô tả", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tri thức Meta", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tri thức cấu trúc", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tri thức thủ tục", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 90,
-                "title": "Câu 90. Các chuyên gia thường hay sử dụng loại tri thức nào sau đây để diễn giải tri thức?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Tri thức mô tả", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tri thức Meta", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tri thức cấu trúc", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tri thức thủ tục", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 91,
-                "title": "Câu 91. Loại tri thức nào sau đây thường lấy kinh nghiệm để giải quyết vấn đề?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Tri thức mô tả", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tri thức Meta", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tri thức Heuristic", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tri thức thủ tục", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 92,
-                "title": "Câu 92. Để biết một đối tượng, sự kiện, vấn đề được thấy, cảm nhận, cấu tạo như thế nào ta thường sử dụng loại tri thức nào sau đây?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Tri thức mô tả", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tri thức Meta", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tri thức cấu trúc", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tri thức thủ tục", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 93,
-                "title": "Câu 93. Có bao nhiêu luật được áp dụng trong bài toán đong nước tổng quát?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "1 luật", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "2 luật", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "3 luật", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "4 luật", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 94,
-                "title": "Câu 94. Luật nào không được sử dụng để giải bài toán đong nước tổng quát?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    
-                    {"idResult": 1, "value": "Nếu bình X đầy thì đổ hết nước trong bình X đi", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nếu bình Y rỗng thì đổ đầy nước vào bình Y", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "Nếu bình X rỗng, bình Y rỗng thì đổ đầy nước vào 2 bình", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Nếu bình X không đầy và bình Y không rỗng thì đổ nước từ bình Y sang bình X cho đến khi bình X đầy hoặc bình Y rỗng", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 95,
-                "title": "Câu 95. Có mấy phép kết nối logic trong logic mệnh đề?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    
-                    {"idResult": 1, "value": "6", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "6", "url_thumb": "", "type": ""},
                     {"idResult": 0, "value": "5", "url_thumb": "", "type": ""},
                     {"idResult": 3, "value": "3", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 96,
-                "title": "Câu 96. Biểu thức AB sử dụng phép kết nối logic gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Kéo theo", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Hội", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tuyển", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tương đương", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 97,
-                "title": "Câu 97. Biểu thức AvB sử dụng phép kết nối logic gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Kéo theo", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Hội", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tuyển", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tương đương", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 98,
-                "title": "Câu 98. Biểu thức A^B sử dụng phép kết nối logic gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Kéo theo", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Hội", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tuyển", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tương đương", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 99,
-                "title": "Câu 99. Biểu thức AóB sử dụng phép kết nối logic gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Kéo theo", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Hội", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tuyển", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tương đương", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 100,
-                "title": "Câu 100. Cơ sở tri thức là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Cơ sở tri thức là một tập hợp các tri thức được biểu diễn dưới dạng nào đó. Mỗi khi nhận được các thông tin đưa vào, tác nhân cần có khả năng suy diễn để đưa ra các câu trả lời, các hành động hợp lý.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Mỗi khi nhận được các thông tin đưa vào, tác nhân cần có khả năng suy diễn để đưa ra các câu trả lời, các hành động hợp lý.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Cơ sở tri thức là một tập hợp các tri thức được biểu diễn dưới dạng nào đó.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 101,
-                "title": "Câu 101. Tìm trả lời đúng sau:",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Mỗi khi tiếp nhận các sự kiện từ môi trường, thủ tục suy diễn thực hiện quá trình liên kết các sự kiện với các tri thức trong CSTT để rút ra các câu trả lời, hoặc các hành động hợp lý mà tác nhân cần thực hiện.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Mỗi khi tiếp nhận các sự kiện từ môi trường, thủ tục suy diễn không thực hiện quá trình liên kết các sự kiện với các tri thức trong CSTT để rút ra các câu trả lời.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thủ tục suy diễn không thực hiện quá trình liên kết các sự kiện với các tri thức trong CSTT để rút ra các câu trả lời, hoặc các hành động hợp lý mà tác nhân cần thực hiện.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không có câu trả lời đúng.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 102,
-                "title": "Câu 102. Chọn câu trả lời đúng:",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Tất cả các câu đều đúng.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Dữ liệu là nguyên liệu thô để xử lý đó là các con số, chữ cái, hình ảnh, âm thanh", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thông tin là tất cả những gì con người có thể cảm nhận trực tiếp qua các giác quan hoặc gián tiếp thông qua các phương tiện kỹ thuật.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tri thức là một khái niệm trừu tượng. So sánh tri thức với hai khái niệm có liên quan là dữ liệu và thông tin.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 103,
-                "title": "Câu 103. Chọn câu trả lời đúng:",
+                "id": 9,
+                "title": "Câu 9: Các mô hình ứng dụng gồm?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
                     
-                    {"idResult": 1, "value": "Dữ liệu ít hơn thông tin, thông tin ít hơn tri thức.", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "Dữ liệu nhiều hơn thông tin, thông tin nhiều hơn tri thức.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Dữ liệu nhiều hơn thông tin, thông tin ít hơn tri thức.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Dữ liệu ít hơn thông tin, thông tin nhiều hơn tri thức.", "url_thumb": "", "type": ""}
+                    {"idResult": 1, "value": "Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình đa lớp.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình 3 lớp.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình 3 lớp, mô hình đa lớp.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình đa lớp.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 104,
-                "title": "Câu 104. Đâu là luật Modus ponens?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 0,
-                "results": [
-                    {"idResult": 0, "value": "Nếu mệnh đề A là đúng và mệnh đề A → B là đúng thì giá trị của B sẽ là đúng.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nếu mệnh đề A → B là đúng và mệnh đề B là sai thì giá trị của A sẽ là sai.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nếu mệnh đề A là đúng và mệnh đề A → B là đúng thì giá trị của B sẽ là đúng. Nếu mệnh đề A → B là đúng và mệnh đề B là sai thì giá trị của A sẽ là sai.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không có câu nào đúng.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 105,
-                "title": "Câu 105. Suy diễn tiến là gì?",
+                "id": 10,
+                "title": "Câu 10: Mô hình 3 lớp (3-tier) được chia lần lượt thành các lớp?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
                     
-                    {"idResult": 1, "value": "Loại suy diễn để đưa ra kết luận thì dựa vào thông tin đã biết. Các thông tin đã biết có quan hệ với nhau.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Loại suy diễn có vẻ hợp lý từ các sự kiện và thông tin đã biết. Với suy diễn giả định thì câu kết luận có thể đúng cũng có thể không đúng.", "url_thumb": "", "type": ""}
+                    {"idResult": 1, "value": "Business logic, Presentation logic, Data Access logic.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Presentation logic, Business logic, Data Access logic.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Presentation logic, Data Access logic, Business logic.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Data Access logic, Presentation logic, Business logic.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 106,
-                "title": "Câu 106. Suy diễn lùi là gì?",
+                "id": 11,
+                "title": "Câu 11: Trong mô hình 3 lớp, các chức năng của chương trình được tách ra thành 3 lớp riêng biệt. Việc tách lớp này làm cho các phần của chương trình trở nên?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Là quá trình suy luận ngược xuất phát từ một số sự kiện ban đầu, ta tìm kiếm các sự kiện đã sinh ra sự kiện này.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Loại suy diễn để đưa ra kết luận thì dựa vào thông tin đã biết. Các thông tin đã biết có quan hệ với nhau.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Loại suy diễn có vẻ hợp lý từ các sự kiện và thông tin đã biết. Với suy diễn giả định thì câu kết luận có thể đúng cũng có thể không đúng.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Loại suy diễn để rút ra một kết luận tổng quát từ một tập các sự kiện đã liệt kê trước.", "url_thumb": "", "type": ""}
+                    {"idResult": 0, "value": "Chương trình trở nên độc lập hơn, đáng tin cậy hơn. Chương trình trở nên linh động hơn trong việc thay thế, nâng cấp và do đó mô hình này rất thích hợp với những ứng dụng có yêu cầu thay đổi thường xuyên.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Chương trình trở nên độc lập hơn, đáng tin cậy hơn.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Chương trình trở nên linh động hơn trong việc thay thế và nâng cấp.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Chương trình trở nên thích hợp với những ứng dụng có yêu cầu thay đổi thường xuyên.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 107,
-                "title": "Câu 107. Chọn câu trả lời đúng.",
+                "id": 12,
+                "title": "Câu 12: Trong mô hình 3 lớp, lớp giao diện (Presentation logic) là?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
                     
-                    {"idResult": 1, "value": "Suy diễn tiến xem xét các luật.", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Với mỗi luật ta xét phần điều kiện – ở vế trái, tới phần kết luận – ở vế phải.", "url_thumb": "", "type": ""}
+                    {"idResult": 1, "value": "Lớp này là phần lõi của một chương trình, cung cấp tất cả những chức năng nghiệp vụ của chương trình cho lớp nghiệp vụ bên trên.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Lớp này cung cấp khả năng truy xuất đến CSDL cho lớp nghiệp vụ nếu cần.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Lớp này là cầu nối giữa người dùng với ứng dụng, cung cấp những chức năng ứng dụng cho người dùng và nhận lệnh từ người dùng cho ứng dụng.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Không có đáp án đúng.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 108,
-                "title": "Câu 108. Ưu điểm của suy diễn tiến là gì?",
+                "id": 13,
+                "title": "Câu 13: Trong mô hình 3 lớp, lớp nghiệp vụ (Business logic) là?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Làm việc tốt khi bài toán có bản chất là đi thu thập thông tin rồi thấy điều cần suy diễn.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Cho ra khối lượng lớn các thông tin từ một số thông tin ban đầu. Nó sinh ra nhiều thông tin mới.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Suy diễn tiến là tiếp cận lý tưởng đối với các loại bài toán cần giải quyết các nhiệm vụ như lập kế hoạch, điều hành, điều khiển và diễn dịch.", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Lớp này cung cấp khả năng truy xuất đến CSDL cho lớp nghiệp vụ nếu cần.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Lớp này là cầu nối giữa người dùng với ứng dụng, cung cấp những chức năng ứng dụng cho người dùng và nhận lệnh từ người dùng cho ứng dụng.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Không có đáp án đúng.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Lớp này là phần lõi của một chương trình, cung cấp tất cả những chức năng nghiệp vụ của chương trình cho lớp nghiệp vụ bên trên.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 109,
-                "title": "Câu 109. Ưu điểm của suy diễn lùi là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Phù hợp với bài toán đưa ra giả thuyết và liệu giả thuyết đó có đúng hay không.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Khi suy diễn một điều gì từ thông tin đã biết, nó chỉ tìm trên một phần của cơ sở tri thức thích đáng đối với bài toán đang xét.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Tập trung vào đích đã cho. Nó tạo ra một loạt câu hỏi chỉ liên quan đến vấn đề đang xét, thuận tiện đối với người dùng.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 110,
-                "title": "Câu 110. Có bao nhiêu loại tri thức?",
+                "id": 14,
+                "title": "Câu 14: Trong mô hình 3 lớp, lớp CSDL (Data Access logic) là?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "5", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "4", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "2", "url_thumb": "", "type": ""}
+                    {"idResult": 0, "value": "Lớp này cung cấp khả năng truy xuất đến CSDL cho lớp nghiệp vụ nếu cần.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Lớp này là phần lõi của một chương trình, cung cấp tất cả những chức năng nghiệp vụ của chương trình cho lớp nghiệp vụ bên trên.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Lớp này là cầu nối giữa người dùng với ứng dụng, cung cấp những chức năng ứng dụng cho người dùng và nhận lệnh từ người dùng cho ứng dụng.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Không có đáp án đúng.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 111,
-                "title": "Câu 111. Đối tượng nghiên cứu của ngành AI là?",
+                "id": 15,
+                "title": "Câu 15: Mô hình 2 lớp (two-tier) chia làm mấy loại?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Các hành xử thông minh.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Sự thông minh.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Sự sáng tạo.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Sự kiên trì.", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "2", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "5", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 112,
-                "title": "Câu 112. Tìm kiếm theo hai hướng là gì?",
+                "id": 16,
+                "title": "Câu 16: Mô hình 2 lớp loại tính toán tập trung ở máy khách (fat client_thin server) có khuyết điểm gì?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Là phương pháp tìm kiếm trong đó ta đồng thời xây dựng hai cây tìm kiếm có nút gốc là trạng thái xuất phát và trạng thái đích.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Là phương pháp tìm kiếm trong đó ta đồng thời xây dựng hai cây tìm kiếm có nút con là trạng thái xuất phát và trạng thái đích.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là phương pháp tìm kiếm trong đó ta đồng thời xây dựng hai cây tìm kiếm có nút gốc và nút con là trạng thái xuất phát và trạng thái đích.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không có câu nào đúng.", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Do tính toán nghiêng về phía client nên đòi hỏi client phải có cấu hình đủ mạnh.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Do lớp chức năng của chương trình nằm ở phía client nên khi chương trình cần nâng cấp thì sẽ rất khó khăn vì phải cập nhật lại chương trình nằm ở toàn bộ các client.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Do mọi thao tác nằm trên client nên thao tác yêu cầu dữ liệu giữa client và server nhiều dẫn đến tốc độ chương trình chậm.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Cả 1,2,3.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 113,
-                "title": "Câu 113. Phương pháp mờ hoá suy diễn là gì?",
+                "id": 17,
+                "title": "Câu 17: Mô hình 2 lớp loại tính toán tập trung ở máy chủ (fat server_thin client) có ưu điểm gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Giảm sự lưu thông trên mạng và tốc độ nhanh hơn do lớp chức năng của chương trình nằm ở máy chủ cùng với CSDL.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Cả 1,2,3.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Mọi thao tác với CSDL của chương trình đều được thực hiện ngay trên máy chủ và thông tin lưu thông trên mạng chỉ là những kết quả được trả về cho người dùng sau khi được tính toán.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Do phần lõi của chương trình được đặt tập trung tại máy chủ nên việc cập nhật chương trình sẽ dễ dàng hơn.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 18,
+                "title": "Câu 18: Nhược điểm của mô hình tính toán tập trung là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Cả 1,2,3.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tất cả các xử lý đều được thực hiện trên máy frame.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Các thiết bị đầu cuối chỉ có nhiệm vụ hiển thị giao diện người dùng và tương tác với người sử dụng, chúng không có bất cứ xử lý nào.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Năng lực tính toán của máy frame nhanh chóng giảm xuống khi có nhiều người sử dụng đồng thời.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 19,
+                "title": "Câu 19: Trong mô hình 2 lớp (two-tier) thì lớp server có nhiệm vụ gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Quản lý người dùng, thực thi các truy vấn, ràng buộc và các thủ tục lưu trữ.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Quản lý dữ liệu, bảo mật.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Quản lý dữ liệu, bảo mật, quản lý người dùng, thực thi các truy vấn, ràng buộc và các thủ tục lưu trữ.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Quản lý dữ liệu, bảo mật, thực thi các truy vấn.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 20,
+                "title": "Câu 20: Nhược điểm của mô hình đa lớp (n-tier) là?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Không đảm bảo độ tin cậy.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Khó xây dựng, nâng cấp, bảo trì ứng dụng.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tốc độ dữ liệu bị hạn chế.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tốn kém trong việc sử dụng phần cứng.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 21,
+                "title": "Câu 21: Lợi ích của các ứng dụng phân tán là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Ứng dụng không có khả năng mở rộng cao.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tốc độ truyền dữ liệu nhanh.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Ứng dụng có khả năng mở rộng cao, dễ nâng cấp và bảo trì ứng dụng.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Không tốn kém trong việc sử dụng phần cứng.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 22,
+                "title": "Câu 22: Phát biểu nào đúng?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Một ứng dụng phân tán không có đầy đủ các lợi ích của phương pháp lập trình hướng thành phần.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Một ứng dụng phân tán có tất cả các lợi ích của phương pháp lập trình hướng thành phần, ngoài ra còn có các lợi ích khác.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Một ứng dụng phân tán chỉ có một số lợi ích của phương pháp lập trình hướng thành phần.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Một ứng dụng phân tán có các lợi ích khác với phương pháp lập trình hướng thành phần.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 23,
+                "title": "Câu 23: Phát biểu nào sai?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Một ứng dụng phân tán có tất cả các lợi ích của phương pháp lập trình hướng thành phần, ngoài ra còn có các lợi ích khác.", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Một trong các lợi ích của ứng dụng phân tán là: dễ nâng cấp và bảo trì ứng dụng.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Một ứng dụng phân tán chỉ có một số lợi ích của phương pháp lập trình hướng thành phần.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Một trong các lợi ích của ứng dụng phân tán là: dễ dàng quản lý bảo mật.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 24,
+                "title": "Câu 24: Lập trình phân tán với COM+/MTS từ COM viết tắt của từ nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Computer Object Model.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Component Output Model.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Component Object Model.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Component Object Memory.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 25,
+                "title": "Câu 25: Lập trình phân tán với COM+/MTS từ MTS viết tắt của từ nào?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
                    
-                    {"idResult": 1, "value": "Là phương pháp dựa trên luật để phát triển các hàm cũ.", "url_thumb": "", "type": ""},
-                    {"idResult": 0, "value": "Là phương pháp dựa trên luật để phát triển các hàm liên thuộc.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là phương pháp dựa trên luật để phát triển các hàm không liên thuộc.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều đúng.", "url_thumb": "", "type": ""}
+                    {"idResult": 1, "value": "Mycomputer Transaction Server.", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Microsoft Transaction Server.", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Memory Transaction Server.", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Microsoft Transaction System.", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 114,
-                "title": "Câu 114. Có bao nhiêu phương pháp Concept learning?",
+                "id": 26,
+                "title": "Câu 26: Các thành phần của COM trong Lập trình phân tán với COM+/MTS được viết bằng một trong những ngôn ngữ lập trình nào?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "4", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "2", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "1", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Prolog", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "C", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Pascal", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Visual Basic", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 115,
-                "title": "Câu 115. Học máy là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Là một tập con của trí tuệ nhân tạo, sử dụng neural networks để giải quyết các vấn đề phức tạp.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Là một lĩnh vực khoa học rộng lớn giúp máy móc bắt chước hành vi của con người.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là một tập con của trí tuệ nhân tạo, liên quan đến lĩnh vực nghiên cứu nhằm giúp máy tính có khả năng tự động học bằng cách cung cấp dữ liệu cho nó mà không cần lập trình cụ thể.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Là một tập con của trí tuệ nhân tạo, liên quan đến lĩnh vực nghiên cứu nhằm giúp máy tính bắt chước hành vi của con người.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 116,
-                "title": "Câu 116. Học máy tên Tiếng Anh là gì?",
+                "id": 27,
+                "title": "Câu 27: Lập trình phân tán đối tượng với RMI từ RMI được viết tắt của từ nào?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Machine Learning", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Deep Learning", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Artificial Intelligence", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Machin Learning", "url_thumb": "", "type": ""}
+                    {"idResult": 0, "value": "Remote Method Invoke", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Read Method Invoke", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Read Method Input", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Remote Memory Invoke", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 117,
-                "title": "Câu 117. Hạn chế của Machine Learning?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Không có khả năng sử dụng các thuật toán để phân tích những thông tin có liên quan.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Không có khả năng xử lý dữ liệu với số chiều lớn.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Không được huấn luyện.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Không có khả năng đưa ra quyết định.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 118,
-                "title": "Câu 118. Học có giám sát là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Là thuật toán dự đoán một dữ liệu mới chưa được gán nhãn dựa trên tập dữ liệu huấn luyện.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Là học thuộc các mẫu dữ liệu, sử dụng một phép đo độ tương đồng để so sánh với dữ liệu đã học.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là xây dựng một mô hình từ dữ liệu rồi dùng mô hình đó để đưa ra các dự đoán.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Là thuật toán dự đoán một dữ liệu mới đã được gán nhãn dựa trên tập dữ liệu huấn luyện.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 119,
-                "title": "Câu 119. Học không giám sát là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "Là học thuộc các mẫu dữ liệu, sử dụng một phép đo độ tương đồng để so sánh với dữ liệu đã học.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Là thuật toán dự đoán nhãn của một dữ liệu mới dựa trên tập dữ liệu huấn luyện chưa được gán nhãn.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là thuật toán dự đoán nhãn của một dữ liệu mới dựa trên tập dữ liệu huấn luyện đã được gán nhãn.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Là xây dựng một mô hình từ dữ liệu rồi dùng mô hình đó để đưa ra các dự đoán.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 121,
-                "title": "Câu 121. Bài toán hồi quy sử dụng trong trường hợp?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Nếu y chỉ nhận giá trị từ một tập rời rạc.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Nếu y chỉ nhận giá trị từ một tập rời rạc và số thực.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Nếu y nhận giá trị số thực.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Nếu y nhận mọi giá trị.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 122,
-                "title": "Câu 122. Cây định danh là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "Cây định danh là cây mà các nút của cây là thuộc tính sản xuất, các cung của cây là giá trị thuộc tính dẫn xuất, còn lá của cây là các phần tử có cùng thuộc tính mục tiêu.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Cây định danh là cây mà các nút của cây là thuộc tính dẫn xuất, các cung của cây là thuộc tính mục tiêu, còn lá của cây là giá trị thuộc tính sản xuất.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Cây định danh là cây mà các nút của cây là thuộc tính dẫn xuất, các cung của cây là giá trị thuộc tính sản xuất, còn lá của cây là các phần tử có cùng thuộc tính mục tiêu.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Cây định danh là cây mà các nút của cây là các phần tử có cùng thuộc tính mục tiêu, các cung của cây là giá trị thuộc tính sản xuất, còn lá của cây là thuộc tính dẫn xuất.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 123,
-                "title": "Câu 123. Các nút của cây định danh là thuộc tính gì?",
+                "id": 28,
+                "title": "Câu 28: Từ nào được hiểu là triệu gọi giao thức từ xa?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Dự đoán", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Dẫn xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Sản xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Mục tiêu", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Read Method Invoke", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Read Method Input", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Remote Method Invoke", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Remote Memory Invoke", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 124,
-                "title": "Câu 124. Các cung của cây định danh là?",
+                "id": 29,
+                "title": "Câu 29: RMI là công nghệ gì?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Giá trị thuộc tính sản xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thuộc tính dẫn xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thuộc tính mục tiêu", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Thuộc tính dự đoán", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Công nghệ thuần dot net", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Lập trình Visual basic", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Lập trình Visual C++", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Công nghệ thuần Java", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 125,
-                "title": "Câu 125. Lá của cây định danh là?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Giá trị thuộc tính sản xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thuộc tính dự đoán", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thuộc tính dẫn xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Các phần tử có cùng thuộc tính mục tiêu", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 126,
-                "title": "Câu 126. Trong công thức: VA(j) = T(j,r1), T(j,r2),…,T(j,rn)) thì V là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 1,
-                "results": [
-                    {"idResult": 0, "value": "V là vector đơn vị", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "V là vector đặc trưng", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "V là thuộc tính dẫn xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "V là thuộc tính mục tiêu", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 127,
-                "title": "Câu 127. Trong công thức: VA(j) = T(j,r1), T(j,r2),…,T(j,rn)) thì A là gì?",
+                "id": 30,
+                "title": "Câu 30: Công cụ nào là cách thức giao tiếp giữa các đối tượng java có mã lệnh cài đặt (bao gồm phương thức và thuộc tính) nằm trên các máy khác nhau có thể triệu gọi lẫn nhau?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Là thuộc tính dẫn xuất", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Là thuộc tính mục tiêu", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Là vector đơn vị", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Là vector đặc trưng", "url_thumb": "", "type": ""}
+                    {"idResult": 0, "value": "RMI", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "COM+/MTS", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "MDI", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Class", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 128,
-                "title": "Câu 128. Trong công thức: VA(j) = T(j,r1), T(j,r2),…,T(j,rn)) thì j là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 2,
-                "results": [
-                    {"idResult": 0, "value": "j là vector đặc trưng.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "j là thuộc tính mục tiêu.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "j là giá trị của thuộc tính dẫn xuất A.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả đều sai.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 129,
-                "title": "Câu 129. Trong công thức: VA(j) = T(j,r1), T(j,r2),…,T(j,rn)) thì r1, r2, rn là gì?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "r1, r2, rn là các vector đặc trưng.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "r1, r2, rn là các giá trị của thuộc tính dẫn xuất.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "r1, r2, rn là các giá trị của thuộc tính sản xuất.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "r1, r2, rn là các giá trị của thuộc tính mục tiêu.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 130,
-                "title": "Câu 130. Các bước xây dựng mô hình học máy?",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "Thu thập dữ liệu, chuẩn bị dữ liệu, lựa chọn mô hình, huấn luyện mô hình, đánh giá mô hình, thay đổi tham số, áp dụng mô hình.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Thu thập dữ liệu, chuẩn bị dữ liệu, đánh giá mô hình, thay đổi tham số, áp dụng mô hình.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Thu thập dữ liệu, chuẩn bị dữ liệu, lựa chọn mô hình, huấn luyện mô hình, đánh giá mô hình.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Lựa chọn mô hình, huấn luyện mô hình, đánh giá mô hình, thay đổi tham số, áp dụng mô hình.", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 131,
-                "title": "Câu 131. Dựa vào Hình 1 sử dụng thuật toán Quinlan để tính vector đặc trưng V (cay) T(cay, độc), T(cay, không độc)).",
-                "thumb": "",
-                "isCorrect": true,
-                "idCorrectResult": 3,
-                "results": [
-                    {"idResult": 0, "value": "0/3, 3/3", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "3/3, 0/3", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "1/3, 2/3", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "2/3, 1/3", "url_thumb": "", "type": ""}
-                ]
-            },
-            {
-                "id": 132,
-                "title": "Câu 132. Mạng nơ ron là gì?",
+                "id": 31,
+                "title": "Câu 31: Công cụ nào là cách thức giao tiếp giữa các đối tượng java có mã lệnh cài đặt (bao gồm phương thức và thuộc tính) nằm trên các máy khác nhau có thể triệu gọi lẫn nhau?",
                 "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Mạng nơ-ron là một phương thức trong lĩnh vực trí tuệ nhân tạo, được sử dụng để dạy máy tính xử lý dữ liệu theo cách được lấy cảm hứng từ bộ não con người.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Mạng nơ-ron là mạng xử lý thông tin để đưa ra quyết định như con người.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Mạng nơ-ron là mạng mà dữ liệu đầu vào có thể là dữ liệu gán nhãn và không gán nhãn.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả các phương án trên.", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Read Method Invoke", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Read Method Input", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Remote Method Invoke", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Remote Memory Invoke", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 133,
-                "title": "Câu 133. Những bài toán nào sau đây thường dùng Học máy để giải quyết?",
+                "id": 32,
+                "title": "Câu 32: Một ứng dụng có mã lệnh thực thi được phân tán trên nhiều máy thì được gọi là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 2,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Tìm đường đi ngắn nhất.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Tìm giá trị nhỏ nhất của hàm số.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Dự báo thời tiết.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả các đáp án trên.", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Lập trình phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Chương trình phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Cơ sở dữ liệu phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Remote Memory Invoke", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 134,
-                "title": "Câu 134. Học máy có giám sát sử dụng cho các bài toán nào?",
+                "id": 33,
+                "title": "Câu 33: Việc lập trình để tạo ra các chương trình phân tán được gọi là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 3,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Bài toán phân lớp classification.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Bài toán hồi quy regression.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Bài toán tối ưu.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Bài toán phân lớp classification và bài toán hồi quy regression.", "url_thumb": "", "type": ""}
+                    
+                    {"idResult": 1, "value": "Lập trình cơ sở dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Lập trình mạng", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Lập trình phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Lập trình hướng đối tượng", "url_thumb": "", "type": ""}
                 ]
             },
             {
-                "id": 135,
-                "title": "Câu 135. Các ứng dụng thực tiễn của học có giám sát?",
+                "id": 34,
+                "title": "Câu 34: Lập trình phân tán đối tượng với Corba, từ Corba là gì?",
                 "thumb": "",
                 "isCorrect": true,
-                "idCorrectResult": 3,
+                "idCorrectResult": 0,
                 "results": [
-                    {"idResult": 0, "value": "Lọc thư rác.", "url_thumb": "", "type": ""},
-                    {"idResult": 1, "value": "Phân loại các trang web.", "url_thumb": "", "type": ""},
-                    {"idResult": 2, "value": "Phát hiện tấn công mạng.", "url_thumb": "", "type": ""},
-                    {"idResult": 3, "value": "Tất cả các phương án trên.", "url_thumb": "", "type": ""}
+                    {"idResult": 0, "value": "Kiến trúc môi giới các đối tượng", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Lập trình cơ sở dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Kiến trúc cơ sở dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Lớp đối tượng", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 35,
+                "title": "Câu 35: Lập trình phân tán đối tượng với Corba, trong đó từ Corba viết đầy đủ như thế nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Computer Object Request Broker Architecture", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Common Ouput Request Broker Architecture", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Common Object Request Broker Architecture", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Common Object Read Broker Architecture", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 36,
+                "title": "Câu 36: Lập trình phân tán đối tượng với Corba, trong đó từ Corba được xây dựng bởi tổ chức nghiên cứu nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                   
+                    {"idResult": 1, "value": "WTO (World Trade Organization)", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "OMG (Object Manager Group)", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "WHO (World Health Organization)", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "APEC (Asia-Pacific Economic Cooperation)", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 37,
+                "title": "Câu 37: Remoting là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Là công nghệ lập trình phân tán của java", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Là công nghệ lập trình phân tán của .NET", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tất cả đều đúng", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 38,
+                "title": "Câu 38: Phát biểu nào sai?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Lập trình phân tán REMOTING trong .NET, Client và Server cùng có giao diện của Remoting", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Lập trình phân tán REMOTING trong .NET, Client và Server không cùng giao diện của Remoting", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Lập trình phân tán REMOTING trong .NET, Client kết nối tới remoting services để lấy tham chiếu đối tượng Remote", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Lập trình phân tán REMOTING trong .NET, Server triển khai đối tượng, đăng ký với Remoting channel services.", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 39,
+                "title": "Câu 39: Đâu không phải là đặc điểm của Web Service?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                   
+                    {"idResult": 1, "value": "Web service cho phép client và server tương tác được với nhau mặc dù trong những môi trường khác nhau", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Web service được thiết kế mở và dựa vào các chuản: XML và HTTP", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Web service không cho phép client và server tương tác được với nhau trong những môi trường khác nhau", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Web service có thể công bố (publish) và gọi thực hiện qua mạng", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 40,
+                "title": "Câu 40: Vai trò của Web Service?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Web service ra đời mở ra hướng mới cho việc phát triển các ứng dụng trên mạng LAN", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Web service được thiết kế mở và dựa vào các chuẩn: XML và HTTP", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Web service ra đời mở ra hướng mới cho việc phát triển các ứng dụng trên Internet", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Web service ra đời mở ra hướng mới cho việc phát triển các ứng dụng trên hệ điều hành Windows", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 41,
+                "title": "Câu 41: Cơ sở dữ liệu nào cần phải sử dụng mạng máy tính?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Cơ sở dữ liệu phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Cơ sở dữ liệu hướng đối tượng", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Cơ sở dữ liệu quan hệ", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tất cả các cơ sở dữ liệu trên", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 42,
+                "title": "Câu 42: Hệ quản trị cơ sở dữ liệu phân tán là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu có thể tìm kiếm dữ liệu từ nhiều máy đến chỉ một máy thông qua mạng", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu có thể lưu trữ đến một máy thông qua mạng", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu phân tán và làm cho sự phân tán đó là trong suốt đối với người sử dụng", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 43,
+                "title": "Câu 43: Đâu là tên gọi của mô hình cơ sở dữ liệu phân tán?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Distributed Database Model", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Data Database Model", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Distributed Data Model", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Distributed Database Memmory", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 44,
+                "title": "Câu 44: Trong cơ sở dữ liệu phân tán, sự điều khiển được thực hiện theo một cấu trúc điều khiển phân cấp bao gồm mấy loại người quản trị CSDL?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "2", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "1", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "4", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 45,
+                "title": "Câu 45: Ai là người có trách nhiệm chính về toàn bộ cơ sở dữ liệu phân tán?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Người quản trị cơ sở dữ liệu cục bộ", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Người sử dụng", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Người quản trị cơ sở dữ liệu toàn cục", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Nhân viên kỹ thuật", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 46,
+                "title": "Câu 46: Muốn tạo lập cơ sở dữ liệu trong Oracle Database XE bước 1 click vào đâu?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Parameters", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Application Express", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Sessions", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Storage", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 47,
+                "title": "Câu 47: Trong Oracle Database XE kích vào Application Express để thực hiện công việc gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Để lưu trữ dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Truyền thông điệp", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Truyền tham số", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Để tạo ra một cơ sở dữ liệu mới", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 48,
+                "title": "Câu 48: Trong Oracle Database XE đâu là tên cơ sở dữ liệu dùng để giao dịch với máy khác thông qua mạng máy tính?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Application Express User name", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Database User name", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Table name", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Form name", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 49,
+                "title": "Câu 49: Trong Oracle Database XE, sau khi đã khai báo Application Express User name, Database User name, Password kích chuột vào nút nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Create Table", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Design", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Create Workspace", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Use Existing", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 50,
+                "title": "Câu 50: Trong Oracle Database XE đâu là tên cơ sở dữ liệu dùng để tạo ra tại một máy tính?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Database User name", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Application Express User name", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Table name", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Form name", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 51,
+                "title": "Câu 51: Trong Oracle SQL Developer, khi chọn Database Links thực hiện công việc gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                   
+                    {"idResult": 1, "value": "Tạo liên kết với các cơ sở dữ liệu trong cùng một máy", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Tạo liên kết với cơ sở dữ liệu máy khác thông qua mạng LAN", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tạo liên kết giữa Oracle với SQL Server", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tạo liên kết giữa các Table", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 52,
+                "title": "Câu 52: Muốn tạo liên kết với cơ sở dữ liệu máy khác thông qua mạng LAN bạn chọn ứng dụng nào?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Hyperlink", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "LinkTable", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Database Links", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Links Database", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 53,
+                "title": "Câu 53: Bản chất của cơ sở dữ liệu phân tán là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Dữ liệu nằm ở trên một máy, tất cả các máy trong mạng LAN có thể sử dụng được dữ liệu đó", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Dữ liệu nằm ở trên các ổ đĩa khác nhau của máy", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Dữ liệu nằm ở trên các thư mục khác nhau của máy", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Dữ liệu nằm ở các máy khác nhau, tất cả các máy trong mạng LAN có thể sử dụng được dữ liệu đó", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 54,
+                "title": "Câu 54: Ai là người có trách nhiệm chính về toàn bộ cơ sở dữ liệu phân tán?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Global Database Administrator", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Local Database Administrator", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "User", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Administrator", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 55,
+                "title": "Câu 55: Ai là người có trách nhiệm chính về cơ sở dữ liệu cục bộ của họ?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                   
+                    {"idResult": 1, "value": "Global Database Administrator", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Local Database Administrator", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "User", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Administrator", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 56,
+                "title": "Câu 56: Trong cơ sở dữ liệu phân tán, thuật ngữ Distribution Transparency là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Sự phân chia", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Độc lập dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Sự trong suốt phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Sự phân mảnh", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 57,
+                "title": "Câu 57: Trong cơ sở dữ liệu phân tán, thuật ngữ nào là sự trong suốt phân tán?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Distribution Transport", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Distribution Transparency", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Data Transparency", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Distribution Technology", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 58,
+                "title": "Câu 58: Từ nào là tên gọi của hệ quản trị cơ sở dữ liệu phân tán?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Database Distributed Memory System", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Database Distributed Management Sign", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Database Drop Management System", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Database Distributed Management System", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 59,
+                "title": "Câu 59: Database Distributed Management System là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Hệ quản trị cơ sở dữ liệu phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Cơ sở dữ liệu phân tán", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Hệ quản trị cơ sở dữ liệu quan hệ", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Hệ thống thông tin quản lý", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 60,
+                "title": "Câu 60: Trong hệ quản trị cơ sở dữ liệu phân tán, từ nào có nghĩa là thành phần truyền dữ liệu?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Data Communication", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Data Transport", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Distributed Database", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Data Dictionary", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 61,
+                "title": "Câu 61: Hình trên để làm gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Tạo cơ sở dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Tạo kết nối cơ sở dữ liệu với máy khác", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tạo liên kết các bảng dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tạo siêu liên kết", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 62,
+                "title": "Câu 62: Hình trên Name là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Tên bảng biểu", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tên của cơ sở dữ liệu", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tạo siêu liên kết", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Tên liên kết với cơ sở dữ liệu máy khác", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 63,
+                "title": "Câu 63: Hình trên Service Name là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Địa chỉ IP của máy hiện tại", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tên cơ sở dữ liệu của máy hiện tại", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tên cơ sở dữ liệu của máy cần kết nối", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Địa chỉ IP của máy trong mạng cần kết nối dữ liệu", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 64,
+                "title": "Câu 64: Hình trên Service Name gõ như thế nào mới đúng?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "192.168.1.1", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "www.oracle.com", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "info@oracle.com", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "admin", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 65,
+                "title": "Câu 65: Hình trên User Name sẽ gõ vào là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Tên của cơ sở dữ liệu cần tạo liên kết đến", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tên của cơ sở dữ liệu máy hiện tại", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tên của máy hiện tại", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tên của hệ thống", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 66,
+                "title": "Câu 66: Hình trên Password sẽ gõ vào là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Mật khẩu của cơ sở dữ liệu máy hiện tại", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Mật khẩu của máy hiện tại", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Mật khẩu của hệ thống", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Mật khẩu của cơ sở dữ liệu cần tạo liên kết đến", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 67,
+                "title": "Câu 67: Hình trên schema là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Tên của cơ sở dữ liệu máy cần tạo liên kết đến", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Tên của cơ sở dữ liệu máy hiện tại", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tên của bảng biểu", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tên của truy vấn cần liên kết", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 68,
+                "title": "Câu 68: Hình trên Demo là gì?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "Tên của cơ sở dữ liệu máy hiện tại đã tạo", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "Tên của cơ sở dữ liệu máy cần tạo liên kết đến đã tạo", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Tên của bảng biểu đã tạo", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Tên của truy vấn cần liên kết đã tạo", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 69,
+                "title": "Câu 69: Trong Oracle SQL Developer, sau khi tạo tên của cơ sở dữ liệu kết nối với máy khác muốn kiểm tra cơ sở dữ liệu có kết nối thành công không bạn chọn?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    
+                    {"idResult": 1, "value": "Test Network", "url_thumb": "", "type": ""},
+                    {"idResult": 0, "value": "Test Database Link", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "Test Connection", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "Check", "url_thumb": "", "type": ""}
+                ]
+            },
+            {
+                "id": 70,
+                "title": "Câu 70: Trong Oracle SQL Developer, muốn tạo tên một kết nối với cơ sở dữ liệu của máy khác bạn chọn?",
+                "thumb": "",
+                "isCorrect": true,
+                "idCorrectResult": 0,
+                "results": [
+                    {"idResult": 0, "value": "New Database Link", "url_thumb": "", "type": ""},
+                    {"idResult": 1, "value": "New Link", "url_thumb": "", "type": ""},
+                    {"idResult": 2, "value": "New Connection", "url_thumb": "", "type": ""},
+                    {"idResult": 3, "value": "New oracle", "url_thumb": "", "type": ""}
                 ]
             }
             
