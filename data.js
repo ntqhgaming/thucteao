@@ -2337,7 +2337,7 @@ const questions = {
             {
                 "id": 174,
                 "title": "Câu 174: Cho đoạn lệnh sau: \nOracleConnection ketnoi=new OracleConnection(Data source= ; user id= ; password= ); trong password bạn phải nhập?",
-                "thumb": "Ảnh(66)=a1",
+                "thumb": "",
                 "isCorrect": true,
                 "idCorrectResult": 2,
                 "results": [
