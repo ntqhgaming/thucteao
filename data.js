@@ -815,7 +815,7 @@ const questions = {
             {
                 "id": 60,
                 "title": "Câu 60: Trong hệ quản trị cơ sở dữ liệu phân tán, từ nào có nghĩa là thành phần truyền dữ liệu?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -828,7 +828,7 @@ const questions = {
             {
                 "id": 61,
                 "title": "Câu 61: Hình trên để làm gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -842,7 +842,7 @@ const questions = {
             {
                 "id": 62,
                 "title": "Câu 62: Hình trên Name là gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -856,7 +856,7 @@ const questions = {
             {
                 "id": 63,
                 "title": "Câu 63: Hình trên Service Name là gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -870,7 +870,7 @@ const questions = {
             {
                 "id": 64,
                 "title": "Câu 64: Hình trên Service Name gõ như thế nào mới đúng?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -883,7 +883,7 @@ const questions = {
             {
                 "id": 65,
                 "title": "Câu 65: Hình trên User Name sẽ gõ vào là gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -896,7 +896,7 @@ const questions = {
             {
                 "id": 66,
                 "title": "Câu 66: Hình trên Password sẽ gõ vào là gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -910,7 +910,7 @@ const questions = {
             {
                 "id": 67,
                 "title": "Câu 67: Hình trên schema là gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -924,7 +924,7 @@ const questions = {
             {
                 "id": 68,
                 "title": "Câu 68: Hình trên Demo là gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau60-68title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -2624,7 +2624,7 @@ const questions = {
             {
                 "id": 195,
                 "title": "Câu 195: Khi biên dịch chương trình MPI trong Visual C, lỗi gặp phải sau đây là lỗi nào?",
-                "thumb": "",
+                "thumb": "./assets/img/cau195title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -2637,7 +2637,7 @@ const questions = {
             {
                 "id": 196,
                 "title": "Câu 196: Khi biên dịch chương trình MPI trong Visual C, lỗi gặp phải sau đây là lỗi nào?",
-                "thumb": "",
+                "thumb": "./assets/img/cau196title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -2677,7 +2677,7 @@ const questions = {
             {
                 "id": 199,
                 "title": "Câu 199: Chương trình sau dùng để làm gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau199title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -2691,7 +2691,7 @@ const questions = {
             {
                 "id": 200,
                 "title": "Câu 200: Chương trình cấu hình MPICH2 sau khi chạy và bấm Get Settings:",
-                "thumb": "",
+                "thumb": "./assets/img/cau200title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
@@ -2705,7 +2705,7 @@ const questions = {
             {
                 "id": 201,
                 "title": "Câu 201: Chương trình thực thi MPI với ô checkbox được đánh dấu như sau dùng để làm gì?",
-                "thumb": "",
+                "thumb": "./assets/img/cau201title.png",
                 "isCorrect": true,
                 "idCorrectResult": 0,
                 "results": [
