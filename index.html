@@ -2,8 +2,8 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tài Xỉu - Phiên Cược Mới</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Tài Xỉu - Nặn Bát (UI Refined)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -25,45 +25,85 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Poppins', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background: var(--bg-color); background-image: linear-gradient(315deg, #1a1a2e 0%, #16213e 74%); color: var(--text-light); padding: 20px; }
 
-/* --- Bố cục chính --- */
-.app-container { display: flex; gap: 20px; width: 100%; max-width: 900px; }
+/* --- Overlay & Modals --- */
+.overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); backdrop-filter: blur(10px); display: flex; justify-content: center; align-items: center; z-index: 1000; transition: opacity 0.3s ease; }
+.auth-container, .modal-content { background: var(--container-bg); padding: 30px; border-radius: 15px; border: 1px solid var(--border-color); width: 100%; max-width: 400px; text-align: center; }
+.auth-container h2, .modal-content h2 { color: var(--accent-gold); margin-bottom: 20px; }
+.auth-container input, .modal-content input { width: 100%; padding: 12px; background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: 8px; color: white; font-size: 1em; }
+.auth-container button, .modal-content button { width: 100%; padding: 12px; border: none; border-radius: 8px; font-weight: bold; font-size: 1.1em; cursor: pointer; transition: background 0.2s; }
+.auth-container button, .modal-content .btn-action { background: var(--accent-gold); color: var(--bg-color); }
+.auth-container button:hover, .modal-content .btn-action:hover { background: #d8a26f; }
+.auth-container .toggle-form { margin-top: 15px; color: var(--accent-gold); cursor: pointer; text-decoration: underline; }
+#register-form { display: none; }
+.hidden { display: none !important; opacity: 0; visibility: hidden; }
+
+.modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); backdrop-filter: blur(5px); display: flex; justify-content: center; align-items: center; z-index: 900; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
+.modal.active { opacity: 1; visibility: visible; }
+.modal-content { position: relative; }
+.modal-content .form-group { margin-bottom: 15px; }
+.modal-content .modal-buttons { display: flex; gap: 10px; margin-top: 20px; }
+.modal-content .btn-confirm { flex-grow: 1; background: var(--color-win); color: white; }
+.modal-content .btn-cancel { flex-grow: 1; background: #7f8c8d; color: white; }
+.modal-close { position: absolute; top: 10px; right: 15px; font-size: 2em; color: white; cursor: pointer; }
+
+/* --- Kiểu cho Lịch sử GD --- */
+#transaction-history-list { list-style: none; max-height: 400px; overflow-y: auto; padding-right: 10px; text-align: left; }
+.transaction-item { background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; margin-bottom: 10px; }
+.transaction-item .main-info { display: flex; justify-content: space-between; align-items: center; }
+.transaction-item .info .type { font-weight: bold; }
+.transaction-item .info .time { font-size: 0.8em; opacity: 0.7; }
+.transaction-item .amount { font-weight: bold; font-size: 1.1em;}
+.transaction-item.deposit .amount { color: var(--color-win); }
+.transaction-item.withdraw .amount { color: var(--color-loss); }
+.transaction-details { border-top: 1px solid var(--border-color); margin-top: 8px; padding-top: 8px; font-size: 0.85em; opacity: 0.9; text-align: left; }
+.transaction-details div { margin-bottom: 4px; }
+.transaction-details .detail-label { font-weight: bold; color: var(--accent-gold); min-width: 110px; display: inline-block; }
+
+/* --- MỚI: Kiểu cho thông tin nạp tiền --- */
+.deposit-info { text-align: left; font-size: 1.1em; line-height: 1.8; }
+.deposit-info .info-line { border-bottom: 1px solid var(--border-color); padding: 8px 0; }
+.deposit-info .info-line:last-child { border-bottom: none; }
+.deposit-info .info-label { font-weight: bold; color: var(--accent-gold); min-width: 100px; display: inline-block; }
+.deposit-info .info-value { color: var(--text-light); word-break: break-all; }
+
+
+/* --- Bố cục chính & Header --- */
+.app-container { display: flex; gap: 20px; width: 100%; max-width: 950px; }
 .main-game { flex-grow: 1; }
-
-/* --- Container Game --- */
 .game-container { width: 100%; background: var(--container-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 25px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); text-align: center; }
-
-/* --- Header (Tiền & Timer & Phiên) --- */
-.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; flex-wrap: wrap; gap: 10px;}
+.user-info { display: flex; align-items: center; gap: 15px; }
+#user-display { font-weight: 600; }
 #money-display { font-size: 1.5em; font-weight: 700; color: #fff; background: rgba(0,0,0,0.2); padding: 5px 15px; border-radius: 10px; }
 #session-display { font-size: 1.2em; font-weight: 600; color: var(--accent-gold); }
 #timer-display { width: 70px; height: 70px; border-radius: 50%; background: rgba(0,0,0,0.2); border: 3px solid var(--color-win); display: flex; justify-content: center; align-items: center; font-size: 2.2em; font-weight: 700; color: #fff; transition: all 0.3s ease; }
 #timer-display.locked { border-color: var(--color-loss); box-shadow: 0 0 15px var(--color-loss); animation: pulse 1s infinite; }
 @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
+.header-buttons { display: flex; gap: 8px; margin-top: 10px; width: 100%; justify-content: center; flex-wrap: wrap; }
+.header-btn { padding: 8px 12px; border-radius: 8px; border: 1px solid var(--accent-gold); background: transparent; color: var(--accent-gold); cursor: pointer; transition: all 0.2s; font-size: 0.9em; }
+.header-btn:hover { background: var(--accent-gold); color: var(--bg-color); }
+.header-btn.active { background-color: var(--accent-gold); color: var(--bg-color); box-shadow: 0 0 10px var(--accent-gold); }
 
-/* --- Chiếu bạc --- */
+
+/* --- Cải tiến Bát, Xúc xắc & Nặn --- */
 .game-mat { width: 100%; height: 220px; background-color: var(--mat-bg); border: 2px solid var(--border-color); border-radius: 15px; margin: 0 auto 20px auto; position: relative; display: flex; justify-content: center; align-items: center; overflow: hidden; box-shadow: inset 0 0 20px rgba(0,0,0,0.5); }
 .dice-area { position: relative; width: 180px; height: 180px; }
-
-/* --- Bát & Xúc xắc --- */
-.bowl { width: 160px; height: 80px; background: radial-gradient(circle at 50% 100%, #5c5c8a, #2a2a3e); border: 1px solid var(--accent-gold); border-bottom: none; border-radius: 160px 160px 0 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; cursor: pointer; box-shadow: 0 -5px 20px rgba(0,0,0,0.4); transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55); }
-.bowl.revealed { transform: translate(-50%, -220%); }
+.bowl { width: 190px; height: 190px; background: radial-gradient(circle at 50% 50%, #8a8a9e, #2a2a3e 70%); border: 3px solid #b8860b; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; cursor: default; box-shadow: 0 5px 25px rgba(0,0,0,0.5); transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55); user-select: none; }
+.bowl.ready-to-nặn { cursor: grab; }
+.bowl.ready-to-nặn:active { cursor: grabbing; }
+.bowl.revealed { transform: translate(150%, -50%) !important; }
 .bowl.shaking { animation: shake-animation 0.5s infinite; }
-@keyframes shake-animation { 0% { transform: translate(-50%, -50%) rotate(0deg); } 25% { transform: translate(-55%, -55%) rotate(-5deg); } 50% { transform: translate(-45%, -45%) rotate(5deg); } 75% { transform: translate(-52%, -52%) rotate(-3deg); } 100% { transform: translate(-48%, -48%) rotate(3deg); } }
-.dice { width: 45px; height: 45px; background-color: #fff8e1; border-radius: 6px; position: absolute; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); padding: 5px; opacity: 0; }
-.dice.magic-appear { opacity: 1; animation: magic-dice-appear 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
-@keyframes magic-dice-appear { from { opacity: 0; transform: var(--start-transform, scale(0) rotate(0deg)); } to { opacity: 1; transform: var(--end-transform, scale(1) rotate(360deg)); } }
+@keyframes shake-animation { 0%{transform:translate(-50%,-50%) rotate(0deg)} 25%{transform:translate(-52%,-52%) rotate(-5deg)} 50%{transform:translate(-48%,-48%) rotate(5deg)} 75%{transform:translate(-51%,-51%) rotate(-3deg)} 100%{transform:translate(-49%,-49%) rotate(3deg)} }
+.dice { width: 45px; height: 45px; background-color: #fff8e1; border-radius: 6px; position: absolute; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); padding: 5px; opacity: 0; z-index: 5; /* Thấp hơn bát */ }
+.dice.visible { opacity: 1; transition: opacity 0.2s; }
 .dot { width: 9px; height: 9px; background-color: #c0392b; border-radius: 50%; align-self: center; justify-self: center; }
 .face-1 .dot:nth-child(1){grid-area:2/2}.face-2 .dot:nth-child(1){grid-area:1/1}.face-2 .dot:nth-child(2){grid-area:3/3}.face-3 .dot:nth-child(1){grid-area:1/1}.face-3 .dot:nth-child(2){grid-area:2/2}.face-3 .dot:nth-child(3){grid-area:3/3}.face-4 .dot:nth-child(1){grid-area:1/1}.face-4 .dot:nth-child(2){grid-area:1/3}.face-4 .dot:nth-child(3){grid-area:3/1}.face-4 .dot:nth-child(4){grid-area:3/3}.face-5 .dot:nth-child(1){grid-area:1/1}.face-5 .dot:nth-child(2){grid-area:1/3}.face-5 .dot:nth-child(3){grid-area:2/2}.face-5 .dot:nth-child(4){grid-area:3/1}.face-5 .dot:nth-child(5){grid-area:3/3}.face-6 .dot:nth-child(1){grid-area:1/1}.face-6 .dot:nth-child(2){grid-area:1/3}.face-6 .dot:nth-child(3){grid-area:2/1}.face-6 .dot:nth-child(4){grid-area:2/3}.face-6 .dot:nth-child(5){grid-area:3/1}.face-6 .dot:nth-child(6){grid-area:3/3}
-
-/* --- Cầu (Roadmap) --- */
 .roadmap-container { width: 100%; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 10px; margin-bottom: 20px; overflow: hidden; }
 .roadmap-track { display: flex; justify-content: flex-start; gap: 8px; transition: opacity 0.3s ease; }
 .roadmap-track.clearing { opacity: 0; }
 .roadmap-item { width: 35px; height: 35px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-weight: 700; font-size: 1.2em; color: #fff; flex-shrink: 0; animation: pop-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); }
 @keyframes pop-in { from { transform: scale(0.5); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 .roadmap-item.tai { background-color: var(--color-tai); } .roadmap-item.xiu { background-color: var(--color-xiu); }
-
-/* --- Vùng điều khiển --- */
 .betting-controls { display: flex; justify-content: space-between; align-items: center; gap: 15px; margin-bottom: 20px; }
 .bet-option { flex-grow: 1; padding: 15px 20px; font-size: 1.5em; font-weight: bold; border: 2px solid transparent; border-radius: 10px; cursor: pointer; transition: all 0.3s ease; color: #fff; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
 .bet-option:disabled { cursor: not-allowed; filter: grayscale(80%); opacity: 0.7; }
@@ -75,13 +115,9 @@ body { font-family: 'Poppins', sans-serif; display: flex; justify-content: cente
 #bet-amount:focus { outline: none; border-color: var(--accent-gold); box-shadow: 0 0 10px var(--accent-gold); }
 #bet-amount:disabled { background: #555; cursor: not-allowed; }
 #bet-amount.input-error { animation: input-shake 0.4s; border-color: var(--color-loss); }
-@keyframes input-shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
-
-/* --- Kết quả --- */
+@keyframes input-shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-5px)} 75%{transform:translateX(5px)} }
 #result-message { height: 40px; font-size: 1.2em; font-weight: bold; color: var(--text-light); display: flex; justify-content: center; align-items: center; transition: all 0.3s; }
-
-/* --- Bảng Lịch Sử --- */
-.history-panel { width: 300px; flex-shrink: 0; background: var(--container-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); display: flex; flex-direction: column; max-height: 700px; }
+.history-panel { width: 350px; flex-shrink: 0; background: var(--container-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); display: flex; flex-direction: column; max-height: 750px; }
 .history-panel h2 { text-align: center; color: var(--accent-gold); margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
 #history-list { list-style: none; overflow-y: auto; flex-grow: 1; padding-right: 10px; }
 #history-list::-webkit-scrollbar { width: 5px; } #history-list::-webkit-scrollbar-track { background: transparent; } #history-list::-webkit-scrollbar-thumb { background: var(--accent-gold); border-radius: 5px; }
@@ -96,273 +132,246 @@ body { font-family: 'Poppins', sans-serif; display: flex; justify-content: cente
 #reset-button { margin-top: 15px; padding: 10px; background-color: #c0392b; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition: background-color 0.2s; }
 #reset-button:hover { background-color: #e74c3c; }
 
-@media (max-width: 768px) { body { align-items: flex-start; } .app-container { flex-direction: column; } .history-panel { width: 100%; max-height: 250px; } }
+@media (max-width: 768px) { body { align-items: flex-start; } .app-container { flex-direction: column; } .history-panel { width: 100%; max-height: 250px; } .header { justify-content: center; } }
 </style>
 </head>
 <body>
-<div class="app-container">
+
+<audio id="background-music" loop><source src="https://github.com/tony2tones/freesound-scrape/blob/master/sounds/185799.mp3?raw=true" type="audio/mpeg"></audio>
+<div class="overlay hidden" id="music-prompt-modal"><div class="modal-content"><h2>Chào mừng</h2><p style="margin-bottom: 20px;">Nhấn vào nút bên dưới để vào game và bật nhạc nền.</p><button id="enter-game-btn" class="btn-action">VÀO GAME</button></div></div>
+<div class="overlay" id="auth-overlay"><div class="auth-container"><div id="login-form"><h2>Đăng Nhập</h2><div class="form-group"><input type="text" id="login-username" placeholder="Tên đăng nhập" required></div><button id="login-button">Vào Game</button><p class="toggle-form" id="show-register">Chưa có tài khoản? Đăng ký</p></div><div id="register-form"><h2>Đăng Ký</h2><div class="form-group"><input type="text" id="register-username" placeholder="Tên đăng nhập mới" required></div><button id="register-button">Đăng Ký & Vào Game</button><p class="toggle-form" id="show-login">Đã có tài khoản? Đăng nhập</p></div></div></div>
+
+<div class="app-container hidden" id="app-container">
 <div class="main-game">
 <div class="game-container">
 <div class="header">
-<div id="money-display">💰 1000000</div>
-<div id="session-display">Phiên 1</div>
-<div id="timer-display">--</div>
+<div class="user-info"><span id="user-display"></span><div id="money-display">💰 0</div></div>
+<div id="session-display">Phiên 1</div><div id="timer-display">--</div>
+<div class="header-buttons">
+<button class="header-btn" id="deposit-btn">Nạp Tiền</button>
+<button class="header-btn" id="withdraw-btn">Rút Tiền</button>
+<button class="header-btn" id="transaction-history-btn">Lịch sử GD</button>
+<button class="header-btn" id="music-toggle-btn">Tắt Nhạc</button>
+<button class="header-btn" id="nặn-toggle-btn">Bật Nặn</button>
+<button class="header-btn" id="logout-btn">Đăng Xuất</button>
 </div>
-<div class="game-mat">
-<div class="dice-area">
-<div id="bowl" class="bowl"></div>
-<div id="dice1" class="dice"></div>
-<div id="dice2" class="dice"></div>
-<div id="dice3" class="dice"></div>
 </div>
-</div>
-<div class="roadmap-container">
-<div id="roadmap-track" class="roadmap-track"></div>
-</div>
-<div class="betting-controls">
-<button id="bet-xiu" class="bet-option">XỈU</button>
-<input type="text" id="bet-amount" placeholder="Cược" inputmode="numeric">
-<button id="bet-tai" class="bet-option">TÀI</button>
-</div>
+<div class="game-mat"><div class="dice-area"><div id="bowl" class="bowl"></div><div id="dice1" class="dice"></div><div id="dice2" class="dice"></div><div id="dice3" class="dice"></div></div></div>
+<div class="roadmap-container"><div id="roadmap-track" class="roadmap-track"></div></div>
+<div class="betting-controls"><button id="bet-xiu" class="bet-option">XỈU</button><input type="text" id="bet-amount" placeholder="Cược" inputmode="numeric"><button id="bet-tai" class="bet-option">TÀI</button></div>
 <div id="result-message">Chuẩn bị ván mới...</div>
 </div>
 </div>
-<div class="history-panel">
-<h2>LỊCH SỬ CƯỢC</h2>
-<ul id="history-list"></ul>
-<button id="reset-button">RESET DỮ LIỆU</button>
+<div class="history-panel"><h2>LỊCH SỬ CƯỢC</h2><ul id="history-list"></ul><button id="reset-button">RESET DỮ LIỆU</button></div>
+</div>
+
+<!-- Modals -->
+<!-- MỚI: Modal nạp tiền chỉ hiển thị thông tin -->
+<div id="deposit-modal" class="modal">
+<div class="modal-content">
+<span class="modal-close" data-modal-id="deposit-modal">×</span>
+<h2>Thông tin nạp tiền</h2>
+<div class="deposit-info">
+<div class="info-line">
+<span class="info-label">Ngân hàng:</span>
+<span class="info-value">MB Bank</span>
+</div>
+<div class="info-line">
+<span class="info-label">STK:</span>
+<span class="info-value">8899234599999</span>
+</div>
+<div class="info-line">
+<span class="info-label">Chủ TK:</span>
+<span class="info-value">NGUYEN THE QUANG HUY</span>
+</div>
+<div class="info-line">
+<span class="info-label">Nội dung:</span>
+<span class="info-value">tnv + [số tiền]</span>
+</div>
+<div class="info-line">
+<img style="width: 50%;hight:50%;margin-left:70px" src="./assets/img/qr.png" alt="">
 </div>
 </div>
+</div>
+</div>
+
+<div id="withdraw-modal" class="modal"><div class="modal-content"><span class="modal-close" data-modal-id="withdraw-modal">×</span><h2>Rút tiền</h2><div class="form-group"><input type="text" id="withdraw-amount" placeholder="Số tiền (tối thiểu 200,000)"></div><div class="form-group"><input type="text" id="withdraw-bank" placeholder="Tên Ngân hàng (VD: VCB, ACB)"></div><div class="form-group"><input type="text" id="withdraw-account-number" placeholder="Số tài khoản"></div><div class="form-group"><input type="text" id="withdraw-account-name" placeholder="Tên chủ tài khoản"></div><div class="modal-buttons"><button id="confirm-withdraw-btn" class="btn-confirm">Xác nhận</button><button class="btn-cancel" data-modal-id="withdraw-modal">Hủy</button></div></div></div>
+<div id="transaction-history-modal" class="modal"><div class="modal-content"><span class="modal-close" data-modal-id="transaction-history-modal">×</span><h2>Lịch sử Giao dịch</h2><ul id="transaction-history-list"></ul></div></div>
+
 <script>
+document.addEventListener('DOMContentLoaded', () => {
+
 // --- DOM Elements ---
-const moneyDisplay = document.getElementById('money-display');
-const sessionDisplay = document.getElementById('session-display');
-const timerDisplay = document.getElementById('timer-display');
-const betXiuButton = document.getElementById('bet-xiu');
-const betTaiButton = document.getElementById('bet-tai');
-const betAmountInput = document.getElementById('bet-amount');
-const resultMessage = document.getElementById('result-message');
-const bowl = document.getElementById('bowl');
-const allDice = [document.getElementById('dice1'), document.getElementById('dice2'), document.getElementById('dice3')];
-const historyList = document.getElementById('history-list');
-const roadmapTrack = document.getElementById('roadmap-track');
-const resetButton = document.getElementById('reset-button');
+const moneyDisplay = document.getElementById('money-display'), sessionDisplay = document.getElementById('session-display'), timerDisplay = document.getElementById('timer-display'), betXiuButton = document.getElementById('bet-xiu'), betTaiButton = document.getElementById('bet-tai'), betAmountInput = document.getElementById('bet-amount'), resultMessage = document.getElementById('result-message'), bowl = document.getElementById('bowl'), allDice = [document.getElementById('dice1'), document.getElementById('dice2'), document.getElementById('dice3')], historyList = document.getElementById('history-list'), roadmapTrack = document.getElementById('roadmap-track'), resetButton = document.getElementById('reset-button'), appContainer = document.getElementById('app-container'), authOverlay = document.getElementById('auth-overlay'), loginForm = document.getElementById('login-form'), registerForm = document.getElementById('register-form'), loginButton = document.getElementById('login-button'), registerButton = document.getElementById('register-button'), loginUsernameInput = document.getElementById('login-username'), registerUsernameInput = document.getElementById('register-username'), userDisplay = document.getElementById('user-display'), logoutBtn = document.getElementById('logout-btn'), showRegisterBtn = document.getElementById('show-register'), showLoginBtn = document.getElementById('show-login'), backgroundMusic = document.getElementById('background-music'), musicToggleBtn = document.getElementById('music-toggle-btn'), musicPromptModal = document.getElementById('music-prompt-modal'), enterGameBtn = document.getElementById('enter-game-btn'), depositBtn = document.getElementById('deposit-btn'), withdrawBtn = document.getElementById('withdraw-btn'), transactionHistoryBtn = document.getElementById('transaction-history-btn'), confirmWithdrawBtn = document.getElementById('confirm-withdraw-btn'), withdrawAmountInput = document.getElementById('withdraw-amount'), transactionHistoryList = document.getElementById('transaction-history-list');
+const withdrawBankInput = document.getElementById('withdraw-bank'), withdrawAccountNumberInput = document.getElementById('withdraw-account-number'), withdrawAccountNameInput = document.getElementById('withdraw-account-name');
+const nặnToggleBtn = document.getElementById('nặn-toggle-btn');
 
-// --- Storage Keys & State ---
-const STORAGE_KEYS = { MONEY: 'taixiu_money_v9', HISTORY: 'taixiu_history_v9', SESSION_COUNT: 'taixiu_session_v9' };
-let money, history, sessionRoundCount, currentBet = null, isShaking = false, countdown, timerInterval;
+// --- State ---
+let money, history, transactions, sessionRoundCount, currentBet = null, isShaking = false, countdown, timerInterval, currentUser;
+let isNặnMode = false, roundResultData = null, isDragging = false, dragStartX, dragStartY, bowlInitialX, bowlInitialY;
+const STARTING_MONEY = 100000, ROUND_DURATION = 30, LOCK_BET_TIME = 5, NEW_ROUND_DELAY = 5000, MIN_WITHDRAW = 200000;
+const SESSION_LENGTH = 5; // MỚI: Giới hạn cầu là 5
+const formatVNCurrency = (num) => num.toLocaleString('vi-VN');
 
-// --- Constants ---
-const ROUND_DURATION = 15, LOCK_BET_TIME = 3, NEW_ROUND_DELAY = 5000;
-const SESSION_LENGTH = 5;
+// --- Auth & Music Flow ---
+function showLoginForm() { loginForm.style.display = 'block'; registerForm.style.display = 'none'; }
+function showRegisterForm() { loginForm.style.display = 'none'; registerForm.style.display = 'block'; }
+function handleLogin() { const username = loginUsernameInput.value.trim(); if (!username) { alert('Vui lòng nhập tên đăng nhập.'); return; } if (localStorage.getItem(`taixiu_user_${username}`)) { currentUser = username; localStorage.setItem('taixiu_currentUser', currentUser); authOverlay.classList.add('hidden'); musicPromptModal.classList.remove('hidden'); } else { alert('Tên đăng nhập không tồn tại.'); } }
+function handleRegister() { const username = registerUsernameInput.value.trim(); if (!username) { alert('Vui lòng nhập tên đăng nhập.'); return; } if (localStorage.getItem(`taixiu_user_${username}`)) { alert('Tên đăng nhập đã tồn tại.'); return; } const newUserData = { money: STARTING_MONEY, history: [], transactions: [], sessionRoundCount: 0, isNặnMode: false }; localStorage.setItem(`taixiu_user_${username}`, JSON.stringify(newUserData)); currentUser = username; localStorage.setItem('taixiu_currentUser', currentUser); authOverlay.classList.add('hidden'); musicPromptModal.classList.remove('hidden'); }
+function handleLogout() { if (confirm('Bạn có chắc muốn đăng xuất?')) { localStorage.removeItem('taixiu_currentUser'); location.reload(); } }
+function checkLoggedInUser() { const loggedInUser = localStorage.getItem('taixiu_currentUser'); if (loggedInUser && localStorage.getItem(`taixiu_user_${loggedInUser}`)) { currentUser = loggedInUser; authOverlay.classList.add('hidden'); musicPromptModal.classList.remove('hidden'); } else { authOverlay.classList.remove('hidden'); musicPromptModal.classList.add('hidden'); } }
+function launchGame() { musicPromptModal.classList.add('hidden'); appContainer.classList.remove('hidden'); initializeGame(); }
+function toggleMusic(forcePlay = false) { if (forcePlay) { backgroundMusic.play().catch(e => console.error("Lỗi phát nhạc:", e)); musicToggleBtn.textContent = 'Tắt Nhạc'; return; } if (backgroundMusic.paused) { backgroundMusic.play(); musicToggleBtn.textContent = 'Tắt Nhạc'; } else { backgroundMusic.pause(); musicToggleBtn.textContent = 'Bật Nhạc'; } }
 
-// --- Game Initialization ---
-function initializeGame() {
-loadGameData();
-updateAllUI();
-setupEventListeners();
-startNewRound();
+// --- Giao dịch & Nặn Bát ---
+function closeModal(modalId) { document.getElementById(modalId).classList.remove('active'); }
+function openModal(modalId) { document.getElementById(modalId).classList.add('active'); }
+function addTransaction(transactionObject) { transactions.unshift(transactionObject); if (transactions.length > 100) transactions.pop(); }
+function handleWithdraw() {
+const amount = parseFormattedNumber(withdrawAmountInput.value);
+if (isNaN(amount) || amount < MIN_WITHDRAW) { alert(`Số tiền rút tối thiểu là ${formatVNCurrency(MIN_WITHDRAW)} VNĐ.`); return; }
+if (amount > money) { alert('Số tiền rút không được lớn hơn số dư!'); return; }
+const bank = withdrawBankInput.value.trim(), accountNumber = withdrawAccountNumberInput.value.trim(), accountName = withdrawAccountNameInput.value.trim();
+if (!bank || !accountNumber || !accountName) { alert('Vui lòng điền đầy đủ thông tin ngân hàng.'); return; }
+money -= amount;
+addTransaction({ type: 'withdraw', amount, timestamp: Date.now(), details: { bank, accountNumber, accountName } });
+saveGameData(); updateAllUI(); closeModal('withdraw-modal');
+[withdrawAmountInput, withdrawBankInput, withdrawAccountNumberInput, withdrawAccountNameInput].forEach(input => input.value = '');
+alert(`Yêu cầu rút ${formatVNCurrency(amount)} đã được gửi đi!`);
 }
+function toggleNặnMode() { isNặnMode = !isNặnMode; nặnToggleBtn.textContent = isNặnMode ? 'Tắt Nặn' : 'Bật Nặn'; nặnToggleBtn.classList.toggle('active', isNặnMode); saveGameData(); }
 
-function setupEventListeners() {
-betXiuButton.addEventListener('click', () => selectBet('xiu'));
-betTaiButton.addEventListener('click', () => selectBet('tai'));
+// --- Khởi tạo & Gán sự kiện ---
+function initializeGame() { loadGameData(); updateAllUI(); startNewRound(); toggleMusic(true); }
+function setupAllEventListeners() {
+loginButton.addEventListener('click', handleLogin); registerButton.addEventListener('click', handleRegister);
+showRegisterBtn.addEventListener('click', showRegisterForm); showLoginBtn.addEventListener('click', showLoginForm);
+enterGameBtn.addEventListener('click', launchGame);
+betXiuButton.addEventListener('click', () => selectBet('xiu')); betTaiButton.addEventListener('click', () => selectBet('tai'));
 resetButton.addEventListener('click', resetGameData);
-bowl.addEventListener('click', () => !isShaking && bowl.classList.contains('revealed') && startNewRound());
 betAmountInput.addEventListener('input', handleBetInputFormatting);
+logoutBtn.addEventListener('click', handleLogout); musicToggleBtn.addEventListener('click', () => toggleMusic());
+nặnToggleBtn.addEventListener('click', toggleNặnMode);
+depositBtn.addEventListener('click', () => openModal('deposit-modal'));
+withdrawBtn.addEventListener('click', () => openModal('withdraw-modal'));
+transactionHistoryBtn.addEventListener('click', () => { updateTransactionHistoryUI(); openModal('transaction-history-modal'); });
+confirmWithdrawBtn.addEventListener('click', handleWithdraw);
+document.querySelectorAll('.modal-close, .btn-cancel').forEach(el => { el.addEventListener('click', () => closeModal(el.dataset.modalId)); });
+
+// Sự kiện kéo bát
+bowl.addEventListener('mousedown', onDragStart); bowl.addEventListener('touchstart', onDragStart, { passive: true });
+document.addEventListener('mousemove', onDragMove); document.addEventListener('touchmove', onDragMove, { passive: false });
+document.addEventListener('mouseup', onDragEnd); document.addEventListener('touchend', onDragEnd);
 }
 
-// --- Game Loop ---
-function startNewRound() {
-clearTimeout(timerInterval); isShaking = false; countdown = ROUND_DURATION; resetRoundUI();
-
-// THAY ĐỔI Ở ĐÂY: Logic kiểm tra và reset phiên
-if (sessionRoundCount >= SESSION_LENGTH) {
-sessionRoundCount = 0; // Reset bộ đếm
-// Hiệu ứng xóa cầu
-roadmapTrack.classList.add('clearing');
-setTimeout(() => {
-roadmapTrack.innerHTML = '';
-roadmapTrack.classList.remove('clearing');
-}, 300);
+// --- Logic Kéo Bát (Nặn) ---
+function onDragStart(event) {
+if (!bowl.classList.contains('ready-to-nặn') || isDragging) return;
+isDragging = true;
+const clientX = event.type === 'touchstart' ? event.touches[0].clientX : event.clientX;
+const clientY = event.type === 'touchstart' ? event.touches[0].clientY : event.clientY;
+dragStartX = clientX; dragStartY = clientY;
+const computedStyle = window.getComputedStyle(bowl);
+const transform = new DOMMatrix(computedStyle.transform);
+bowlInitialX = transform.m41; bowlInitialY = transform.m42;
+bowl.style.transition = 'none'; // Tắt transition để kéo mượt
+}
+function onDragMove(event) {
+if (!isDragging) return;
+event.preventDefault();
+const clientX = event.type === 'touchmove' ? event.touches[0].clientX : event.clientX;
+const clientY = event.type === 'touchmove' ? event.touches[0].clientY : event.clientY;
+const deltaX = clientX - dragStartX;
+const deltaY = clientY - dragStartY;
+bowl.style.transform = `translate(${bowlInitialX + deltaX}px, ${bowlInitialY + deltaY}px)`;
+}
+function onDragEnd() {
+if (!isDragging) return;
+isDragging = false;
+bowl.classList.remove('ready-to-nặn');
+bowl.style.transition = 'transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55)'; // Bật lại transition
+bowl.classList.add('revealed');
+finalizeRound(roundResultData);
 }
 
-tick();
-timerInterval = setInterval(tick, 1000);
-}
-
-function tick() {
-updateTimerDisplay();
-if (countdown <= LOCK_BET_TIME && countdown > 0) lockBetting();
-if (countdown <= 0) { clearInterval(timerInterval); runShakeSequence(); }
-countdown--;
-}
-
+// --- Game Loop & Logic ---
+function startNewRound() { clearTimeout(timerInterval); isShaking = false; countdown = ROUND_DURATION; resetRoundUI(); if (sessionRoundCount >= SESSION_LENGTH) { sessionRoundCount = 0; roadmapTrack.classList.add('clearing'); setTimeout(() => { roadmapTrack.innerHTML = ''; roadmapTrack.classList.remove('clearing'); }, 300); } tick(); timerInterval = setInterval(tick, 1000); }
+function tick() { updateTimerDisplay(); if (countdown <= LOCK_BET_TIME && countdown > 0) lockBetting(); if (countdown <= 0) { clearInterval(timerInterval); runShakeSequence(); } countdown--; }
 function runShakeSequence() {
 const betAmount = parseFormattedNumber(betAmountInput.value);
 if (isShaking) return;
-if (money < betAmount) { showError("Không đủ tiền cược!"); setTimeout(startNewRound, NEW_ROUND_DELAY); return; }
-isShaking = true;
-resetRoundVisuals();
-setTimeout(() => {
-let shakeCount = 0;
-const shakeInterval = setInterval(() => {
-bowl.classList.add('shaking'); setTimeout(() => bowl.classList.remove('shaking'), 400);
-shakeCount++;
-if (shakeCount >= 3) { clearInterval(shakeInterval); setTimeout(() => revealResult(betAmount), 500); }
-}, 600);
-}, 500);
+if (currentBet && betAmount > money) { showError("Không đủ tiền cược!"); currentBet = null; betAmountInput.value = ''; betTaiButton.classList.remove('active-bet'); betXiuButton.classList.remove('active-bet'); return; }
+isShaking = true; resetRoundVisuals();
+setTimeout(() => { let shakeCount = 0; const shakeInterval = setInterval(() => { bowl.classList.add('shaking'); setTimeout(() => bowl.classList.remove('shaking'), 400); shakeCount++; if (shakeCount >= 3) { clearInterval(shakeInterval); setTimeout(() => revealResult(betAmount), 500); } }, 600); }, 500);
 }
-
 function revealResult(betAmount) {
-const [d1, d2, d3] = [1, 2, 3].map(() => Math.floor(Math.random() * 6) + 1);
-const total = d1 + d2 + d3;
-positionAndShowDice(d1, d2, d3); bowl.classList.add('revealed');
-
-// THAY ĐỔI Ở ĐÂY: Loại bỏ hoàn toàn logic "Bão"
-let gameResultType = (total <= 10) ? 'xiu' : 'tai';
-let winnings = 0;
-let finalMessage = `${d1}-${d2}-${d3} = ${total}đ ⇨ ${gameResultType.toUpperCase()}`;
-
-if (betAmount > 0 && currentBet) {
-if (gameResultType !== currentBet) { // Chỉ có 1 điều kiện thua
-winnings = -betAmount;
-money -= betAmount;
-finalMessage += " - Bạn thua!";
-} else { // Thắng
-winnings = betAmount;
-money += betAmount;
-finalMessage += " - Bạn thắng!";
+const [d1, d2, d3] = [1, 2, 3].map(() => Math.floor(Math.random() * 6) + 1); const total = d1 + d2 + d3;
+let gameResultType = (total <= 10) ? 'xiu' : 'tai', winnings = 0;
+if (currentBet && betAmount > 0) {
+if (gameResultType !== currentBet) { winnings = -betAmount; } else { winnings = betAmount; }
+}
+roundResultData = { gameResultType, total, diceValues: [d1, d2, d3], betAmount, winnings };
+positionAndShowDice(roundResultData.diceValues);
+if (isNặnMode) {
+bowl.classList.add('ready-to-nặn');
+resultMessage.textContent = 'Mời bạn nặn bát...';
+} else {
+bowl.classList.add('revealed');
+finalizeRound(roundResultData);
 }
 }
-
-sessionRoundCount++; // Tăng bộ đếm phiên sau khi có kết quả
-updateHistory(gameResultType, total, [d1, d2, d3], betAmount, winnings);
-saveGameData();
-updateAllUI();
-resultMessage.textContent = `Ván mới sau ${NEW_ROUND_DELAY / 1000}s...`;
-setTimeout(startNewRound, NEW_ROUND_DELAY);
+function finalizeRound(resultData) {
+money += resultData.winnings; sessionRoundCount++;
+updateHistory(resultData.gameResultType, resultData.total, resultData.diceValues, resultData.betAmount, resultData.winnings);
+resultMessage.textContent = `Kết quả: ${resultData.total}Đ - ${resultData.gameResultType.toUpperCase()}!`;
+saveGameData(); updateAllUI(); setTimeout(startNewRound, NEW_ROUND_DELAY);
 }
 
-// --- UI and Control Functions ---
-function selectBet(betType) {
-if (isShaking || countdown <= LOCK_BET_TIME) return;
-currentBet = betType;
-betTaiButton.classList.toggle('active-bet', betType === 'tai');
-betXiuButton.classList.toggle('active-bet', betType === 'xiu');
-}
-
-function lockBetting() {
-betAmountInput.disabled = true; betTaiButton.disabled = true; betXiuButton.disabled = true;
-if (countdown === LOCK_BET_TIME) resultMessage.textContent = "Hết giờ cược!";
-}
-
-function resetRoundUI() {
-bowl.classList.remove('revealed'); allDice.forEach(d => { d.className = 'dice'; });
-betTaiButton.classList.remove('active-bet'); betXiuButton.classList.remove('active-bet');
-betAmountInput.value = ''; currentBet = null;
-betAmountInput.disabled = false; betTaiButton.disabled = false; betXiuButton.disabled = false;
-resultMessage.textContent = 'Đặt cược đi...';
-updateSessionDisplay();
-}
-
-function resetRoundVisuals() {
-bowl.classList.remove('revealed'); allDice.forEach(d => { d.className = 'dice'; });
-resultMessage.textContent = 'Đang lắc...';
-}
-
-function updateTimerDisplay() {
-timerDisplay.textContent = countdown >= 0 ? countdown : 0;
-timerDisplay.classList.toggle('locked', countdown <= LOCK_BET_TIME);
-}
-
-// --- Dice Animation ---
-function positionAndShowDice(v1, v2, v3) {
+// --- UI & Data Functions ---
+function selectBet(betType) { if (isShaking || countdown <= LOCK_BET_TIME || bowl.classList.contains('ready-to-nặn')) return; currentBet = betType; betTaiButton.classList.toggle('active-bet', betType === 'tai'); betXiuButton.classList.toggle('active-bet', betType === 'xiu'); }
+function lockBetting() { betAmountInput.disabled = true; betTaiButton.disabled = true; betXiuButton.disabled = true; if (countdown === LOCK_BET_TIME) resultMessage.textContent = "Hết giờ cược!"; }
+function resetRoundUI() { bowl.className = 'bowl'; bowl.style.transform = 'translate(-50%, -50%)'; allDice.forEach(d => { d.className = 'dice'; }); betTaiButton.classList.remove('active-bet'); betXiuButton.classList.remove('active-bet'); betAmountInput.value = ''; currentBet = null; betAmountInput.disabled = false; betTaiButton.disabled = false; betXiuButton.disabled = false; resultMessage.textContent = 'Mời đặt cược...'; updateSessionDisplay(); roundResultData = null; }
+function resetRoundVisuals() { bowl.className = 'bowl'; bowl.style.transform = 'translate(-50%, -50%)'; allDice.forEach(d => { d.className = 'dice'; }); resultMessage.textContent = 'Đang xóc...'; }
+function updateTimerDisplay() { timerDisplay.textContent = countdown >= 0 ? countdown : 0; timerDisplay.classList.toggle('locked', countdown <= LOCK_BET_TIME); }
+function positionAndShowDice([v1, v2, v3]) {
 const values = [v1, v2, v3];
-const endPositions = [{ top: '35%', left: '10%' }, { top: '35%', left: '40%' }, { top: '35%', left: '70%' }];
-const startTransforms = ['translate(-200px, -150px) scale(0) rotate(-270deg)', 'translate(0px, 200px) scale(0) rotate(180deg)', 'translate(200px, -150px) scale(0) rotate(270deg)'];
+const endPositions = [{ top: '50%', left: '25%' }, { top: '25%', left: '50%' }, { top: '75%', left: '50%' }];
 allDice.forEach((dice, i) => {
-dice.className = 'dice'; updateDiceUI(dice, values[i]);
-const endPos = endPositions[i]; dice.style.top = endPos.top; dice.style.left = endPos.left;
-dice.style.setProperty('--start-transform', startTransforms[i]);
-dice.style.setProperty('--end-transform', `translate(-50%, -50%) scale(1) rotate(${Math.random() * 360}deg)`);
-dice.classList.add('magic-appear'); dice.style.animationDelay = `${i * 0.1}s`;
+dice.className = 'dice visible'; updateDiceUI(dice, values[i]);
+dice.style.top = endPositions[i].top; dice.style.left = endPositions[i].left;
+dice.style.transform = `translate(-50%, -50%) rotate(${Math.random() * 360}deg)`;
 });
 }
 function updateDiceUI(diceEl, value) { diceEl.classList.add(`face-${value}`); diceEl.innerHTML = Array(value).fill('<div class="dot"></div>').join(''); }
-
-// --- Input Formatting ---
-function handleBetInputFormatting(e) {
-const input = e.target; const cursorPosition = input.selectionStart;
-let rawValue = input.value.replace(/[^0-9]/g, '');
-if (parseInt(rawValue, 10) > money) { rawValue = String(money); }
-const formattedValue = rawValue.length > 0 ? parseInt(rawValue, 10).toLocaleString('en-US') : '';
-const lengthDiff = formattedValue.length - input.value.length;
-input.value = formattedValue;
-const newCursorPosition = cursorPosition + lengthDiff;
-if (newCursorPosition >= 0 && newCursorPosition <= formattedValue.length) { input.setSelectionRange(newCursorPosition, newCursorPosition); }
-}
-function parseFormattedNumber(formattedString) { return parseInt(formattedString.replace(/,/g, ''), 10) || 0; }
-
-// --- Data Management & History/Roadmap UI ---
+function handleBetInputFormatting(e) { const input = e.target; let rawValue = input.value.replace(/[^0-9]/g, ''); if (parseFormattedNumber(rawValue) > money) { rawValue = String(money); } input.value = rawValue.length > 0 ? formatVNCurrency(parseFormattedNumber(rawValue)) : ''; }
+function parseFormattedNumber(formattedString) { return parseInt(String(formattedString).replace(/[^0-9]/g, ''), 10) || 0; }
 function loadGameData() {
-money = parseInt(localStorage.getItem(STORAGE_KEYS.MONEY), 10) || 1000000;
-history = JSON.parse(localStorage.getItem(STORAGE_KEYS.HISTORY)) || [];
-sessionRoundCount = parseInt(localStorage.getItem(STORAGE_KEYS.SESSION_COUNT), 10) || 0;
+const userData = JSON.parse(localStorage.getItem(`taixiu_user_${currentUser}`));
+money = userData.money || 0; history = userData.history || []; transactions = userData.transactions || [];
+sessionRoundCount = userData.sessionRoundCount || 0; isNặnMode = userData.isNặnMode || false;
 }
-function saveGameData() {
-localStorage.setItem(STORAGE_KEYS.MONEY, money);
-localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(history));
-localStorage.setItem(STORAGE_KEYS.SESSION_COUNT, sessionRoundCount);
-}
-function resetGameData() { if (confirm('Bạn có chắc muốn xóa toàn bộ tiền và lịch sử?')) { localStorage.clear(); location.reload(); } }
-
-function updateHistory(result, total, diceValues, betAmount, winnings) {
-history.unshift({ result, total, diceValues, betAmount, winnings, id: Date.now() });
-if (history.length > 50) history.pop();
-}
-
-function updateAllUI() {
-updateMoneyDisplay();
-updateHistoryUI();
-updateRoadmapUI();
-updateSessionDisplay();
-}
-
-function updateSessionDisplay() {
-sessionDisplay.textContent = `Phiên ${sessionRoundCount + 1 > SESSION_LENGTH ? 1 : sessionRoundCount + 1}`;
-}
-
+function saveGameData() { const userData = { money, history, transactions, sessionRoundCount, isNặnMode }; localStorage.setItem(`taixiu_user_${currentUser}`, JSON.stringify(userData)); }
+function resetGameData() { if (confirm('Bạn có chắc muốn reset toàn bộ dữ liệu?')) { const newUserData = { money: STARTING_MONEY, history: [], transactions: [], sessionRoundCount: 0, isNặnMode: false }; localStorage.setItem(`taixiu_user_${currentUser}`, JSON.stringify(newUserData)); location.reload(); } }
+function updateHistory(result, total, diceValues, betAmount, winnings) { history.unshift({ result, total, diceValues, betAmount, winnings, id: Date.now() }); if (history.length > 50) history.pop(); }
+function updateAllUI() { userDisplay.textContent = `Chào, ${currentUser}!`; updateMoneyDisplay(); updateHistoryUI(); renderFullRoadmap(); updateSessionDisplay(); nặnToggleBtn.textContent = isNặnMode ? 'Tắt Nặn' : 'Bật Nặn'; nặnToggleBtn.classList.toggle('active', isNặnMode); }
+function updateSessionDisplay() { sessionDisplay.textContent = `Phiên ${sessionRoundCount + 1 > SESSION_LENGTH ? 1 : sessionRoundCount + 1}`; }
 function updateHistoryUI() {
-historyList.innerHTML = history.length === 0 ? '<li style="text-align:center; opacity: 0.5;">Chưa có lịch sử</li>'
-: history.map(entry => {
-const resultText = entry.result.charAt(0).toUpperCase() + entry.result.slice(1);
-let winningsHtml = entry.betAmount > 0 ? `<span class="winnings ${entry.winnings >= 0 ? 'win' : 'loss'}">${entry.winnings >= 0 ? '+' : ''}${entry.winnings.toLocaleString()}</span>` : `<span class="winnings">--</span>`;
-return `<li class="history-item"><span class="result ${entry.result}">${resultText}</span><span class="total">${entry.total}</span><span class="dice-details">${entry.diceValues.join('-')}</span>${winningsHtml}</li>`;
-}).join('');
+historyList.innerHTML = history.length === 0 ? '<li style="text-align:center; opacity:0.5;">Chưa có lịch sử</li>'
+: history.map(entry => { const resultText = entry.result.charAt(0).toUpperCase() + entry.result.slice(1); let winningsHtml = entry.betAmount > 0 ? `<span class="winnings ${entry.winnings >= 0 ? 'win' : 'loss'}">${entry.winnings >= 0 ? '+' : ''}${formatVNCurrency(entry.winnings)}</span>` : `<span class="winnings">--</span>`; return `<li class="history-item"><span class="result ${entry.result}">${resultText}</span><span class="total">${entry.total}</span><span class="dice-details">${entry.diceValues.join('-')}</span>${winningsHtml}</li>`; }).join('');
+}
+function renderFullRoadmap() { roadmapTrack.innerHTML = ''; const roadmapHistory = history.slice(0, 20).reverse(); roadmapHistory.forEach(entry => { const letter = entry.result === 'tai' ? 'T' : 'X'; const roadmapItem = document.createElement('div'); roadmapItem.className = `roadmap-item ${entry.result}`; roadmapItem.textContent = letter; roadmapTrack.appendChild(roadmapItem); }); }
+function updateMoneyDisplay() { moneyDisplay.innerHTML = `💰 ${formatVNCurrency(money)}`; }
+function showError(message) { resultMessage.textContent = message; resultMessage.style.color = 'var(--color-loss)'; betAmountInput.classList.add('input-error'); setTimeout(() => { resultMessage.style.color = 'var(--text-light)'; betAmountInput.classList.remove('input-error'); }, 1500); }
+function updateTransactionHistoryUI() {
+transactionHistoryList.innerHTML = transactions.length === 0 ? '<li style="text-align:center; opacity:0.5;">Chưa có giao dịch</li>'
+: transactions.map(t => { let detailsHtml = ''; if (t.type === 'withdraw' && t.details) { detailsHtml = `<div class="transaction-details"><div><span class="detail-label">Ngân hàng:</span> ${t.details.bank}</div><div><span class="detail-label">STK:</span> ${t.details.accountNumber}</div><div><span class="detail-label">Người nhận:</span> ${t.details.accountName}</div></div>`; } return `<li class="transaction-item ${t.type}"><div class="main-info"><div class="info"><div class="type">${t.type === 'deposit' ? 'Nạp tiền' : 'Rút tiền'}</div><div class="time">${new Date(t.timestamp).toLocaleString('vi-VN')}</div></div><div class="amount">${t.type === 'deposit' ? '+' : '-'}${formatVNCurrency(t.amount)}</div></div>${detailsHtml}</li>`; }).join('');
 }
 
-function updateRoadmapUI() {
-const lastResult = history[0];
-if (!lastResult) return; // Không làm gì nếu chưa có lịch sử
+// --- App Entry Point ---
+function main() { setupAllEventListeners(); checkLoggedInUser(); }
+main();
 
-// Thêm mục mới vào cầu
-const letter = lastResult.result === 'tai' ? 'T' : 'X';
-const roadmapItem = document.createElement('div');
-roadmapItem.className = `roadmap-item ${lastResult.result}`;
-roadmapItem.textContent = letter;
-roadmapTrack.appendChild(roadmapItem);
-}
-
-function updateMoneyDisplay() { moneyDisplay.textContent = `💰 ${money.toLocaleString()}`; }
-function showError(message) {
-resultMessage.textContent = message; resultMessage.style.color = 'var(--color-loss)';
-betAmountInput.classList.add('input-error');
-setTimeout(() => { resultMessage.style.color = 'var(--text-light)'; betAmountInput.classList.remove('input-error'); }, 1500);
-}
-
-// --- Start Game ---
-initializeGame();
+});
 </script>
 </body>
 </html>
