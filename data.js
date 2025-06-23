@@ -2,1569 +2,2978 @@ const questions = {
     question_2: {
         
         origin_question: [
-             {
-        "id": 1,
-        "title": "Tiến trình ra quyết định bao gồm mấy phần?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "1", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "2", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "4", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Tiến trình ra quyết định bao gồm ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Phân tích, thiết kế, lựa chọn", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Phân tích, thiết kế, lựa chọn, thực thi lựa chọn", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Phân tích, thiết kế, hành động", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Phân tích, thiết kế", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Quyết định được xác định theo một trình tự thủ tục xác định được gọi là quyết định .....?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Có cấu trúc", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Không cấu trúc", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Bán cấu trúc", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Không tài liệu", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Tính lương cho công nhân được xếp vào phạm trù ra quyết định .....?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Có cấu trúc", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Không cấu trúc", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Bán cấu trúc", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Không tài liệu", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Ra quyết định là gì?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Công việc của các nhà quản trị cấp cao", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Lựa chọn 1 giải pháp cho vấn đề đã xác định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Một công việc mang tính nghệ thuật", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 6,
-        "title": "Ra quyết định là 1 hoạt động?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Nhờ vào trực giác", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Mang tính khoa học và nghệ thuật", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Nhờ vào kinh nghiệm", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả đều chưa chính xác", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 7,
-        "title": "Câu nào là cấu có phát biểu sai trong các câu sau ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Ra quyết định phụ thuộc hoàn toàn vào ý muốn chủ quan của nhà quản trị", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Ra quyết định mang tính khoa học và nghệ thuật", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Việc ra quyết định rất cần dựa vào kinh nghiệm", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Cần nắm vững lí thuyết ra quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 8,
-        "title": "Ra quyết định quản trị nhằm ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Chọn phương án tốt nhất và ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Thảo luận với những người khác và ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Giải quyết 1 vấn đề", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm phương án để giải quyết vấn đề", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 9,
-        "title": "Quy định ra quyết định gồm ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Xác định vấn đề và ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Chọn phương án tốt nhất và ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Thảo luận với những người khác và ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Nhiều bước khác nhau", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 10,
-        "title": "DDS là viết tắt của hệ thống nào ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Hệ hỗ trợ điều hành", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Hệ chuyên gia", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Hệ tri thức", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Hệ trợ giúp ra quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 11,
-        "title": "Bước thứ nhất trong tiến trình ra quyết định là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Chọn phương án tốt nhất và ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Xác định mục tiêu", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Phân tích, nhận diện vấn đề cần giải quyết", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm kiếm các phương án", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 12,
-        "title": "Bước khó nhất của tiến trình ra quyết định là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Chọn phương án tốt nhất và ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Xác định mục tiêu", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Phân tích, nhận diện vấn đề cần giải quyết", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm kiếm các phương án", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 13,
-        "title": "Bước thứ 2 trong tiến trình ra quyết định là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Phân tích", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Thiết kế", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Lựa chọn", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Thực thi", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 14,
-        "title": "Bước thứ 3 trong tiến trình ra quyết định là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Phân tích", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Thiết kế", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Lựa chọn", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Thực thi", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 15,
-        "title": "Quyết định có cấu trúc (Structured Decision) là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Các quyết định mà người ra quyết định biết chắc chắn đúng", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các quyết định mà người ra quyết định biết là có nhiều câu trả lời gần đúng và không cách nào để tìm ra câu trả lời chính xác nhất", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các quyết định lặp đi lặp", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Các quyết định không xảy ra thường xuyên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 16,
-        "title": "Quyết định không có cấu trúc (NonStructured Decision) là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Các quyết định mà người ra quyết định biết chắc chắn đúng", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các quyết định mà người ra quyết định biết là có nhiều câu trả lời gần đúng và không có cách nào để tìm ra câu trả lời chính xác nhất", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các quyết định lặp đi lặp lại", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Các quyết định không xảy ra thường xuyên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 17,
-        "title": "Một hệ hỗ trợ quyết định gồm có mấy thành phần chính ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "1", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "2", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "3", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "4", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 18,
-        "title": "Một hệ hỗ trợ quyết định gồm có ba thành phần chính là những thành phần nào trong các thành phần sau đây ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Quản lý dữ liệu", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Quản lý mô hình", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Quản lý giao diện người dùng", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Cả 3 thành phần trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 19,
-        "title": "TPS-Transaction Processing Systems là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Hệ thống xử lý tác nghiệp", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Hệ thống thông tin quản lý", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Hệ thống trợ giúp ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Hệ chuyên gia", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 20,
-        "title": "MIS-Management Information Systems là gì ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Hệ thống xử lý tác nghiệp", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Hệ thống thông tin quản lý", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Hệ thống trợ giúp ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Hệ chuyên gia", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 21,
-        "title": "Quản trị dữ liệu là gì ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Bao gồm CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho hệ hỗ trợ quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Hoạt động như 1 thành phần độc lập hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 22,
-        "title": "Quản trị mô hình là gì ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Bao gồm CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho hệ hỗ trợ quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Hoạt động như 1 thành phần độc lập hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 23,
-        "title": "Quản trị đối thoại là gì ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Bao gồm CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho hệ hỗ trợ quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Hoạt động như 1 thành phần độc lập hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 24,
-        "title": "Quản trị tri thức là gì ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Bao gồm CSDL chứa dữ liệu liên quan đến một tình huống và được quản lý bởi phần mềm là hệ quản trị CSDL", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cho phép khai thác và quản lý các mô hình định lượng (xử lý) khác nhau, cung cấp khả năng phân tích cho hệ thống.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Cung cấp giao diện cho người dùng để liên lạc và ra lệnh cho hệ hỗ trợ quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Hoạt động như 1 thành phần độc lập hoặc có thể trợ giúp cho bất kỳ 1 hệ thống nào trong 3 hệ thống nói trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 25,
-        "title": "Hiệu quả của quyết định phụ thuộc vào ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Nắm vững các bước của quá trình ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Vận dụng nhuần nhuyễn các bước của quá trình ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Bảo đảm đầy đủ các điều kiện thực hiện quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả đều đúng", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 26,
-        "title": "Lựa chọn mô hình ra quyết định phụ thuộc vào ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Tính cách nhà quản trị", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Ý muốn của đa số nhân viên", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Năng lực nhà quản trị", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Nhiều yếu tố khác nhau", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 27,
-        "title": "Decision Support Systems có nghĩa là gì ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Hệ chuyên gia", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Hệ trợ giúp ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Hệ tri thức", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Hệ quản trị CSDL", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 28,
-        "title": "Những kỹ năng ra quyết định bao gồm ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Quyết định đúng đắn thẩm quyền", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Phải ngắn gọn, kịp thời, chính xác", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Phải có tính pháp lý", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả các kỹ năng trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 29,
-        "title": "Ra quyết định theo phong cách độc đoán sẽ ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Không có lợi trong mọi trường hợp", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Không được cấp dưới ủng hộ khi thực thi quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Gặp sai lầm trong giải quyết vấn đề", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Không phát huy được tính sáng tạo của nhân viên trong quá trình ra quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 30,
-        "title": "Quá trình ra quyết định có mấy giai đoạn ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "2", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "5", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 31,
-        "title": "Quá trình ra quyết định - giai đoạn tìm hiểu là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Phát biểu mô hình, đặt các tiêu chuẩn chọn, tìm các phương án chọn, dự đoán và đo kết quả ra", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các mục tiêu, tập hợp dữ liệu, định hình bài toán, phân loại vấn đề, trình bày bài toán", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tính toán theo mô hình, phân tích độ phù hợp, chọn phương án tốt(nhất),lập kế hoạch thực hiện, thiết kế một hệ thống điều kiển", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 32,
-        "title": "Quá trình ra quyết định - giai đoạn phân tích là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Phát biểu mô hình, đặt các tiêu chuẩn chọn, tìm các phương án chọn, dự đoán và đo kết quả ra", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các mục tiêu, tập hợp dữ liệu, định hình bài toán, phân loại vấn đề, trình bày bài toán", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tính toán theo mô hình, phân tích độ phù hợp, chọn phương án tốt(nhất),lập kế hoạch thực hiện, thiết kế một hệ thống điều kiển", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 33,
-        "title": "Quá trình ra quyết định - giai đoạn lựa chọn là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Phát biểu mô hình, đặt các tiêu chuẩn chọn, tìm các phương án chọn, dự đoán và đo kết quả ra", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các mục tiêu, tập hợp dữ liệu, định hình bài toán, phân loại vấn đề, trình bày bài toán", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tính toán theo mô hình, phân tích độ phù hợp, chọn phương án tốt(nhất),lập kế hoạch thực hiện, thiết kế một hệ thống điều kiển", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 34,
-        "title": "Môi trường ra quyết định phụ thuộc vào các yếu tố nào sau đây ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Các yếu tố tác động", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các yếu tố tổ chức", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các yếu tố ngoại cảnh", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tác động - Tổ chức – Ngoại cảnh – Thông tin – Các mục tiêu quản lý", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 35,
-        "title": "Môi trường ra quyết định phụ thuộc vào bao nhiêu yếu tố ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "3", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "4", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "5", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "6", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 36,
-        "title": "Môi trường ra quyết định – Các yếu tố tác động là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Trực tiếp, dễ nhìn thấy như: Hạn chế về tài nguyên, điều kiện vật lý và các tham số chức năng ảnh hưởng đến hiệu quả", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Điều kiện xã hội, ý thức chấp hành, hành vi văn hóa, thái độ và nhân cách", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Pháp luật, các quy định cần tuân thủ", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Thông tin tỉ mỉ, tổng hợp, đa dạng", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 37,
-        "title": "Môi trường ra quyết định – các yếu tố tổ chức là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Chính sách", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Con người", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Chính sách – Cấu trúc – Hình ảnh – Con người", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tổ chức", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 38,
-        "title": "Môi trường ra quyết định phụ - Các yếu tố ngoại cảnh là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Pháp luật, các quy luật cần tuân thủ", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Pháp luật, các quy định cần tuân thủ - Kinh tế - Môi trường – Thị trường – Đòi hỏi của khách hàng, nhu cầu của khách hàng", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Thị trường: Sự cạnh tranh, phát triển của công nghệ mới", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Đòi hỏi của khách hàng, nhu cầu của khách hàng", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 39,
-        "title": "Môi trường ra quyết định – Các yếu tố thông tin là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Khả năng thông tin: Độ bảo mật, khả năng truyền thông, phương tiện lưu trữ, nguồn, kênh thông tin", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Độ tin cậy: Độ chính xác – cập nhật – chuẩn mực", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Giải pháp: Thông tin tỉ mỉ, tổng hợp và đa dạng", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khả năng thông tin - Độ tin cậy – Giải pháp – Giá cả", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 40,
-        "title": "Môi trường ra quyết định – Các mục tiêu quản lý là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Sự vận hành: Kinh tế, hiệu quả, chất lượng", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Vùng ảnh hưởng: Điều kiện tác nghiệp, truyền đạt trong tổ chức", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Giải pháp: Thông tin tỉ mỉ, tổng hợp và đa dạng", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Sự vận hành – Vùng ảnh hưởng – Sự giải quyết – Mức độ rõ ràng", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 41,
-        "title": "Đánh giá các phương án chọn trong quá trình ra quyết định phụ thuộc bao nhiêu yếu tố chính ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "2", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Không phụ thuộc vào yếu tố nào cả", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 42,
-        "title": "Đánh giá các phương án chọn trong quá trình ra quyết định phụ thuộc các yếu tố chính nào sau đây ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Cấu trúc và độ phức tạp của hoàn cảnh được phân tích", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Đặc trưng của đối tượng (định lượng, chủ quan, rõ, mờ )", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Trạng thái và định lượng của các yếu tố ảnh hưởng", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 43,
-        "title": "Ra quyết định là gì ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Không có đáp án nào chính xác", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Ra quyết định là một phương án được lựa chọn trong số các phương án hiện có", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Là hành vi sáng tạo của nhà quản trị nhằm định ra chương trình và tính chất hoạt động của tổ chức để giải quyết một vấn đề đã chín muồi, trên cơ sở hiểu biết các quy luật vận động khách quan của hệ thống", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Ra quyết định là quá trình cân nhắc dẫn đến việc lựa chọn một phương án thực hiện trong số các phương án hiện có. Với việc đưa ra kết quả này phải dựa trên cơ sở của lý giải. Với quá trình tiến hành phân tích để tìm kiếm các lựa chọn tốt nhất. Được thực hiện với chủ thể có quyền và tác động đến kết quả phản ánh đối với quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 44,
-        "title": "DGMS- Hệ thống quản trị và tạo sinh hội thoại viết tắt của ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Không có đáp án chính xác", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Digital Generation and Management System", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dialog Generation and Management System", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dialog Generation and Management Structure", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 45,
-        "title": "UIMS - Hệ quản trị giao diện người dùng viết tắt của?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "User Interface Metting System", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Không có đáp án chính xác", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "User Interface Management System", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "User Information Management System", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 46,
-        "title": "Các chức năng cơ bản của hệ quản trị CSDL",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Điều khiển", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tìm kiếm", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Lưu trữ", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 47,
-        "title": "CSDL của hệ hỗ trợ quyết định bao gồm:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Dữ liệu trong", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dữ liệu ngoài", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dữ liệu riêng", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 48,
-        "title": "CSDL của hệ hỗ trợ quyết định – dữ liệu riêng là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Dữ liệu của người ra quyết định được sử dụng trong những tình huống cụ thể, xác định các giải pháp khác nhau với cùng một bài toán", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dữ liệu lấy từ hệ thống và xử lý các công việc của tổ chức, từ các bộ phận nghiệp vụ như tài chính, vật tư, sản xuất", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dữ liệu chuyển vào hệ thống khi sử dụng Hệ hỗ trợ quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 49,
-        "title": "CSDL của hệ hỗ trợ quyết định – dữ liệu ngoài là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Dữ liệu của người ra quyết định được sử dụng trong những tình huống cụ thể, xác định các giải pháp khác nhau với cùng một bài toán", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dữ liệu chuyển vào hệ thống khi sử dụng Hệ hỗ trợ quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dữ liệu lấy từ hệ thống và xử lý các công việc của tổ chức, từ các bộ phận nghiệp vụ như tài chính, vật tư, sản xuất", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 50,
-        "title": "CSDL của hệ hỗ trợ quyết định – dữ liệu trong là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Dữ liệu chuyển vào hệ thống khi sử dụng Hệ hỗ trợ quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tất cả các đáp án trên", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dữ liệu của người ra quyết định được sử dụng trong những tình huống cụ thể, xác định các giải pháp khác nhau với cùng một bài toán", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dữ liệu lấy từ hệ thống và xử lý các công việc của tổ chức, từ các bộ phận nghiệp vụ như tài chính, vật tư, sản xuất", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 51,
-        "title": "Hệ con quản trị mô hình gồm các thành phần:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Cơ sở mô hình- Hệ quản trị cơ sở mô hình- Ngôn ngữ dùng trong mô hình", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cơ sở mô hình- Hệ quản trị cơ sở mô hình- Ngôn ngữ dùng trong mô hình- Danh mục mô hình-Thực hiện, tích hợp và điều khiển mô hình", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Không có đáp án nào chính xác", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Cơ sở mô hình- Hệ quản trị cơ sở mô hình- Ngôn ngữ dùng trong mô hình- Danh mục mô hình", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 52,
-        "title": "Mô hình chiến lược?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tCâu m số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 53,
-        "title": "Mô hình chiến thuật?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tham số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 54,
-        "title": "Mô hình tác nghiệp ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tham số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 55,
-        "title": "Các khối tạo mô hình và các chương trình con ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Sử dụng cho phân tích dữ liệu, xác định các giá trị của các biến, các tham số trong mô hình,... như cơ chế sinh ra số ngẫu nhiên, phân tích hồi quy", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cho mức quản lý trung gian, thời gian 1 tháng đến 2 năm, ở các phòng ban, nhằm trợ giúp xác định và điều phối các nguồn lực của tổ chức, như lập kế hoạch yêu cầu về lao động, quảng cáo, bán sản phẩm", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Trợ giúp những hoạt động thường xuyên của tổ chức như lập thời gian biểu sản xuất, thống kê, bán sản phẩm", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Trợ giúp lập kế hoạch chiến lược quản lý ở mức cao nhất, phạm vi rộng, thời gian dài như: phát triển các mục tiêu chung, phân tích môi trường, phát triển công nghệ, phần mềm", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 56,
-        "title": "Có mấy lớp người sử dụng trong hệ hỗ trợ quyết định?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "4", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "3", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "5", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "2", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 57,
-        "title": "Các nhà quản lý sử dụng hệ hỗ trợ quyết định mong muốn gì?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Muốn hệ thân thiện, quan tâm nhiều đến sự trợ giúp phân tích của hệ", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Muốn sử dụng những hệ thống phức tạp, hướng chủ đề, quan tâm đến những khả năng tính toán của hệ HTQĐ", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Hệ thân thiện", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Muốn sử dụng những hệ thống phức tạp", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 58,
-        "title": "Các nhà chuyên môn sử dụng hệ hỗ trợ quyết định mong muốn gì?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Muốn sử dụng những hệ thống phức tạp", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Muốn hệ thân thiện, quan tâm nhiều đến sự trợ giúp phân tích của hệ", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Hệ thân thiện", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Muốn sử dụng những hệ thống phức tạp, hướng chủ đề, quan tâm đến những khả năng tính toán của hệ HTQĐ", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 59,
-        "title": "Hãy trình bày khái niệm về mô hình?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Là bản sao vật lý của hệ thống, chỉ khác nhau về tỷ lệ so với nguyên bản", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Không hoàn toàn giống thể giới thực, nhưng có dáng điệu giống như hệ thống thực và được xem là một biểu diễn tượng trưng cho thế giới thực", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Mô hình là một biểu diễn đơn giản hóa hoặc tóm lược hiện thực", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 60,
-        "title": "Một hộ ở Bát Tràng sản xuất 2 loại sản phẩm là bát và lọ hoa. Để sản xuất một chiếc bát cần 0,5 kg đất cao lanh và một giờ để làm, đem lại mức lãi 4000 đồng; Để sản xuất một lọ hoa cần 1kg đất cao lanh và 0,5 giờ để làm, đem lại mức lãi 3000 đồng. Với lượng nguyên liệu là 50kg và thời gian 70 giờ thì phải sản xuất bao nhiêu chiếc mỗi loại để thu được tổng số tiền lãi cao nhất ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Sản xuất 0 bát , 50 lọ hoa", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Sản xuất 0 bát , 0 lọ hoa", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Sản xuất 60 bát , 20 lọ hoa", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Sản xuất 70 bát , 0 lọ hoa", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 61,
-        "title": "Xí nghiệp ABC ở Gia Lâm sản xuất Câu i loại sản phẩm bằng da là cặp sách và ba lô. Một chiếc cặp sách sản xuất mất 2 giờ và lãi 20000 đồng; Một chiếc ba lô sản xuất mất 1 giờ và lãi 15000 đồng. Biết xí nghiệp có 125 công nhân, mỗi công nhân làm việc 8 giờ/ ngày. Nguyên liệu da đủ để sản xuất 800 sản phẩm mỗi ngày và trong mỗi ngày chỉ có 400 khóa cặp, 700 khóa ba lô. Tìm số sản phẩm mỗi loại phải sản xuất trong 1 ngày để có lãi nhiều nhất.?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Xí nghiệp cần sản xuất 200 cặp sách và 600 ba lô trong 1 ngày", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Xí nghiệp cần sản xuất 100 cặp sách và 700 ba lô trong 1 ngày", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Xí nghiệp cần sản xuất 400 cặp sách và 0 ba lô trong 1 ngày", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Xí nghiệp cần sản xuất 400 cặp sách và 200 ba lô trong 1 ngày", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 62,
-        "title": "Mô hình động ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cần ra quyết định trong 1 tình huống tức thời của hệ thống, với giả định rằng hệ ổn định trong quá trình phân tích", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Để đánh giá các kịch bản thay đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 63,
-        "title": "Mô hình chắc chắn ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cần ra quyết định trong 1 tình huống tức thời của hệ thống, với giả định rằng hệ ổn định trong quá trình phân tích", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Để đánh giá các kịch bản thay đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 64,
-        "title": "Mô hình không chắc chắn ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Cần ra quyết định trong 1 tình huống tức thời của hệ thống, với giả định rằng hệ ổn định trong quá trình phân tích", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Để đánh giá các kịch bản tCâu y đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 65,
-        "title": "Mô hình ra quyết định mạo hiểm ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Trong việc ra quyết định với giả thiết chắc chắn, thông tin đầy đủ, có sẵn, người ra quyết định biết chính xác kết quả mỗi quá trình sẽ xảy ra và giả thiết rằng chỉ có 1 kết quả cho mỗi sự lựa chọn", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Để đánh giá các kịch bản tCâu y đổi theo thời gian, cho tương lai như giá cả, phí tổn, lợi nhuận trong năm tới", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Người ra quyết định phải sử dụng nhiều kỹ thuật để phân tích, đánh giá mức độ mạo hiểm cho mỗi giải pháp (ví dụ trong kinh doanh).", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khi giả thiết không chắc chắn, thông tin không đầy đủ thì việc ra quyết định khó khăn. Do đó, cần phải cố gắng tránh sự không chắc chắn", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 66,
-        "title": "Mô hình bảng quyết định, cây quyết định?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm giải pháp “đủ tốt” hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 67,
-        "title": "Mô hình quy hoạch toán học, quy hoạch tuyến tính, mô hình mạng?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Tìm giải pháp “đủ tốt” hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 68,
-        "title": "Các mô hình thống kê ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Tìm giải pháp “đủ tốt” hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 69,
-        "title": "Mô hình mô phỏng ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Tìm giải pháp “đủ tốt” hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tìm giải pháp tốt nhất trong một số ít các phương án chọn.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 70,
-        "title": "Các mô hình Heuristic và hệ chuyên gia?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Tìm giải pháp tốt nhất trong một số bước bằng sử dụng công thức thống kê.\"", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tìm giải pháp “đủ tốt” bằng cách sử dụng các luật.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tìm giải pháp tốt nhất trong số lớn (vô hạn) các giải pháp, sử dụng quá trình cải tiến từng bước.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tìm giải pháp “đủ tốt” hoặc tốt nhất trong số các giải pháp được kiểm tra, sử dụng thử nghiệm.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 71,
-        "title": "Khi nào sử dụng tối ưu tuyến tính?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn “đủ tốt” (90-99%).", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 72,
-        "title": "Khi nào sử dụng mô phỏng?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn “đủ tốt” (90-99%).", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 73,
-        "title": "Khi nào sử dụng Heuristic?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn “đủ tốt” (90-99%).", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 74,
-        "title": "Khi nào sử dụng cây quyết định?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Ở những Hệ hỗ trợ quyết định có các tình huống nửa cấu trúc, phi cấu trúc thì khó biểu diễn bằng mô hình tối ưu hoặc các mô hình toán học khác.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Khi số lượng các phương án chọn lớn (có thể vô hạn) thì không thể giải bằng bảng quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Khi gặp những vấn đề hết sức phức tạp, mà việc tìm ra giải pháp tối ưu là không thể với điều kiện thời gian và kinh phí cho phép, việc mô phỏng cũng kéo dài và phức tạp, có thể nghĩ đến heuristic để tìm ra giải pháp thỏa mãn “đủ tốt” (90-99%).", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Khi chỉ có một số nhỏ các phương án chọn, có một đích thì có thể biểu diển bài toán dưới dạng bảng hoặc mạng.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 75,
-        "title": "Khi ra quyết định với độ chắc chắn chúng ta chọn mô hình nào?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Mô hình bảng quyết định( cây quyết định)", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tất cả các mô hình trên", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Mô hình mô phỏng, dự báo, Heuristic", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Mô hình tối ưu tuyến tính", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 76,
-        "title": "Khi ra quyết định với sự mạo hiểm chúng ta chọn mô hình nào?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Mô hình mô phỏng, dự báo, Heuristic", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tất cả các mô hình trên", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Mô hình bảng quyết định( cây quyết định)\"", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Mô hình tối ưu tuyến tính", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 77,
-        "title": "Phương pháp phán đoán là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán)", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 78,
-        "title": "Phương pháp đếm là?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 79,
-        "title": "Phương pháp phân tích theo chuỗi thời gian là ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 80,
-        "title": "Phương pháp phân tích nhân quả là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Gồm một số thí nghiệm, khảo sát mẫu nhằm tổng quát hóa toàn bộ hệ thống. Phương pháp này chỉ dựa trên dữ liệu, chủ yếu là dữ liệu quá khứ", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Phân tích dữ liệu, kết hợp dữ liệu để tìm ra các mối quan hệ tiềm năng (datamining). Phương pháp này phức tạp, có nhiều biến, phải dùng kỹ thuật thống kê.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Dáng điệu hoạt động của hệ thống trong quá khứ giúp ta hiểu dáng điệu trong tương lai (dự báo giá cả, thị trường chứng khoán", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Dựa trên các ước tính mục tiêu và các ý kiến chuyên gia hơn là dữ liệu cứng, dùng cho dự báo dài hạn, đặc biệt là nơi các nhân tố ngoài giữ vai trò đáng kể.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 81,
-        "title": "Ưu điểm của mô phỏng là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Cho phép quan sát 1 lớp các tình huống, cho phép thử nghiệm theo kiểu thử-sai.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Đơn giản, không phụ thuộc vào yếu tố thời gian, có những vấn đề liên quan đến 1 quãng thời gian dài, nhưng máy tính xử lý trong vài phút.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Tất cả các ý trên", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Giúp cho nhà quản lý hiểu rõ hệ thống, vì được xây dựng theo cách nhìn của nhà quản lý và cấu trúc quyết định của họ, mô phỏng có thể thực hiện với mọi vấn đề, mọi tập giá trị của các biến,..", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 82,
-        "title": "Bất lợi của mô phỏng là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Mô phỏng nhiều khi làm cho nhà quản lý mất trực quan, phương án tối ưu xuất hiện trước mắt nhưng không nhận ra.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tất cả các ý trên.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Không đảm bảo giải pháp tối ưu.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Không thể dùng để giải các bài toán khác, khó tổng quát hóa.", "url_thumb": "", "type": ""},
-            {"idResult": 4, "value": "Quá trình mô phỏng chậm, tốn kém.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 83,
-        "title": "AHP là một phương pháp định lượng do ai đề xuất?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Được đề xuất bởi Thomas L. Saaty (1980).", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Được đề xuất bởi I.M. Makarov", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Được đề xuất bởi M.W.Davis", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Được đề xuất bởi E. Turban.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 84,
-        "title": "Ưu điểm của Heuristics là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Thường đưa ra lời giải chấp nhận được,..", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Làm cho con người sáng tạo hơn, để giải quyết các vấn đề heuristics khác.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Đơn giản, dễ hiểu, dễ thực thi.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả các ý trên.", "url_thumb": "", "type": ""},
-            {"idResult": 4, "value": "Giảm thời gian tính toán, yêu cầu bộ nhớ.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 85,
-        "title": "Phương pháp AHP gồm mấy bước chính",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "2", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "1", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "4", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "3", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 86,
-        "title": "Đặc điểm của AHP là gì",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Cả hai ý trên", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "AHP sử dụng ý kiến chuyên gia", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Không cần quá nhiều dữ liệu để phân tích", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Tất cả đều sai", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 87,
-        "title": "AHP trả lời các Câu hỏi:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Nên chọn phương án nào?", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tất cả đều sai", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Phương án nào tốt nhất", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Cả hai đáp án trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 88,
-        "title": "AHP là phương pháp gì:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Toán học", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Tối ưu", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Cây quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Định lượng", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 89,
-        "title": "Câu 89: Giai đoạn thực hiện trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "15%", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "5%", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "25%", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "10%", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 90,
-        "title": "Mô hình tĩnh ?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Cần ra quyết định trong 1 tình huống tức thời của hệ thống, với giả định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 91,
-        "title": "Ngôn ngữ hành động (thao tác) trong Giao diện người dùng nhìn từ 2 phía(người và máy) là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Là các menu, trả lời một câu hỏi, chuyển đổi một cửa sổ màn hình hoặc soạn 1 câu lệnh. Một hay nhiều thiết bị vào được sử dụng để thực hiện hành động đó.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 92,
-        "title": "Tri thức trong Giao diện người dùng nhìn từ 2 phía(người và máy) là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Có thể là các menu, trả lời một câu hỏi, chuyển đổi một cửa sổ màn hình hoặc soạn 1 câu lệnh. Một hay nhiều thiết bị vào được sử dụng để thực hiện hành động đó.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 93,
-        "title": "Phản ứng của người dùng trong Giao diện người dùng nhìn từ 2 phía(người và máy) là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "có thể là các menu, trả lời một câu hỏi, chuyển đổi một cửa sổ màn hình hoặc soạn 1 câu lệnh. Một hay nhiều thiết bị vào được sử dụng để thực hiện hành động đó.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 94,
-        "title": "máy tính trong Giao diện người dùng nhìn từ 2 phía(người và máy) là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "máy tính diễn dịch đầu vào của người dùng, thực hiện xử lý rồi đưa ra kết quả bằng ngôn ngữ hiển thị (máy tinh sinh ra phần hiển thị đầu ra).", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 95,
-        "title": "Hội thoại trong Giao diện người dùng nhìn từ 2 phía(người và máy) là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "như là 1 dãy các trao đổi hoặc tương tác giữa người và máy tính.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "là những thông tin người dùng cần biết để giao tiếp với máy tính. Những kiến thức này người dùng đã có, hoặc có thể trong bảng tham khảo, hoặc là dãy các thông báo khi có yêu cầu.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "người dùng diễn giải các hiển thị trên màn hình, xử lý nội dung và lập kế hoạch hành động tiếp.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "thông tin đưa ra cho người dùng thông qua các thiết bị ra (màn hình, máy in, loa). Các thông tin này có dạng menu, văn bản, có thể tĩnh hoặc động, kiểu số hoặc ký hiệu", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 96,
-        "title": "Chất lượng của giao diện trong một ứng dụng do ai quyết định",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "do người dùng quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "do hệ thống quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "do người quản trị quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "người lập trình quyết định", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 97,
-        "title": "Một số yêu cầu quan trọng của giao diện người dùng là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "thiết kế màn hình giao diện người - máy", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "sử dụng màu sắc, mật độ thông tin", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "sử dụng các biểu tượng và ký hiệu, khuôn dạng hiểu thị thông tin, lựa chọn các thiết bị vào, ra.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "tất cả các đáp án trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 98,
-        "title": "phương pháp tương tác menu là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 99,
-        "title": "phương pháp ngôn ngữ lệnh là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 100,
-        "title": "phương pháp hỏi và trả lời là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 101,
-        "title": "phương pháp tương tác bằng biểu mẫu là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "Người dùng chọn chức năng cần thực hiện từ danh sách các menu xuất hiện theo thứ tự logic, bắt đầu từ menu chính đến các menu con...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 102,
-        "title": "phương pháp ngôn ngữ tự nhiên là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Tương tác người-máy giống như hội thoại giữa con người với nhau. Ngày nay, công việc này được thực hiện chủ yếu bằng bàn phím, trong tương lai sẽ chuyển qua dạng hội thoại. Hạn chế cơ bản là máy tính không hiểu được ngôn ngữ tự nhiên. Tuy nhiên, khi các nghiên cứu trong trí tuệ nhân tạo được đẩy mạnh, thì sẽ nâng cao khả năng hội thoại bằng ngôn ngữ tự nhiên", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 103,
-        "title": "phương pháp thao tác đổi tượng là:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Các đối tượng thường được biểu diễn qua các biểu tượng, và người dùng có thể thao tác trực tiếp, ví dụ: di chuyển, phóng to, thu nhỏ, chi tiết hóa chỉ thị...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Người dùng đưa vào các lệnh như RUN, FIND,... bằng bàn phím hoặc các macro.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Các câu hỏi có thể xuất hiện dưới dạng mệnh đề hoặc lựa chọn từ các thành phần của menu. Câu trả lời cũng có thể chọn trong 1 menu.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Người dùng đưa dữ liệu vào theo 1 biểu mẫu được thiết kế trước, máy tính tính ra kết quả và người dùng lại yêu cầu các biểu mẫu tiếp theo.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 104,
-        "title": "Sử dụng đồ họa trong Hệ hỗ trợ quyết định gồm:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 4,
-        "results": [
-            {"idResult": 0, "value": "Các báo cáo: biểu đồ, đồ thị,...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các thể hiện: đưa ra thông tin ngắn gọn trong cuộc họp, hội thảo", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Quản lý vết trong khi thực hiện: các biểu đồ luồng thông tin, chức năng.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "Phân tích, lập kế hoạch và lập lịch trình, câu lệnh, điều khiển và kết nối.", "url_thumb": "", "type": ""},
-            {"idResult": 4, "value": "tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 105,
-        "title": "cửa sổ trong giao diện đồ họa người dùng (GUI - Graphical User Interface) :",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác. Người dùng có thể chuyển văn bản, đồ họa giữa các ứng dụng khác nhau. Môi trường này là cơ sở của công cụ xử lý tài liệu.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 106,
-        "title": "Biểu tượng trong giao diện đồ họa người dùng (GUI - Graphical User Interface) :",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác. Người dùng có thể chuyển văn bản, đồ họa giữa các ứng dụng khác nhau. Môi trường này là cơ sở của công cụ xử lý tài liệu.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 107,
-        "title": "Điểm kích hoạt trong giao diện đồ họa người dùng (GUI - Graphical User Interface) :",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác. Người dùng có thể chuyển văn bản, đồ họa giữa các ứng dụng khác nhau. Môi trường này là cơ sở của công cụ xử lý tài liệu.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 108,
-        "title": "Môi trường WYSIWYG trong giao diện đồ họa người dùng (GUI - Graphical User Interface) :",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "mỗi cửa sổ là một vùng của màn hình máy tính chứa văn bản, đồ họa, hình ảnh, chuyển động, hoặc cửa sổ khác. Nó có thể gối lên nhau, cuộn lại hoặc di chuyển.", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "là hình ảnh nhỏ đại diện cho 1 cửa sổ đang tạm thời bị đóng lại, hoặc cho một số đối tượng khác. Kích vào biểu tượng thì cửa sổ đó hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "chứa các thông tin bổ sung cho 1 cửa sổ màn hình, về 1 đối tượng nào đó. Khi đưa con trỏ vào thì đối tượng đó sẽ hoạt động.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "trong môi trường này, người dùng làm việc với nhiều cửa sổ xếp chồng lên nhau và các thành phần GUI khác. Người dùng có thể chuyển văn bản, đồ họa giữa các ứng dụng khác nhau. Môi trường này là cơ sở của công cụ xử lý tài liệu.", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 109,
-        "title": "Đa phương tiện:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Sử dụng nhiều phương tiện kết nối với máy tính tạo ra môi trường liên kết người-máy trong các ứng dụng. Ví dụ: CD-ROM, VideoDisc, Image Digitizing, Overhead, Scanner, TV, Microphone,...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các tài liệu có thể chứa cùng lúc văn bản, đồ họa, audio, video; cho phép các thông tin liên kết với nhau.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "cách tiếp cận thông tin văn bản và đồ họa, cho phép người sử dụng đến thẳng chủ đề mà họ muốn xem. Việc đọc và xem thông tin được điều khiển trực tiếp bởi người sử dụng, người sử dụng có thể điều khiển các kiểu thông tin, các mức độ thông tin trên màn hình. Dễ dàng quay lui hoặc chuyển sang chủ đề khác.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 110,
-        "title": "Siêu phương tiện:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Sử dụng nhiều phương tiện kết nối với máy tính tạo ra môi trường liên kết người-máy trong các ứng dụng. Ví dụ: CD-ROM, VideoDisc, Image Digitizing, Overhead, Scanner, TV, Microphone,...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các tài liệu có thể chứa cùng lúc văn bản, đồ họa, audio, video; cho phép các thông tin liên kết với nhau.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "cách tiếp cận thông tin văn bản và đồ họa, cho phép người sử dụng đến thẳng chủ đề mà họ muốn xem. Việc đọc và xem thông tin được điều khiển trực tiếp bởi người sử dụng, người sử dụng có thể điều khiển các kiểu thông tin, các mức độ thông tin trên màn hình. Dễ dàng quay lui hoặc chuyển sang chủ đề khác. tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 111,
-        "title": "Siêu văn bản:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "Sử dụng nhiều phương tiện kết nối với máy tính tạo ra môi trường liên kết người-máy trong các ứng dụng. Ví dụ: CD-ROM, VideoDisc, Image Digitizing, Overhead, Scanner, TV, Microphone,...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Các tài liệu có thể chứa cùng lúc văn bản, đồ họa, audio, video; cho phép các thông tin liên kết với nhau.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "cách tiếp cận thông tin văn bản và đồ họa, cho phép người sử dụng đến thẳng chủ đề mà họ muốn xem. Việc đọc và xem thông tin được điều khiển trực tiếp bởi người sử dụng, người sử dụng có thể điều khiển các kiểu thông tin, các mức độ thông tin trên màn hình. Dễ dàng quay lui hoặc chuyển sang chủ đề khác.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 112,
-        "title": "Mô hình tương tác trực quan (Visual Interactive Modelling) :",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "Nhằm đưa ra kết quả (ảnh hưởng, hậu quả) của 1 quyết định quản lý. Do đó cần xây dựng các kỹ thuật mô phỏng: mô phỏng hiện thị.. mà cho phép xem xét kết quả nằm ngoài thời gian quan sát...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Biểu diễn không gian 3 chiều: cho phép sử dụng những kinh nghiệm tự nhiên về tri giác không gian. Thực chất, hiện trên màn hình là 2 chiều, đòi hỏi người sử dụng phải có suy luận hình học về quan hệ không gian.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Nhằm xây dựng giao diện thân thiện.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 113,
-        "title": "Hiện thực ảo:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "Nhằm đưa ra kết quả (ảnh hưởng, hậu quả) của 1 quyết định quản lý. Do đó cần xây dựng các kỹ thuật mô phỏng: mô phỏng hiện thị.. mà cho phép xem xét kết quả nằm ngoài thời gian quan sát...", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "Biểu diễn không gian 3 chiều: cho phép sử dụng những kinh nghiệm tự nhiên về tri giác không gian. Thực chất, hiện trên màn hình là 2 chiều, đòi hỏi người sử dụng phải có suy luận hình học về quan hệ không gian.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "Nhằm xây dựng giao diện thân thiện.", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 114,
-        "title": "Người thiết kế Hệ hỗ trợ ra quyết định cần kiến thức gì?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "thấu đáo về bài toán và môi trường ra quyết định", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "có kiến thức sâu về phân tích hệ thống.", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "có nhiều kinh nghiệm thực tế (nhiều hơn so với các hệ thống thông tin khác), nắm vững các kiến thức thuộc nhiều lĩnh vực khác nhau như: toán học, khoa học quản lý, thống kê...", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 115,
-        "title": "Xây dựng Hệ hỗ trợ quyết định là quá trình phức tạp, chúng ta cần gì?",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 3,
-        "results": [
-            {"idResult": 0, "value": "lựa chọn cấu hình", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "lựa chọn giao diện người - máy", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "xác định các ảnh hưởng đến cá nhân và nhóm,...", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "tất cả các ý trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 116,
-        "title": "Quá trình thiết kế Hệ hỗ trợ quyết định trải qua các giai đoạn:",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 4,
-        "results": [
-            {"idResult": 0, "value": "lập kế hoạch,", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "nghiên cứu khảo sát", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "phân tích, thiết kế", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "thử nghiệm, cài đặt, bảo hành và đưa vào sử dụng", "url_thumb": "", "type": ""},
-            {"idResult": 4, "value": "tất cả các đáp án trên", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 117,
-        "title": "Giai đoạn lập kế hoạch trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "5%", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "15%", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "25%", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "10%", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 118,
-        "title": "Giai đoạn nghiên cứu khảo sát trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 0,
-        "results": [
-            {"idResult": 0, "value": "5%", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "15%", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "25%", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "10%", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 119,
-        "title": "Giai đoạn Phân tích trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 1,
-        "results": [
-            {"idResult": 0, "value": "5%", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "15%", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "25%", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "10%", "url_thumb": "", "type": ""}
-        ]
-    },
-    {
-        "id": 120,
-        "title": "Giai đoạn xây dựng trong quá trình thiết kế Hệ hỗ trợ quyết định chiếm bao nhiêu %",
-        "thumb": "",
-        "isCorrect": true,
-        "idCorrectResult": 2,
-        "results": [
-            {"idResult": 0, "value": "5%", "url_thumb": "", "type": ""},
-            {"idResult": 1, "value": "15%", "url_thumb": "", "type": ""},
-            {"idResult": 2, "value": "25%", "url_thumb": "", "type": ""},
-            {"idResult": 3, "value": "10%", "url_thumb": "", "type": ""}
-        ]
-    },
-    
-   
+            {
+    "id": 1,
+    "title": "IoT tiến hóa từ sự hội tụ của các công nghệ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Công nghệ không dây , hệ thống vi cơ điện tử và Internet",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Điện toán di động, dữ liệu lớn và internet",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Công nghệ không dây, trí tuệ nhân tạo và dữ liệu lớn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cảm biến, điện toán đám mây và công nghệ máy học",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "IoT phải có 2 thuộc tính nào sau đây?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Phải có là ứng dụng internet và lấy được thông tin vật chủ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Phải có cảm biến và kết nối bluetooth",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phải có trao đổi dữ liệu và phân tích hệ thống",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có câu trả lời nào đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Người được gọi là cha đẻ của IoT là ai?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Kevin Ashton",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Vinton Gray Cerf",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Satoshi Nakamoto",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Hal Finney",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Các công nghệ nào được sử dụng trong IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "RFID",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Bluetooth",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Wifi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Các thiết bị IoT trong nhà giúp ích trong việc nào sau đây?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Tự động hóa",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tiết kiệm năng lượng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "An toàn và bảo mật",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các câu trả lời là chính xác",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Một số tính năng mà ô tô thông minh có thể cung cấp là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Xác định vị trí các điểm đỗ xe có sẵn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Gọi dịch vụ khẩn cấp trong trường hợp xảy ra tai nạn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tự lái xe",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các tùy chọn đều đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Giao thông công cộng được hưởng lợi như thế nào từ internet vạn vật?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cải thiện chất lượng và bảo mật",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Nếu tất cả ô tô cá nhân đều có IoT, thì phương tiện giao thông công cộng không còn cần thiết nữa",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "IoT làm giảm nhu cầu giao thông công cộng trong giờ cao điểm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cung cấp dịch vụ được cá nhân hóa",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Trong ý tưởng về thiết bị di động, điểm hấp dẫn chính của máy tính xách tay khiến nó trở thành thiết bị phổ biến là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Máy tính xách tay có chức năng máy tính để bàn có thể mang đi mọi nơi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Chi phí của máy tính xách tay thấp hơn máy tính để bàn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Máy tính xách tay hiệu quả hơn máy tính để bàn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không câu trả lời nào trong số này đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Phần cứng của IoT thu thập dữ liệu thông qua việc sử dụng?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Khúc xạ ánh sáng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Thiết bị Giám sát",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Thiết bị truyền động",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cảm biến",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Thách thức nào giữa thiết bị IoT với các thiết bị thông minh hoặc thiết bị được kết nối?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Giá trị mà chúng mang lại",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Chi phí đầu tư",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Các cách chúng được sử dụng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các ý đều đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "IoT là viết tắt?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Internet of Things",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Internet of Think",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Internet of Technology",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Intelligent of Technology",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Tuyên bố nào phù hợp nhất với Internet of Things?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Internet of Things bao gồm hàng tỷ thiết bị trên khắp thế giới được kết nối với internet",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Internet of Things nhằm mục đích xây dựng phần mềm đáng tin cậy",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Internet of Things nhằm kết nối con người và vạn vật",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có tuyên bố nào phù hợp",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Các thiết bị IoT phải được cập nhật khi nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "1 tuần cập nhật 1 lần",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "1 ngày cập nhật 1 lần",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "1 tháng cập nhật 1 lần",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phải luôn được cập nhật",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Một thiết bị nhận thông tin từ nhiều điểm trên mạng và truyền nó đến một mạng khác là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cảm biến",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Máy với Máy (M2M)",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Dữ liệu lớn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Thiết bị đeo tay",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Nền tảng Internet of Things?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cho phép các thiết bị và ứng dụng giao tiếp với nhau",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cung cấp các dịch vụ để truy cập, sử dụng hoặc tham gia vào Internet",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Cho phép các cá nhân và tổ chức làm cho trang web của họ có thể truy cập được",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có phát biểu đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Ai đặt ra thuật ngữ IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Kevin Ashton",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "IBM",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Ross Ihaka",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Guido van Rossum",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Thuật ngữ IoT được đặt ra vào năm nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "1999",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "2000",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "2001",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "1998",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Thuật ngữ IIoT là viết tắt của những chữ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Industrial Internet of Things",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Index Internet of Technology",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Intense Internet of Things",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Incorporate Internet of Technology",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Thành phần nào sau đây không phải là thành phần cơ bản của hệ thống IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Máy biến áp",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cảm biến",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Giao diện người dùng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Kết nối và xử lý dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Giao thức MQTT là viết tắt của những chữ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Message Query Telemetry Transport",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "MetaQuery Telemetry Transport",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Multiple Query Telemetry Transport",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Multi-Queue Query Telemetry Transport",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "DHCP sử dụng giao thức lớp vận chuyển nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "UDP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "TCP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "RSVP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "DCCP",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Thiết bị nào không phải thiết bị mạng?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Traffic analyzer",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Bridge",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Switch",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Router",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Arduino UNO là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Protocol",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Network",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Software",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Hardware device",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Thiết bị IoT nào dùng để thu thập dữ liệu từ thế giới thực?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Sensors",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Actuators",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Microprocessors",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Microcontrollers",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Thành phần của hệ thống IoT thực thi một chương trình là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cảm biến",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Bộ chuyển đổi kỹ thuật số sang tương tự",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Bộ truyền động",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Bộ vi điều khiển",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Thiết bị nào sau đây không thể được coi là thiết bị IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Đồng hồ thông minh",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Điện thoại Android",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Máy tính xách tay",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Đèn huỳnh quang",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Mạng nào sau đây không phải là mạng không dây tầm ngắn?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "VPN",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Wifi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Bluetooth",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Điểm phát sóng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Thông số kỹ thuật quan trọng của cảm biến hình ảnh?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Độ phân giải, kích thước điểm ảnh",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Độ nhạy sáng, tốc độ phản hồi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Độ lệch màu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả phương án",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Phân loại cảm biến hình ảnh dựa trên tiêu chí nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Công nghệ sản xuất chip",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Kích thước và độ phân giải",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Ứng dụng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả phương án",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Trong các thành phần liên kết trong IoT, thành phần nào nằm ở giữa sơ đồ biểu diễn IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Định danh",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cảm biến",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Kết nối",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Đối tượng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Bốn lĩnh vực công nghệ chính luôn gắn liền với sự phát triển xu thế IoT, chọn phương án đúng nhất?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Phần cứng, truyền thông kết nối, phần mềm, ứng dụng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Phần cứng, phần mềm, thương mại, năng lượng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phần cứng, phần mềm, dữ liệu lớn, internet",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phần mềm, internet, mã hóa, dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Giao nào là thức mạng dùng IPv6, cho phép quy định cơ chế đóng gói bản tin và nén header?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "6LoWPAN",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Zigbee",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Bluetooth",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Z-wave",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Sóng WiFi truyền và phát tín hiệu ở tần số?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "1.4 GHz hoặc 2.3 GHz",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "6 GHz hoặc 10 GHz",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "15 GHz hoặc 30 GHz",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "2.4 GHz hoặc 5 GHz",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "NFC (Near-Field Communications) là công nghệ kết nối không dây trong phạm vi tầm ngắn trong khoảng cách",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "4 cm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "15 cm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "20 cm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "25 cm",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Đâu là công nghệ không dây sử dụng các bóng đèn LED để truyền dữ liệu với tốc độ nhanh hơn Wifi tới 100 lần?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "LIFI",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Sigfox",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Neul",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Thread",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Một cảm biến tốt tuân theo quy tắc nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Nó nhạy cảm với thuộc tính được đo lường",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Nó không nhạy cảm đến bất kỳ thuộc tính nào khác có thể gặp trong ứng dụng của nó",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Nó không ảnh hưởng đến thuộc tính được đo lường",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả phương án",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Chip xử lý hình ảnh CCD viết tắt là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Charge Coupled Device",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Computer Controlled Display",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Computer Crimes Divison",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Coarse Control Damper",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Chip xử lý hình ảnh CMOS viết tắt là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Complementary Metal Oxide Semiconductor",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Complementary Metal Oxide Silicon",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Complementary Metal Oxide Substrate",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cargo Movement Operating System",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Trong Cảm biến lực Loadcell, thành phần Strain gauge là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Là một loại điện trở đặc biệt. Được cấp nguồn điện và giá trị điện trở thay đổi khi bị tác động lực lên nó",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Là một hình thanh kim loại vòng tròn cố định trên thiết bị, có khả năng chịu tải tốt chuyên truyền điện và nhiệt",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có đáp án đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Trong Cảm biến lực Loadcell, thành phần thân loadcell là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Là một loại điện trở đặc biệt. Được cấp nguồn điện và giá trị điện trở thay đổi khi bị tác động lực lên nó",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Là một hình thanh kim loại vòng tròn cố định trên thiết bị, có khả năng chịu tải tốt chuyên truyền điện và nhiệt",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có đáp án đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Cảm biến khói nào sử dụng các chất đồng vị phóng xạ để hoạt động?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cảm biến khói Ion hóa",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cảm biến khói quang điện",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Cả (a) và (b) đều đúng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cả (a) và (b) đều sai",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Cảm biến hồng ngoại thụ động có đặc điểm gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Chỉ phát hiện ra được bức xạ từ các vật thể khác như người, động vật hay nguồn nhiệt, chứ sẽ không phát ra tia hồng ngoại",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Phát hiện mọi vật thể, với khoảng cách giới hạn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Khi vật thể đến gần với cảm biến, thiết bị sẽ phát ra ánh sáng hồng ngoại từ đèn Led và sẽ phản xạ vào vật thể trở lại mà người nhận có thể nhận thấy được",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có đáp án đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Light Sensor/Photoelectric Sensor là tên gọi của cảm biến nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cảm biến chuyển động",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cảm biến hạt",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Cảm biến rò rỉ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cảm biến quang",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Đâu là ưu điểm của cảm biến hồng ngoại?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Có độ nhạy cao trong việc xác định vật thể phát ra bức xạ hồng ngoại trong không gian",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Điều kiện nhiệt độ môi trường. Những môi trường có nhiệt độ cao thì cảm biến sẽ hoạt động hiệu quả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phạm vi quét cảm biến hồng ngoại không có góc bị chết",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không bị nhầm lẫn khi phát hiện ra chuyển động",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Đâu là các hãng sản xuất hình ảnh?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "AUTONICS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "MISUMI",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "SUNX",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các ý trên",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Công nghệ nhiều lớp cho phép cung cấp, quản lý và tự động hóa đơn giản các thiết bị được kết nối trong IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "IoT Platform",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Machine Learning (ML )",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Artificial Intelligence (AI)",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Robotic Process Automation (RPA)",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Cách thức truyền dữ liệu trong IoT là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Blutooth",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Zigbee",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Z-wave",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả đáp án",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "LoRaWAN là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Giao thức truyền thông không dây cho IoT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Ngôn ngữ lập trình cho IoT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Công nghệ kết nối dữ liệu sản xuất",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Màn hình cảm ứng cho IoT",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Mục đích chính của IoT là gì ?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Kết nối các thiết bị và đối tượng để chia sẻ dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tạo ra một Internet mới dành riêng cho các thiết bị di động",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Mở rộng sự phổ biến của trò chơi trực tuyến",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tăng cường an ninh mạng cho doanh nghiệp",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "5G là gì và vai trò của nó trong IoT là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Một loại cảm biến tiên tiến được sử dụng trong IoT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Một dạng phân tích dữ liệu trong IoT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Một mô hình kinh doanh cho các ứng dụng IoT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tiêu chuẩn kết nối không dây mới với tốc độ nhanh và độ trễ thấp, hỗ trợ việc triển khai IoT",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Giao thức nào làm trung gian cho các gói tin trên lớp ứng dụng với mục đích thay thế các hệ thống truyền tin độc quyền và không tương thích trong IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "DDS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "MQTT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "CoAP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "AMQP",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Hệ thống nhúng được hiểu như thế nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Là hệ thống tự trị các nhúng trong môi trường hoặc hệ thống mẹ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Là hệ thống kết hợp phần mềm và phần cứng để giải quyết các bài toán chuyên dụng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Là hệ thống có khả năng tự động hóa cao và hoạt động ổn định",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các phương án trên",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Hệ thống nhúng được thiết kế để thực hiện nhiệm vụ chuyên dụng nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Đảm bảo tính an toàn và ứng dụng trong các lĩnh vực cụ thể",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tối ưu hóa hiệu suất và giảm thiểu chi phí sản xuất",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tăng cường tính linh hoạt và đa dạng của hệ thống",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các phương án trên",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Đâu không phải là đặc điểm của hệ thống nhúng?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Tính tương tác và kết nối mạng lưới rộng lớn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tính hoạt động ổn định và tự động hóa cao",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tính linh hoạt và đa dạng trong việc thực hiện các nhiệm vụ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tính chuyên dụng, không phải là hệ thống máy tính đa chức năng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "IoT được hiểu như thế nào so với hệ thống nhúng?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "IoT là một công nghệ độc lập, trong khi hệ thống nhúng là một phần của IoT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "IoT là một hệ thống tổng hợp, trong khi hệ thống nhúng là một phần của hệ thống IoT",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "IoT là một công nghệ chủ đạo, trong khi hệ thống nhúng chủ yếu tập trung vào việc điều khiển các thiết bị trong một hệ thống cụ thể",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "IoT là một mạng lưới các thiết bị kết nối qua Internet, trong khi hệ thống nhúng là một tập hợp con của IoT",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Cảm biến quang loại nào sử dụng trong công nghiệp sản xuất và tự động hóa có khả năng phát hiện vật thể khá xa?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cảm biến quang khuếch tán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cảm biến quang hồng ngoại",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Cảm biến gương phản xạ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tầm xa đều như nhau",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Tổ chức hay ai là người sáng tạo ra Raspberry Pi?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Eben Upton",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Sinh viên Hernando Barragan",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Bởi hãng Espressif Systems",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Google",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Tổ chức hay ai là người tham gia chính sáng tạo ra Adruino?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Sinh viên Hernando Barragan",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Eben Upton",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Bởi hãng Espressif Systems",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Google",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Raspberry Pi dùng ngôn ngữ lập trình nào chính thức?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Python",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Java",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "C#",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Go",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Raspberry Pi hỗ trợ trên nền tảng và phần mềm nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Raspbian",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Raspbmc",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "OSMC",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả đáp án đều đúng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+   {
+    "id": 61,
+    "title": "Arduino đã chính thức được giới thiệu năm?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "2005",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "2006",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "2007",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "2008",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Arduino ra đời ở nước nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Ý",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Pháp",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Mỹ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Nga",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Khi làm việc với UPnP, một thiết bị tự gán cái gì của chính nó?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Địa chỉ IP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Địa chỉ gửi thư",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Địa chỉ doanh nghiệp",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Địa chỉ UpnP",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Dịch vụ nào đã được sử dụng làm mẫu thử các mối đe dọa của trung tâm điều khiển?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Amazon Echo",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Apple Store",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Google Play",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả đáp án",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Những thách thức lớn của IoT là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "An ninh và sự riêng tư",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Không có gì cả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Chia sẻ thông tin",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Nó rất dễ tạo và thực hiện",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Phát biểu đúng nhất về dữ liệu khi sử dụng IoT là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Dữ liệu thu được theo thời gian thực",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Dữ liệu thu được hạn chế",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Dữ liệu thu được rất khó quan sát",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Dữ liệu thu được rất khó phân tích",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Điều nào sau đây là nhược điểm của việc sử dụng IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Chi phí quá đắt",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lối sống xấu đi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Năng suất không tăng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Quá phụ thuộc vào công nghệ",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Ngôn ngữ ưa thích cho phân tích IoT là ngôn ngữ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Python",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "HTML",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "PHP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "C++",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Thành phần nào tham gia vận hành phần tử cốt lõi của IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "SaaS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "PaaS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "IaaS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Nhà cung cấp dịch vụ IoT",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Lợi thế nào không chính xác đối với IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Bảo mật",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Giảm thiểu lãng phí",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Thu thập dữ liệu nâng cao",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cải thiện sự tham gia của khách hàng",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Bước cuối cùng của việc truyền dữ liệu đáng tin cậy là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Khởi tạo",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Chuyển tiếp tin nhắn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phát hiện tin nhắn bị mất",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phục hồi có chọn lọc",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Giao thức được sử dụng để liên kết tất cả các thiết bị trong IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Mạng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "UDP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "HTTP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "TCP/IP",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Arduino IDE được viết bằng ngôn ngữ lập trình nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "C/C++",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Java",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "JavaScript",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Python",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Mạng IoT có phạm vi ngắn nhất là mạng nào trong các mạng sau?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "SigFox",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "LPWAN",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Short network",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Short-range wireless network",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Giao thức nhẹ (lightweight protocol) là giao thức nào trong số các giao thức sau?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "IP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "CoAP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "HTTP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "MQTT",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Công nghệ nào sau đây không phải là công nghệ ở lớp liên kết dữ liệu?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "HTTP",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "UART",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "wifi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Bluetooth",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "MQTT dựa trên kiến trúc nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Publish-subscribe architecture",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Client-server architecture",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Peer-to-peer architecture",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Request-responde architecture",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Thuật ngữ LPWAN là viết tắt của những chữ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Low Power Wide Area Network",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Low Protocol Wide Area Network",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Long Power Wide Area Network",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Long Protocol Wide Area Network",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Mô hình mạng sử dụng cho ZigBee Smart Energy?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Star Topology",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Bus Topology",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Ring Topology",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không cần mô hình",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Công nghệ cảm biến hình ảnh nào cần ít điện năng hơn?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "CMOS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "CCD",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "ADC",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Nikon Coolpix",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Arduino Uno R3 dùng vi điều khiển gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Atmega 328",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Quad core Cortex-A72",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Intel® Atom ™ SoC",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tensilica Diamond Standard 106Micro",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Raspberry Pi 4 Model B dùng vi điều khiển gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Quad core Cortex-A72",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Atmega 328",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Intel® Atom ™ SoC",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tensilica Diamond Standard 106Micro",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Cổng bảo mật tiêu chuẩn của MQTT là cổng nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "8000",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "8888",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "1883",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "8883",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Phạm vi của z-wave có khoảng cách là bao nhiêu mét?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "30-100m",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "300-1000 m",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "<10m",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "100-1000m",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Tần số của z-wave là bao nhiêu GHz?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "708,49 GHz",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "888,42 GHz",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "928,49 GHz",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "908,42GHz",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "I2C là viết tắt của những chữ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Inter-Integrated Communication",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Internet Integrated Communication",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Integrated Internet Communication",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Internet Instigate Communication",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Thiết bị nào không phải thiết bị truyền động (actuator) trong IoT?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Stepper motor",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Celling fan",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "RGB LED",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Raspberry Pi",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Giao thức nào không tồn tại trong tầng liên kết dữ liệu (data link)?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "ZigBee Smart Energy",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "LoRaWAN",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "WirelessHART",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Secure MQTT",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "NFC có thể truyền dữ liệu ở tốc độ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "424 Kb/giây",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "848 Kb/giây",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "216 Kb/giây",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các phương án trên",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Phạm vi của Bluetooth 4.2?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "50m-150m",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "1m-20m",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "20m-40m",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "300m - 500m",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  }
 
-            
-            ]
+        ]
 
         
         
