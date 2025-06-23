@@ -42,12 +42,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Phải có là ứng dụng internet và lấy được thông tin vật chủ",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "Phải có cảm biến và kết nối bluetooth",
@@ -57,6 +52,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Phải có trao đổi dữ liệu và phân tích hệ thống",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "Phải có là ứng dụng internet và lấy được thông tin vật chủ",
         "url_thumb": "",
         "type": ""
       },
@@ -75,12 +76,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Kevin Ashton",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Vinton Gray Cerf",
@@ -96,6 +92,12 @@ const questions = {
       {
         "idResult": 3,
         "value": "Hal Finney",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Kevin Ashton",
         "url_thumb": "",
         "type": ""
       }
@@ -207,12 +209,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cải thiện chất lượng và bảo mật",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Nếu tất cả ô tô cá nhân đều có IoT, thì phương tiện giao thông công cộng không còn cần thiết nữa",
@@ -222,6 +219,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "IoT làm giảm nhu cầu giao thông công cộng trong giờ cao điểm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cải thiện chất lượng và bảo mật",
         "url_thumb": "",
         "type": ""
       },
@@ -339,15 +342,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Internet of Things",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "Internet of Think",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "Internet of Things",
         "url_thumb": "",
         "type": ""
       },
@@ -372,12 +376,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Internet of Things bao gồm hàng tỷ thiết bị trên khắp thế giới được kết nối với internet",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "Internet of Things nhằm mục đích xây dựng phần mềm đáng tin cậy",
@@ -387,6 +386,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Internet of Things nhằm kết nối con người và vạn vật",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "Internet of Things bao gồm hàng tỷ thiết bị trên khắp thế giới được kết nối với internet",
         "url_thumb": "",
         "type": ""
       },
@@ -471,15 +476,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "Cho phép các thiết bị và ứng dụng giao tiếp với nhau",
+        "idResult": 1,
+        "value": "Cung cấp các dịch vụ để truy cập, sử dụng hoặc tham gia vào Internet",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Cung cấp các dịch vụ để truy cập, sử dụng hoặc tham gia vào Internet",
+        "idResult": 0,
+        "value": "Cho phép các thiết bị và ứng dụng giao tiếp với nhau",
         "url_thumb": "",
         "type": ""
       },
@@ -504,12 +510,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Kevin Ashton",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "IBM",
@@ -519,6 +520,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Ross Ihaka",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "Kevin Ashton",
         "url_thumb": "",
         "type": ""
       },
@@ -537,12 +544,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "1999",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "2000",
@@ -558,6 +560,12 @@ const questions = {
       {
         "idResult": 3,
         "value": "1998",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "1999",
         "url_thumb": "",
         "type": ""
       }
@@ -603,12 +611,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Máy biến áp",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Cảm biến",
@@ -618,6 +621,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Giao diện người dùng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Máy biến áp",
         "url_thumb": "",
         "type": ""
       },
@@ -669,15 +678,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "UDP",
+        "idResult": 1,
+        "value": "TCP",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "TCP",
+        "idResult": 0,
+        "value": "UDP",
         "url_thumb": "",
         "type": ""
       },
@@ -702,12 +712,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Traffic analyzer",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Bridge",
@@ -723,6 +728,12 @@ const questions = {
       {
         "idResult": 3,
         "value": "Router",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Traffic analyzer",
         "url_thumb": "",
         "type": ""
       }
@@ -814,17 +825,18 @@ const questions = {
         "type": ""
       },
       {
-        "idResult": 2,
-        "value": "Bộ truyền động",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
         "idResult": 3,
         "value": "Bộ vi điều khiển",
         "url_thumb": "",
         "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Bộ truyền động",
+        "url_thumb": "",
+        "type": ""
       }
+      
     ]
   },
   {
@@ -867,15 +879,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "VPN",
+        "idResult": 1,
+        "value": "Wifi",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Wifi",
+        "idResult": 0,
+        "value": "VPN",
         "url_thumb": "",
         "type": ""
       },
@@ -907,6 +920,12 @@ const questions = {
         "type": ""
       },
       {
+        "idResult": 3,
+        "value": "Tất cả phương án",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
         "idResult": 1,
         "value": "Độ nhạy sáng, tốc độ phản hồi",
         "url_thumb": "",
@@ -917,13 +936,8 @@ const questions = {
         "value": "Độ lệch màu",
         "url_thumb": "",
         "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tất cả phương án",
-        "url_thumb": "",
-        "type": ""
       }
+      
     ]
   },
   {
@@ -1078,17 +1092,18 @@ const questions = {
         "type": ""
       },
       {
-        "idResult": 2,
-        "value": "15 GHz hoặc 30 GHz",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
         "idResult": 3,
         "value": "2.4 GHz hoặc 5 GHz",
         "url_thumb": "",
         "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "15 GHz hoặc 30 GHz",
+        "url_thumb": "",
+        "type": ""
       }
+      
     ]
   },
   {
@@ -1197,15 +1212,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "Charge Coupled Device",
+        "idResult": 1,
+        "value": "Computer Controlled Display",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Computer Controlled Display",
+        "idResult": 0,
+        "value": "Charge Coupled Device",
         "url_thumb": "",
         "type": ""
       },
@@ -1296,12 +1312,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Là một loại điện trở đặc biệt. Được cấp nguồn điện và giá trị điện trở thay đổi khi bị tác động lực lên nó",
@@ -1311,6 +1322,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Là một hình thanh kim loại vòng tròn cố định trên thiết bị, có khả năng chịu tải tốt chuyên truyền điện và nhiệt",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
         "url_thumb": "",
         "type": ""
       },
@@ -1329,15 +1346,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Cảm biến khói Ion hóa",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "Cảm biến khói quang điện",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "Cảm biến khói Ion hóa",
         "url_thumb": "",
         "type": ""
       },
@@ -1560,12 +1578,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Giao thức truyền thông không dây cho IoT",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "Ngôn ngữ lập trình cho IoT",
@@ -1575,6 +1588,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Công nghệ kết nối dữ liệu sản xuất",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "Giao thức truyền thông không dây cho IoT",
         "url_thumb": "",
         "type": ""
       },
@@ -1758,12 +1777,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Tính tương tác và kết nối mạng lưới rộng lớn",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Tính hoạt động ổn định và tự động hóa cao",
@@ -1773,6 +1787,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Tính linh hoạt và đa dạng trong việc thực hiện các nhiệm vụ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Tính tương tác và kết nối mạng lưới rộng lớn",
         "url_thumb": "",
         "type": ""
       },
@@ -1824,12 +1844,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Cảm biến quang khuếch tán",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Cảm biến quang hồng ngoại",
@@ -1839,6 +1854,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Cảm biến gương phản xạ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Cảm biến quang khuếch tán",
         "url_thumb": "",
         "type": ""
       },
@@ -1857,12 +1878,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Eben Upton",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Sinh viên Hernando Barragan",
@@ -1880,7 +1896,13 @@ const questions = {
         "value": "Google",
         "url_thumb": "",
         "type": ""
-      }
+      },
+      {
+        "idResult": 0,
+        "value": "Eben Upton",
+        "url_thumb": "",
+        "type": ""
+      },
     ]
   },
   {
@@ -2022,15 +2044,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "Ý",
+        "idResult": 1,
+        "value": "Pháp",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Pháp",
+        "idResult": 0,
+        "value": "Ý",
         "url_thumb": "",
         "type": ""
       },
@@ -2055,12 +2078,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Địa chỉ IP",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "Địa chỉ gửi thư",
@@ -2070,6 +2088,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Địa chỉ doanh nghiệp",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "Địa chỉ IP",
         "url_thumb": "",
         "type": ""
       },
@@ -2121,15 +2145,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "An ninh và sự riêng tư",
+        "idResult": 1,
+        "value": "Không có gì cả",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Không có gì cả",
+        "idResult": 0,
+        "value": "An ninh và sự riêng tư",
         "url_thumb": "",
         "type": ""
       },
@@ -2154,12 +2179,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Dữ liệu thu được theo thời gian thực",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Dữ liệu thu được hạn chế",
@@ -2169,6 +2189,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Dữ liệu thu được rất khó quan sát",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Dữ liệu thu được theo thời gian thực",
         "url_thumb": "",
         "type": ""
       },
@@ -2385,15 +2411,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "C/C++",
+        "idResult": 1,
+        "value": "Java",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Java",
+        "idResult": 0,
+        "value": "C/C++",
         "url_thumb": "",
         "type": ""
       },
@@ -2550,15 +2577,16 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
+      
       {
-        "idResult": 0,
-        "value": "Low Power Wide Area Network",
+        "idResult": 1,
+        "value": "Low Protocol Wide Area Network",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Low Protocol Wide Area Network",
+        "idResult": 0,
+        "value": "Low Power Wide Area Network",
         "url_thumb": "",
         "type": ""
       },
@@ -2583,12 +2611,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Star Topology",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Bus Topology",
@@ -2598,6 +2621,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Ring Topology",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Star Topology",
         "url_thumb": "",
         "type": ""
       },
@@ -2682,12 +2711,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "Quad core Cortex-A72",
-        "url_thumb": "",
-        "type": ""
-      },
+      
       {
         "idResult": 1,
         "value": "Atmega 328",
@@ -2697,6 +2721,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "Intel® Atom ™ SoC",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 0,
+        "value": "Quad core Cortex-A72",
         "url_thumb": "",
         "type": ""
       },
@@ -2748,12 +2778,7 @@ const questions = {
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      {
-        "idResult": 0,
-        "value": "30-100m",
-        "url_thumb": "",
-        "type": ""
-      },
+     
       {
         "idResult": 1,
         "value": "300-1000 m",
@@ -2763,6 +2788,12 @@ const questions = {
       {
         "idResult": 2,
         "value": "<10m",
+        "url_thumb": "",
+        "type": ""
+      },
+       {
+        "idResult": 0,
+        "value": "30-100m",
         "url_thumb": "",
         "type": ""
       },
