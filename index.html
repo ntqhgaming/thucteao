@@ -6,53 +6,45 @@
     <title>Thi Trắc Nghiệm</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-      html {
+    html {
         font-family: "Poppins", sans-serif;
-      }
+    }
 
-      body {
+    body {
         background-color: #f4f4f4;
         padding: 20px;
         margin: 0;
-      }
+    }
 
-      h1 {
+    h1 {
         color: red;
-        /* Màu đỏ cho tiêu đề */
         text-align: center;
-        /* Căn giữa tiêu đề */
-      }
+    }
 
-      .quiz-container {
+    .quiz-container {
+        position: relative;
         border: 2px solid #ccc;
-        /* Viền cho hộp */
         border-radius: 10px;
-        /* Bo góc cho hộp */
         padding: 20px;
-        /* Khoảng cách bên trong hộp */
         background-color: white;
-        /* Màu nền cho hộp */
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        /* Đổ bóng nhẹ cho hộp */
         margin: 0 auto;
-        /* Căn giữa hộp */
         max-width: 600px;
-        /* Đặt chiều rộng tối đa cho hộp */
-      }
+    }
 
-      .question {
+    .question {
         margin-bottom: 20px;
-      }
+    }
 
-      .answer {
+    .answer {
         display: block;
         margin: 10px 0;
         padding: 12px;
@@ -62,53 +54,43 @@
         transition: background-color 0.3s;
         border-radius: 5px;
         user-select: none;
-        /* Bo góc cho đáp án */
-      }
+    }
 
-      .correct {
-        background-color: #4caf50;
-        /* Màu xanh */
-        color: white;
-      }
+    .correct {
+        background-color: #4caf50 !important;
+        color: white !important;
+    }
 
-      .incorrect {
-        background-color: #f44336;
-        /* Màu đỏ */
-        color: white;
-      }
+    .incorrect {
+        background-color: #f44336 !important;
+        color: white !important;
+    }
 
-      .correct-answer {
-        background-color: #4caf50;
-        /* Màu xanh */
-        color: white;
-      }
-
-      #result {
+    #result {
         margin-top: 20px;
         font-size: 1.2em;
-      }
+    }
 
-      .navigation {
+    .navigation {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         margin-top: 20px;
         text-align: center;
-      }
+    }
 
-      button {
+    button {
         padding: 10px 15px;
         margin: 0 5px;
         border: none;
         border-radius: 5px;
         background-color: #007bff;
-        /* Màu xanh */
         color: white;
         cursor: pointer;
         transition: background-color 0.3s;
-      }
+    }
 
-      button.rounded {
+    button.rounded {
         padding: 0;
         margin: 0;
         display: flex;
@@ -117,52 +99,142 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
-      }
+    }
 
-      button.hidden {
+    button.hidden {
         display: none;
         opacity: 0;
         visibility: hidden;
-      }
+    }
 
-      button:hover {
+    button:hover {
         background-color: #0056b3;
-        /* Màu xanh tối hơn khi hover */
-      }
+    }
 
-      #title {
+    #title {
         font-size: 18px;
         font-weight: 500;
-      }
+    }
 
-      #thumb_question {
+    #thumb_question {
         width: 100%;
         height: auto;
         max-height: 350px;
         object-fit: contain;
-      }
+    }
 
-      #head {
+    #head {
         display: flex;
         align-items: center;
-      }
+    }
 
-      #head > #title {
-        margin-right: 30px;
-      }
+    #head > #title {
+        margin-right: 15px;
+    }
 
-      #head > span {
-        flex: 0 0 50px;
+    #head > span {
+        flex: 1;
         margin-left: auto;
-      }
-    </style>
+    }
+
+    #index-toggle-icon {
+        font-size: 20px;
+        color: #555;
+        cursor: pointer;
+        transition: color 0.3s;
+        margin-left: 10px;
+    }
+
+    #index-toggle-icon:hover {
+        color: #007bff;
+    }
+
+    #question-index-container {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        width: 300px;
+        max-height: 400px;
+        overflow-y: auto;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        z-index: 10;
+        padding: 10px;
+    }
+
+    #question-index-container.show {
+        display: block;
+    }
+
+    .index-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+        gap: 8px;
+    }
+
+    .index-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        font-weight: 500;
+        background-color: #f0f0f0;
+    }
+
+    .index-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .index-item.current {
+        border-color: #007bff;
+        background-color: #007bff;
+        color: white;
+        font-weight: 700;
+    }
+    .index-item.answered.correct {
+        background-color: #4caf50;
+        color: white;
+        border-color: #4caf50;
+    }
+    .index-item.answered.incorrect {
+        background-color: #f44336;
+        color: white;
+        border-color: #f44336;
+    }
+
+    /* === CSS DÀNH RIÊNG CHO MỤC LỤC TRÊN DI ĐỘNG (màn hình rộng tối đa 640px) === */
+    @media (max-width: 640px) {
+        /* Chỉ can thiệp vào mục lục câu hỏi, không thay đổi bất kỳ thành phần nào khác */
+        #question-index-container {
+            width: 90vw; /* Chiếm 90% chiều rộng màn hình */
+            max-width: 320px; /* Giới hạn chiều rộng tối đa, tránh quá to */
+            top: 70px; /* Điều chỉnh lại khoảng cách từ đỉnh */
+            
+            /* Căn giữa popup theo chiều ngang một cách chính xác */
+            left: 50%; 
+            right: auto;
+            transform: translateX(-50%); 
+        }
+    }
+</style>
   </head>
 
   <body>
-    <h1>Thi Trắc Nghiệm Môn Hệ Hỗ Trợ Quết Định </h1>
+    <h1>Thi Trắc Nghiệm Môn Hệ Hỗ Trợ Quết Định</h1>
 
     <div class="quiz-container">
       <div id="questionsContainer"></div>
+      <!-- Container mục lục sẽ được chèn vào đây bởi JS -->
+
       <div class="navigation">
         <button id="shuffleButton" class="rounded">
           <i style="pointer-events: none" class="fa-solid fa-shuffle"></i>
@@ -176,7 +248,9 @@
     </div>
 
     <script type="module">
-      import questions from "./data.js";
+      // Giả sử đây là file data.js của bạn
+      // THAY BẰNG DÒNG NÀY
+        import questions from "./data.js";
 
       let selectList = [];
       let incorrectList = [];
@@ -191,37 +265,62 @@
           const j = Math.floor(Math.random() * (i + 1));
           [array[i], array[j]] = [array[j], array[i]];
         }
-
         return array;
       }
 
+      const quizContainer = document.querySelector(".quiz-container");
       const questionContainer = document.getElementById("questionsContainer");
       const shuffleBtn = document.getElementById("shuffleButton");
       const nextBtn = document.getElementById("nextButton");
       const backBtn = document.getElementById("backButton");
       const againBtn = document.getElementById("againButton");
 
+      // === PHẦN MỚI: TẠO CÁC PHẦN TỬ CHO MỤC LỤC ===
+      const indexToggleIcon = document.createElement("i");
+      indexToggleIcon.id = "index-toggle-icon";
+      indexToggleIcon.className = "fa-solid fa-list-ul";
+
+      const questionIndexContainer = document.createElement("div");
+      questionIndexContainer.id = "question-index-container";
+      const indexGrid = document.createElement("div");
+      indexGrid.className = "index-grid";
+      questionIndexContainer.appendChild(indexGrid);
+      quizContainer.appendChild(questionIndexContainer); // Chèn vào DOM
+      // === KẾT THÚC PHẦN MỚI ===
+
       window.addEventListener("keydown", (e) => {
         switch (e.keyCode) {
-          case 39:
-            handleNextQuestion(nextBtn, makeAgainMode);
-            break;
-          case 37:
-            handleBackQuestion(backBtn);
-            break;
+          case 39: handleNextQuestion(nextBtn, makeAgainMode); break;
+          case 37: handleBackQuestion(backBtn); break;
         }
       });
 
+      // === PHẦN MỚI: SỰ KIỆN CHO ICON VÀ ĐÓNG MỤC LỤC ===
+      indexToggleIcon.addEventListener("click", (e) => {
+        e.stopPropagation(); // Ngăn sự kiện click lan ra document
+        questionIndexContainer.classList.toggle("show");
+      });
+
+      document.addEventListener("click", (e) => {
+        // Nếu click ra ngoài mục lục và ngoài icon, thì ẩn mục lục đi
+        if (
+          !questionIndexContainer.contains(e.target) &&
+          !indexToggleIcon.contains(e.target)
+        ) {
+          questionIndexContainer.classList.remove("show");
+        }
+      });
+      // === KẾT THÚC PHẦN MỚI ===
+
+
       const handleShuffleArray = (e) => {
-        console.log(e);
         isShuffle = true;
-
         questionContainer.innerHTML = "";
-        questionList = isShuffle
-          ? shuffleArray(questions.question_2.origin_question)
-          : questions.question_2.origin_question;
+        questionList = shuffleArray([...questions.question_2.origin_question]); // Tạo bản sao để shuffle
+        currentQuestionIndex = 0; // Reset về câu đầu
+        selectList = []; // Xóa các câu đã chọn
+        incorrectList = []; // Xóa các câu sai
         displayQuestion(questionList[currentQuestionIndex]);
-
         e.target.classList.add("hidden");
         e.target.disabled = true;
       };
@@ -237,29 +336,18 @@
         const idIncorrect = questionList.findIndex(
           (ques) => ques?.id === incorrectList[0]?.id
         );
-
         if (incorrectList.length > 0) makeAgainMode = true;
         if (idIncorrect !== -1) {
           questionContainer.innerHTML = "";
-
           currentQuestionIndex = idIncorrect;
           displayQuestion(questionList[currentQuestionIndex]);
         }
-
-        console.log(
-          currentQuestionIndex,
-          makeAgainMode,
-          selectList,
-          incorrectList
-        );
       };
 
       const handleNextQuestion = (target) => {
         if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
-
         if (currentQuestionIndex >= questionList.length - 1) {
           displayResult();
-
           return;
         } else {
           questionContainer.innerHTML = "";
@@ -271,12 +359,10 @@
           displayQuestion(questionList[currentQuestionIndex]);
           target.disabled = false;
         }
-
         const answer = document.querySelectorAll(".answer");
         const indexSelected = selectList.findIndex(
           (item) => item?.id === questionList[currentQuestionIndex].id
         );
-
         if (answer)
           checkAnswer(
             answer,
@@ -284,20 +370,12 @@
             indexSelected,
             selectList[indexSelected]?.chooseId
           );
-
-        console.log(
-          currentQuestionIndex,
-          questionList.findIndex((ques) => ques?.id === incorrectList[0]?.id),
-          makeAgainMode
-        );
       };
 
       const handleBackQuestion = (target) => {
         if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
-
         if (currentQuestionIndex <= 0) {
           target.disabled = true;
-
           return;
         } else {
           questionContainer.innerHTML = "";
@@ -309,12 +387,10 @@
           displayQuestion(questionList[currentQuestionIndex]);
           target.disabled = false;
         }
-
         const answer = document.querySelectorAll(".answer");
         const indexSelected = selectList.findIndex(
           (item) => item?.id === questionList[currentQuestionIndex].id
         );
-
         if (answer)
           checkAnswer(
             answer,
@@ -322,12 +398,6 @@
             indexSelected,
             selectList[indexSelected]?.chooseId
           );
-
-        console.log(
-          currentQuestionIndex,
-          questionList.findIndex((ques) => ques?.id === incorrectList[0]?.id),
-          makeAgainMode
-        );
       };
 
       shuffleBtn.addEventListener("click", (e) => handleShuffleArray(e));
@@ -338,9 +408,6 @@
       function checkAnswer(element, ques, index, idActiveResult) {
         const question = ques[index] || [];
         const correctIndex = question?.idCorrectResult;
-
-        console.log(question);
-
         if (correctIndex !== undefined && idActiveResult !== undefined) {
           if (+idActiveResult === +correctIndex) {
             element.forEach((elm) => {
@@ -366,7 +433,48 @@
       const currentQuestion = document.createElement("span");
       const thumb_question = document.createElement("img");
 
+
+      // === PHẦN MỚI: HÀM RENDER MỤC LỤC ===
+      function renderQuestionIndex() {
+        indexGrid.innerHTML = ""; // Xóa mục lục cũ
+        questionList.forEach((q, index) => {
+            const item = document.createElement("div");
+            item.className = "index-item";
+            item.textContent = index + 1;
+            item.dataset.index = index;
+
+            // Kiểm tra trạng thái câu hỏi để thêm class
+            const answeredQuestion = selectList.find(ans => ans.id === q.id);
+            if(answeredQuestion) {
+                item.classList.add("answered");
+                if(answeredQuestion.isCorrect) {
+                    item.classList.add("correct");
+                } else {
+                    item.classList.add("incorrect");
+                }
+            }
+
+            if (index === currentQuestionIndex) {
+                item.classList.add("current");
+            }
+
+            // Sự kiện click để chuyển câu hỏi
+            item.addEventListener('click', () => {
+                currentQuestionIndex = parseInt(item.dataset.index);
+                questionContainer.innerHTML = "";
+                displayQuestion(questionList[currentQuestionIndex]);
+                questionIndexContainer.classList.remove('show'); // Ẩn mục lục sau khi chọn
+            });
+
+            indexGrid.appendChild(item);
+        });
+      }
+
+
       function displayQuestion(question) {
+        // Cập nhật mục lục mỗi khi hiển thị câu hỏi mới
+        renderQuestionIndex();
+
         const currentId = currentQuestionIndex;
         if (question.thumb) {
           thumb_question.id = "thumb_question";
@@ -376,12 +484,17 @@
 
         title.id = "title";
         title.textContent = question.title;
-        currentQuestion.textContent = `${currentId + 1}/ ${
-          questionList.length
-        }`;
+        currentQuestion.textContent = `${currentId + 1} / ${questionList.length}`;
         head.id = "head";
+        
+        // Xóa con cũ trước khi thêm vào
+        head.innerHTML = ''; 
         head.appendChild(title);
         head.appendChild(currentQuestion);
+        // === CHỈNH SỬA: THÊM ICON VÀO HEAD ===
+        head.appendChild(indexToggleIcon);
+        // === KẾT THÚC CHỈNH SỬA ===
+
         questionContainer.appendChild(head);
 
         question.results.forEach((answer, index) => {
@@ -393,27 +506,35 @@
         });
 
         const answerItem = document.querySelectorAll(".answer");
+        const indexSelected = selectList.findIndex(
+          (item) => item?.id === question.id
+        );
+
+        // Hiển thị lại câu trả lời nếu đã có
+        if(indexSelected > -1) {
+            checkAnswer(
+                answerItem,
+                questionList,
+                currentQuestionIndex,
+                selectList[indexSelected].chooseId
+            );
+        }
+
+
         answerItem.forEach((as, index) => {
           as.addEventListener("click", (e) => {
-            incorrectList = incorrectList.filter(
-              (ic) => ic?.id !== question?.id
-            );
-
+            incorrectList = incorrectList.filter((ic) => ic?.id !== question?.id);
             const selected = selectList.some((item) => item.id === question.id);
-
-            if (incorrectList.length === 0 && makeAgainMode)
-              makeAgainMode = false;
+            if (incorrectList.length === 0 && makeAgainMode) makeAgainMode = false;
+            
             if (!selected) {
               const selectData = {};
-              const statusResult =
-                +e.target.dataset.result === +question.idCorrectResult;
-
+              const statusResult = +e.target.dataset.result === +question.idCorrectResult;
               selectData.id = question.id;
               selectData.idCorrectResult = question.idCorrectResult;
               selectData.chooseId = +e.target.dataset.result;
               selectData.isCorrect = statusResult;
               selectList.push(selectData);
-
               e.target.classList.add("active");
               checkAnswer(
                 answerItem,
@@ -421,64 +542,41 @@
                 currentQuestionIndex,
                 e.target.dataset.result
               );
+              
+              // === CHỈNH SỬA: CẬP NHẬT LẠI MỤC LỤC SAU KHI TRẢ LỜI ===
+              renderQuestionIndex(); 
+              // === KẾT THÚC CHỈNH SỬA ===
 
-              // Chuyển sang câu hỏi tiếp theo sau 3 giây
-              autoPlayTimeout = setTimeout(
-                () => handleNextQuestion(nextBtn),
-                1500
-              );
+              autoPlayTimeout = setTimeout(() => handleNextQuestion(nextBtn), 1500);
             }
-
-            console.log(selectList, incorrectList, makeAgainMode);
           });
         });
       }
 
       function displayResult() {
+        questionContainer.innerHTML = ''; // Xóa câu hỏi cuối cùng
         let totalCorrect = 0;
         let totalScore = 0;
         let avgScore = 10 / questionList.length;
         const resultContainer = document.getElementById("result");
-
         if (selectList.length < questionList.length) {
-          return;
+            // Có thể thêm thông báo chưa hoàn thành ở đây nếu muốn
         }
-
         selectList.forEach((ans) => {
           if (ans.isCorrect) totalCorrect++;
         });
-
         totalScore = totalCorrect * avgScore;
-
-        console.log(totalCorrect, avgScore, totalScore);
         resultContainer.innerHTML = `
-            <span>Tổng số câu đúng: ${totalCorrect}</span>
+            <h2>Kết quả</h2>
+            <span>Tổng số câu đúng: <strong>${totalCorrect}/${questionList.length}</strong></span>
             <p>Bạn đã hoàn thành bài thi!<br>Điểm của bạn là:
-                ${totalScore.toFixed(1)} / 10
+                <strong>${totalScore.toFixed(1)} / 10</strong>
             </p>
         `;
       }
-
+      
       // Hiển thị câu hỏi đầu tiên
       displayQuestion(questionList[currentQuestionIndex]);
-
-      // const a = questions.question_2.origin_question.map((question, index) => ({
-      //     id: index + 1,
-      //     title: question.questionText,
-      //     thumb: "", // Có thể thêm URL ảnh ở đây nếu cần
-      //     isCorrect: false, // Trạng thái có thể được cập nhật vào thời điểm kiểm tra
-      //     idCorrectResult: question.correctAnswerIndex,
-      //     results: question.answers.map((answer, answerIndex) => ({
-      //         idResult: answerIndex + 1,
-      //         value: answer,
-      //         url_thumb: "", // Có thể thêm URL ảnh ở đây nếu cần
-      //         type: "" // Có thể xác định loại nếu cần
-      //     }))
-      // }));
-
-      // console.log(a)
     </script>
   </body>
 </html>
-
-
