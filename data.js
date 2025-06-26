@@ -4,127 +4,26 @@ const questions = {
         origin_question: [
             {
     "id": 1,
-    "title": "IoT tiến hóa từ sự hội tụ của các công nghệ nào?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Công nghệ không dây , hệ thống vi cơ điện tử và Internet",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Điện toán di động, dữ liệu lớn và internet",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Công nghệ không dây, trí tuệ nhân tạo và dữ liệu lớn",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Cảm biến, điện toán đám mây và công nghệ máy học",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "IoT phải có 2 thuộc tính nào sau đây?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-     
-      {
-        "idResult": 1,
-        "value": "Phải có cảm biến và kết nối bluetooth",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Phải có trao đổi dữ liệu và phân tích hệ thống",
-        "url_thumb": "",
-        "type": ""
-      },
-       {
-        "idResult": 0,
-        "value": "Phải có là ứng dụng internet và lấy được thông tin vật chủ",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Không có câu trả lời nào đúng",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Người được gọi là cha đẻ của IoT là ai?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Vinton Gray Cerf",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Satoshi Nakamoto",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Hal Finney",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Kevin Ashton",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Các công nghệ nào được sử dụng trong IoT?",
+    "title": "Dữ liệu của Big Data là loại nào?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "RFID",
+        "value": "Structured Data",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Bluetooth",
+        "value": "Semi-Structured Data",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Wifi",
+        "value": "Unstructured Data",
         "url_thumb": "",
         "type": ""
       },
@@ -137,33 +36,132 @@ const questions = {
     ]
   },
   {
-    "id": 5,
-    "title": "Các thiết bị IoT trong nhà giúp ích trong việc nào sau đây?",
+    "id": 2,
+    "title": "Đặc trưng nào không phải của Big Data?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Tự động hóa",
+        "value": "Volume",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tiết kiệm năng lượng",
+        "value": "Variety",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "An toàn và bảo mật",
+        "value": "Vision",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả các câu trả lời là chính xác",
+        "value": "Velocity",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "NoSQL là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Database",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Field",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Document",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Collection",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Mục tiêu của NoSQL là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "NoSQL cung cấp một giải pháp thay thế cho cơ sở dữ liệu SQL để lưu trữ dữ liệu dạng văn bản.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cơ sở dữ liệu NoSQL cho phép lưu trữ dữ liệu không có cấu trúc.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "NoSQL không thích hợp để lưu trữ dữ liệu có cấu trúc.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "NoSQL là một định dạng dữ liệu mới để lưu trữ các tập dữ liệu lớn.",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cloudera phát triển công cụ nào?",
+    "thumb": "",
+    "isCorrect": false,
+    "idCorrectResult": null,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "HCatalog",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Hbase",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Impala",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Oozie",
         "url_thumb": "",
         "type": ""
       }
@@ -171,32 +169,32 @@ const questions = {
   },
   {
     "id": 6,
-    "title": "Một số tính năng mà ô tô thông minh có thể cung cấp là gì?",
+    "title": "Loại nào không phải là CSDL NoSQL?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Xác định vị trí các điểm đỗ xe có sẵn",
+        "value": "SQL Server",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Gọi dịch vụ khẩn cấp trong trường hợp xảy ra tai nạn",
+        "value": "MongoDB",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tự lái xe",
+        "value": "Cassandra",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả các tùy chọn đều đúng",
+        "value": "Không có",
         "url_thumb": "",
         "type": ""
       }
@@ -204,33 +202,32 @@ const questions = {
   },
   {
     "id": 7,
-    "title": "Giao thông công cộng được hưởng lợi như thế nào từ internet vạn vật?",
+    "title": "Đâu là một kiểu của CSDL NoSQL?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
-      
+      {
+        "idResult": 0,
+        "value": "SQL",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Nếu tất cả ô tô cá nhân đều có IoT, thì phương tiện giao thông công cộng không còn cần thiết nữa",
+        "value": "Document databases",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "IoT làm giảm nhu cầu giao thông công cộng trong giờ cao điểm",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cải thiện chất lượng và bảo mật",
+        "value": "JSON",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Thông tin từ các thiết bị được kết nối với nhau được sử dụng để cung cấp dịch vụ được cá nhân hóa",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -238,32 +235,32 @@ const questions = {
   },
   {
     "id": 8,
-    "title": "Trong ý tưởng về thiết bị di động, điểm hấp dẫn chính của máy tính xách tay khiến nó trở thành thiết bị phổ biến là gì?",
+    "title": "Chọn đúng 5 đặc trưng cho Big Data?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Máy tính xách tay có chức năng máy tính để bàn có thể mang đi mọi nơi",
+        "value": "Volume, Velocity, Variety, Veracity, Value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chi phí của máy tính xách tay thấp hơn máy tính để bàn",
+        "value": "Volume, Videos, Velocity, Variability, Value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Máy tính xách tay hiệu quả hơn máy tính để bàn",
+        "value": "Volume, Variability, Veracity, Visualization, Value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không câu trả lời nào trong số này đúng",
+        "value": "Volume, Velocity, Veracity, Visualization, Value",
         "url_thumb": "",
         "type": ""
       }
@@ -271,32 +268,32 @@ const questions = {
   },
   {
     "id": 9,
-    "title": "Phần cứng của IoT thu thập dữ liệu thông qua việc sử dụng?",
+    "title": "Velocity (Tốc độ) là đặc trưng nói về?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Khúc xạ ánh sáng",
+        "value": "Tốc độ gia tăng khối lượng dữ liệu lớn",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Thiết bị Giám sát",
+        "value": "Tốc độ cập nhật dữ liệu lớn",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Thiết bị truyền động",
+        "value": "Tốc độ xử lý dữ liệu lớn",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cảm biến",
+        "value": "Tốc độ lưu trữ dữ liệu lớn",
         "url_thumb": "",
         "type": ""
       }
@@ -304,32 +301,32 @@ const questions = {
   },
   {
     "id": 10,
-    "title": "Thách thức nào giữa thiết bị IoT với các thiết bị thông minh hoặc thiết bị được kết nối?",
+    "title": "Variety (Tính đa dạng) là đặc trưng về?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Giá trị mà chúng mang lại",
+        "value": "Kiểu dữ liệu thu thập",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chi phí đầu tư",
+        "value": "Kiểu nội dung dữ liệu",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Các cách chúng được sử dụng",
+        "value": "Nguồn thu thập dữ liệu",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả các ý đều đúng",
+        "value": "Phương thức xử lý dữ liệu",
         "url_thumb": "",
         "type": ""
       }
@@ -337,33 +334,32 @@ const questions = {
   },
   {
     "id": 11,
-    "title": "IoT là viết tắt?",
+    "title": "Đặc trưng quan trọng nhất của Big Data?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
-     
       {
-        "idResult": 1,
-        "value": "Internet of Think",
+        "idResult": 0,
+        "value": "Khối lượng",
         "url_thumb": "",
         "type": ""
       },
-       {
-        "idResult": 0,
-        "value": "Internet of Things",
+      {
+        "idResult": 1,
+        "value": "Tính đa dạng",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Internet of Technology",
+        "value": "Tốc độ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Intelligent of Technology",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -371,33 +367,32 @@ const questions = {
   },
   {
     "id": 12,
-    "title": "Tuyên bố nào phù hợp nhất với Internet of Things?",
+    "title": "Đâu là đặc trưng quyết định việc triển khai Dữ liệu lớn?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
-     
+      {
+        "idResult": 0,
+        "value": "Khối lượng",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Internet of Things nhằm mục đích xây dựng phần mềm đáng tin cậy",
+        "value": "Giá trị",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Internet of Things nhằm kết nối con người và vạn vật",
-        "url_thumb": "",
-        "type": ""
-      },
-       {
-        "idResult": 0,
-        "value": "Internet of Things bao gồm hàng tỷ thiết bị trên khắp thế giới được kết nối với internet",
+        "value": "Tốc Độ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không có tuyên bố nào phù hợp",
+        "value": "Tính đa dạng",
         "url_thumb": "",
         "type": ""
       }
@@ -405,32 +400,32 @@ const questions = {
   },
   {
     "id": 13,
-    "title": "Các thiết bị IoT phải được cập nhật khi nào?",
+    "title": "Tích hợp dữ liệu là quá trình?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "1 tuần cập nhật 1 lần",
+        "value": "Kết hợp các dữ liệu không đồng nhất từ nhiều nguồn khác nhau",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "1 ngày cập nhật 1 lần",
+        "value": "Sao chép dữ liệu vào CSDL hệ thống để tiến hành phân tích",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "1 tháng cập nhật 1 lần",
+        "value": "Làm sạch các dữ liệu thu thập được từ các hệ thống thành phần",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phải luôn được cập nhật",
+        "value": "Tăng giá trị từ các tài nguyên dữ liệu đang lưu trữ phân tán",
         "url_thumb": "",
         "type": ""
       }
@@ -438,113 +433,17 @@ const questions = {
   },
   {
     "id": 14,
-    "title": "Một thiết bị nhận thông tin từ nhiều điểm trên mạng và truyền nó đến một mạng khác là gì?",
+    "title": "Thuật ngữ Dữ liệu lớn ra đời năm nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Cảm biến",
+        "value": "1997",
         "url_thumb": "",
         "type": ""
       },
-      {
-        "idResult": 1,
-        "value": "Máy với Máy (M2M)",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Dữ liệu lớn",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Thiết bị đeo tay",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "title": "Nền tảng Internet of Things?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Cung cấp các dịch vụ để truy cập, sử dụng hoặc tham gia vào Internet",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Cho phép các thiết bị và ứng dụng giao tiếp với nhau",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Cho phép các cá nhân và tổ chức làm cho trang web của họ có thể truy cập được",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Không có phát biểu đúng",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "title": "Ai đặt ra thuật ngữ IoT?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-     
-      {
-        "idResult": 1,
-        "value": "IBM",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Ross Ihaka",
-        "url_thumb": "",
-        "type": ""
-      },
-       {
-        "idResult": 0,
-        "value": "Kevin Ashton",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Guido van Rossum",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "title": "Thuật ngữ IoT được đặt ra vào năm nào?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
       {
         "idResult": 1,
         "value": "2000",
@@ -553,19 +452,112 @@ const questions = {
       },
       {
         "idResult": 2,
-        "value": "2001",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
         "value": "1998",
         "url_thumb": "",
         "type": ""
       },
       {
+        "idResult": 3,
+        "value": "1941",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Các dạng thức khoa học dữ liệu của Jim Gray?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
         "idResult": 0,
-        "value": "1999",
+        "value": "Thực nghiệm",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lý thuyết",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tính toán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả các ý",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Phát biểu nào không phải dạng thức nghiên cứu Khoa học dữ liệu của Jim Gray?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Khai thác dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Mô phỏng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tính toán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Thực nghiệm",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Đâu không phải là phương thức xử lý dữ liệu lớn?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Thu thập (acquire)",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Đánh giá (reviews)",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tổ chức (organize)",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân tích (analyze)",
         "url_thumb": "",
         "type": ""
       }
@@ -573,32 +565,32 @@ const questions = {
   },
   {
     "id": 18,
-    "title": "Thuật ngữ IIoT là viết tắt của những chữ nào?",
+    "title": "RDBMS là gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Industrial Internet of Things",
+        "value": "Relational Database Management System",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Index Internet of Technology",
+        "value": "Relat Data Management System",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Intense Internet of Things",
+        "value": "Relational Database Microsoft System",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Incorporate Internet of Technology",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -606,33 +598,32 @@ const questions = {
   },
   {
     "id": 19,
-    "title": "Thành phần nào sau đây không phải là thành phần cơ bản của hệ thống IoT?",
+    "title": "Thị trường Big Data bao gồm:",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
-      
+      {
+        "idResult": 0,
+        "value": "Phần cứng",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Cảm biến",
+        "value": "Phần Mềm",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Giao diện người dùng",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Máy biến áp",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Kết nối và xử lý dữ liệu",
+        "value": "Dịch vụ",
         "url_thumb": "",
         "type": ""
       }
@@ -640,32 +631,32 @@ const questions = {
   },
   {
     "id": 20,
-    "title": "Giao thức MQTT là viết tắt của những chữ nào?",
+    "title": "Nhược điểm của tích hợp dữ liệu theo phương pháp Tight Coupling",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Message Query Telemetry Transport",
+        "value": "Độ trễ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "MetaQuery Telemetry Transport",
+        "value": "Phản hồi truy vấn",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Multiple Query Telemetry Transport",
+        "value": "Phụ thuộc vào nguồn dữ liệu",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Multi-Queue Query Telemetry Transport",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -673,33 +664,32 @@ const questions = {
   },
   {
     "id": 21,
-    "title": "DHCP sử dụng giao thức lớp vận chuyển nào?",
+    "title": "Nhược điểm của tích hợp dữ liệu theo phương pháp Loose Coupling",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      
       {
-        "idResult": 1,
-        "value": "TCP",
+        "idResult": 0,
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 0,
-        "value": "UDP",
+        "idResult": 1,
+        "value": "Chi phí cao",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "RSVP",
+        "value": "Độ trễ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "DCCP",
+        "value": "Phụ thuộc mạng / băng thông",
         "url_thumb": "",
         "type": ""
       }
@@ -707,33 +697,32 @@ const questions = {
   },
   {
     "id": 22,
-    "title": "Thiết bị nào không phải thiết bị mạng?",
+    "title": "Công cụ nào hỗ trợ tốt NoSQL?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
-      
+      {
+        "idResult": 0,
+        "value": "SAP Data Services",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Bridge",
+        "value": "Oracle Data Integrator",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Switch",
+        "value": "SQL Server Integration Services",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Router",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Traffic analyzer",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -741,32 +730,32 @@ const questions = {
   },
   {
     "id": 23,
-    "title": "Arduino UNO là gì?",
+    "title": "Công cụ tích hợp dữ liệu Boomi là của?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Protocol",
+        "value": "Dell",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Network",
+        "value": "IBM",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Software",
+        "value": "Microsoft",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Hardware device",
+        "value": "SAP",
         "url_thumb": "",
         "type": ""
       }
@@ -774,32 +763,32 @@ const questions = {
   },
   {
     "id": 24,
-    "title": "Thiết bị IoT nào dùng để thu thập dữ liệu từ thế giới thực?",
+    "title": "Công cụ SQL Server Integrator do ai phát triển?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Sensors",
+        "value": "Oracle",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Actuators",
+        "value": "IBM",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Microprocessors",
+        "value": "Microsoft",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Microcontrollers",
+        "value": "SAP",
         "url_thumb": "",
         "type": ""
       }
@@ -807,66 +796,65 @@ const questions = {
   },
   {
     "id": 25,
-    "title": "Thành phần của hệ thống IoT thực thi một chương trình là gì?",
+    "title": "SAP Data Service là công cụ để làm gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Cảm biến",
+        "value": "Lưu trữ dữ liệu",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Bộ chuyển đổi kỹ thuật số sang tương tự",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Bộ vi điều khiển",
+        "value": "Tích hợp dữ liệu",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Bộ truyền động",
+        "value": "Phân tích dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
-      
     ]
   },
   {
     "id": 26,
-    "title": "Thiết bị nào sau đây không thể được coi là thiết bị IoT?",
+    "title": "Hệ quản trị CSDL DynamoDB là kiểu nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Đồng hồ thông minh",
+        "value": "Key value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Điện thoại Android",
+        "value": "Wide Column based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Máy tính xách tay",
+        "value": "Document based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Đèn huỳnh quang",
+        "value": "Graph based",
         "url_thumb": "",
         "type": ""
       }
@@ -874,33 +862,32 @@ const questions = {
   },
   {
     "id": 27,
-    "title": "Mạng nào sau đây không phải là mạng không dây tầm ngắn?",
+    "title": "Hệ quản trị CSDL MongoDB là kiểu nào?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      
       {
-        "idResult": 1,
-        "value": "Wifi",
+        "idResult": 0,
+        "value": "Document based",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 0,
-        "value": "VPN",
+        "idResult": 1,
+        "value": "Key value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Bluetooth",
+        "value": "Wide Column based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Điểm phát sóng",
+        "value": "Graph based",
         "url_thumb": "",
         "type": ""
       }
@@ -908,66 +895,65 @@ const questions = {
   },
   {
     "id": 28,
-    "title": "Thông số kỹ thuật quan trọng của cảm biến hình ảnh?",
+    "title": "Hệ quản trị CSDL Neo4J là kiểu nào?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Độ phân giải, kích thước điểm ảnh",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tất cả phương án",
+        "value": "Key value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Độ nhạy sáng, tốc độ phản hồi",
+        "value": "Wide Column based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Độ lệch màu",
+        "value": "Document based",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Graph based",
         "url_thumb": "",
         "type": ""
       }
-      
     ]
   },
   {
     "id": 29,
-    "title": "Phân loại cảm biến hình ảnh dựa trên tiêu chí nào?",
+    "title": "Hệ quản trị CSDL IBM Graph là kiểu nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Công nghệ sản xuất chip",
+        "value": "Key value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Kích thước và độ phân giải",
+        "value": "Document based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Ứng dụng",
+        "value": "Graph based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả phương án",
+        "value": "Wide Column based",
         "url_thumb": "",
         "type": ""
       }
@@ -975,32 +961,32 @@ const questions = {
   },
   {
     "id": 30,
-    "title": "Trong các thành phần liên kết trong IoT, thành phần nào nằm ở giữa sơ đồ biểu diễn IoT?",
+    "title": "Hệ quản trị CSDL Google Big Table là kiểu nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Định danh",
+        "value": "Key value",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Cảm biến",
+        "value": "Wide Column based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Kết nối",
+        "value": "Document based",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Đối tượng",
+        "value": "Graph based",
         "url_thumb": "",
         "type": ""
       }
@@ -1008,32 +994,32 @@ const questions = {
   },
   {
     "id": 31,
-    "title": "Bốn lĩnh vực công nghệ chính luôn gắn liền với sự phát triển xu thế IoT, chọn phương án đúng nhất?",
+    "title": "Đâu không phải là RDBMS?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Phần cứng, truyền thông kết nối, phần mềm, ứng dụng",
+        "value": "IBM DB2",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phần cứng, phần mềm, thương mại, năng lượng",
+        "value": "MS SQL Server",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phần cứng, phần mềm, dữ liệu lớn, internet",
+        "value": "MS Access",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phần mềm, internet, mã hóa, dữ liệu",
+        "value": "Cassandra",
         "url_thumb": "",
         "type": ""
       }
@@ -1041,32 +1027,32 @@ const questions = {
   },
   {
     "id": 32,
-    "title": "Giao nào là thức mạng dùng IPv6, cho phép quy định cơ chế đóng gói bản tin và nén header?",
+    "title": "Loại nào là dữ liệu Bán cấu trúc?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "6LoWPAN",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Zigbee",
+        "value": "JSON",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Bluetooth",
+        "value": "CSV",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Z-wave",
+        "value": "XML",
         "url_thumb": "",
         "type": ""
       }
@@ -1074,66 +1060,65 @@ const questions = {
   },
   {
     "id": 33,
-    "title": "Sóng WiFi truyền và phát tín hiệu ở tần số?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "1.4 GHz hoặc 2.3 GHz",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "6 GHz hoặc 10 GHz",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "2.4 GHz hoặc 5 GHz",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "15 GHz hoặc 30 GHz",
-        "url_thumb": "",
-        "type": ""
-      }
-      
-    ]
-  },
-  {
-    "id": 34,
-    "title": "NFC (Near-Field Communications) là công nghệ kết nối không dây trong phạm vi tầm ngắn trong khoảng cách",
+    "title": "Loại nào là dữ liệu Unstructured?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "4 cm",
+        "value": "Video",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "15 cm",
+        "value": "XML",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "20 cm",
+        "value": "Table",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "25 cm",
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Yếu tố nào quyết định để sử dụng NoSQL?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Tốc độ gia tăng CSDL",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tính đa dạng của dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tốc độ truy cập dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -1141,32 +1126,32 @@ const questions = {
   },
   {
     "id": 35,
-    "title": "Đâu là công nghệ không dây sử dụng các bóng đèn LED để truyền dữ liệu với tốc độ nhanh hơn Wifi tới 100 lần?",
+    "title": "CSDL nào không phải kiểu Key-Value:",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "LIFI",
+        "value": "MongoDB",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Sigfox",
+        "value": "DynamoDB",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Neul",
+        "value": "Redis",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Thread",
+        "value": "Riak",
         "url_thumb": "",
         "type": ""
       }
@@ -1174,32 +1159,32 @@ const questions = {
   },
   {
     "id": 36,
-    "title": "Một cảm biến tốt tuân theo quy tắc nào?",
+    "title": "CSDL nào không phải kiểu Document:",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Nó nhạy cảm với thuộc tính được đo lường",
+        "value": "MongoDB",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Nó không nhạy cảm đến bất kỳ thuộc tính nào khác có thể gặp trong ứng dụng của nó",
+        "value": "CouchDB",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Nó không ảnh hưởng đến thuộc tính được đo lường",
+        "value": "Elasticsearch",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả phương án",
+        "value": "Riak",
         "url_thumb": "",
         "type": ""
       }
@@ -1207,33 +1192,32 @@ const questions = {
   },
   {
     "id": 37,
-    "title": "Chip xử lý hình ảnh CCD viết tắt là gì?",
+    "title": "CSDL nào không phải kiểu Graph:",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
-      
       {
-        "idResult": 1,
-        "value": "Computer Controlled Display",
+        "idResult": 0,
+        "value": "InfoGrid",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 0,
-        "value": "Charge Coupled Device",
+        "idResult": 1,
+        "value": "Hbase",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Computer Crimes Divison",
+        "value": "InfiniteGraph",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Coarse Control Damper",
+        "value": "IBM Graph",
         "url_thumb": "",
         "type": ""
       }
@@ -1241,32 +1225,32 @@ const questions = {
   },
   {
     "id": 38,
-    "title": "Chip xử lý hình ảnh CMOS viết tắt là gì?",
+    "title": "CSDL nào không phải kiểu Wide-Column:",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Complementary Metal Oxide Semiconductor",
+        "value": "Hbase",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Complementary Metal Oxide Silicon",
+        "value": "Cassandra",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Complementary Metal Oxide Substrate",
+        "value": "BigTable",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cargo Movement Operating System",
+        "value": "Dex",
         "url_thumb": "",
         "type": ""
       }
@@ -1274,32 +1258,32 @@ const questions = {
   },
   {
     "id": 39,
-    "title": "Trong Cảm biến lực Loadcell, thành phần Strain gauge là gì?",
+    "title": "Ưu điểm của hệ thống HDFS là gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Là một loại điện trở đặc biệt. Được cấp nguồn điện và giá trị điện trở thay đổi khi bị tác động lực lên nó",
+        "value": "Lưu trữ phân tán, xử lý song song, khả năng chịu lỗi cao",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
+        "value": "Lưu trữ song song, xử lý phân tán, tính sẵn sàng cao",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Là một hình thanh kim loại vòng tròn cố định trên thiết bị, có khả năng chịu tải tốt chuyên truyền điện và nhiệt",
+        "value": "Xử lý phân tán song song, khả năng chịu lỗi chấp nhận sai sót",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không có đáp án đúng",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -1307,33 +1291,32 @@ const questions = {
   },
   {
     "id": 40,
-    "title": "Trong Cảm biến lực Loadcell, thành phần thân loadcell là gì?",
+    "title": "Ưu điểm của DFS là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
-      
+      {
+        "idResult": 0,
+        "value": "Hệ thống lưu trữ song song nên tránh được ảnh hưởng khi một máy chủ hoặc bộ nhớ bị lỗi",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Là một loại điện trở đặc biệt. Được cấp nguồn điện và giá trị điện trở thay đổi khi bị tác động lực lên nó",
+        "value": "Hệ thống được sao lưu tại Server thứ hai nên đảm bảo việc cung cấp dữ liệu",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Là một hình thanh kim loại vòng tròn cố định trên thiết bị, có khả năng chịu tải tốt chuyên truyền điện và nhiệt",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Là một thanh kim loại chịu tải có tính đàn hồi, thường là hợp kim nhôm",
+        "value": "Khi một máy chủ hoặc bộ nhớ bị lỗi, hệ thống tệp phân tán vẫn đảm bảo có thể cung cấp dữ liệu ổn định",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không có đáp án đúng",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -1341,33 +1324,32 @@ const questions = {
   },
   {
     "id": 41,
-    "title": "Cảm biến khói nào sử dụng các chất đồng vị phóng xạ để hoạt động?",
+    "title": "Ưu điểm của công nghệ Cluster",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-     
       {
-        "idResult": 1,
-        "value": "Cảm biến khói quang điện",
+        "idResult": 0,
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       },
-       {
-        "idResult": 0,
-        "value": "Cảm biến khói Ion hóa",
+      {
+        "idResult": 1,
+        "value": "Hiệu quả chi phí",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Cả (a) và (b) đều đúng",
+        "value": "Tính sẵn sàng cao",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cả (a) và (b) đều sai",
+        "value": "Khả năng mở rộng linh hoạt",
         "url_thumb": "",
         "type": ""
       }
@@ -1375,32 +1357,32 @@ const questions = {
   },
   {
     "id": 42,
-    "title": "Cảm biến hồng ngoại thụ động có đặc điểm gì?",
+    "title": "Cluster node có mấy loại?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Chỉ phát hiện ra được bức xạ từ các vật thể khác như người, động vật hay nguồn nhiệt, chứ sẽ không phát ra tia hồng ngoại",
+        "value": "1",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phát hiện mọi vật thể, với khoảng cách giới hạn",
+        "value": "2",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Khi vật thể đến gần với cảm biến, thiết bị sẽ phát ra ánh sáng hồng ngoại từ đèn Led và sẽ phản xạ vào vật thể trở lại mà người nhận có thể nhận thấy được",
+        "value": "3",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không có đáp án đúng",
+        "value": "4",
         "url_thumb": "",
         "type": ""
       }
@@ -1408,32 +1390,32 @@ const questions = {
   },
   {
     "id": 43,
-    "title": "Light Sensor/Photoelectric Sensor là tên gọi của cảm biến nào?",
+    "title": "Nguồn của kiến trúc HDFS trong Hadoop có nguồn gốc là",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Cảm biến chuyển động",
+        "value": "Hệ thống tệp phân phối của Google",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Cảm biến hạt",
+        "value": "Hệ thống tệp phân tán của Yahoo",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Cảm biến rò rỉ",
+        "value": "Hệ thống tệp phân tán của Facebook",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cảm biến quang",
+        "value": "Hệ thống tệp phân tán Azure",
         "url_thumb": "",
         "type": ""
       }
@@ -1441,32 +1423,32 @@ const questions = {
   },
   {
     "id": 44,
-    "title": "Đâu là ưu điểm của cảm biến hồng ngoại?",
+    "title": "Loại dữ liệu mà Hadoop có thể xử lý là",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Có độ nhạy cao trong việc xác định vật thể phát ra bức xạ hồng ngoại trong không gian",
+        "value": "Structured (Có cấu trúc)",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Điều kiện nhiệt độ môi trường. Những môi trường có nhiệt độ cao thì cảm biến sẽ hoạt động hiệu quả",
+        "value": "Semi-structured (Bán cấu trúc)",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phạm vi quét cảm biến hồng ngoại không có góc bị chết",
+        "value": "Unstructured (Không có cấu trúc)",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không bị nhầm lẫn khi phát hiện ra chuyển động",
+        "value": "All of the above (Tất cả những điều trên)",
         "url_thumb": "",
         "type": ""
       }
@@ -1474,32 +1456,32 @@ const questions = {
   },
   {
     "id": 45,
-    "title": "Đâu là các hãng sản xuất hình ảnh?",
+    "title": "YARN là viết tắt của",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "AUTONICS",
+        "value": "Yahoo’s another resource name",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "MISUMI",
+        "value": "Yet another resource negotiator",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "SUNX",
+        "value": "Yahoo’s archived Resource names",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả các ý trên",
+        "value": "Yet another resource need.",
         "url_thumb": "",
         "type": ""
       }
@@ -1507,32 +1489,32 @@ const questions = {
   },
   {
     "id": 46,
-    "title": "Công nghệ nhiều lớp cho phép cung cấp, quản lý và tự động hóa đơn giản các thiết bị được kết nối trong IoT?",
+    "title": "Điều nào sau đây không phải là mục tiêu của HDFS?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "IoT Platform",
+        "value": "Phát hiện lỗi và khôi phục",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Machine Learning (ML )",
+        "value": "Xử lý tập dữ liệu khổng lồ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Artificial Intelligence (AI)",
+        "value": "Ngăn chặn việc xóa dữ liệu",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Robotic Process Automation (RPA)",
+        "value": "Cung cấp băng thông mạng cao để di chuyển dữ liệu",
         "url_thumb": "",
         "type": ""
       }
@@ -1540,32 +1522,32 @@ const questions = {
   },
   {
     "id": 47,
-    "title": "Cách thức truyền dữ liệu trong IoT là gì?",
+    "title": "Trong HDFS, các tệp không thể",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Blutooth",
+        "value": "Đọc",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Zigbee",
+        "value": "Xóa",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Z-wave",
+        "value": "Thực thi",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả đáp án",
+        "value": "Lưu trữ",
         "url_thumb": "",
         "type": ""
       }
@@ -1573,33 +1555,32 @@ const questions = {
   },
   {
     "id": 48,
-    "title": "LoRaWAN là gì?",
+    "title": "So với RDBMS, Hadoop",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
-     
+      {
+        "idResult": 0,
+        "value": "Có tính toàn vẹn dữ liệu cao hơn.",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Ngôn ngữ lập trình cho IoT",
+        "value": "Có giao dịch ACID không",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Công nghệ kết nối dữ liệu sản xuất",
-        "url_thumb": "",
-        "type": ""
-      },
-       {
-        "idResult": 0,
-        "value": "Giao thức truyền thông không dây cho IoT",
+        "value": "Thích hợp để đọc và truy vấn nhanh",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Màn hình cảm ứng cho IoT",
+        "value": "Hoạt động tốt hơn trên dữ liệu phi cấu trúc và bán cấu trúc.",
         "url_thumb": "",
         "type": ""
       }
@@ -1607,32 +1588,32 @@ const questions = {
   },
   {
     "id": 49,
-    "title": "Mục đích chính của IoT là gì ?",
+    "title": "Vấn đề chính gặp phải khi đọc và ghi dữ liệu song song từ nhiều đĩa là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Kết nối các thiết bị và đối tượng để chia sẻ dữ liệu",
+        "value": "Xử lý khối lượng lớn dữ liệu nhanh hơn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tạo ra một Internet mới dành riêng cho các thiết bị di động",
+        "value": "Kết hợp dữ liệu từ nhiều đĩa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Mở rộng sự phổ biến của trò chơi trực tuyến",
+        "value": "Phần mềm cần thiết để thực hiện nhiệm vụ này là cực kỳ tốn kém.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tăng cường an ninh mạng cho doanh nghiệp",
+        "value": "Phần cứng cần thiết để thực hiện tác vụ này là cực kỳ tốn kém.",
         "url_thumb": "",
         "type": ""
       }
@@ -1640,32 +1621,32 @@ const questions = {
   },
   {
     "id": 50,
-    "title": "5G là gì và vai trò của nó trong IoT là gì?",
+    "title": "Tính năng định vị dữ liệu trong Hadoop có nghĩa là",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Một loại cảm biến tiên tiến được sử dụng trong IoT",
+        "value": "lưu trữ cùng một dữ liệu trên nhiều nút.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Một dạng phân tích dữ liệu trong IoT",
+        "value": "chuyển vị trí dữ liệu từ nút này sang nút khác.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Một mô hình kinh doanh cho các ứng dụng IoT",
+        "value": "đồng định vị dữ liệu với các nút tính toán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tiêu chuẩn kết nối không dây mới với tốc độ nhanh và độ trễ thấp, hỗ trợ việc triển khai IoT",
+        "value": "Phân phối dữ liệu trên nhiều nút.",
         "url_thumb": "",
         "type": ""
       }
@@ -1673,32 +1654,32 @@ const questions = {
   },
   {
     "id": 51,
-    "title": "Giao thức nào làm trung gian cho các gói tin trên lớp ứng dụng với mục đích thay thế các hệ thống truyền tin độc quyền và không tương thích trong IoT?",
+    "title": "Các tệp HDFS được thiết kế cho",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "DDS",
+        "value": "Nhiều người viết và sửa đổi ở các hiệu số tùy ý.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "MQTT",
+        "value": "Chỉ nối vào cuối tệp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "CoAP",
+        "value": "Chỉ ghi thành tệp một lần.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "AMQP",
+        "value": "Truy cập dữ liệu có độ trễ thấp.",
         "url_thumb": "",
         "type": ""
       }
@@ -1706,260 +1687,26 @@ const questions = {
   },
   {
     "id": 52,
-    "title": "Hệ thống nhúng được hiểu như thế nào?",
+    "title": "Hệ thống Apache Hadoop được viết bằng ngôn ngữ nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Là hệ thống tự trị các nhúng trong môi trường hoặc hệ thống mẹ",
+        "value": "C ++",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Là hệ thống kết hợp phần mềm và phần cứng để giải quyết các bài toán chuyên dụng",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Là hệ thống có khả năng tự động hóa cao và hoạt động ổn định",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tất cả các phương án trên",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "title": "Hệ thống nhúng được thiết kế để thực hiện nhiệm vụ chuyên dụng nào?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Đảm bảo tính an toàn và ứng dụng trong các lĩnh vực cụ thể",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Tối ưu hóa hiệu suất và giảm thiểu chi phí sản xuất",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Tăng cường tính linh hoạt và đa dạng của hệ thống",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tất cả các phương án trên",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "title": "Đâu không phải là đặc điểm của hệ thống nhúng?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Tính hoạt động ổn định và tự động hóa cao",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Tính linh hoạt và đa dạng trong việc thực hiện các nhiệm vụ",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Tính tương tác và kết nối mạng lưới rộng lớn",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tính chuyên dụng, không phải là hệ thống máy tính đa chức năng",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "title": "IoT được hiểu như thế nào so với hệ thống nhúng?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "IoT là một công nghệ độc lập, trong khi hệ thống nhúng là một phần của IoT",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "IoT là một hệ thống tổng hợp, trong khi hệ thống nhúng là một phần của hệ thống IoT",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "IoT là một công nghệ chủ đạo, trong khi hệ thống nhúng chủ yếu tập trung vào việc điều khiển các thiết bị trong một hệ thống cụ thể",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "IoT là một mạng lưới các thiết bị kết nối qua Internet, trong khi hệ thống nhúng là một tập hợp con của IoT",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "title": "Cảm biến quang loại nào sử dụng trong công nghiệp sản xuất và tự động hóa có khả năng phát hiện vật thể khá xa?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Cảm biến quang hồng ngoại",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Cảm biến gương phản xạ",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Cảm biến quang khuếch tán",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tầm xa đều như nhau",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "title": "Tổ chức hay ai là người sáng tạo ra Raspberry Pi?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Sinh viên Hernando Barragan",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Bởi hãng Espressif Systems",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Google",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Eben Upton",
-        "url_thumb": "",
-        "type": ""
-      },
-    ]
-  },
-  {
-    "id": 58,
-    "title": "Tổ chức hay ai là người tham gia chính sáng tạo ra Adruino?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Sinh viên Hernando Barragan",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Eben Upton",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Bởi hãng Espressif Systems",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Google",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "title": "Raspberry Pi dùng ngôn ngữ lập trình nào chính thức?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
         "value": "Python",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 1,
-        "value": "Java",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
         "idResult": 2,
-        "value": "C#",
+        "value": "Java",
         "url_thumb": "",
         "type": ""
       },
@@ -1972,66 +1719,297 @@ const questions = {
     ]
   },
   {
-    "id": 60,
-    "title": "Raspberry Pi hỗ trợ trên nền tảng và phần mềm nào?",
+    "id": 53,
+    "title": "Cái nào không phải là một trong đặc trưng 3Vs của dữ liệu lớn?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Vận tốc - Velocity",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tính xác thực - Veracity",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Khối lượng - Volume",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Đa dạng - Variety",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Điều nào sau đây đúng đối với Hadoop?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Raspbian",
+        "value": "Đây là một khung phân tán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Raspbmc",
+        "value": "Thuật toán chính được sử dụng trong đó là Map Reduce.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "OSMC",
+        "value": "Nó chạy có thể thực thi trên hạ tầng Cloud Computing.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả đáp án đều đúng",
+        "value": "Tất cả đều đúng",
         "url_thumb": "",
         "type": ""
       }
     ]
   },
-   {
-    "id": 61,
-    "title": "Arduino đã chính thức được giới thiệu năm?",
+  {
+    "id": 55,
+    "title": "Loại nào sau đây lưu trữ dữ liệu?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Name node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Data node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Master node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Node nào sau đây quản lý các nút khác?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "2005",
+        "value": "Name node",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "2006",
+        "value": "Data node",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "2007",
+        "value": "Slave node",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "2008",
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Hadoop xử lý khối lượng lớn dữ liệu như thế nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Hadoop sử dụng song song rất nhiều máy. Điều này tối ưu hóa việc xử lý dữ liệu.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Hadoop được thiết kế đặc biệt để xử lý lượng lớn dữ liệu bằng cách tận dụng phần cứng MPP.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Hadoop gửi mã đến dữ liệu thay vì gửi dữ liệu đến mã.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Hadoop sử dụng các kỹ thuật bộ nhớ đệm phức tạp trên NameNode để tăng tốc độ xử lý dữ liệu.",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "MapReduce do công ty nào phát triển?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Apache",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Google",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "IBM",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Amazon",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Dịch vụ đám mây nào hỗ trợ tốt cho Big Data?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Amazon AWS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Google Cloud",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Microsoft Azure",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Nhược điểm khi triển khai Big Data trên nền tảng Cloud Computing là?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Nhiều rủi ro cho hệ thống",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Không có ý đúng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tốc độ xử lý không đảm bảo",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân tích theo thời gian thực kém",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Mô hình Điện toán đám mây IaaS?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cơ sở hạ tầng dưới dạng dịch vụ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Nền tảng dưới dạng dịch vụ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phần mềm dưới dạng dịch vụ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Internet dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       }
@@ -2039,33 +2017,32 @@ const questions = {
   },
   {
     "id": 62,
-    "title": "Arduino ra đời ở nước nào?",
+    "title": "Mô hình Điện toán đám mây PaaS?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
-      
       {
-        "idResult": 1,
-        "value": "Pháp",
+        "idResult": 0,
+        "value": "Cơ sở hạ tầng dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 0,
-        "value": "Ý",
+        "idResult": 1,
+        "value": "Nền tảng dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Mỹ",
+        "value": "Phần mềm dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Nga",
+        "value": "Internet dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       }
@@ -2073,33 +2050,32 @@ const questions = {
   },
   {
     "id": 63,
-    "title": "Khi làm việc với UPnP, một thiết bị tự gán cái gì của chính nó?",
+    "title": "Mô hình Điện toán đám mây SaaS?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
-     
+      {
+        "idResult": 0,
+        "value": "Cơ sở hạ tầng dưới dạng dịch vụ",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Địa chỉ gửi thư",
+        "value": "Nền tảng dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Địa chỉ doanh nghiệp",
-        "url_thumb": "",
-        "type": ""
-      },
-       {
-        "idResult": 0,
-        "value": "Địa chỉ IP",
+        "value": "Phần mềm dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Địa chỉ UpnP",
+        "value": "Internet dưới dạng dịch vụ",
         "url_thumb": "",
         "type": ""
       }
@@ -2107,32 +2083,32 @@ const questions = {
   },
   {
     "id": 64,
-    "title": "Dịch vụ nào đã được sử dụng làm mẫu thử các mối đe dọa của trung tâm điều khiển?",
+    "title": "Lợi ích của Cloud Computing với Big Data là?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Amazon Echo",
+        "value": "Triển khai hạ tầng nhanh chóng",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Apple Store",
+        "value": "Phân tích theo thời gian thực",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google Play",
+        "value": "Tối ưu chi phí duy trì hoạt động",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả đáp án",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -2140,33 +2116,32 @@ const questions = {
   },
   {
     "id": 65,
-    "title": "Những thách thức lớn của IoT là gì?",
+    "title": "Lợi ích vượt trội của Cloud Computing với Big Data là?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
-      
       {
-        "idResult": 1,
-        "value": "Không có gì cả",
+        "idResult": 0,
+        "value": "Hạn chế đầu tư máy móc",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 0,
-        "value": "An ninh và sự riêng tư",
+        "idResult": 1,
+        "value": "Phân tích theo thời gian thực",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Chia sẻ thông tin",
+        "value": "Tối ưu chi phí duy trì hoạt động",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Nó rất dễ tạo và thực hiện",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
@@ -2174,33 +2149,32 @@ const questions = {
   },
   {
     "id": 66,
-    "title": "Phát biểu đúng nhất về dữ liệu khi sử dụng IoT là gì?",
+    "title": "Dịch vụ lưu trữ dữ liệu của Amazon – AWS là?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
-      
+      {
+        "idResult": 0,
+        "value": "Amazon S3",
+        "url_thumb": "",
+        "type": ""
+      },
       {
         "idResult": 1,
-        "value": "Dữ liệu thu được hạn chế",
+        "value": "Amazon RDS",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Dữ liệu thu được rất khó quan sát",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Dữ liệu thu được theo thời gian thực",
+        "value": "Amazon Lambda",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Dữ liệu thu được rất khó phân tích",
+        "value": "EC2",
         "url_thumb": "",
         "type": ""
       }
@@ -2208,32 +2182,32 @@ const questions = {
   },
   {
     "id": 67,
-    "title": "Điều nào sau đây là nhược điểm của việc sử dụng IoT?",
+    "title": "Dịch vụ lưu trữ của Microsoft Azure là?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Chi phí quá đắt",
+        "value": "Virtual Machines",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lối sống xấu đi",
+        "value": "Azure Function",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Năng suất không tăng",
+        "value": "Azure Disk Storage",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Quá phụ thuộc vào công nghệ",
+        "value": "Azure Cosmos DB",
         "url_thumb": "",
         "type": ""
       }
@@ -2241,32 +2215,32 @@ const questions = {
   },
   {
     "id": 68,
-    "title": "Ngôn ngữ ưa thích cho phân tích IoT là ngôn ngữ nào?",
+    "title": "Dịch vụ lưu trữ của Google Cloud Platform là?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Python",
+        "value": "Google Driver",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "HTML",
+        "value": "Goolge Functions",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "PHP",
+        "value": "Google Cloud Storage",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "C++",
+        "value": "Google Cloud Datastore",
         "url_thumb": "",
         "type": ""
       }
@@ -2274,32 +2248,32 @@ const questions = {
   },
   {
     "id": 69,
-    "title": "Thành phần nào tham gia vận hành phần tử cốt lõi của IoT?",
+    "title": "Đám mây AWS cung cấp dịch vụ NoSQL Database",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "SaaS",
+        "value": "Amazon RDS",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "PaaS",
+        "value": "Amazon EC2",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "IaaS",
+        "value": "Amazon DynamoDB",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Nhà cung cấp dịch vụ IoT",
+        "value": "Amazon Container Service",
         "url_thumb": "",
         "type": ""
       }
@@ -2307,32 +2281,32 @@ const questions = {
   },
   {
     "id": 70,
-    "title": "Lợi thế nào không chính xác đối với IoT?",
+    "title": "Đám mây Microsoft Azure cung cấp dịch vụ NoSQL Database",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Bảo mật",
+        "value": "Table Storage",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Giảm thiểu lãng phí",
+        "value": "SQL DB",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Thu thập dữ liệu nâng cao",
+        "value": "Azure Functions",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cải thiện sự tham gia của khách hàng",
+        "value": "Cloud Service",
         "url_thumb": "",
         "type": ""
       }
@@ -2340,32 +2314,32 @@ const questions = {
   },
   {
     "id": 71,
-    "title": "Bước cuối cùng của việc truyền dữ liệu đáng tin cậy là gì?",
+    "title": "Dịch vụ tích hợp dữ liệu trên đám mây trên Google Cloud Platform",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Khởi tạo",
+        "value": "Google Cloud Dataprep",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chuyển tiếp tin nhắn",
+        "value": "Google Cloud Data Fusion",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phát hiện tin nhắn bị mất",
+        "value": "Google Data Catalog",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phục hồi có chọn lọc",
+        "value": "Google BigQuery",
         "url_thumb": "",
         "type": ""
       }
@@ -2373,32 +2347,32 @@ const questions = {
   },
   {
     "id": 72,
-    "title": "Giao thức được sử dụng để liên kết tất cả các thiết bị trong IoT?",
+    "title": "Dịch vụ thông minh giúp khám phá, làm sạch dữ liệu trên Google Cloud Platform",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Mạng",
+        "value": "Google Functions",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "UDP",
+        "value": "Google BigQuery",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "HTTP",
+        "value": "Google Cloud Dataprep",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "TCP/IP",
+        "value": "Google Data Catalog",
         "url_thumb": "",
         "type": ""
       }
@@ -2406,27 +2380,1148 @@ const questions = {
   },
   {
     "id": 73,
-    "title": "Arduino IDE được viết bằng ngôn ngữ lập trình nào?",
+    "title": "Trên Google Cloud Platform dịch vụ nào quản lý CSDL NoQuery",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
-      
       {
-        "idResult": 1,
-        "value": "Java",
+        "idResult": 0,
+        "value": "Google Cloud Dataprep",
         "url_thumb": "",
         "type": ""
       },
       {
-        "idResult": 0,
-        "value": "C/C++",
+        "idResult": 1,
+        "value": "Google Data Catalog",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "JavaScript",
+        "value": "Google BigQuery",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cloud Bigtable",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Trên Google Cloud Platform dịch vụ nào quản lý danh mục dữ liệu",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Google Data Catalog",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Google Cloud Dataprep",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Google Data Catalog",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Google BigQuery",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Trên Google Cloud Platform dịch vụ phân tích dữ liệu được cung cấp",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Google Data Catalog",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Google BigQuery",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Google Cloud Dataprep",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Google Functions",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Nền tảng Cloudera hỗ trợ hệ CSDL quan hệ nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "MySQL",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Oracle",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "PostgreSQL",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Hệ CSDL NoSQL trên nền tảng Cloudera là?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Apache Accumulo",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "DynamoDB",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "AppEngine Datastore",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Table Storage",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Dịch vụ phân tích dữ liệu lớn Cloudera cung cấp là?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Hadoop",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "BigQuery",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Elastic MapReduce",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Không có",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Cloudera Enterprise có thể được triển khai trên đám mây nào",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Google Cloud",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Amazon AWS",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Microsoft Azure",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Công cụ trên Google Cloud Platform chuyển đổi dữ liệu hỗ trợ quyết định",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Google Cloud",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Google Data Catalog",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Google Data Studio",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Google Functions",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Mô hình chính dành cho Điện toán đám mây?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Cơ sở hạ tầng dưới dạng dịch vụ (IaaS)",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Nền tảng dưới dạng dịch vụ (PaaS)",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phần mềm dưới dạng dịch vụ (SaaS)",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Kiểu phân tích dữ liệu nào cho ta biết điều gì đã xảy ra?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Descriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Diagnostic Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Predictive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Prescriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Kiểu phân tích dữ liệu nào chuẩn đoán lý do cho kết quả?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Descriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Diagnostic Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Predictive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Prescriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Kiểu phân tích dữ liệu nào dự đoán điều sẽ xảy ra?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Descriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Diagnostic Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Predictive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Prescriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Kiểu phân tích nào để hỗ trợ đưa ra quyết định?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Descriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Diagnostic Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Predictive Analysis",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Prescriptive Analysis",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết điều gì đã xảy ra?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Phân tích mô tả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Phân tích chuẩn đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phân tích dự đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân tích đề xuất",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết tại sao điều đó xảy ra?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Phân tích mô tả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Phân tích chuẩn đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phân tích dự đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân tích đề xuất",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết điều gì sẽ xảy ra?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Phân tích mô tả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Phân tích chuẩn đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phân tích dự đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân tích đề xuất",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết làm thế nào để nó xảy ra",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Phân tích mô tả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Phân tích chuẩn đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phân tích dự đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân tích đề xuất",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Mục tiêu đúng nhất của phân tích dữ liệu lớn là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Biến dữ liệu thành thông tin chi tiết hữu ích",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Sắp xếp dữ liệu có ích để sử dụng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tạo ra các dữ liệu phù hợp nhất với hệ thống",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Xây dựng hệ thống để quản lý dữ liệu lớn",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Hoạt động của Map Reduce bao gồm:",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Trộn & sắp xếp - Map - Reduce",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Map - Trộn & sắp xếp – Reduce",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Reduce - Map - Trộn & sắp xếp",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Sắp xếp - Trộn & Map – Reduce",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Phân tích chuẩn đoán sử dụng kỹ thuật nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Lấy mẫu dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tương quan phân bổ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Thu thập dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Khai phá dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Phân tích chuẩn đoán sử dụng kỹ thuật nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Lấy mẫu mô tả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tương quan phân bổ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Khôi phục dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Thu thập dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Phân tích mô tả không phù hợp sử dụng để?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Xây dựng các báo cáo",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lập bảng số liệu truyền thông",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Mô hình hoá dữ liệu quá khứ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân tích tương quan",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Đâu là phân tích chuẩn đoán?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Mô tả tương quan dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Cung cấp cái nhìn sâu sắc về vấn đề",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phân tích sự bất thường từ dữ liệu lưu trữ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Mô hình hoá dữ liệu theo điều kiện",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Trong MapReduce loại nào sau đây theo dõi quá trình tiêu thụ tài nguyên trên Cluster Node?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Name node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Master node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Single Master",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Slave node",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Trong MapReduce loại nào sau đây thực thi các tác vụ và cung cấp thông tin trạng thái tác vụ?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Name node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Master node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Single Master",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Slave node",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Trong MapReduce loại nào sau đây được cung cấp task-status?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Name node",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "JobTracker",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Single Master",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Slave node",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Mô hình MapReduce có thể chạy trên số lượng máy chủ?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Vài máy",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Hàng nghìn máy",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Hàng trăm máy",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Một máy chủ Master",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Mô hình MapReduce thuộc lớp nào?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Lớp lưu trữ dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lớp thu thập dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Lớp xử lý dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Lớp phân tích dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Lợi ích từ Phân tích dữ liệu lớn là?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Ra quyết định nhanh hơn, tốt hơn",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Giảm chi phí và tăng hiệu quả hoạt động",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cải tiến theo định hướng dữ liệu cho thị trường",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Các ứng dụng phân tích dữ liệu lớn cho Lĩnh vực bán lẻ",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Dự đoán hành vi mua sắm của khách hàng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Xây dựng mô hình chi tiêu cho từng khách hàng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phân tích hành trình của khách hàng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Ứng dụng phân tích dữ liệu lớn hỗ trợ ngành Y tế",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Tăng việc khai thác tối ưu hoá máy móc",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tăng doanh thu từ phần mềm y tế",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Tăng tính chính xác của chẩn đoán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Trong kiến trúc Apache Hadoop HDFS thuộc",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Lớp lưu trữ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lớp truyền tải",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Lớp quản lý tài nguyên",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Lớp xử lý dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Trong kiến trúc Apache Hadoop YARN là",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Lớp lưu trữ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lớp truyền tải",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Lớp quản lý tài nguyên",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Lớp xử lý dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Trong kiến trúc Apache Hadoop MapReduce là",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Lớp lưu trữ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lớp truyền tải",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Lớp quản lý tài nguyên",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Lớp xử lý dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Kiến trúc Hadoop hỗ trợ những ngôn ngữ nào",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Java",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Tất cả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "C++",
         "url_thumb": "",
         "type": ""
       },
@@ -2439,565 +3534,594 @@ const questions = {
     ]
   },
   {
-    "id": 74,
-    "title": "Mạng IoT có phạm vi ngắn nhất là mạng nào trong các mạng sau?",
+    "id": 108,
+    "title": "Spark được Apache Software Foundation phát triển từ năm nào",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "1993",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "2013",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "2009",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "2007",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Apache Kafka là công cụ hỗ trợ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "SigFox",
+        "value": "Xử lý phân tán",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "LPWAN",
+        "value": "Lưu trữ phân tán",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Short network",
+        "value": "Hệ quản trị CSDL",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Short-range wireless network",
+        "value": "Thu thập dữ liệu",
         "url_thumb": "",
         "type": ""
       }
     ]
   },
   {
-    "id": 75,
-    "title": "Giao thức nhẹ (lightweight protocol) là giao thức nào trong số các giao thức sau?",
+    "id": 110,
+    "title": "Apache Storm là công cụ hỗ trợ?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 0,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Xử lý phân tán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Lưu trữ phân tán",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phân tích dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Thu thập dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Đâu không phải là chế độ hoạt động của Hadoop?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Chế độ phân phối giả",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Chế độ phân phối toàn cầu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Chế độ độc lập",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Chế độ phân phối hoàn toàn",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Các tệp HDFS được thiết kế cho",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Nhiều người viết và sửa đổi ở các hiệu số tùy ý.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Chỉ nối vào cuối tệp",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Chỉ ghi thành tệp một lần.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Truy cập dữ liệu có độ trễ thấp.",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Tính năng định vị dữ liệu trong Hadoop có nghĩa là",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Lưu trữ cùng một dữ liệu trên nhiều nút.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Chuyển vị trí dữ liệu từ nút này sang nút khác.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Đồng định vị dữ liệu với các nút tính toán.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phân phối dữ liệu trên nhiều nút.",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Khó khăn khi đọc và ghi dữ liệu song song từ nhiều nguồn là gì?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Xử lý khối lượng lớn dữ liệu nhanh hơn.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Kết hợp dữ liệu từ nhiều nguồn.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Phần mềm cần thiết để thực hiện nhiệm vụ này là cực kỳ tốn kém.",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Phần cứng cần thiết để thực hiện tác vụ này là cực kỳ tốn kém.",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "So với RDBMS, Hadoop",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "IP",
+        "value": "Có tính toàn vẹn dữ liệu cao hơn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "CoAP",
+        "value": "Có giao dịch ACID không",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "HTTP",
+        "value": "Nó thích hợp để đọc và viết nhiều lần",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "MQTT",
+        "value": "Hoạt động tốt hơn trên dữ liệu phi cấu trúc và bán cấu trúc.",
         "url_thumb": "",
         "type": ""
       }
     ]
   },
   {
-    "id": 76,
-    "title": "Công nghệ nào sau đây không phải là công nghệ ở lớp liên kết dữ liệu?",
+    "id": 116,
+    "title": "Yếu tố giới hạn hiện tại đối với kích thước của một cụm hadoop là",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Nhiệt lượng dư thừa tạo ra trong trung tâm dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Giới hạn trên của băng thông mạng",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Giới hạn trên của RAM trong NameNode",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "4000 datanode",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Trong HDFS, các tệp không thể",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Đọc",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Xóa",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Thực thi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Lưu trữ",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Điều nào sau đây không phải là mục tiêu của HDFS?",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 2,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Phát hiện lỗi và khôi phục",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Xử lý tập dữ liệu khổng lồ",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Ngăn chặn việc xóa dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Cung cấp băng thông mạng cao để di chuyển dữ liệu",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "YARN là viết tắt của",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 1,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Yahoo’s another resource name",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Yet another resource negotiator",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "Yahoo’s archived Resource names",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Yet another resource need.",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Kiến trúc HDFS trong Hadoop có nguồn gốc là",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "HTTP",
+        "value": "Hệ thống tệp phân phối của Google",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "UART",
+        "value": "Hệ thống tệp phân tán của Yahoo",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "wifi",
+        "value": "Hệ thống tệp phân tán của Facebook",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Bluetooth",
+        "value": "Hệ thống tệp phân tán của Azure",
         "url_thumb": "",
         "type": ""
       }
     ]
   },
   {
-    "id": 77,
-    "title": "MQTT dựa trên kiến trúc nào?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Publish-subscribe architecture",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Client-server architecture",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Peer-to-peer architecture",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Request-responde architecture",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "title": "Thuật ngữ LPWAN là viết tắt của những chữ nào?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Low Protocol Wide Area Network",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Low Power Wide Area Network",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Long Power Wide Area Network",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Long Protocol Wide Area Network",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "title": "Mô hình mạng sử dụng cho ZigBee Smart Energy?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Bus Topology",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Ring Topology",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Star Topology",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Không cần mô hình",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "title": "Công nghệ cảm biến hình ảnh nào cần ít điện năng hơn?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "CMOS",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "CCD",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "ADC",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Nikon Coolpix",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "title": "Arduino Uno R3 dùng vi điều khiển gì?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Atmega 328",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Quad core Cortex-A72",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Intel® Atom ™ SoC",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tensilica Diamond Standard 106Micro",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "title": "Raspberry Pi 4 Model B dùng vi điều khiển gì?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      
-      {
-        "idResult": 1,
-        "value": "Atmega 328",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Intel® Atom ™ SoC",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 0,
-        "value": "Quad core Cortex-A72",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tensilica Diamond Standard 106Micro",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "title": "Cổng bảo mật tiêu chuẩn của MQTT là cổng nào?",
+    "id": 121,
+    "title": "HDFS là viết tắt của",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "8000",
+        "value": "Hệ thống tệp phân tán cao. (Highly distributed file system.)",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "8888",
+        "value": "Hệ thống tệp được hướng dẫn Hadoop. (Hadoop directed file system)",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "1883",
+        "value": "Hệ tệp phân tán cao. (Highly distributed file shell)",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "8883",
+        "value": "Hệ thống tệp phân tán Hadoop. (Hadoop distributed file system)",
         "url_thumb": "",
         "type": ""
       }
     ]
   },
   {
-    "id": 84,
-    "title": "Phạm vi của z-wave có khoảng cách là bao nhiêu mét?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-     
-      {
-        "idResult": 1,
-        "value": "300-1000 m",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "<10m",
-        "url_thumb": "",
-        "type": ""
-      },
-       {
-        "idResult": 0,
-        "value": "30-100m",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "100-1000m",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "title": "Tần số của z-wave là bao nhiêu GHz?",
+    "id": 122,
+    "title": "Thành phần nào không thuộc Hadoop?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "708,49 GHz",
+        "value": "YARN",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "888,42 GHz",
+        "value": "HDFS",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "928,49 GHz",
+        "value": "MapReduce",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "908,42GHz",
+        "value": "GFS",
         "url_thumb": "",
         "type": ""
       }
     ]
   },
   {
-    "id": 86,
-    "title": "I2C là viết tắt của những chữ nào?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Inter-Integrated Communication",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Internet Integrated Communication",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Integrated Internet Communication",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Internet Instigate Communication",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "title": "Thiết bị nào không phải thiết bị truyền động (actuator) trong IoT?",
+    "id": 123,
+    "title": "Thành phần chính của hệ thống Hadoop là?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Stepper motor",
+        "value": "MapReduce",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Celling fan",
+        "value": "HDFS",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "RGB LED",
+        "value": "YARN",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Raspberry Pi",
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }
     ]
   },
   {
-    "id": 88,
-    "title": "Giao thức nào không tồn tại trong tầng liên kết dữ liệu (data link)?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "ZigBee Smart Energy",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "LoRaWAN",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "WirelessHART",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Secure MQTT",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "title": "NFC có thể truyền dữ liệu ở tốc độ nào?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "424 Kb/giây",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "848 Kb/giây",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "216 Kb/giây",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tất cả các phương án trên",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "title": "Phạm vi của Bluetooth 4.2?",
+    "id": 124,
+    "title": "Apache Kafka là nền tảng mở được phát triển bởi?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "50m-150m",
+        "value": "LinkedIn",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "1m-20m",
+        "value": "Facebook",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "20m-40m",
+        "value": "Google",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "300m - 500m",
+        "value": "IBM",
+        "url_thumb": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Công cụ nào hỗ trợ tích hợp dữ liệu",
+    "thumb": "",
+    "isCorrect": true,
+    "idCorrectResult": 3,
+    "results": [
+      {
+        "idResult": 0,
+        "value": "Dell Boomi",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 1,
+        "value": "Snaplogic",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 2,
+        "value": "SAP Data Services",
+        "url_thumb": "",
+        "type": ""
+      },
+      {
+        "idResult": 3,
+        "value": "Tất cả",
         "url_thumb": "",
         "type": ""
       }

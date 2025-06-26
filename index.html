@@ -229,7 +229,7 @@
   </head>
 
   <body>
-    <h1>Thi Trắc Nghiệm Môn Hệ Hỗ Trợ Quết Định</h1>
+    <h1>Thi Trắc Nghiệm Môn BigData</h1>
 
     <div class="quiz-container">
       <div id="questionsContainer"></div>
@@ -248,335 +248,330 @@
     </div>
 
     <script type="module">
-      // Giả sử đây là file data.js của bạn
-      // THAY BẰNG DÒNG NÀY
-        import questions from "./data.js";
+  // Bước 2: Kích hoạt lại dòng này, đảm bảo không có dấu // ở đầu
+  import questions from "./data.js";
+  
+  // Bước 1: Khối dữ liệu giả đã được XÓA HOÀN TOÀN khỏi đây
 
-      let selectList = [];
-      let incorrectList = [];
-      let currentQuestionIndex = 0;
-      let questionList = questions.question_2.origin_question;
-      let isShuffle = false;
-      let makeAgainMode = false;
-      let autoPlayTimeout = null;
+  let selectList = [];
+  let incorrectList = [];
+  let currentQuestionIndex = 0;
+  let questionList = questions.question_2.origin_question;
+  let isShuffle = false;
+  let makeAgainMode = false;
+  let autoPlayTimeout = null;
 
-      function shuffleArray(array) {
-        for (let i = array.length - 1; i >= 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i >= 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  const quizContainer = document.querySelector(".quiz-container");
+  const questionContainer = document.getElementById("questionsContainer");
+  const shuffleBtn = document.getElementById("shuffleButton");
+  const nextBtn = document.getElementById("nextButton");
+  const backBtn = document.getElementById("backButton");
+  const againBtn = document.getElementById("againButton");
+
+  const indexToggleIcon = document.createElement("i");
+  indexToggleIcon.id = "index-toggle-icon";
+  indexToggleIcon.className = "fa-solid fa-list-ul";
+
+  const questionIndexContainer = document.createElement("div");
+  questionIndexContainer.id = "question-index-container";
+  const indexGrid = document.createElement("div");
+  indexGrid.className = "index-grid";
+  questionIndexContainer.appendChild(indexGrid);
+  quizContainer.appendChild(questionIndexContainer);
+
+  window.addEventListener("keydown", (e) => {
+    switch (e.keyCode) {
+      case 39: handleNextQuestion(nextBtn, makeAgainMode); break;
+      case 37: handleBackQuestion(backBtn); break;
+    }
+  });
+
+  indexToggleIcon.addEventListener("click", (e) => {
+    e.stopPropagation();
+    questionIndexContainer.classList.toggle("show");
+  });
+
+  document.addEventListener("click", (e) => {
+    if (
+      !questionIndexContainer.contains(e.target) &&
+      !indexToggleIcon.contains(e.target)
+    ) {
+      questionIndexContainer.classList.remove("show");
+    }
+  });
+
+
+  const handleShuffleArray = (e) => {
+    isShuffle = true;
+    questionContainer.innerHTML = "";
+    questionList = shuffleArray([...questions.question_2.origin_question]);
+    currentQuestionIndex = 0;
+    selectList = [];
+    incorrectList = [];
+    displayQuestion(questionList[currentQuestionIndex]);
+    e.target.classList.add("hidden");
+    e.target.disabled = true;
+  };
+
+  const handleMakeIncorrect = (ques) => {
+    incorrectList = [
+      ...incorrectList,
+      ...ques.filter((sl) => !sl?.isCorrect),
+    ];
+    selectList = ques.filter(
+      (sl) => !incorrectList.some((ic) => sl?.id === ic?.id)
+    );
+    const idIncorrect = questionList.findIndex(
+      (ques) => ques?.id === incorrectList[0]?.id
+    );
+    if (incorrectList.length > 0) makeAgainMode = true;
+    if (idIncorrect !== -1) {
+      questionContainer.innerHTML = "";
+      currentQuestionIndex = idIncorrect;
+      displayQuestion(questionList[currentQuestionIndex]);
+    }
+  };
+
+  const handleNextQuestion = (target) => {
+    if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
+    
+    if (currentQuestionIndex >= questionList.length - 1) {
+        return;
+    }
+    
+    questionContainer.innerHTML = "";
+    currentQuestionIndex = makeAgainMode
+        ? questionList.findIndex(
+            (ques) => ques?.id === incorrectList[0]?.id
+          )
+        : ++currentQuestionIndex;
+    displayQuestion(questionList[currentQuestionIndex]);
+    target.disabled = false;
+    
+    const answer = document.querySelectorAll(".answer");
+    const indexSelected = selectList.findIndex(
+      (item) => item?.id === questionList[currentQuestionIndex].id
+    );
+    if (answer)
+      checkAnswer(
+        answer,
+        selectList,
+        indexSelected,
+        selectList[indexSelected]?.chooseId
+      );
+  };
+
+  const handleBackQuestion = (target) => {
+    if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
+    if (currentQuestionIndex <= 0) {
+      target.disabled = true;
+      return;
+    } else {
+      questionContainer.innerHTML = "";
+      currentQuestionIndex = makeAgainMode
+        ? questionList.findIndex(
+            (ques) => ques?.id === incorrectList[0]?.id
+          )
+        : --currentQuestionIndex;
+      displayQuestion(questionList[currentQuestionIndex]);
+      target.disabled = false;
+    }
+    const answer = document.querySelectorAll(".answer");
+    const indexSelected = selectList.findIndex(
+      (item) => item?.id === questionList[currentQuestionIndex].id
+    );
+    if (answer)
+      checkAnswer(
+        answer,
+        selectList,
+        indexSelected,
+        selectList[indexSelected]?.chooseId
+      );
+  };
+
+  shuffleBtn.addEventListener("click", (e) => handleShuffleArray(e));
+  againBtn.addEventListener("click", () => handleMakeIncorrect(selectList));
+  nextBtn.addEventListener("click", (e) => handleNextQuestion(e.target));
+  backBtn.addEventListener("click", (e) => handleBackQuestion(e.target));
+
+  function checkAnswer(element, ques, index, idActiveResult) {
+    const question = questionList[index];
+    if (!question) return;
+
+    const correctIndex = question.idCorrectResult;
+    
+    if (correctIndex !== undefined && idActiveResult !== undefined) {
+      if (+idActiveResult === +correctIndex) {
+        element.forEach((elm) => {
+          if (+elm.dataset.result === +idActiveResult)
+            elm.classList.add("correct");
+        });
+      } else {
+        element.forEach((elm) => {
+          if (+elm.dataset.result === +correctIndex)
+            elm.classList.add("correct");
+          else if (
+            +elm.dataset.result !== +correctIndex &&
+            +elm.dataset.result === +idActiveResult
+          )
+            elm.classList.add("incorrect");
+        });
       }
+    }
+  }
 
-      const quizContainer = document.querySelector(".quiz-container");
-      const questionContainer = document.getElementById("questionsContainer");
-      const shuffleBtn = document.getElementById("shuffleButton");
-      const nextBtn = document.getElementById("nextButton");
-      const backBtn = document.getElementById("backButton");
-      const againBtn = document.getElementById("againButton");
-
-      // === PHẦN MỚI: TẠO CÁC PHẦN TỬ CHO MỤC LỤC ===
-      const indexToggleIcon = document.createElement("i");
-      indexToggleIcon.id = "index-toggle-icon";
-      indexToggleIcon.className = "fa-solid fa-list-ul";
-
-      const questionIndexContainer = document.createElement("div");
-      questionIndexContainer.id = "question-index-container";
-      const indexGrid = document.createElement("div");
-      indexGrid.className = "index-grid";
-      questionIndexContainer.appendChild(indexGrid);
-      quizContainer.appendChild(questionIndexContainer); // Chèn vào DOM
-      // === KẾT THÚC PHẦN MỚI ===
-
-      window.addEventListener("keydown", (e) => {
-        switch (e.keyCode) {
-          case 39: handleNextQuestion(nextBtn, makeAgainMode); break;
-          case 37: handleBackQuestion(backBtn); break;
-        }
-      });
-
-      // === PHẦN MỚI: SỰ KIỆN CHO ICON VÀ ĐÓNG MỤC LỤC ===
-      indexToggleIcon.addEventListener("click", (e) => {
-        e.stopPropagation(); // Ngăn sự kiện click lan ra document
-        questionIndexContainer.classList.toggle("show");
-      });
-
-      document.addEventListener("click", (e) => {
-        // Nếu click ra ngoài mục lục và ngoài icon, thì ẩn mục lục đi
-        if (
-          !questionIndexContainer.contains(e.target) &&
-          !indexToggleIcon.contains(e.target)
-        ) {
-          questionIndexContainer.classList.remove("show");
-        }
-      });
-      // === KẾT THÚC PHẦN MỚI ===
+  const head = document.createElement("section");
+  const title = document.createElement("h2");
+  const currentQuestion = document.createElement("span");
+  const thumb_question = document.createElement("img");
 
 
-      const handleShuffleArray = (e) => {
-        isShuffle = true;
-        questionContainer.innerHTML = "";
-        questionList = shuffleArray([...questions.question_2.origin_question]); // Tạo bản sao để shuffle
-        currentQuestionIndex = 0; // Reset về câu đầu
-        selectList = []; // Xóa các câu đã chọn
-        incorrectList = []; // Xóa các câu sai
-        displayQuestion(questionList[currentQuestionIndex]);
-        e.target.classList.add("hidden");
-        e.target.disabled = true;
-      };
+  function renderQuestionIndex() {
+    indexGrid.innerHTML = "";
+    questionList.forEach((q, index) => {
+        const item = document.createElement("div");
+        item.className = "index-item";
+        item.textContent = index + 1;
+        item.dataset.index = index;
 
-      const handleMakeIncorrect = (ques) => {
-        incorrectList = [
-          ...incorrectList,
-          ...ques.filter((sl) => !sl?.isCorrect),
-        ];
-        selectList = ques.filter(
-          (sl) => !incorrectList.some((ic) => sl?.id === ic?.id)
-        );
-        const idIncorrect = questionList.findIndex(
-          (ques) => ques?.id === incorrectList[0]?.id
-        );
-        if (incorrectList.length > 0) makeAgainMode = true;
-        if (idIncorrect !== -1) {
-          questionContainer.innerHTML = "";
-          currentQuestionIndex = idIncorrect;
-          displayQuestion(questionList[currentQuestionIndex]);
-        }
-      };
-
-      const handleNextQuestion = (target) => {
-        if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
-        if (currentQuestionIndex >= questionList.length - 1) {
-          displayResult();
-          return;
-        } else {
-          questionContainer.innerHTML = "";
-          currentQuestionIndex = makeAgainMode
-            ? questionList.findIndex(
-                (ques) => ques?.id === incorrectList[0]?.id
-              )
-            : ++currentQuestionIndex;
-          displayQuestion(questionList[currentQuestionIndex]);
-          target.disabled = false;
-        }
-        const answer = document.querySelectorAll(".answer");
-        const indexSelected = selectList.findIndex(
-          (item) => item?.id === questionList[currentQuestionIndex].id
-        );
-        if (answer)
-          checkAnswer(
-            answer,
-            selectList,
-            indexSelected,
-            selectList[indexSelected]?.chooseId
-          );
-      };
-
-      const handleBackQuestion = (target) => {
-        if (autoPlayTimeout !== null) clearTimeout(autoPlayTimeout);
-        if (currentQuestionIndex <= 0) {
-          target.disabled = true;
-          return;
-        } else {
-          questionContainer.innerHTML = "";
-          currentQuestionIndex = makeAgainMode
-            ? questionList.findIndex(
-                (ques) => ques?.id === incorrectList[0]?.id
-              )
-            : --currentQuestionIndex;
-          displayQuestion(questionList[currentQuestionIndex]);
-          target.disabled = false;
-        }
-        const answer = document.querySelectorAll(".answer");
-        const indexSelected = selectList.findIndex(
-          (item) => item?.id === questionList[currentQuestionIndex].id
-        );
-        if (answer)
-          checkAnswer(
-            answer,
-            selectList,
-            indexSelected,
-            selectList[indexSelected]?.chooseId
-          );
-      };
-
-      shuffleBtn.addEventListener("click", (e) => handleShuffleArray(e));
-      againBtn.addEventListener("click", () => handleMakeIncorrect(selectList));
-      nextBtn.addEventListener("click", (e) => handleNextQuestion(e.target));
-      backBtn.addEventListener("click", (e) => handleBackQuestion(e.target));
-
-      function checkAnswer(element, ques, index, idActiveResult) {
-        const question = ques[index] || [];
-        const correctIndex = question?.idCorrectResult;
-        if (correctIndex !== undefined && idActiveResult !== undefined) {
-          if (+idActiveResult === +correctIndex) {
-            element.forEach((elm) => {
-              if (+elm.dataset.result === +idActiveResult)
-                elm.classList.add("correct");
-            });
-          } else {
-            element.forEach((elm) => {
-              if (+elm.dataset.result === +correctIndex)
-                elm.classList.add("correct");
-              else if (
-                +elm.dataset.result !== +correctIndex &&
-                +elm.dataset.result === +idActiveResult
-              )
-                elm.classList.add("incorrect");
-            });
-          }
-        }
-      }
-
-      const head = document.createElement("section");
-      const title = document.createElement("h2");
-      const currentQuestion = document.createElement("span");
-      const thumb_question = document.createElement("img");
-
-
-      // === PHẦN MỚI: HÀM RENDER MỤC LỤC ===
-      function renderQuestionIndex() {
-        indexGrid.innerHTML = ""; // Xóa mục lục cũ
-        questionList.forEach((q, index) => {
-            const item = document.createElement("div");
-            item.className = "index-item";
-            item.textContent = index + 1;
-            item.dataset.index = index;
-
-            // Kiểm tra trạng thái câu hỏi để thêm class
-            const answeredQuestion = selectList.find(ans => ans.id === q.id);
-            if(answeredQuestion) {
-                item.classList.add("answered");
-                if(answeredQuestion.isCorrect) {
-                    item.classList.add("correct");
-                } else {
-                    item.classList.add("incorrect");
-                }
+        const answeredQuestion = selectList.find(ans => ans.id === q.id);
+        if(answeredQuestion) {
+            item.classList.add("answered");
+            if(answeredQuestion.isCorrect) {
+                item.classList.add("correct");
+            } else {
+                item.classList.add("incorrect");
             }
+        }
 
-            if (index === currentQuestionIndex) {
-                item.classList.add("current");
-            }
+        if (index === currentQuestionIndex) {
+            item.classList.add("current");
+        }
 
-            // Sự kiện click để chuyển câu hỏi
-            item.addEventListener('click', () => {
+        item.addEventListener('click', () => {
+            if (selectList.length < questionList.length) {
                 currentQuestionIndex = parseInt(item.dataset.index);
                 questionContainer.innerHTML = "";
                 displayQuestion(questionList[currentQuestionIndex]);
-                questionIndexContainer.classList.remove('show'); // Ẩn mục lục sau khi chọn
-            });
-
-            indexGrid.appendChild(item);
-        });
-      }
-
-
-      function displayQuestion(question) {
-        // Cập nhật mục lục mỗi khi hiển thị câu hỏi mới
-        renderQuestionIndex();
-
-        const currentId = currentQuestionIndex;
-        if (question.thumb) {
-          thumb_question.id = "thumb_question";
-          thumb_question.setAttribute("src", question.thumb);
-          questionContainer.appendChild(thumb_question);
-        }
-
-        title.id = "title";
-        title.textContent = question.title;
-        currentQuestion.textContent = `${currentId + 1} / ${questionList.length}`;
-        head.id = "head";
-        
-        // Xóa con cũ trước khi thêm vào
-        head.innerHTML = ''; 
-        head.appendChild(title);
-        head.appendChild(currentQuestion);
-        // === CHỈNH SỬA: THÊM ICON VÀO HEAD ===
-        head.appendChild(indexToggleIcon);
-        // === KẾT THÚC CHỈNH SỬA ===
-
-        questionContainer.appendChild(head);
-
-        question.results.forEach((answer, index) => {
-          const answerDiv = document.createElement("div");
-          answerDiv.setAttribute("data-result", answer.idResult);
-          answerDiv.classList.add("answer");
-          answerDiv.textContent = answer.value;
-          questionContainer.appendChild(answerDiv);
-        });
-
-        const answerItem = document.querySelectorAll(".answer");
-        const indexSelected = selectList.findIndex(
-          (item) => item?.id === question.id
-        );
-
-        // Hiển thị lại câu trả lời nếu đã có
-        if(indexSelected > -1) {
-            checkAnswer(
-                answerItem,
-                questionList,
-                currentQuestionIndex,
-                selectList[indexSelected].chooseId
-            );
-        }
-
-
-        answerItem.forEach((as, index) => {
-          as.addEventListener("click", (e) => {
-            incorrectList = incorrectList.filter((ic) => ic?.id !== question?.id);
-            const selected = selectList.some((item) => item.id === question.id);
-            if (incorrectList.length === 0 && makeAgainMode) makeAgainMode = false;
-            
-            if (!selected) {
-              const selectData = {};
-              const statusResult = +e.target.dataset.result === +question.idCorrectResult;
-              selectData.id = question.id;
-              selectData.idCorrectResult = question.idCorrectResult;
-              selectData.chooseId = +e.target.dataset.result;
-              selectData.isCorrect = statusResult;
-              selectList.push(selectData);
-              e.target.classList.add("active");
-              checkAnswer(
-                answerItem,
-                questionList,
-                currentQuestionIndex,
-                e.target.dataset.result
-              );
-              
-              // === CHỈNH SỬA: CẬP NHẬT LẠI MỤC LỤC SAU KHI TRẢ LỜI ===
-              renderQuestionIndex(); 
-              // === KẾT THÚC CHỈNH SỬA ===
-
-              autoPlayTimeout = setTimeout(() => handleNextQuestion(nextBtn), 1500);
+                questionIndexContainer.classList.remove('show');
             }
-          });
         });
-      }
 
-      function displayResult() {
-        questionContainer.innerHTML = ''; // Xóa câu hỏi cuối cùng
-        let totalCorrect = 0;
-        let totalScore = 0;
-        let avgScore = 10 / questionList.length;
-        const resultContainer = document.getElementById("result");
-        if (selectList.length < questionList.length) {
-            // Có thể thêm thông báo chưa hoàn thành ở đây nếu muốn
+        indexGrid.appendChild(item);
+    });
+  }
+
+
+  function displayQuestion(question) {
+    renderQuestionIndex();
+
+    const currentId = currentQuestionIndex;
+    if (question.thumb) {
+      thumb_question.id = "thumb_question";
+      thumb_question.setAttribute("src", question.thumb);
+      questionContainer.appendChild(thumb_question);
+    }
+
+    title.id = "title";
+    title.textContent = question.title;
+    currentQuestion.textContent = `${currentId + 1} / ${questionList.length}`;
+    head.id = "head";
+    
+    head.innerHTML = ''; 
+    head.appendChild(title);
+    head.appendChild(currentQuestion);
+    head.appendChild(indexToggleIcon);
+
+    questionContainer.appendChild(head);
+
+    question.results.forEach((answer, index) => {
+      const answerDiv = document.createElement("div");
+      answerDiv.setAttribute("data-result", answer.idResult);
+      answerDiv.classList.add("answer");
+      answerDiv.textContent = answer.value;
+      questionContainer.appendChild(answerDiv);
+    });
+
+    const answerItem = document.querySelectorAll(".answer");
+    const indexSelected = selectList.findIndex(
+      (item) => item?.id === question.id
+    );
+
+    if(indexSelected > -1) {
+        checkAnswer(
+            answerItem,
+            selectList, 
+            indexSelected,
+            selectList[indexSelected].chooseId
+        );
+    }
+
+
+    answerItem.forEach((as, index) => {
+      as.addEventListener("click", (e) => {
+        incorrectList = incorrectList.filter((ic) => ic?.id !== question?.id);
+        const selected = selectList.some((item) => item.id === question.id);
+        if (incorrectList.length === 0 && makeAgainMode) makeAgainMode = false;
+        
+        if (!selected) {
+          const selectData = {};
+          const statusResult = +e.target.dataset.result === +question.idCorrectResult;
+          selectData.id = question.id;
+          selectData.idCorrectResult = question.idCorrectResult;
+          selectData.chooseId = +e.target.dataset.result;
+          selectData.isCorrect = statusResult;
+          selectList.push(selectData);
+          
+          checkAnswer(
+            answerItem,
+            questionList,
+            currentQuestionIndex, 
+            e.target.dataset.result
+          );
+          
+          renderQuestionIndex(); 
+
+          if (selectList.length === questionList.length) {
+            setTimeout(displayResult, 1500);
+          } else {
+            autoPlayTimeout = setTimeout(() => handleNextQuestion(nextBtn), 1500);
+          }
         }
-        selectList.forEach((ans) => {
-          if (ans.isCorrect) totalCorrect++;
-        });
-        totalScore = totalCorrect * avgScore;
-        resultContainer.innerHTML = `
-            <h2>Kết quả</h2>
-            <span>Tổng số câu đúng: <strong>${totalCorrect}/${questionList.length}</strong></span>
-            <p>Bạn đã hoàn thành bài thi!<br>Điểm của bạn là:
-                <strong>${totalScore.toFixed(1)} / 10</strong>
-            </p>
-        `;
-      }
-      
-      // Hiển thị câu hỏi đầu tiên
-      displayQuestion(questionList[currentQuestionIndex]);
-    </script>
+      });
+    });
+  }
+
+  function displayResult() {
+    questionContainer.innerHTML = '';
+    const navigation = document.querySelector('.navigation');
+    if (navigation) navigation.style.display = 'none';
+
+    let totalCorrect = 0;
+    selectList.forEach((ans) => {
+      if (ans.isCorrect) totalCorrect++;
+    });
+    
+    const totalScore = (totalCorrect / questionList.length) * 10;
+    const resultContainer = document.getElementById("result");
+    
+    resultContainer.innerHTML = `
+        <h2>Kết quả</h2>
+        <span>Tổng số câu đúng: <strong>${totalCorrect}/${questionList.length}</strong></span>
+        <p>Bạn đã hoàn thành bài thi!<br>Điểm của bạn là:
+            <strong>${totalScore.toFixed(1)} / 10</strong>
+        </p>
+    `;
+  }
+  
+  displayQuestion(questionList[currentQuestionIndex]);
+</script>
   </body>
 </html>
