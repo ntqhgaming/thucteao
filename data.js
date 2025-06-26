@@ -106,7 +106,7 @@ const questions = {
     "title": "Mục tiêu của NoSQL là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
@@ -139,7 +139,7 @@ const questions = {
     "title": "Cloudera phát triển công cụ nào?",
     "thumb": "",
     "isCorrect": false,
-    "idCorrectResult": null,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
@@ -436,7 +436,7 @@ const questions = {
     "title": "Thuật ngữ Dữ liệu lớn ra đời năm nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
@@ -634,7 +634,7 @@ const questions = {
     "title": "Nhược điểm của tích hợp dữ liệu theo phương pháp Tight Coupling",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
@@ -667,7 +667,7 @@ const questions = {
     "title": "Nhược điểm của tích hợp dữ liệu theo phương pháp Loose Coupling",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
@@ -1294,7 +1294,7 @@ const questions = {
     "title": "Ưu điểm của DFS là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
@@ -1657,7 +1657,7 @@ const questions = {
     "title": "Các tệp HDFS được thiết kế cho",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
@@ -1954,7 +1954,7 @@ const questions = {
     "title": "Nhược điểm khi triển khai Big Data trên nền tảng Cloud Computing là?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
@@ -2119,7 +2119,7 @@ const questions = {
     "title": "Lợi ích vượt trội của Cloud Computing với Big Data là?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
@@ -2548,7 +2548,7 @@ const questions = {
     "title": "Dịch vụ phân tích dữ liệu lớn Cloudera cung cấp là?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
@@ -3010,7 +3010,7 @@ const questions = {
     "title": "Phân tích chuẩn đoán sử dụng kỹ thuật nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
@@ -3043,7 +3043,7 @@ const questions = {
     "title": "Phân tích chuẩn đoán sử dụng kỹ thuật nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
@@ -3109,7 +3109,7 @@ const questions = {
     "title": "Đâu là phân tích chuẩn đoán?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
@@ -3373,7 +3373,7 @@ const questions = {
     "title": "Ứng dụng phân tích dữ liệu lớn hỗ trợ ngành Y tế",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
@@ -3538,7 +3538,7 @@ const questions = {
     "title": "Spark được Apache Software Foundation phát triển từ năm nào",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
@@ -3571,7 +3571,7 @@ const questions = {
     "title": "Apache Kafka là công cụ hỗ trợ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
@@ -3604,7 +3604,7 @@ const questions = {
     "title": "Apache Storm là công cụ hỗ trợ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
@@ -3670,7 +3670,7 @@ const questions = {
     "title": "Các tệp HDFS được thiết kế cho",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
