@@ -2,34 +2,35 @@ const questions = {
     question_2: {
         
         origin_question: [
-            {
+            
+          {
     "id": 1,
-    "title": "Dữ liệu của Big Data là loại nào?",
+    "title": "Các bước trong giai đoạn \"triển khai\" của tiến trình phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Structured Data",
+        "value": "Thiết kế phần mềm, mã hóa, kiểm thử phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Semi-Structured Data",
+        "value": "Phân tích hệ thống, lập kế hoạch dự án, phân tích yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Unstructured Data",
+        "value": "Thiết kế phần mềm, mã hóa, kiểm thử phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Phân tích yêu cầu, thiết kế phần mềm, mã hóa, cài đặt.",
         "url_thumb": "",
         "type": ""
       }
@@ -37,32 +38,32 @@ const questions = {
   },
   {
     "id": 2,
-    "title": "Đặc trưng nào không phải của Big Data?",
+    "title": "Đặc trưng của phần mềm?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Volume",
+        "value": "Hao mòn, được chế tạo theo nghĩa cổ điển.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Variety",
+        "value": "Được lắp ráp từ mẫu có sẵn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Vision",
+        "value": "Không hỏng đi, thoái hóa theo thời gian.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Velocity",
+        "value": "Đơn giản, dễ hiểu, hữu hình.",
         "url_thumb": "",
         "type": ""
       }
@@ -70,32 +71,32 @@ const questions = {
   },
   {
     "id": 3,
-    "title": "NoSQL là gì?",
+    "title": "Yếu tố nào trong kỹ nghệ phần mềm \"cung cấp sự hỗ trợ tự động hay bán tự động cho các phương pháp\"?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 0 ,
     "results": [
       {
         "idResult": 0,
-        "value": "Database",
+        "value": "Công cụ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Field",
+        "value": "Phương pháp",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Document",
+        "value": "Thủ tục",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Collection",
+        "value": "Kỹ thuật",
         "url_thumb": "",
         "type": ""
       }
@@ -103,32 +104,32 @@ const questions = {
   },
   {
     "id": 4,
-    "title": "Mục tiêu của NoSQL là gì?",
+    "title": "Khái niệm phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "NoSQL cung cấp một giải pháp thay thế cho cơ sở dữ liệu SQL để lưu trữ dữ liệu dạng văn bản.",
+        "value": "Được mô tả với ba bộ phận cấu thành là các chương trình máy tính, các cấu trúc dữ liệu và các tài liệu liên quan.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Cơ sở dữ liệu NoSQL cho phép lưu trữ dữ liệu không có cấu trúc.",
+        "value": "Hệ thống chương trình được phát triển cho một tập thể hoặc cá nhân, sản xuất phần mềm theo đơn đặt hàng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "NoSQL không thích hợp để lưu trữ dữ liệu có cấu trúc.",
+        "value": "Chương trình phần mềm được phát triển cho một phạm vi các khách hàng khác nhau, sản xuất phần mềm đại trà.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "NoSQL là một định dạng dữ liệu mới để lưu trữ các tập dữ liệu lớn.",
+        "value": "Chương trình phần mềm được viết bằng một hoặc nhiều ngôn ngữ lập trình nhằm giải quyết một bài toán cụ thể.",
         "url_thumb": "",
         "type": ""
       }
@@ -136,32 +137,32 @@ const questions = {
   },
   {
     "id": 5,
-    "title": "Cloudera phát triển công cụ nào?",
+    "title": "Chỉ ra những hoạt động trong quy trình phần mềm?",
     "thumb": "",
-    "isCorrect": false,
+    "isCorrect": true,
     "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "HCatalog",
+        "value": "Thiết kế, lập trình, vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Hbase",
+        "value": "Xác định, phát triển, bảo trì.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Impala",
+        "value": "Đặc tả yêu cầu, thiết kế, lập trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Oozie",
+        "value": "Phân tích, thiết kế, lập trình, bảo trì.",
         "url_thumb": "",
         "type": ""
       }
@@ -169,32 +170,32 @@ const questions = {
   },
   {
     "id": 6,
-    "title": "Loại nào không phải là CSDL NoSQL?",
+    "title": "\"Tập hợp yêu cầu, thiết kế nhanh, xây dựng bản mẫu, đánh giá của khách hàng, làm mịn yêu cầu, sản phẩm cuối cùng.\" Đây là các pha của mô hình kỹ nghệ phần mềm nào?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "SQL Server",
+        "value": "Mô hình làm bản mẫu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "MongoDB",
+        "value": "Mô hình thác nước.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Cassandra",
+        "value": "Mô hình xoắn ốc.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không có",
+        "value": "Mô hình kỹ thuật thế hệ thứ tư.",
         "url_thumb": "",
         "type": ""
       }
@@ -202,32 +203,32 @@ const questions = {
   },
   {
     "id": 7,
-    "title": "Đâu là một kiểu của CSDL NoSQL?",
+    "title": "Đặc điểm của mô hình xoắn ốc?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "SQL",
+        "value": "Nhanh chóng xác định được yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Document databases",
+        "value": "Tách biệt giữa các pha, tiến hành tuần tự.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "JSON",
+        "value": "Có thể kiểm soát rủi ro ở từng mức tiến hóa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Sử dụng bộ case trong quá trình phát triển.",
         "url_thumb": "",
         "type": ""
       }
@@ -235,32 +236,32 @@ const questions = {
   },
   {
     "id": 8,
-    "title": "Chọn đúng 5 đặc trưng cho Big Data?",
+    "title": "Phân loại theo phạm vi, lĩnh vực sử dụng, sản phẩm phần mềm có những loại nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Volume, Velocity, Variety, Veracity, Value",
+        "value": "Phần mềm hệ thống, phần mềm ứng dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Volume, Videos, Velocity, Variability, Value",
+        "value": "Phần mềm nhúng, phần mềm tiện ích.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Volume, Variability, Veracity, Visualization, Value",
+        "value": "Phần mềm công cụ, phần mềm tiện ích.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Volume, Velocity, Veracity, Visualization, Value",
+        "value": "Phần mềm đặt, phần mềm dùng chung.",
         "url_thumb": "",
         "type": ""
       }
@@ -268,32 +269,32 @@ const questions = {
   },
   {
     "id": 9,
-    "title": "Velocity (Tốc độ) là đặc trưng nói về?",
+    "title": "Khái niệm kỹ nghệ phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Tốc độ gia tăng khối lượng dữ liệu lớn",
+        "value": "Việc thiết lập và sử dụng các nguyên lý công nghệ đúng đắn để thu được phần mềm một cách kinh tế vừa tin cậy vừa làm việc hiệu quả trên các máy thực.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tốc độ cập nhật dữ liệu lớn",
+        "value": "Được mô tả với ba bộ phận cấu thành: các chương trình máy tính, các cấu trúc dữ liệu và các tài liệu liên quan.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tốc độ xử lý dữ liệu lớn",
+        "value": "Chương trình phần mềm được viết bằng một hoặc nhiều ngôn ngữ lập trình theo một trật tự xác định.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tốc độ lưu trữ dữ liệu lớn",
+        "value": "Bao gồm ba yếu tố chính: phương pháp, công cụ, thủ tục giúp con người quản lý, kiểm soát quá trình phát triển, xây dựng phần mềm chất lượng và hiệu quả.",
         "url_thumb": "",
         "type": ""
       }
@@ -301,32 +302,32 @@ const questions = {
   },
   {
     "id": 10,
-    "title": "Variety (Tính đa dạng) là đặc trưng về?",
+    "title": "Có thể phân loại phần mềm theo cách nào?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Kiểu dữ liệu thu thập",
+        "value": "Chức năng thực hiện, miền ứng dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Kiểu nội dung dữ liệu",
+        "value": "Phần mềm đặt, phần mềm dùng chung.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Nguồn thu thập dữ liệu",
+        "value": "Phần mềm hệ thống, phần mềm ứng dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phương thức xử lý dữ liệu",
+        "value": "Phần mềm thời gian thực, phần mềm nhúng.",
         "url_thumb": "",
         "type": ""
       }
@@ -334,32 +335,32 @@ const questions = {
   },
   {
     "id": 11,
-    "title": "Đặc trưng quan trọng nhất của Big Data?",
+    "title": "Đặc điểm của mô hình thác nước?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Khối lượng",
+        "value": "Nhanh chóng xác định được yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tính đa dạng",
+        "value": "Tách biệt giữa các pha, tiến hành tuần tự.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tốc độ",
+        "value": "Có thể kiểm soát rủi ro ở từng mức tiến hóa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Sử dụng bộ công cụ case trong quá trình phát triển.",
         "url_thumb": "",
         "type": ""
       }
@@ -367,32 +368,32 @@ const questions = {
   },
   {
     "id": 12,
-    "title": "Đâu là đặc trưng quyết định việc triển khai Dữ liệu lớn?",
+    "title": "Nhược điểm của mô hình thác nước?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Khối lượng",
+        "value": "Mất nhiều công sức đáp ứng sự thay đổi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Giá trị",
+        "value": "Chậm có phiên bản thực hiện được.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tốc Độ",
+        "value": "Không chuyển tải hết chức năng phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tính đa dạng",
+        "value": "Kiểm soát rủi ro ở từng mức tiến hóa.",
         "url_thumb": "",
         "type": ""
       }
@@ -400,32 +401,32 @@ const questions = {
   },
   {
     "id": 13,
-    "title": "Tích hợp dữ liệu là quá trình?",
+    "title": "Nhược điểm của mô hình xoắn ốc?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Kết hợp các dữ liệu không đồng nhất từ nhiều nguồn khác nhau",
+        "value": "Khách hàng phải phát biểu mọi yêu cầu một cách tường minh ngay từ đầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Sao chép dữ liệu vào CSDL hệ thống để tiến hành phân tích",
+        "value": "Khó thuyết phục khách hàng cách tiếp cận tiến hóa có thể kiểm soát được.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Làm sạch các dữ liệu thu thập được từ các hệ thống thành phần",
+        "value": "Yêu cầu tri thức chuyên gia đánh giá rủi ro chính xác, năng lực quản lý cao.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tăng giá trị từ các tài nguyên dữ liệu đang lưu trữ phân tán",
+        "value": "Thiếu sự phân tích, đánh giá cẩn thận các khía cạnh của hệ thống cuối.",
         "url_thumb": "",
         "type": ""
       }
@@ -433,32 +434,32 @@ const questions = {
   },
   {
     "id": 14,
-    "title": "Thuật ngữ Dữ liệu lớn ra đời năm nào?",
+    "title": "\"Kỹ nghệ hệ thống, phân tích, thiết kế, mã hóa, kiểm thử, bảo trì.\" Đây là các pha của mô hình kỹ nghệ phần mềm nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "1997",
+        "value": "Mô hình làm bản mẫu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "2000",
+        "value": "Mô hình xoắn ốc.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "1998",
+        "value": "Mô hình thác nước.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "1941",
+        "value": "Mô hình kỹ thuật thế hệ thứ tư.",
         "url_thumb": "",
         "type": ""
       }
@@ -466,32 +467,32 @@ const questions = {
   },
   {
     "id": 15,
-    "title": "Các dạng thức khoa học dữ liệu của Jim Gray?",
+    "title": "Mô hình kỹ nghệ phần mềm nào có thêm pha \"phân tích rủi ro\"?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Thực nghiệm",
+        "value": "Mô hình làm bản mẫu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lý thuyết",
+        "value": "Mô hình xoắn ốc.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tính toán",
+        "value": "Mô hình thác nước.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả các ý",
+        "value": "Mô hình kỹ thuật thế hệ thứ tư.",
         "url_thumb": "",
         "type": ""
       }
@@ -499,32 +500,32 @@ const questions = {
   },
   {
     "id": 16,
-    "title": "Phát biểu nào không phải dạng thức nghiên cứu Khoa học dữ liệu của Jim Gray?",
+    "title": "Những yếu tố chính trong kỹ nghệ phần mềm?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Khai thác dữ liệu",
+        "value": "Phương pháp, công cụ, quy trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Mô phỏng",
+        "value": "Xác định, phát triển, bảo trì.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tính toán",
+        "value": "Đặc tả yêu cầu, thiết kế, lập trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Thực nghiệm",
+        "value": "Đặc tả yêu cầu, lập trình, vận hành.",
         "url_thumb": "",
         "type": ""
       }
@@ -532,32 +533,32 @@ const questions = {
   },
   {
     "id": 17,
-    "title": "Đâu không phải là phương thức xử lý dữ liệu lớn?",
+    "title": "\"Đưa ra các cách làm về mặt kỹ thuật để xây dựng phần mềm\" thuộc yếu tố nào trong kỹ nghệ phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Thu thập (acquire)",
+        "value": "Phương pháp",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Đánh giá (reviews)",
+        "value": "Công cụ",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tổ chức (organize)",
+        "value": "Quy trình",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân tích (analyze)",
+        "value": "Kỹ thuật",
         "url_thumb": "",
         "type": ""
       }
@@ -565,32 +566,32 @@ const questions = {
   },
   {
     "id": 18,
-    "title": "RDBMS là gì?",
+    "title": "Xem xét khả năng tài chính của tổ chức có cho phép thực hiện dự án, kỹ thuật hiện tại có đủ đảm bảo thực hiện giải pháp công nghệ dự định áp dụng, …\" Đây là nội dung của giai đoạn nào trong pha phân tích và đặc tả yêu cầu phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Relational Database Management System",
+        "value": "Phân tích yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Relat Data Management System",
+        "value": "Nghiên cứu khả thi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Relational Database Microsoft System",
+        "value": "Xác định yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Đặc tả yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -598,32 +599,32 @@ const questions = {
   },
   {
     "id": 19,
-    "title": "Thị trường Big Data bao gồm:",
+    "title": "Trong xác định yêu cầu từ nghiệp vụ, các yêu cầu được chia thành những loại nào?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Phần cứng",
+        "value": "Yêu cầu sản phẩm, yêu cầu chất lượng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phần Mềm",
+        "value": "Yêu cầu sản phẩm, yêu cầu chuyển giao.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tất cả",
+        "value": "Yêu cầu chức năng, yêu cầu phi chức năng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Dịch vụ",
+        "value": "Yêu cầu chức năng, yêu cầu triển khai.",
         "url_thumb": "",
         "type": ""
       }
@@ -631,32 +632,32 @@ const questions = {
   },
   {
     "id": 20,
-    "title": "Nhược điểm của tích hợp dữ liệu theo phương pháp Tight Coupling",
+    "title": "Thế nào là đặc tả phi hình thức?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Độ trễ",
+        "value": "Cách đặc tả dựa vào toán học.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phản hồi truy vấn",
+        "value": "Cách đặc tả dùng kí hiệu đồ họa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phụ thuộc vào nguồn dữ liệu",
+        "value": "Cách đặc tả bằng ngôn ngữ tự nhiên.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Cách đặc tả dùng văn bản và sơ đồ.",
         "url_thumb": "",
         "type": ""
       }
@@ -664,32 +665,32 @@ const questions = {
   },
   {
     "id": 21,
-    "title": "Nhược điểm của tích hợp dữ liệu theo phương pháp Loose Coupling",
+    "title": "Nhược điểm đặc tả phi hình thức?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Tất cả",
+        "value": "Thiếu tính chính xác.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chi phí cao",
+        "value": "Chi phí đặc tả cao.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Độ trễ",
+        "value": "Khó đọc, khó sử dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phụ thuộc mạng / băng thông",
+        "value": "Ít được dùng để đặc tả.",
         "url_thumb": "",
         "type": ""
       }
@@ -697,32 +698,32 @@ const questions = {
   },
   {
     "id": 22,
-    "title": "Công cụ nào hỗ trợ tốt NoSQL?",
+    "title": "Ưu điểm của đặc tả phi hình thức?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "SAP Data Services",
+        "value": "Chi phí đặc tả cao.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Oracle Data Integrator",
+        "value": "Tăng tính chính xác.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "SQL Server Integration Services",
+        "value": "Dễ kiểm tra yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Dễ đọc, dễ sử dụng.",
         "url_thumb": "",
         "type": ""
       }
@@ -730,32 +731,32 @@ const questions = {
   },
   {
     "id": 23,
-    "title": "Công cụ tích hợp dữ liệu Boomi là của?",
+    "title": "Thế nào là đặc tả hình thức?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Dell",
+        "value": "Cách đặc tả bằng ngôn ngữ tự nhiên.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "IBM",
+        "value": "Cách đặc tả dựa vào toán học.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Microsoft",
+        "value": "Cách đặc tả dùng kí hiệu đồ họa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "SAP",
+        "value": "Cách đặc tả dùng văn bản và sơ đồ.",
         "url_thumb": "",
         "type": ""
       }
@@ -763,32 +764,32 @@ const questions = {
   },
   {
     "id": 24,
-    "title": "Công cụ SQL Server Integrator do ai phát triển?",
+    "title": "Ưu điểm đặc tả hình thức?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Oracle",
+        "value": "Tăng tính chính xác.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "IBM",
+        "value": "Chi phí đặc tả thấp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Microsoft",
+        "value": "Dễ sử dụng, mềm dẻo.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "SAP",
+        "value": "Dễ đọc, dễ hiểu.",
         "url_thumb": "",
         "type": ""
       }
@@ -796,32 +797,32 @@ const questions = {
   },
   {
     "id": 25,
-    "title": "SAP Data Service là công cụ để làm gì?",
+    "title": "Nhược điểm đặc tả hình thức?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Lưu trữ dữ liệu",
+        "value": "Khó kiểm tra yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tích hợp dữ liệu",
+        "value": "Thiếu tính chính xác.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích dữ liệu",
+        "value": "Khó đọc, khó sử dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Chi phí đặc tả thấp.",
         "url_thumb": "",
         "type": ""
       }
@@ -829,32 +830,32 @@ const questions = {
   },
   {
     "id": 26,
-    "title": "Hệ quản trị CSDL DynamoDB là kiểu nào?",
+    "title": "Chỉ ra các phương pháp đặc tả yêu cầu?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Key value",
+        "value": "Đặc tả phi hình thức và đặc tả hình thức.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Wide Column based",
+        "value": "Đặc tả chức năng và đặc tả phi chức năng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Document based",
+        "value": "Đặc tả yêu cầu và đặc tả sản phẩm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Graph based",
+        "value": "Đặc tả yêu cầu và đặc tả chức năng.",
         "url_thumb": "",
         "type": ""
       }
@@ -862,32 +863,32 @@ const questions = {
   },
   {
     "id": 27,
-    "title": "Hệ quản trị CSDL MongoDB là kiểu nào?",
+    "title": "Thứ tự các hoạt động trong tiến trình hình thành yêu cầu?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Document based",
+        "value": "Thẩm định yêu cầu, nghiên cứu khả thi, đặc tả yêu cầu, phân tích yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Key value",
+        "value": "Thẩm định yêu cầu, phân tích yêu cầu, đặc tả yêu cầu, nghiên cứu khả thi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Wide Column based",
+        "value": "Nghiên cứu khả thi, phân tích yêu cầu, đặc tả yêu cầu, thẩm định yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Graph based",
+        "value": "Nghiên cứu khả thi, thẩm định yêu cầu, phân tích yêu cầu, đặc tả yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -895,32 +896,32 @@ const questions = {
   },
   {
     "id": 28,
-    "title": "Hệ quản trị CSDL Neo4J là kiểu nào?",
+    "title": "Yêu cầu chức năng là gì ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Key value",
+        "value": "Các dịch vụ mà hệ phần mềm phải cung cấp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Wide Column based",
+        "value": "Các ràng buộc mà hệ phần mềm phải tuân thủ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Document based",
+        "value": "Các yêu cầu về tiêu chuẩn sản phẩm phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Graph based",
+        "value": "Các yêu cầu về quá trình phát triển phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -928,32 +929,32 @@ const questions = {
   },
   {
     "id": 29,
-    "title": "Hệ quản trị CSDL IBM Graph là kiểu nào?",
+    "title": "Mức \"xác định yêu cầu\" là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Key value",
+        "value": "Mô tả mức chi tiết về yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Document based",
+        "value": "Mô tả yêu cầu chức năng của phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Graph based",
+        "value": "Mô tả yêu cầu phi chức năng của phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Wide Column based",
+        "value": "Mô tả trừu tượng mức cao của yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -961,32 +962,32 @@ const questions = {
   },
   {
     "id": 30,
-    "title": "Hệ quản trị CSDL Google Big Table là kiểu nào?",
+    "title": "Tài liệu nào trong pha \"phân tích và đặc tả yêu cầu\" có thể được dùng làm cơ sở cho việc ký kết hợp đồng giữa người phát triển và khách hàng?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Key value",
+        "value": "Phân tích yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Wide Column based",
+        "value": "Mô hình hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Document based",
+        "value": "Tài liệu yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Graph based",
+        "value": "Đặc tả yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -994,32 +995,32 @@ const questions = {
   },
   {
     "id": 31,
-    "title": "Đâu không phải là RDBMS?",
+    "title": "Tài liệu nào trong pha \"phân tích và đặc tả yêu cầu\" có thể được dùng làm cơ sở cho việc ký kết hợp đồng giữa người phát triển và khách hàng?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "IBM DB2",
+        "value": "Phân tích yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "MS SQL Server",
+        "value": "Mô hình hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "MS Access",
+        "value": "Tài liệu yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cassandra",
+        "value": "Đặc tả yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -1027,32 +1028,32 @@ const questions = {
   },
   {
     "id": 32,
-    "title": "Loại nào là dữ liệu Bán cấu trúc?",
+    "title": "Nhiệm vụ của phân tích yêu cầu?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Tất cả",
+        "value": "Mô tả trừu tượng về các dịch vụ mà hệ cần cung cấp và các ràng buộc mà hệ cần tuân thủ khi vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "JSON",
+        "value": "Mô tả chính xác hơn về các chức năng của hệ cùng các ràng buộc mà hệ phải tuân theo khi vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "CSV",
+        "value": "Phát biểu chính thức về những yêu cầu phần mềm. Nó trình bày những gì mà hệ phần mềm phải làm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "XML",
+        "value": "Thiết lập các dịch vụ mà hệ phải cung cấp và các ràng buộc mà hệ phải tuân theo khi hoạt động.",
         "url_thumb": "",
         "type": ""
       }
@@ -1060,32 +1061,32 @@ const questions = {
   },
   {
     "id": 33,
-    "title": "Loại nào là dữ liệu Unstructured?",
+    "title": "Khái niệm xác định yêu cầu?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Video",
+        "value": "Mô tả chi tiết về các dịch vụ mà hệ cần cung cấp và các ràng buộc mà hệ cần tuân thủ khi vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "XML",
+        "value": "Thiết lập các dịch vụ mà hệ phải cung cấp và các ràng buộc mà hệ phải tuân theo khi hoạt động.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Table",
+        "value": "Mô tả trừu tượng về các dịch vụ mà hệ cần cung cấp và các ràng buộc mà hệ cần tuân thủ khi vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Phát biểu chính thức về những yêu cầu phần mềm. Nó trình bày những gì mà hệ phần mềm phải làm.",
         "url_thumb": "",
         "type": ""
       }
@@ -1093,32 +1094,32 @@ const questions = {
   },
   {
     "id": 34,
-    "title": "Yếu tố nào quyết định để sử dụng NoSQL?",
+    "title": "Về nguyên tắc, các yêu cầu trong xác định yêu cầu phải đảm bảo những yêu tố nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Tốc độ gia tăng CSDL",
+        "value": "Chính xác, hiện thực.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tính đa dạng của dữ liệu",
+        "value": "Đầy đủ, nhất quán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tốc độ truy cập dữ liệu",
+        "value": "Đầy đủ, hiện thực.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Chính xác, nhất quán.",
         "url_thumb": "",
         "type": ""
       }
@@ -1126,32 +1127,32 @@ const questions = {
   },
   {
     "id": 35,
-    "title": "CSDL nào không phải kiểu Key-Value:",
+    "title": "Hãy chỉ ra phát biểu đúng nhất về tài liệu đặc tả yêu cầu?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "MongoDB",
+        "value": "Tài liệu đặc tả yêu cầu là phát biểu chính thức về những yêu cầu phần mềm của những người phát triển hệ thống. Nó xác định hệ cần phải làm như thế nào.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "DynamoDB",
+        "value": "Tài liệu đặc tả yêu cầu là phát biểu chính thức về những yêu cầu phần mềm của những người phát triển hệ thống. Nó là tài liệu phục vụ cho thiết kế và mã hóa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Redis",
+        "value": "Tài liệu đặc tả yêu cầu là tài liệu mô tả các yêu cầu chức năng, phi chức năng và miền ứng dụng của hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Riak",
+        "value": "Tài liệu đặc tả yêu cầu là phát biểu chính thức về những yêu cầu phần mềm của những người phát triển hệ thống. Nó xác định hệ cần phải làm gì.",
         "url_thumb": "",
         "type": ""
       }
@@ -1159,32 +1160,32 @@ const questions = {
   },
   {
     "id": 36,
-    "title": "CSDL nào không phải kiểu Document:",
+    "title": "Yêu cầu thường được mô tả ở những mức nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "MongoDB",
+        "value": "Phân tích yêu cầu, xác định yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "CouchDB",
+        "value": "Yêu cầu chức năng, yêu cầu phi chức năng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Elasticsearch",
+        "value": "Xác định yêu cầu, đặc tả yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Riak",
+        "value": "Xác định yêu cầu, phân tích yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -1192,32 +1193,32 @@ const questions = {
   },
   {
     "id": 37,
-    "title": "CSDL nào không phải kiểu Graph:",
+    "title": "Mức \"đặc tả yêu cầu\" là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "InfoGrid",
+        "value": "Mô tả trừu tượng mức cao của yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Hbase",
+        "value": "Mô tả yêu cầu chức năng của phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "InfiniteGraph",
+        "value": "Mô tả yêu cầu phi chức năng của phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "IBM Graph",
+        "value": "Mô tả mức chi tiết về yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -1225,32 +1226,32 @@ const questions = {
   },
   {
     "id": 38,
-    "title": "CSDL nào không phải kiểu Wide-Column:",
+    "title": "\"Hiểu phạm vi, thu thập yêu cầu, phân loại yêu cầu, giải quyết xung đột, ưu tiên hóa, thẩm định yêu cầu.\" Đây là các giai đoạn của tiến trình gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Hbase",
+        "value": "Phân tích yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Cassandra",
+        "value": "Xác định yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "BigTable",
+        "value": "Thu thập yêu cầu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Dex",
+        "value": "Hình thành yêu cầu.",
         "url_thumb": "",
         "type": ""
       }
@@ -1258,32 +1259,32 @@ const questions = {
   },
   {
     "id": 39,
-    "title": "Ưu điểm của hệ thống HDFS là gì?",
+    "title": "Khái niệm đặc tả yêu cầu ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Lưu trữ phân tán, xử lý song song, khả năng chịu lỗi cao",
+        "value": "Mô tả chi tiết về các dịch vụ mà hệ cần cung cấp và các ràng buộc mà hệ cần tuân thủ khi vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lưu trữ song song, xử lý phân tán, tính sẵn sàng cao",
+        "value": "Thiết lập các dịch vụ mà hệ phải cung cấp và các ràng buộc mà hệ phải tuân theo khi hoạt động.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Xử lý phân tán song song, khả năng chịu lỗi chấp nhận sai sót",
+        "value": "Mô tả trừu tượng về các dịch vụ mà hệ cần cung cấp và các ràng buộc mà hệ cần tuân thủ khi vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Phát biểu chính thức về những yêu cầu phần mềm. Nó trình bày những gì mà hệ phần mềm phải làm.",
         "url_thumb": "",
         "type": ""
       }
@@ -1291,32 +1292,32 @@ const questions = {
   },
   {
     "id": 40,
-    "title": "Ưu điểm của DFS là gì?",
+    "title": "Yêu cầu phi chức năng là gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Hệ thống lưu trữ song song nên tránh được ảnh hưởng khi một máy chủ hoặc bộ nhớ bị lỗi",
+        "value": "Các dịch vụ mà hệ phần mềm phải cung cấp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Hệ thống được sao lưu tại Server thứ hai nên đảm bảo việc cung cấp dữ liệu",
+        "value": "Các ràng buộc mà hệ phần mềm phải tuân thủ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Khi một máy chủ hoặc bộ nhớ bị lỗi, hệ thống tệp phân tán vẫn đảm bảo có thể cung cấp dữ liệu ổn định",
+        "value": "Các yêu cầu về sản phẩm phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Các yêu cầu về quá trình phát triển phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -1324,32 +1325,32 @@ const questions = {
   },
   {
     "id": 41,
-    "title": "Ưu điểm của công nghệ Cluster",
+    "title": "Chỉ ra phát biểu đúng nhất về thiết kế phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Tất cả",
+        "value": "Thiết kế phần mềm là quá trình xây dựng một hệ thống thực hiện được dựa vào thiết kế.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Hiệu quả chi phí",
+        "value": "Thiết kế phần mềm là quá trình xây dựng không gian giải pháp cho vấn đề.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tính sẵn sàng cao",
+        "value": "Thiết kế phần mềm là quá trình xây dựng các thành phần chức năng của phần mềm và quan hệ giữa chúng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Khả năng mở rộng linh hoạt",
+        "value": "Thiết kế phần mềm là quá trình chuyển hóa các yêu cầu phần mềm thành một biểu diễn thiết kế.",
         "url_thumb": "",
         "type": ""
       }
@@ -1357,32 +1358,32 @@ const questions = {
   },
   {
     "id": 42,
-    "title": "Cluster node có mấy loại?",
+    "title": "Trong chất lượng thiết kế phần mềm, kết dính thời điểm là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "1",
+        "value": "Tất cả các thành phần cùng hoạt hóa một lúc được bó lại với nhau.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "2",
+        "value": "Trong một mô đun, ra của phần tử này là đầu vào của phần tử khác.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "3",
+        "value": "Các phần tử trong mô đun được ghép lại trong một dãy điều khiển.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "4",
+        "value": "Các công việc không liên quan với nhau, song lại bị bó vào một môđun.",
         "url_thumb": "",
         "type": ""
       }
@@ -1390,32 +1391,32 @@ const questions = {
   },
   {
     "id": 43,
-    "title": "Nguồn của kiến trúc HDFS trong Hadoop có nguồn gốc là",
+    "title": "Trong chất lượng thiết kế phần mềm, độ đo \"sự kết dính\" là gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Hệ thống tệp phân phối của Google",
+        "value": "Độ đo về tính khớp lại với nhau của các phần trong mô đun đó.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Hệ thống tệp phân tán của Yahoo",
+        "value": "Độ ghép nối với nhau giữa các đơn vị hay mô đun của hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Hệ thống tệp phân tán của Facebook",
+        "value": "Các phần tử trong mô đun được ghép lại trong một dãy điều khiển.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Hệ thống tệp phân tán Azure",
+        "value": "Các thành phần cùng thực hiện các chức năng tương tự đặt vào một môđun.",
         "url_thumb": "",
         "type": ""
       }
@@ -1423,32 +1424,32 @@ const questions = {
   },
   {
     "id": 44,
-    "title": "Loại dữ liệu mà Hadoop có thể xử lý là",
+    "title": "Một số độ đo chất chất lượng thiết kế phần mềm ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Structured (Có cấu trúc)",
+        "value": "Sự kết dính, sự đầy đủ, sự ghép nối, sự phổ dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Semi-structured (Bán cấu trúc)",
+        "value": "Sự kết dính, sự đầy đủ, sự hiểu được, sự thích nghi được.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Unstructured (Không có cấu trúc)",
+        "value": "Sự kết dính, sự ghép nối, sự hiểu được, sự thích nghi được.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "All of the above (Tất cả những điều trên)",
+        "value": "Sự đầy đủ, sự hiểu được, sự thích nghi được, sự phổ dụng.",
         "url_thumb": "",
         "type": ""
       }
@@ -1456,32 +1457,32 @@ const questions = {
   },
   {
     "id": 45,
-    "title": "YARN là viết tắt của",
+    "title": "\"Thiết kế chi tiết và đặc tả các cấu trúc dữ liệu được dùng trong việc thực hiện hệ thống.\" Đây là hoạt động gì trong thiết kế phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Yahoo’s another resource name",
+        "value": "Đặc tả cấu trúc dữ liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Yet another resource negotiator",
+        "value": "Thiết kế thuật toán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Yahoo’s archived Resource names",
+        "value": "Đặc tả thuật toán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Yet another resource need.",
+        "value": "Thiết kế cấu trúc dữ liệu.",
         "url_thumb": "",
         "type": ""
       }
@@ -1489,32 +1490,32 @@ const questions = {
   },
   {
     "id": 46,
-    "title": "Điều nào sau đây không phải là mục tiêu của HDFS?",
+    "title": "Ưu điểm của mô hình kiến trúc khách– phục vụ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Phát hiện lỗi và khôi phục",
+        "value": "Hiệu quả khi chia sẻ một số lượng lớn dữ liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Xử lý tập dữ liệu khổng lồ",
+        "value": "Hỗ trợ sự phát triển tăng trưởng của các hệ con.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Ngăn chặn việc xóa dữ liệu",
+        "value": "Dễ dàng thêm mới hoặc nâng cấp server hiện tại.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cung cấp băng thông mạng cao để di chuyển dữ liệu",
+        "value": "Khi một hệ con thay đổi ảnh hưởng đến hệ con khác.",
         "url_thumb": "",
         "type": ""
       }
@@ -1522,32 +1523,32 @@ const questions = {
   },
   {
     "id": 47,
-    "title": "Trong HDFS, các tệp không thể",
+    "title": "Ưu điểm của mô hình kiến trúc khách– phục vụ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Đọc",
+        "value": "Sử dụng hiệu quả mạng, phân tán dữ liệu dễ dàng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Xóa",
+        "value": "Hiệu quả khi chia sẻ một số lượng lớn dữ liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Thực thi",
+        "value": "Hỗ trợ sự phát triển tăng trưởng của các hệ con.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Lưu trữ",
+        "value": "Khi một hệ con thay đổi ảnh hưởng đến hệ con khác.",
         "url_thumb": "",
         "type": ""
       }
@@ -1555,32 +1556,32 @@ const questions = {
   },
   {
     "id": 48,
-    "title": "So với RDBMS, Hadoop",
+    "title": "Trong thiết kế phần mềm, thiết kế thành phần là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Có tính toàn vẹn dữ liệu cao hơn.",
+        "value": "Các giao diện của hệ con với các hệ con khác được thiết kế và ghi thành tài liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Có giao dịch ACID không",
+        "value": "Xác định hệ tổng thể phần mềm bao gồm các hệ con và các quan hệ giữa chúng và ghi thành tài liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Thích hợp để đọc và truy vấn nhanh",
+        "value": "Các dịch vụ mà một hệ con cung cấp được phân chia cho các thành phần hợp thành của hệ được thiết kế.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Hoạt động tốt hơn trên dữ liệu phi cấu trúc và bán cấu trúc.",
+        "value": "Các đặc tả cho mỗi hệ con về các dịch vụ mà nó cung cấp cũng như các ràng buộc chúng phải tuân thủ.",
         "url_thumb": "",
         "type": ""
       }
@@ -1588,32 +1589,32 @@ const questions = {
   },
   {
     "id": 49,
-    "title": "Vấn đề chính gặp phải khi đọc và ghi dữ liệu song song từ nhiều đĩa là gì?",
+    "title": "Kể tên các chiến lược thiết kế phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Xử lý khối lượng lớn dữ liệu nhanh hơn.",
+        "value": "Thiết kế hướng chức năng và thiết kế phi chức năng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Kết hợp dữ liệu từ nhiều đĩa.",
+        "value": "Thiết kế kiến trúc và thiết kế giao diện.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phần mềm cần thiết để thực hiện nhiệm vụ này là cực kỳ tốn kém.",
+        "value": "Thiết kế hướng đối tượng và thiết kế giao diện.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phần cứng cần thiết để thực hiện tác vụ này là cực kỳ tốn kém.",
+        "value": "Thiết kế hướng chức năng và thiết kế hướng đối tượng.",
         "url_thumb": "",
         "type": ""
       }
@@ -1621,32 +1622,32 @@ const questions = {
   },
   {
     "id": 50,
-    "title": "Tính năng định vị dữ liệu trong Hadoop có nghĩa là",
+    "title": "Trong chất lượng thiết kế phần mềm, độ đo \"sự ghép nối\" là gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "lưu trữ cùng một dữ liệu trên nhiều nút.",
+        "value": "Độ ghép nối lại với nhau giữa các phần trong mô đun đó.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "chuyển vị trí dữ liệu từ nút này sang nút khác.",
+        "value": "Các phần tử trong mô đun được ghép lại trong một dãy điều khiển.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "đồng định vị dữ liệu với các nút tính toán.",
+        "value": "Độ ghép nối với nhau giữa các đơn vị hay mô đun của hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân phối dữ liệu trên nhiều nút.",
+        "value": "Các thành phần cùng thực hiện chức năng tương tự đặt vào một môđun.",
         "url_thumb": "",
         "type": ""
       }
@@ -1654,32 +1655,32 @@ const questions = {
   },
   {
     "id": 51,
-    "title": "Các tệp HDFS được thiết kế cho",
+    "title": "Trong thiết kế kiến trúc, thế nào là mô hình lớp?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Nhiều người viết và sửa đổi ở các hiệu số tùy ý.",
+        "value": "Mọi dữ liệu được lưu trữ tại một cơ sở dữ liệu trung tâm được truy cập bởi các lớp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chỉ nối vào cuối tệp.",
+        "value": "Tổ chức hệ thống thành một tập hợp các lớp cung cấp tập hợp các dịch vụ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Chỉ ghi thành tệp một lần.",
+        "value": "Mô hình hệ thống phân tán, biểu diễn phân tán dữ liệu và xử lý trên nhiều máy tính.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Truy cập dữ liệu có độ trễ thấp.",
+        "value": "Mô hình mà để vận hành, hệ thống phải được điều khiển làm việc đồng bộ và đúng.",
         "url_thumb": "",
         "type": ""
       }
@@ -1687,32 +1688,32 @@ const questions = {
   },
   {
     "id": 52,
-    "title": "Hệ thống Apache Hadoop được viết bằng ngôn ngữ nào?",
+    "title": "Trong chất lượng thiết kế phần mềm, kết dính gom góp là gì ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "C ++",
+        "value": "Tất cả các thành phần cùng hoạt hóa một lúc được bó lại với nhau.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Python",
+        "value": "Các phần tử trong mô đun được ghép lại trong một dãy điều khiển.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Java",
+        "value": "Các thành phần cùng thực hiện các chức năng tương tự được đặt vào cùng một mô đun.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Go",
+        "value": "Các công việc không liên quan với nhau, song lại bị bó vào một môđun.",
         "url_thumb": "",
         "type": ""
       }
@@ -1720,32 +1721,32 @@ const questions = {
   },
   {
     "id": 53,
-    "title": "Cái nào không phải là một trong đặc trưng 3Vs của dữ liệu lớn?",
+    "title": "Vai trò của thiết kế phần mềm ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Vận tốc - Velocity",
+        "value": "Pha duy nhất quyết định chất lượng phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tính xác thực - Veracity",
+        "value": "Công cụ giao tiếp giữa nhà phát triển và khách hàng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Khối lượng - Volume",
+        "value": "Cung cấp đầy đủ thông tin cho việc bảo trì sau này.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Đa dạng - Variety",
+        "value": "Pha đầu tiên của quá trình phát triển phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -1753,32 +1754,32 @@ const questions = {
   },
   {
     "id": 54,
-    "title": "Điều nào sau đây đúng đối với Hadoop?",
+    "title": "\"Các đặc tả cho mỗi hệ con về các dịch vụ mà nó cung cấp cũng như các ràng buộc chúng phải tuân thủ.\" Đây là hoạt động gì trong thiết kế phần mềm?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Đây là một khung phân tán.",
+        "value": "Đặc tả trừu tượng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Thuật toán chính được sử dụng trong đó là Map Reduce.",
+        "value": "Thiết kế thành phần.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Nó chạy có thể thực thi trên hạ tầng Cloud Computing.",
+        "value": "Thiết kế kiến trúc.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả đều đúng",
+        "value": "Thiết kế hệ con.",
         "url_thumb": "",
         "type": ""
       }
@@ -1786,32 +1787,32 @@ const questions = {
   },
   {
     "id": 55,
-    "title": "Loại nào sau đây lưu trữ dữ liệu?",
+    "title": "Trong thiết kế phần mềm, thiết kế sơ bộ là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Name node",
+        "value": "Tập trung vào việc làm mịn biểu diễn kiến trúc dẫn tới cấu trúc dữ liệu chi tiết và biểu diễn thuật toán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Data node",
+        "value": "Chuyển các mô hình dữ liệu thành các cấu trúc dữ liệu cần thiết cho việc cài đặt phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Master node",
+        "value": "Quá trình dịch các yêu cầu thành các kiến trúc dữ liệu và kiến trúc phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không có",
+        "value": "Quá trình định nghĩa mối quan hệ giữa các thành phần cấu trúc chính của phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -1819,32 +1820,32 @@ const questions = {
   },
   {
     "id": 56,
-    "title": "Node nào sau đây quản lý các nút khác?",
+    "title": "Ưu điểm của mô hình kiến trúc lớp?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Name node",
+        "value": "Sử dụng hiệu quả mạng, phân tán dữ liệu dễ dàng giữa các lớp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Data node",
+        "value": "Hiệu quả khi chia sẻ một số lượng lớn dữ liệu, dễ quản lý.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Slave node",
+        "value": "Sự phát triển tăng trưởng của các lớp tách biệt nên dễ nâng cấp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Khi giao diện một lớp thay đổi, chỉ lớp kế cận ảnh hưởng.",
         "url_thumb": "",
         "type": ""
       }
@@ -1852,32 +1853,32 @@ const questions = {
   },
   {
     "id": 57,
-    "title": "Hadoop xử lý khối lượng lớn dữ liệu như thế nào?",
+    "title": "Theo quan điểm của quản lý dự án thì thiết kế phần mềm được chia thành hai giai đoạn nào?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Hadoop sử dụng song song rất nhiều máy. Điều này tối ưu hóa việc xử lý dữ liệu.",
+        "value": "Thiết kế kiến trúc- thiết kế dữ liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Hadoop được thiết kế đặc biệt để xử lý lượng lớn dữ liệu bằng cách tận dụng phần cứng MPP.",
+        "value": "Thiết kế dữ liệu- thiết kế thuật toán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Hadoop gửi mã đến dữ liệu thay vì gửi dữ liệu đến mã.",
+        "value": "Thiết kế sơ bộ- thiết kế chi tiết.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Hadoop sử dụng các kỹ thuật bộ nhớ đệm phức tạp trên NameNode để tăng tốc độ xử lý dữ liệu.",
+        "value": "Thiết kế thành phần- thiết kế giao diện.",
         "url_thumb": "",
         "type": ""
       }
@@ -1885,32 +1886,32 @@ const questions = {
   },
   {
     "id": 58,
-    "title": "MapReduce do công ty nào phát triển?",
+    "title": "Thế nào là thiết kế hướng chức năng ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Apache",
+        "value": "Bản thiết kế được phân giải thành một bộ các chức năng tác động lẫn nhau, các chức năng không dùng chung trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google",
+        "value": "Bản thiết kế được phân giải thành một bộ các đơn thể tác động lẫn nhau, mỗi đơn thể có một chức năng được xác định rõ ràng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "IBM",
+        "value": "Bản thiết kế được phân giải thành một bộ các chức năng tác động lẫn nhau, các chức năng có trạng thái giống nhau.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Amazon",
+        "value": "Bản thiết kế được phân giải thành một bộ các chức năng tác động lẫn nhau, mỗi chức năng có trạng thái riêng, không dùng chung trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       }
@@ -1918,32 +1919,32 @@ const questions = {
   },
   {
     "id": 59,
-    "title": "Dịch vụ đám mây nào hỗ trợ tốt cho Big Data?",
+    "title": "Thế nào là thiết kế hướng đối tượng ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Amazon AWS",
+        "value": "Bản thiết kế được phân giải thành một bộ các đơn thể tác động lẫn nhau, mỗi đơn thể có một chức năng được xác định rõ ràng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google Cloud",
+        "value": "Bản thiết kế nhìn hệ phần mềm như một bộ các đối tượng tương tác với nhau, các đối tượng có chung thông tin trạng thái.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tất cả",
+        "value": "Bản thiết kế nhìn hệ phần mềm như một bộ các đối tượng tương tác với nhau, mỗi đối tượng có những thông tin trạng thái riêng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Microsoft Azure",
+        "value": "Bản thiết kế được phân giải thành một bộ các chức năng, mỗi chức năng có trạng thái riêng, chúng chia sẻ với nhau trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       }
@@ -1951,32 +1952,32 @@ const questions = {
   },
   {
     "id": 60,
-    "title": "Nhược điểm khi triển khai Big Data trên nền tảng Cloud Computing là?",
+    "title": "Đặc trưng thiết kế hướng chức năng ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Nhiều rủi ro cho hệ thống",
+        "value": "Các chức năng có trạng thái cục bộ, chúng chia sẻ với nhau trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Không có ý đúng",
+        "value": "Các chức năng có trạng thái cục bộ, chúng không dùng chung trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tốc độ xử lý không đảm bảo",
+        "value": "Các chức năng có chung trạng thái, chúng chia sẻ với nhau trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân tích theo thời gian thực kém",
+        "value": "Thông tin trạng thái bị che dấu, mỗi thành phần có một chức năng xác định.",
         "url_thumb": "",
         "type": ""
       }
@@ -1984,32 +1985,32 @@ const questions = {
   },
   {
     "id": 61,
-    "title": "Mô hình Điện toán đám mây IaaS?",
+    "title": "Đặc trưng thiết kế hướng đối tượng ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Cơ sở hạ tầng dưới dạng dịch vụ",
+        "value": "Các đối tượng liên lạc với nhau thông qua trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Nền tảng dưới dạng dịch vụ",
+        "value": "Các đối tượng là các thực thể có mối quan hệ chặt chẽ với nhau.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phần mềm dưới dạng dịch vụ",
+        "value": "Các đối tượng không phân tán, chỉ hành động tuần tự.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Internet dưới dạng dịch vụ",
+        "value": "Các đối tượng liên lạc với nhau bằng cách trao đổi thông báo.",
         "url_thumb": "",
         "type": ""
       }
@@ -2017,32 +2018,32 @@ const questions = {
   },
   {
     "id": 62,
-    "title": "Mô hình Điện toán đám mây PaaS?",
+    "title": "Ưu điểm thiết kế hướng đối tượng ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Cơ sở hạ tầng dưới dạng dịch vụ",
+        "value": "Các đối tượng chia sẻ trạng thái hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Nền tảng dưới dạng dịch vụ",
+        "value": "Thông tin trạng thái hệ thống đạt nhỏ nhất.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phần mềm dưới dạng dịch vụ",
+        "value": "Tăng tính dễ hiểu của thiết kế, dễ bảo trì.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Internet dưới dạng dịch vụ",
+        "value": "Thông tin dùng chung giữa các đối tượng rõ ràng.",
         "url_thumb": "",
         "type": ""
       }
@@ -2050,32 +2051,32 @@ const questions = {
   },
   {
     "id": 63,
-    "title": "Mô hình Điện toán đám mây SaaS?",
+    "title": "Nhược điểm thiết kế hướng đối tượng ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Cơ sở hạ tầng dưới dạng dịch vụ",
+        "value": "Khó nhận ra các đối tượng của hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Nền tảng dưới dạng dịch vụ",
+        "value": "Thông tin dùng chung không rõ ràng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phần mềm dưới dạng dịch vụ",
+        "value": "Các đối tượng không dùng lại được.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Internet dưới dạng dịch vụ",
+        "value": "Giảm tính dễ hiểu của bản thiết kế.",
         "url_thumb": "",
         "type": ""
       }
@@ -2083,32 +2084,32 @@ const questions = {
   },
   {
     "id": 64,
-    "title": "Lợi ích của Cloud Computing với Big Data là?",
+    "title": "Trong thiết kế phần mềm, thiết kế chi tiết là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Triển khai hạ tầng nhanh chóng",
+        "value": "Quá trình dịch các yêu cầu thành các kiến trúc dữ liệu và kiến trúc phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phân tích theo thời gian thực",
+        "value": "Việc làm mịn biểu diễn kiến trúc dẫn tới cấu trúc dữ liệu chi tiết và biểu diễn thuật toán.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tối ưu chi phí duy trì hoạt động",
+        "value": "Chuyển các mô hình dữ liệu thành các cấu trúc dữ liệu cần thiết cho việc cài đặt phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Quá trình định nghĩa mối quan hệ giữa các thành phần cấu trúc chính của phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -2116,32 +2117,32 @@ const questions = {
   },
   {
     "id": 65,
-    "title": "Lợi ích vượt trội của Cloud Computing với Big Data là?",
+    "title": "Trong thiết kế phần mềm, thiết kế dữ liệu là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Hạn chế đầu tư máy móc",
+        "value": "Thiết kế chi tiết và đặc tả các cấu trúc dữ liệu được dùng trong việc thực hiện hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phân tích theo thời gian thực",
+        "value": "Chuyển các mô hình dữ liệu thành các cấu trúc dữ liệu cần thiết cho việc cài đặt phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tối ưu chi phí duy trì hoạt động",
+        "value": "Các dữ liệu được dùng cho các dịch vụ được thiết kế chi tiết và được đặc tả.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Quá trình dịch các yêu cầu thành các kiến trúc dữ liệu và kiến trúc phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -2149,32 +2150,32 @@ const questions = {
   },
   {
     "id": 66,
-    "title": "Dịch vụ lưu trữ dữ liệu của Amazon – AWS là?",
+    "title": "Trong thiết kế phần mềm, thiết kế kiến trúc là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Amazon S3",
+        "value": "Thiết kế chi tiết và đặc tả các cấu trúc dữ liệu được dùng trong việc thực hiện hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Amazon RDS",
+        "value": "Các thuật toán được dùng cho các dịch vụ được thiết kế chi tiết và được đặc tả.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Amazon Lambda",
+        "value": "Xác định hệ tổng thể phần mềm bao gồm các hệ con và các quan hệ giữa chúng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "EC2",
+        "value": "Các giao diện của hệ con với các hệ con khác được thiết kế và ghi thành tài liệu.",
         "url_thumb": "",
         "type": ""
       }
@@ -2182,32 +2183,32 @@ const questions = {
   },
   {
     "id": 67,
-    "title": "Dịch vụ lưu trữ của Microsoft Azure là?",
+    "title": "Nhược điểm của mô hình kiến trúc khách-phục vụ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Virtual Machines",
+        "value": "Tiến hóa dữ liệu là khó khăn và đắt đỏ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Azure Function",
+        "value": "Chia sẻ, trao đổi dữ liệu là không hiệu quả.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Azure Disk Storage",
+        "value": "Dư thừa server, khó tìm server hay dịch vụ rỗi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Azure Cosmos DB",
+        "value": "Khi một hệ con thay đổi ảnh hưởng đến hệ con khác.",
         "url_thumb": "",
         "type": ""
       }
@@ -2215,32 +2216,32 @@ const questions = {
   },
   {
     "id": 68,
-    "title": "Dịch vụ lưu trữ của Google Cloud Platform là?",
+    "title": "Trong chất lượng thiết kế phần mềm, kết dính thủ tục là gì ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Driver",
+        "value": "Các phần tử trong mô đun được ghép lại trong một dãy điều khiển.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Goolge Functions",
+        "value": "Tất cả các thành phần cùng hoạt hóa một lúc được bó lại với nhau.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google Cloud Storage",
+        "value": "Trong một mô đun, ra của phần tử này là đầu vào của phần tử khác.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Google Cloud Datastore",
+        "value": "Các công việc không liên quan với nhau, song lại bị bó vào một môđun.",
         "url_thumb": "",
         "type": ""
       }
@@ -2248,32 +2249,32 @@ const questions = {
   },
   {
     "id": 69,
-    "title": "Đám mây AWS cung cấp dịch vụ NoSQL Database",
+    "title": "\"Tất cả các phần tử của mô đun cùng thao tác trên một dữ liệu vào và đưa cùng một dữ liệu ra\" thuộc loại kết dính nào trong chất lượng thiết kế phần mềm?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Amazon RDS",
+        "value": "Kết dính tuần tự.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Amazon EC2",
+        "value": "Kết dính thời điểm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Amazon DynamoDB",
+        "value": "Kết dính truyền thông.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Amazon Container Service",
+        "value": "Kết dính chức năng.",
         "url_thumb": "",
         "type": ""
       }
@@ -2281,32 +2282,32 @@ const questions = {
   },
   {
     "id": 70,
-    "title": "Đám mây Microsoft Azure cung cấp dịch vụ NoSQL Database",
+    "title": "Mô hình tiến trình tổng quát thiết kế được thực hiện theo thứ tự?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Table Storage",
+        "value": "Phác thảo thiết kế phi hình thức, thiết kế phi hình thức, thiết kế hình thức hơn, thiết kế chi tiết cuối cùng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "SQL DB",
+        "value": "Phác thảo thiết kế phi hình thức, thiết kế phi hình thức, thiết kế chi tiết cuối cùng, thiết kế hình thức hơn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Azure Functions",
+        "value": "Thiết kế chi tiết cuối cùng, thiết kế phi hình thức, phác thảo thiết kế phi hình thức, thiết kế hình thức hơn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cloud Service",
+        "value": "Thiết kế hình thức hơn, phác thảo thiết kế phi hình thức, thiết kế phi hình thức, thiết kế chi tiết cuối cùng.",
         "url_thumb": "",
         "type": ""
       }
@@ -2314,32 +2315,32 @@ const questions = {
   },
   {
     "id": 71,
-    "title": "Dịch vụ tích hợp dữ liệu trên đám mây trên Google Cloud Platform",
+    "title": "Chỉ ra phát biểu đúng nhất về lập trình thứ lỗi?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Cloud Dataprep",
+        "value": "Lập trình thứ lỗi là cách lập trình đảm bảo cho hệ thống không bị ảnh hưởng gì ngay cả khi có thành phần sinh lỗi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google Cloud Data Fusion",
+        "value": "Lập trình thứ lỗi là cách lập trình đảm bảo cho hệ thống có khả năng dung thứ lỗi khi có thành phần sinh lỗi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google Data Catalog",
+        "value": "Lập trình thứ lỗi là cách lập trình ngăn chặn sự xâm nhập của các file lạ, bảo toàn dữ liệu khi hệ thống sụp đổ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Google BigQuery",
+        "value": "Lập trình thứ lỗi là cách lập trình đánh dấu lại các bất thường trong quá trình vận hành phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -2347,32 +2348,32 @@ const questions = {
   },
   {
     "id": 72,
-    "title": "Dịch vụ thông minh giúp khám phá, làm sạch dữ liệu trên Google Cloud Platform",
+    "title": "Trong phong cách lập trình, việc xây dựng câu lệnh nên tuân theo quy tắc nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Functions",
+        "value": "Viết nhiều câu lệnh trên một dòng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google BigQuery",
+        "value": "Mỗi câu lệnh nên đơn giản và trực tiếp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google Cloud Dataprep",
+        "value": "Xây dựng câu lệnh đơn và thẳng hàng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Google Data Catalog",
+        "value": "Các câu lệnh lồng nhau, tụt lề các dòng lệnh.",
         "url_thumb": "",
         "type": ""
       }
@@ -2380,32 +2381,32 @@ const questions = {
   },
   {
     "id": 73,
-    "title": "Trên Google Cloud Platform dịch vụ nào quản lý CSDL NoQuery",
+    "title": "Trừu tượng hóa dữ liệu là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Cloud Dataprep",
+        "value": "Tập hợp các dữ liệu có tên mô tả cho một đối tượng dữ liệu nào đó.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google Data Catalog",
+        "value": "Một dãy các lệnh có tên, có chức năng xác định và giới hạn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google BigQuery",
+        "value": "Đặc tả các cấu trúc dữ liệu được dùng trong việc thực hiện hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cloud Bigtable",
+        "value": "Đặc tả các thuật toán được dùng cho các dịch vụ của hệ thống.",
         "url_thumb": "",
         "type": ""
       }
@@ -2413,32 +2414,32 @@ const questions = {
   },
   {
     "id": 74,
-    "title": "Trên Google Cloud Platform dịch vụ nào quản lý danh mục dữ liệu",
+    "title": "Trừu tượng hóa thủ tục là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Data Catalog",
+        "value": "Tập hợp các dữ liệu có tên mô tả cho một đối tượng dữ liệu nào đó.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google Cloud Dataprep",
+        "value": "Đặc tả các cấu trúc dữ liệu dùng trong việc thực hiện hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google Data Catalog",
+        "value": "Một dãy các lệnh có tên, có chức năng xác định và giới hạn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Google BigQuery",
+        "value": "Đặc tả các thuật toán được dùng cho các dịch vụ của hệ thống.",
         "url_thumb": "",
         "type": ""
       }
@@ -2446,32 +2447,32 @@ const questions = {
   },
   {
     "id": 75,
-    "title": "Trên Google Cloud Platform dịch vụ phân tích dữ liệu được cung cấp",
+    "title": "Mô đun hóa là gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Data Catalog",
+        "value": "Đặc tả các thuật toán được dùng cho các dịch vụ của hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google BigQuery",
+        "value": "Phần mềm được chia thành các thành phần có tên riêng và địa chỉ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google Cloud Dataprep",
+        "value": "Tập hợp các dữ liệu có tên mô tả cho một đối tượng dữ liệu nào đó.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Google Functions",
+        "value": "Một dãy các lệnh có tên, có chức năng xác định và giới hạn.",
         "url_thumb": "",
         "type": ""
       }
@@ -2479,32 +2480,32 @@ const questions = {
   },
   {
     "id": 76,
-    "title": "Nền tảng Cloudera hỗ trợ hệ CSDL quan hệ nào?",
+    "title": "Chỉ ra đặc trưng của ngôn ngữ lập trình?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "MySQL",
+        "value": "Dễ sử dụng đối với người lập trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Oracle",
+        "value": "Miêu tả đầy đủ, rõ ràng các tiến trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "PostgreSQL",
+        "value": "Dễ dịch thiết kế sang chương trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "Hoạt động hiệu quả trên mọi hệ điều hành.",
         "url_thumb": "",
         "type": ""
       }
@@ -2512,32 +2513,32 @@ const questions = {
   },
   {
     "id": 77,
-    "title": "Hệ CSDL NoSQL trên nền tảng Cloudera là?",
+    "title": "Trong phong cách lập trình, hãy chỉ ra cách đơn giản hóa các câu lệnh chương trình gốc?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Apache Accumulo",
+        "value": "Nên dùng các phép kiểm tra điều kiện phủ định.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "DynamoDB",
+        "value": "Lồng nhau nhiều giữa các điều kiện hay chu trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "AppEngine Datastore",
+        "value": "Tránh dùng các phép kiểm tra điều kiện phức tạp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Table Storage",
+        "value": "Không cần dùng các tính năng chuẩn ngôn ngữ.",
         "url_thumb": "",
         "type": ""
       }
@@ -2545,32 +2546,32 @@ const questions = {
   },
   {
     "id": 78,
-    "title": "Dịch vụ phân tích dữ liệu lớn Cloudera cung cấp là?",
+    "title": "Chỉ ra phát biểu đúng nhất về lập trình phòng thủ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Hadoop",
+        "value": "Lập trình phong thủ là cách lập trình đảm bảo hệ thống không bị ảnh hưởng khi có thành phần sinh lỗi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "BigQuery",
+        "value": "Lập trình phong thủ là cách lập trình ngăn chặn sự xâm nhập của các file lạ, bảo toàn dữ liệu khi hệ thống sụp đổ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Elastic MapReduce",
+        "value": "Lập trình phong thủ là lập trình để có thể tự động sửa chữa các lỗi có thể xảy ra.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Không có",
+        "value": "Lập trình phong thủ là cách lập trình đánh dấu lại các bất thường trong quá trình vận hành phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -2578,32 +2579,32 @@ const questions = {
   },
   {
     "id": 79,
-    "title": "Cloudera Enterprise có thể được triển khai trên đám mây nào",
+    "title": "Thứ tự bốn hoạt động trong lập trình thứ lỗi ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Cloud",
+        "value": "Phát hiện lỗi, sửa lỗi, hồi phục sau khi gặp lỗi, định ra mức độ thiệt hại.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Amazon AWS",
+        "value": "Phát hiện lỗi, sửa lỗi, định ra mức độ thiệt hại, làm báo cáo chi phí.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tất cả",
+        "value": "Phát hiện lỗi, định ra mức độ thiệt hại, hồi phục sau khi gặp lỗi, chữa lỗi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Microsoft Azure",
+        "value": "Phát hiện lỗi, ngăn chặn lỗi, sửa lỗi, hồi phục sau khi gặp lỗi.",
         "url_thumb": "",
         "type": ""
       }
@@ -2611,32 +2612,32 @@ const questions = {
   },
   {
     "id": 80,
-    "title": "Công cụ trên Google Cloud Platform chuyển đổi dữ liệu hỗ trợ quyết định",
+    "title": "Để tăng tính hiệu quả chương trình có thể áp dụng hướng dẫn nào sau đây?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Google Cloud",
+        "value": "Sử dụng những chu kỳ lồng nhau và danh sách phức tạp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Google Data Catalog",
+        "value": "Sử dụng những chu kỳ lồng nhau và trộn lẫn kiểu dữ liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Google Data Studio",
+        "value": "Tránh dùng mảng nhiều chiều, con trỏ và danh sách phức tạp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Google Functions",
+        "value": "Dùng mảng nhiều chiều, con trỏ và phép toán số học nhanh.",
         "url_thumb": "",
         "type": ""
       }
@@ -2644,32 +2645,32 @@ const questions = {
   },
   {
     "id": 81,
-    "title": "Mô hình chính dành cho Điện toán đám mây?",
+    "title": "Trong lập trình hướng hiệu quả, để tăng hiệu quả vào/ra có thể áp dụng hướng dẫn nào sau đây?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Cơ sở hạ tầng dưới dạng dịch vụ (IaaS)",
+        "value": "Mọi việc vào/ra không nên qua bộ đệm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tất cả",
+        "value": "Không xếp khối vào/ra với thiết bị bộ nhớ phụ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Nền tảng dưới dạng dịch vụ (PaaS)",
+        "value": "Số các yêu cầu vào/ra nên giữ mức tối thiểu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phần mềm dưới dạng dịch vụ (SaaS)",
+        "value": "Với bộ nhớ phụ dùng phương pháp thâm nhập nhanh nhất.",
         "url_thumb": "",
         "type": ""
       }
@@ -2677,32 +2678,32 @@ const questions = {
   },
   {
     "id": 82,
-    "title": "Kiểu phân tích dữ liệu nào cho ta biết điều gì đã xảy ra?",
+    "title": "Trong bảo trì phần mềm, có mấy loại hiệu ứng lề?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Descriptive Analysis",
+        "value": "3",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Diagnostic Analysis",
+        "value": "4",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Predictive Analysis",
+        "value": "2",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Prescriptive Analysis",
+        "value": "5",
         "url_thumb": "",
         "type": ""
       }
@@ -2710,32 +2711,32 @@ const questions = {
   },
   {
     "id": 83,
-    "title": "Kiểu phân tích dữ liệu nào chuẩn đoán lý do cho kết quả?",
+    "title": "Thế nào là hoạt động bảo trì hiệu chỉnh?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Descriptive Analysis",
+        "value": "Thay đổi những chức năng đã có, các mở rộng được người dùng gửi đến.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Diagnostic Analysis",
+        "value": "Hoạt động sửa đổi phần mềm để thích ứng những thay đổi của môi trường.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Predictive Analysis",
+        "value": "Thay đổi để cải thiện tính năng bảo trỡ hay độ tin cậy cho những mở rộng sau.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Prescriptive Analysis",
+        "value": "Quá trình phân tích và hiệu chỉnh một hay nhiều lỗi của chương trình.",
         "url_thumb": "",
         "type": ""
       }
@@ -2743,32 +2744,32 @@ const questions = {
   },
   {
     "id": 84,
-    "title": "Kiểu phân tích dữ liệu nào dự đoán điều sẽ xảy ra?",
+    "title": "Thế nào là bảo trì không cấu trúc?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Descriptive Analysis",
+        "value": "Phần mềm có cấu hình hoàn thiện, nhiệm vụ bảo trì bắt đầu bằng việc đánh giá các tài liệu thiết kế.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Diagnostic Analysis",
+        "value": "Bảo trì cải thiện các tính năng bảo trì như độ tin cậy, cung cấp nền tảng tốt hơn cho những mở rộng sau này.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Predictive Analysis",
+        "value": "Bảo trì đáp ứng các thay đổi những chức năng đã có và các mở rộng tổng quát được người dùng gửi đến.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Prescriptive Analysis",
+        "value": "Phần mềm có cấu hình duy nhất là mã nguồn, hoạt động bảo trì bắt đầu với việc đánh giá chi tiết mã nguồn.",
         "url_thumb": "",
         "type": ""
       }
@@ -2776,32 +2777,32 @@ const questions = {
   },
   {
     "id": 85,
-    "title": "Kiểu phân tích nào để hỗ trợ đưa ra quyết định?",
+    "title": "Cho công thức bảo trì : M = p(K*exp(c-d)), ý nghĩa tham số K là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Descriptive Analysis",
+        "value": "Hằng số kinh nghiệm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Diagnostic Analysis",
+        "value": "Công việc làm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Predictive Analysis",
+        "value": "Đánh giá độ phức tạp cho việc thiếu thiết kế về cấu trúc và dữ liệu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Prescriptive Analysis",
+        "value": "Đánh giá mức độ hiểu biết về phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -2809,32 +2810,32 @@ const questions = {
   },
   {
     "id": 86,
-    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết điều gì đã xảy ra?",
+    "title": "Bảo trì phần mềm được định nghĩa thông qua mô tả bốn hoạt động nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Phân tích mô tả",
+        "value": "Bảo trì hệ thống, bảo trì hiệu chỉnh, bảo trì tiếp hợp, bảo trì hoàn thiện.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phân tích chuẩn đoán",
+        "value": "Bảo trì hiệu chỉnh, bảo trì tiếp hợp, bảo trì thiết kế, bảo trì hoàn thiện.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích dự đoán",
+        "value": "Bảo trì hiệu chỉnh, bảo trì tiếp hợp, bảo trì hoàn thiện, bảo trì phòng ngừa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân tích đề xuất",
+        "value": "Bảo trì vận hành, bảo trì hiệu chỉnh, bảo trì hoàn thiện, bảo trì phòng ngừa.",
         "url_thumb": "",
         "type": ""
       }
@@ -2842,32 +2843,32 @@ const questions = {
   },
   {
     "id": 87,
-    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết tại sao điều đó xảy ra?",
+    "title": "Thế nào là bảo trì cấu trúc?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Phân tích mô tả",
+        "value": "Phần mềm có cấu hình duy nhất là mã nguồn, hoạt động bảo trì bắt đầu với việc đánh giá chi tiết mã nguồn.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phân tích chuẩn đoán",
+        "value": "Bảo trì đáp ứng các thay đổi những chức năng đã có và các mở rộng tổng quát được người dùng gửi đến.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích dự đoán",
+        "value": "Phần mềm có cấu hình hoàn thiện, nhiệm vụ bảo trì bắt đầu bằng việc đánh giá các tài liệu thiết kế.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân tích đề xuất",
+        "value": "Bảo trì cải thiện các tính năng bảo trì như độ tin cậy, cung cấp nền tảng tốt hơn cho những mở rộng sau này.",
         "url_thumb": "",
         "type": ""
       }
@@ -2875,32 +2876,32 @@ const questions = {
   },
   {
     "id": 88,
-    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết điều gì sẽ xảy ra?",
+    "title": "Chiến lược kiểm thử nào mà việc kiểm thử bắt đầu với mô đun mức cao nhất và tiếp theo là các mô đun thấp hơn một mức?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Phân tích mô tả",
+        "value": "Chiến lược kiểm thử dưới lên.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phân tích chuẩn đoán",
+        "value": "Chiến lược kiểm thử trên xuống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích dự đoán",
+        "value": "Chiến lược kiểm thử gây áp lực.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân tích đề xuất",
+        "value": "Chiến lược kiểm thử song song.",
         "url_thumb": "",
         "type": ""
       }
@@ -2908,32 +2909,32 @@ const questions = {
   },
   {
     "id": 89,
-    "title": "Loại phân tích dữ liệu nào kết quả thu được cho ta biết làm thế nào để nó xảy ra",
+    "title": "Nhược điểm chiến lược kiểm thử dưới lên?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Phân tích mô tả",
+        "value": "Khó kiểm soát các mức kiểm thử.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Phân tích chuẩn đoán",
+        "value": "Chậm phát hiện lỗi chương trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích dự đoán",
+        "value": "Đánh giá chương trình không hiệu quả.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân tích đề xuất",
+        "value": "Chậm có phiên bản thực hiện được.",
         "url_thumb": "",
         "type": ""
       }
@@ -2941,32 +2942,32 @@ const questions = {
   },
   {
     "id": 90,
-    "title": "Mục tiêu đúng nhất của phân tích dữ liệu lớn là gì?",
+    "title": "Trong kiểm thử phần mềm, “Kiểm tra các thành phần phần mềm riêng lẻ” là thuộc loại kiểm thử nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Biến dữ liệu thành thông tin chi tiết hữu ích",
+        "value": "Kiểm thử chấp nhận.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Sắp xếp dữ liệu có ích để sử dụng",
+        "value": "Kiểm thử tích hợp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tạo ra các dữ liệu phù hợp nhất với hệ thống",
+        "value": "Kiểm thử hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Xây dựng hệ thống để quản lý dữ liệu lớn",
+        "value": "Kiểm thử đơn vị.",
         "url_thumb": "",
         "type": ""
       }
@@ -2974,32 +2975,32 @@ const questions = {
   },
   {
     "id": 91,
-    "title": "Hoạt động của Map Reduce bao gồm:",
+    "title": "\"Thực hiện tất cả các đường dẫn độc lập ít nhất một lần, thực hiện mọi vòng lặp tại các biên và trong phạm vi hoạt động của chúng, thực hiện mọi điều kiện trên các giá trị True/False của chúng,...\" Đây là nguyên tắc kiểm thử của phương pháp kiểm thử gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Trộn & sắp xếp - Map - Reduce",
+        "value": "Kiểm thử đơn vị.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Map - Trộn & sắp xếp – Reduce",
+        "value": "Kiểm thử hộp trắng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Reduce - Map - Trộn & sắp xếp",
+        "value": "Kiểm thử hộp đen.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Sắp xếp - Trộn & Map – Reduce",
+        "value": "Kiểm thử mô đun.",
         "url_thumb": "",
         "type": ""
       }
@@ -3007,32 +3008,32 @@ const questions = {
   },
   {
     "id": 92,
-    "title": "Phân tích chuẩn đoán sử dụng kỹ thuật nào?",
+    "title": "Yêu cầu đối với kiểm thử?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Lấy mẫu dữ liệu",
+        "value": "Chứng minh chương trình không có lỗi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tương quan phân bổ",
+        "value": "Sớm có phiên bản đưa vào vận hành.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Thu thập dữ liệu",
+        "value": "Phải đảm bảo đã kiểm tra hết các trường hợp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Khai phá dữ liệu",
+        "value": "Kiểm tra hiệu quả hoạt động thuật toán.",
         "url_thumb": "",
         "type": ""
       }
@@ -3040,32 +3041,32 @@ const questions = {
   },
   {
     "id": 93,
-    "title": "Phân tích chuẩn đoán sử dụng kỹ thuật nào?",
+    "title": "\"Phát hiện sự thiếu sót chức năng, sai sót về giao diện giữa các mô đun, lỗi khởi tạo, lỗi kết thúc,…\" Đây là mục đích kiểm thử của phương pháp kiểm thử nào?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Lấy mẫu mô tả",
+        "value": "Kiểm thử hộp đen.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tương quan phân bổ",
+        "value": "Kiểm thử hộp trắng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Khôi phục dữ liệu",
+        "value": "Kiểm thử đơn vị.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Thu thập dữ liệu",
+        "value": "Kiểm thử mô đun.",
         "url_thumb": "",
         "type": ""
       }
@@ -3073,32 +3074,32 @@ const questions = {
   },
   {
     "id": 94,
-    "title": "Phân tích mô tả không phù hợp sử dụng để?",
+    "title": "Mục đích của loại kiểm thử khiếm khuyết?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Xây dựng các báo cáo",
+        "value": "Tìm những phần mà chương trình không tuân theo đặc tả.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lập bảng số liệu truyền thông",
+        "value": "Kiểm tra sự thi hành và độ tin cậy của chương trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Mô hình hoá dữ liệu quá khứ",
+        "value": "Kiểm tra sản phẩm thông qua việc chạy chương trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân tích tương quan",
+        "value": "Kiểm tra xem sản phẩm có đáp ứng nhu cầu người dùng.",
         "url_thumb": "",
         "type": ""
       }
@@ -3106,32 +3107,32 @@ const questions = {
   },
   {
     "id": 95,
-    "title": "Đâu là phân tích chuẩn đoán?",
+    "title": "Mục đích của kiểm thử gây áp lực?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Mô tả tương quan dữ liệu",
+        "value": "Tiến hành sớm việc thẩm định hệ thống trong quá trình kiểm thử.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Cung cấp cái nhìn sâu sắc về vấn đề",
+        "value": "Nhanh chóng xác định lỗi thiết kế làm giảm chi phí phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích sự bất thường từ dữ liệu lưu trữ",
+        "value": "Tìm hiểu đặc trưng của hệ thống khi đạt và vượt giới hạn chịu tải.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Mô hình hoá dữ liệu theo điều kiện",
+        "value": "Sớm có sản phẩm hệ thống thi hành trong quá trình phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -3139,32 +3140,32 @@ const questions = {
   },
   {
     "id": 96,
-    "title": "Trong MapReduce loại nào sau đây theo dõi quá trình tiêu thụ tài nguyên trên Cluster Node?",
+    "title": "Ưu điểm chiến lược kiểm thử trên xuống?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Name node",
+        "value": "Phát hiện sớm các lỗi chương trình.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Master node",
+        "value": "Nhanh chóng đáp ứng yêu cầu người dùng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Single Master",
+        "value": "Phát hiện sớm các lỗi thiết kế.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Slave node",
+        "value": "Có thể kiểm soát được các mức tiến hóa.",
         "url_thumb": "",
         "type": ""
       }
@@ -3172,32 +3173,32 @@ const questions = {
   },
   {
     "id": 97,
-    "title": "Trong MapReduce loại nào sau đây thực thi các tác vụ và cung cấp thông tin trạng thái tác vụ?",
+    "title": "Thứ tự tiến trình kiểm thử?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Name node",
+        "value": "Kiểm thử tích hợp, kiểm thử đơn vị, kiểm thử chấp nhận, kiểm thử hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Master node",
+        "value": "Kiểm thử đơn vị, kiểm thử tích hợp, kiểm thử hệ thống, kiểm thử chấp nhận.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Single Master",
+        "value": "Kiểm thử mô đun, kiểm thử đơn vị, kiểm thử chấp nhận, kiểm thử hệ con, kiểm thử hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Slave node",
+        "value": "Kiểm thử chấp nhận, kiểm thử hệ thống, kiểm thử hệ con, kiểm thử mô đun, kiểm thử đơn vị.",
         "url_thumb": "",
         "type": ""
       }
@@ -3205,32 +3206,32 @@ const questions = {
   },
   {
     "id": 98,
-    "title": "Trong MapReduce loại nào sau đây được cung cấp task-status?",
+    "title": "Giai đoạn kiểm thử nào nhằm mục đích thẩm định lại xem phần mềm có những sai sót, thiếu sót so với yêu cầu người sử dụng không?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Name node",
+        "value": "Kiểm thử đơn vị",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "JobTracker",
+        "value": "Kiểm thử tích hợp.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Single Master",
+        "value": "Kiểm thử hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Slave node",
+        "value": "Kiểm thử chấp nhận.",
         "url_thumb": "",
         "type": ""
       }
@@ -3238,32 +3239,32 @@ const questions = {
   },
   {
     "id": 99,
-    "title": "Mô hình MapReduce có thể chạy trên số lượng máy chủ?",
+    "title": "Phương pháp kiểm thử nào mà việc thiết kế các kiểm thử thông qua phân tích mã nguồn chương trình?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Vài máy",
+        "value": "Kiểm thử hộp đen.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Hàng nghìn máy",
+        "value": "Kiểm thử đơn vị.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Hàng trăm máy",
+        "value": "Kiểm thử hộp trắng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Một máy chủ Master",
+        "value": "Kiểm thử mô đun.",
         "url_thumb": "",
         "type": ""
       }
@@ -3271,32 +3272,32 @@ const questions = {
   },
   {
     "id": 100,
-    "title": "Mô hình MapReduce thuộc lớp nào?",
+    "title": "Phương pháp kiểm thử nào mà việc thiết kế các kiểm thử thông qua đặc tả hệ thống?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Lớp lưu trữ dữ liệu",
+        "value": "Kiểm thử hộp đen.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lớp thu thập dữ liệu",
+        "value": "Kiểm thử hộp trắng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Lớp xử lý dữ liệu",
+        "value": "Kiểm thử hệ con.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Lớp phân tích dữ liệu",
+        "value": "Kiểm thử hệ thống.",
         "url_thumb": "",
         "type": ""
       }
@@ -3304,32 +3305,32 @@ const questions = {
   },
   {
     "id": 101,
-    "title": "Lợi ích từ Phân tích dữ liệu lớn là?",
+    "title": "Thứ tự các bước thực hiện trong kỹ thuật phân hoạch tương đương của kiểm thử hộp đen?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Tất cả",
+        "value": "Chọn dữ liệu đại diện cho mỗi lớp tương đương, kết hợp các dữ liệu để tạo ra bộ dữ liệu kiểm thử, xác định các lớp tương đương từ miền dữ liệu vào.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Ra quyết định nhanh hơn, tốt hơn",
+        "value": "Xác định các lớp tương đương từ miền dữ liệu vào, chọn dữ liệu đại diện cho mỗi lớp tương đương, kết hợp các dữ liệu để tạo ra bộ dữ liệu kiểm thử.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Giảm chi phí và tăng hiệu quả hoạt động",
+        "value": "Xác định các lớp tương đương từ miền dữ liệu vào, kết hợp các dữ liệu để tạo ra bộ dữ liệu kiểm thử, chọn dữ liệu đại diện cho mỗi lớp tương đương.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Cải tiến theo định hướng dữ liệu cho thị trường",
+        "value": "Kết hợp các dữ liệu để tạo ra bộ dữ liệu kiểm thử, chọn dữ liệu đại diện cho mỗi lớp tương đương, xác định các lớp tương đương từ miền dữ liệu vào.",
         "url_thumb": "",
         "type": ""
       }
@@ -3337,32 +3338,32 @@ const questions = {
   },
   {
     "id": 102,
-    "title": "Các ứng dụng phân tích dữ liệu lớn cho Lĩnh vực bán lẻ",
+    "title": "Trong kỹ thuật phân hoạch tương đương của kiểm thử hộp đen, nếu điều kiện vào xác định một miền giá trị thì phân hoạch kiểm thử thành ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Dự đoán hành vi mua sắm của khách hàng",
+        "value": "3 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Xây dựng mô hình chi tiêu cho từng khách hàng",
+        "value": "2 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích hành trình của khách hàng",
+        "value": "1 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "4 lớp tương đương",
         "url_thumb": "",
         "type": ""
       }
@@ -3370,32 +3371,32 @@ const questions = {
   },
   {
     "id": 103,
-    "title": "Ứng dụng phân tích dữ liệu lớn hỗ trợ ngành Y tế",
+    "title": "Trong kỹ thuật phân hoạch tương đương của kiểm thử hộp đen, nếu điều kiện vào yêu cầu một giá trị xác định thì phân hoạch kiểm thử thành ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Tăng việc khai thác tối ưu hoá máy móc",
+        "value": "2 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tăng doanh thu từ phần mềm y tế",
+        "value": "3 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Tăng tính chính xác của chẩn đoán",
+        "value": "1 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Tất cả",
+        "value": "4 lớp tương đương",
         "url_thumb": "",
         "type": ""
       }
@@ -3403,32 +3404,32 @@ const questions = {
   },
   {
     "id": 104,
-    "title": "Trong kiến trúc Apache Hadoop HDFS thuộc",
+    "title": "Trong kỹ thuật phân hoạch tương đương của kiểm thử hộp đen, nếu điều kiện đầu vào xác định một phần tử của tập hợp thì phân hoạch kiểm thử thành ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 0,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Lớp lưu trữ",
+        "value": "3 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lớp truyền tải",
+        "value": "1 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Lớp quản lý tài nguyên",
+        "value": "2 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Lớp xử lý dữ liệu",
+        "value": "4 lớp tương đương",
         "url_thumb": "",
         "type": ""
       }
@@ -3436,32 +3437,32 @@ const questions = {
   },
   {
     "id": 105,
-    "title": "Trong kiến trúc Apache Hadoop YARN là",
+    "title": "Trong kỹ thuật phân hoạch tương đương của kiểm thử hộp đen, nếu điều kiện đầu vào là một biến hoặc một biểu thức logic thì phân hoạch kiểm thử thành ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Lớp lưu trữ",
+        "value": "3 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lớp truyền tải",
+        "value": "1 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Lớp quản lý tài nguyên",
+        "value": "2 lớp tương đương",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Lớp xử lý dữ liệu",
+        "value": "4 lớp tương đương",
         "url_thumb": "",
         "type": ""
       }
@@ -3469,32 +3470,32 @@ const questions = {
   },
   {
     "id": 106,
-    "title": "Trong kiến trúc Apache Hadoop MapReduce là",
+    "title": "Trong kỹ thuật phân tích giá trị biên, nếu điều kiện vào xác định một miền được giới hạn bởi các giá trị a và b thì các trường hợp kiểm thử được ...?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 3,
+    "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Lớp lưu trữ",
+        "value": "Xác định ngay tại a và b đồng thời ngay trên a và ngay dưới b.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lớp truyền tải",
+        "value": "Xác định ngay tại a và b đồng thời ngay dưới a và ngay trên b.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Lớp quản lý tài nguyên",
+        "value": "Xác định ngay tại a và b đồng thời ngay trên và ngay dưới a và b.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Lớp xử lý dữ liệu",
+        "value": "Xác định ngay trên, ngay dưới a, tại b và ngay trên, ngay dưới b.",
         "url_thumb": "",
         "type": ""
       }
@@ -3502,32 +3503,32 @@ const questions = {
   },
   {
     "id": 107,
-    "title": "Kiến trúc Hadoop hỗ trợ những ngôn ngữ nào",
+    "title": "Trong kỹ thuật phân tích giá trị biên, nếu điều kiện vào xác định ngay một số giá trị thì xây dựng trường hợp kiểm thử cho...?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Java",
+        "value": "Giá trị cực đại, cực tiểu, các giá trị ngay trên, ngay dưới giá trị cực đại, cực tiểu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Tất cả",
+        "value": "Giá trị cực đại, cực tiểu, các giá trị ngay trên giá trị cực đại và cực tiểu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "C++",
+        "value": "Giá trị cực đại, cực tiểu, các giá trị ngay trên giá trị cực đại và ngay dưới giá trị cực tiểu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Python",
+        "value": "Giá trị cực đại, cực tiểu, các giá trị ngay dưới giá trị cực đại và ngay trên giá trị cực tiểu.",
         "url_thumb": "",
         "type": ""
       }
@@ -3535,32 +3536,32 @@ const questions = {
   },
   {
     "id": 108,
-    "title": "Spark được Apache Software Foundation phát triển từ năm nào",
+    "title": "Trong kỹ thuật phân tích giá trị biên, nếu cấu trúc dữ liệu chương trình bên trong được quy định là các biên thì thiết kế trường hợp kiểm thử ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "1993",
+        "value": "Thực thi cấu trúc dữ liệu tại giá trị cực đại.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "2013",
+        "value": "Thực thi cấu trúc dữ liệu tại giá trị cực tiểu.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "2009",
+        "value": "Thực thi cấu trúc dữ liệu tại giá trị bất kỳ.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "2007",
+        "value": "Thực thi cấu trúc dữ liệu tại biên của nó.",
         "url_thumb": "",
         "type": ""
       }
@@ -3568,32 +3569,32 @@ const questions = {
   },
   {
     "id": 109,
-    "title": "Apache Kafka là công cụ hỗ trợ?",
+    "title": "Trong kiểm tra phần mềm, hoạt động xác minh là gì ?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Xử lý phân tán",
+        "value": "Sự kiểm tra xem sản phẩm có đúng với đặc tả không, có hoạt động tốt không.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lưu trữ phân tán",
+        "value": "Sự kiểm tra xem sản phẩm có đáp ứng được nhu cầu người dùng không.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Hệ quản trị CSDL",
+        "value": "Sự kiểm tra xem chương trình có lỗi không và tiến hành sửa lỗi để sản phẩm hoạt động tốt.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Thu thập dữ liệu",
+        "value": "Sự kiểm tra xem sản phẩm có hoạt động tốt không, có đáp ứng yêu cầu người dùng không.",
         "url_thumb": "",
         "type": ""
       }
@@ -3601,32 +3602,32 @@ const questions = {
   },
   {
     "id": 110,
-    "title": "Apache Storm là công cụ hỗ trợ?",
+    "title": "Trong kiểm tra phần mềm, hoạt động thẩm định là gì ?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 3,
     "results": [
       {
         "idResult": 0,
-        "value": "Xử lý phân tán",
+        "value": "Sự kiểm tra xem sản phẩm có đúng với đặc tả không.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Lưu trữ phân tán",
+        "value": "Sự kiểm tra xem sản phẩm có lỗi không và đáp ứng yêu cầu người dùng không.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phân tích dữ liệu",
+        "value": "Sự kiểm tra xem sản phẩm có hoạt động tốt không.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Thu thập dữ liệu",
+        "value": "Sự kiểm tra xem sản phẩm có đáp ứng được nhu cầu người dùng không.",
         "url_thumb": "",
         "type": ""
       }
@@ -3634,32 +3635,32 @@ const questions = {
   },
   {
     "id": 111,
-    "title": "Đâu không phải là chế độ hoạt động của Hadoop?",
+    "title": "Đơn yêu cầu bảo trì được cung cấp cho đối tượng nào sử dụng?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Chế độ phân phối giả",
+        "value": "Người bảo trì phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chế độ phân phối toàn cầu",
+        "value": "Người sử dụng phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Chế độ độc lập",
+        "value": "Người lập trình phần mềm.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Chế độ phân phối hoàn toàn",
+        "value": "Người thiết kế phần mềm.",
         "url_thumb": "",
         "type": ""
       }
@@ -3667,32 +3668,32 @@ const questions = {
   },
   {
     "id": 112,
-    "title": "Các tệp HDFS được thiết kế cho",
+    "title": "\"Đáp ứng các yêu cầu về những khả năng mới, các thay đổi những chức năng đã có và các mở rộng tổng quát được người dùng gửi đến,...\" thuộc hoạt động bảo trì gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 1,
     "results": [
       {
         "idResult": 0,
-        "value": "Nhiều người viết và sửa đổi ở các hiệu số tùy ý.",
+        "value": "Bảo trì hiệu chỉnh.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chỉ nối vào cuối tệp",
+        "value": "Bảo trì hoàn thiện.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Chỉ ghi thành tệp một lần.",
+        "value": "Bảo trì phòng ngừa.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Truy cập dữ liệu có độ trễ thấp.",
+        "value": "Bảo trì tiếp hợp.",
         "url_thumb": "",
         "type": ""
       }
@@ -3700,32 +3701,32 @@ const questions = {
   },
   {
     "id": 113,
-    "title": "Tính năng định vị dữ liệu trong Hadoop có nghĩa là",
+    "title": "Hoạt động bảo trì thích ứng là gì?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 2,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Lưu trữ cùng một dữ liệu trên nhiều nút.",
+        "value": "Là việc chỉnh sửa hệ thống cho phù hợp với môi trường đã thay đổi.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Chuyển vị trí dữ liệu từ nút này sang nút khác.",
+        "value": "Là việc sửa các lỗi phát sinh trong quá trình sử dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Đồng định vị dữ liệu với các nút tính toán.",
+        "value": "Là việc chỉnh sửa để đáp ứng các yêu cầu mới hoặc các yêu cầu đã thay đổi của người sử dụng.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phân phối dữ liệu trên nhiều nút.",
+        "value": "Là làm cho hệ thống dễ dàng bảo trì hơn trong những lần tiếp theo.",
         "url_thumb": "",
         "type": ""
       }
@@ -3733,32 +3734,32 @@ const questions = {
   },
   {
     "id": 114,
-    "title": "Khó khăn khi đọc và ghi dữ liệu song song từ nhiều nguồn là gì?",
+    "title": "Loại kiểm thử nào được tiến hành bởi một nhóm nhỏ người sử dụng dưới sự hướng dẫn của người phát triển, thẩm định tính dùng được của hệ thống?",
     "thumb": "",
     "isCorrect": true,
-    "idCorrectResult": 1,
+    "idCorrectResult": 0,
     "results": [
       {
         "idResult": 0,
-        "value": "Xử lý khối lượng lớn dữ liệu nhanh hơn.",
+        "value": "Kiểm thử alpha",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Kết hợp dữ liệu từ nhiều nguồn.",
+        "value": "Kiểm thử beta",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Phần mềm cần thiết để thực hiện nhiệm vụ này là cực kỳ tốn kém.",
+        "value": "Kiểm thử thống kê",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "Phần cứng cần thiết để thực hiện tác vụ này là cực kỳ tốn kém.",
+        "value": "Kiểm thử khiếm khuyết",
         "url_thumb": "",
         "type": ""
       }
@@ -3766,362 +3767,32 @@ const questions = {
   },
   {
     "id": 115,
-    "title": "So với RDBMS, Hadoop",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Có tính toàn vẹn dữ liệu cao hơn.",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Có giao dịch ACID không",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Nó thích hợp để đọc và viết nhiều lần",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Hoạt động tốt hơn trên dữ liệu phi cấu trúc và bán cấu trúc.",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "title": "Yếu tố giới hạn hiện tại đối với kích thước của một cụm hadoop là",
+    "title": "Tiêu chuẩn \"tính hiệu quả\" trong đánh giá phần mềm là gì?",
     "thumb": "",
     "isCorrect": true,
     "idCorrectResult": 2,
     "results": [
       {
         "idResult": 0,
-        "value": "Nhiệt lượng dư thừa tạo ra trong trung tâm dữ liệu",
+        "value": "Phần mềm không gây nên các thiệt hại vật lý và kinh tế khi hệ thống thất bại.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 1,
-        "value": "Giới hạn trên của băng thông mạng",
+        "value": "Phần mềm có thể dễ dàng sửa chữa và nâng cấp được.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 2,
-        "value": "Giới hạn trên của RAM trong NameNode",
+        "value": "Phần mềm không được lãng phí các tài nguyên của hệ thống.",
         "url_thumb": "",
         "type": ""
       },
       {
         "idResult": 3,
-        "value": "4000 datanode",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 117,
-    "title": "Trong HDFS, các tệp không thể",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 2,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Đọc",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Xóa",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Thực thi",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Lưu trữ",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 118,
-    "title": "Điều nào sau đây không phải là mục tiêu của HDFS?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 2,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Phát hiện lỗi và khôi phục",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Xử lý tập dữ liệu khổng lồ",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Ngăn chặn việc xóa dữ liệu",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Cung cấp băng thông mạng cao để di chuyển dữ liệu",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 119,
-    "title": "YARN là viết tắt của",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 1,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Yahoo’s another resource name",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Yet another resource negotiator",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Yahoo’s archived Resource names",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Yet another resource need.",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 120,
-    "title": "Kiến trúc HDFS trong Hadoop có nguồn gốc là",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Hệ thống tệp phân phối của Google",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Hệ thống tệp phân tán của Yahoo",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Hệ thống tệp phân tán của Facebook",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Hệ thống tệp phân tán của Azure",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 121,
-    "title": "HDFS là viết tắt của",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Hệ thống tệp phân tán cao. (Highly distributed file system.)",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Hệ thống tệp được hướng dẫn Hadoop. (Hadoop directed file system)",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Hệ tệp phân tán cao. (Highly distributed file shell)",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Hệ thống tệp phân tán Hadoop. (Hadoop distributed file system)",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 122,
-    "title": "Thành phần nào không thuộc Hadoop?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "YARN",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "HDFS",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "MapReduce",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "GFS",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Thành phần chính của hệ thống Hadoop là?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "MapReduce",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "HDFS",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "YARN",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tất cả",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 124,
-    "title": "Apache Kafka là nền tảng mở được phát triển bởi?",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 0,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "LinkedIn",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Facebook",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "Google",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "IBM",
-        "url_thumb": "",
-        "type": ""
-      }
-    ]
-  },
-  {
-    "id": 125,
-    "title": "Công cụ nào hỗ trợ tích hợp dữ liệu",
-    "thumb": "",
-    "isCorrect": true,
-    "idCorrectResult": 3,
-    "results": [
-      {
-        "idResult": 0,
-        "value": "Dell Boomi",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 1,
-        "value": "Snaplogic",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 2,
-        "value": "SAP Data Services",
-        "url_thumb": "",
-        "type": ""
-      },
-      {
-        "idResult": 3,
-        "value": "Tất cả",
+        "value": "Phần mềm có giao diện người dùng thích hợp, có tư liệu hướng dẫn và các tiện ích trợ giúp đầy đủ.",
         "url_thumb": "",
         "type": ""
       }
